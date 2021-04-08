@@ -5,11 +5,26 @@ output: html_document
 
 # Introduction 
 
+Cancer datasets are plentiful, complicated, and hold information that may be critical for the next oncology research advancements.
+In order to use these data to their full potential, researchers are dependent on the specialized data tools that are continually being published and developed. 
+The usability and quality of documentation of a tool can be a major factor in how efficiently a researcher is able to obtain useful findings for the next steps of their research. 
+
+Likely due to the context of their development, informatics tools are notoriously unfriendly to users [refs]. 
+To a certain extent, the specialization and small user communities of these tools, lends to their lack a user-centered research. 
+
+Increasing the usability and quality of documentation for a tool is not only helpful for the researcher users, but also for the developers themselves -- the many hours of work put into the product will have a higher impact and will be more likely to be continue to be used and disseminated the more that the tool is usable. 
+
 ## Motivation
-This course will cover 
+
+Informatics tools are designed to be used by a broad audience, everyone from entry level graduate students in biology to working professionals. 
+Designing good user experiences can help increase usability of tools, but even for tools with necessarily complicated user interfaces, good documentation and tutorials can have an outsized impact on use and usability. 
+This course is designed to teach principles of documentation and tutorials to tool developers in the ITCR and beyond. 
 
 **Target Audience:**  
-The course is intended for 
+
+The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the [Informatics Technolocy Cancer Research](https://itcr.cancer.gov/informatics-tools).
 
 **Curriculum:**  
-The curriculum will cover
+
+The curriculum for this course will cover the basics of identifying your user community, understanding potential pain points, and building documentation and tutorials to maximize the usability of developed tools. 
+The course will include a hands on project building a new set of documentation and tutorial or workflow for an existing tool.
