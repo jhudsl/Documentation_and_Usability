@@ -19,7 +19,7 @@ This chapter will demonstrate how to:
 Creating tools that are easy to use starts with thinking about your user's perspective. 
 In other words, user design is an exercise in applied empathy [@deMatos2013]. 
 
-This is why a common saying in user design is "You are not your user."
+This is why a common saying in user design is "You are not your user"[@Alexakis2017].
 Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. 
 For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user. 
 
@@ -29,5 +29,44 @@ Avataars by https://getavataaars.com/.
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
 Emojis by OpenMoji License: CC BY-SA 4.0.]
 
+As compared to yourself, your typical user may likely have a different:
+- Educational background.  
+- Programming experience level.  
+- Set of motivations for using your tool.  
 
+And most importantly your user does not know your tool like you do! 
+You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have. 
+
+Similarly, you don't have the time to personally give every user a tour of the ins and outs of your tool. 
+So how do you clearly communicate the proper use and other really nifty aspects of your tool? 
+
+### Generalities about bioinformatics tool users
+
+On a general level, there are some characteristics we know about bioinformatic tool user communities [].  
+
+The typical user of bioinformatics tools are generally:  
+- Highly educated in their specific research topic.  
+- Skilled at picking up new information.  
+- Unlikely to have much experience in programming; may be uncomfortable with using command line.
+- If they do have experience programming, it's likely been from informal and self-taught learning.  
+- Like many professionals, likely to feel time pressure from deadlines.  
+
+__Exercise 1:__ Think about these questions in regards to the user community for your tool. 
+Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community. 
+
+- Who is your user community? 
+- What need of theirs is addressed by your tool? 
+- What kinds of skills does your tool assume your user has?
+
+Keep the questions about your user community in mind and in a [later chapter](), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
+
+## General principles about user-friendliness  
+
+#### Use visuals where possible
+
+#### Stay away from jargon
+
+#### Make help easy to find
+
+#### Provide a method of contact
 
