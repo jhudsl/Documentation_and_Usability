@@ -7,10 +7,10 @@ output: html_document
 
 ## Learning Objectives
 
-This chapter will cover:  
+This chapter will demonstrate how to:  
 
-- Why documentation is helpful for both tool developers and users
-- How documentation increases the impact and usability of your tool!
+- Understand good documentation increases the impact and usability of software tools.
+- Understand good documentation is helpful for both tool developers and users
 
 ## The context of bioinformatics tool development
 
