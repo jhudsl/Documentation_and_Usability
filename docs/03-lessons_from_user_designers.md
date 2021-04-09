@@ -72,12 +72,19 @@ While finding out about your user community is critical, there's also principles
 Humans are drawn to intuitive visuals.
 Visuals are efficient means of communication and help users absorb information better than long-winded paragraphs (though visuals need an accompanying explanation too).
 
+Sometimes this is particularly helpful for complicated concepts. 
+For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files. 
+Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function: 
+
+![](https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44)
+
 #### Stay away from jargon
 
 What someone considers jargon is a very relative to their own experiences.  
 Terms that may seem like common knowledge to you may be foreign to your user. 
-For example, even an abbreviation like `TSV` may not be something a user understands what it means. 
-Instead, spell out abbreviations the first time you mention them (e.g. tab separated values). 
+
+For example, something seemingly commonplace to you like `TSV` may not be something a user does not understands what it means. 
+To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. 'tab separated values').
 This doesn't mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you've used (e.g. [tab separated values file (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)). 
 This has the benefit of saving you and your user's time without making your explanations too long winded. 
 
@@ -85,7 +92,6 @@ This has the benefit of saving you and your user's time without making your expl
 
 When your user has a question in mind, it can make their experience a lot more stress-free if they can find their answer with ease.
 Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches!
-
 For these reasons, navigability is important for your tool and documentation.
 
 Increasing your tools' navigability:   
