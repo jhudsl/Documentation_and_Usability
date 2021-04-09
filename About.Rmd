@@ -6,5 +6,7 @@ output: html_document
 # About the Authors {-}
 
 
-**Author Name** is a Blank in the Blank at the Blank.
+**Candace Savonen** is a Research Associate in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. 
+She creates bioinformatic education materials for cancer genomics, looking for ways to emphasize reproducibility and good data science practices. 
+Her research background is in Neuroscience.
 
