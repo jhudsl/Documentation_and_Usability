@@ -1,0 +1,33 @@
+---
+title: "Why Documentation"
+output: html_document
+---
+
+# Lessons we should borrow from user designers
+
+## Learning Objectives
+
+This chapter will demonstrate how to:  
+
+- Understand that user design is a form of empathy 
+- Learn about your user community 
+- Use visuals where possible 
+- Make tool documentation easy to find
+
+## Thinking about user-centered development
+
+Creating tools that are easy to use starts with thinking about your user's perspective. 
+In other words, user design is an exercise in applied empathy [@deMatos2013]. 
+
+This is why a common saying in user design is "You are not your user."
+Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. 
+For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user. 
+
+![](https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=cd0e3791ab_0_0)
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
+
+
+
