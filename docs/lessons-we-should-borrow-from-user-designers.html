@@ -107,7 +107,9 @@
 <li>Understand that user design is a form of empathy</li>
 <li>Learn about your user community</li>
 <li>Use visuals where possible</li>
-<li>Make tool documentation easy to find</li>
+<li>Communicate while minimizing the impact of jargon</li>
+<li>Make tools more navigable</li>
+<li>Provide users with a method of contact</li>
 </ul>
 </div>
 <div id="thinking-about-user-centered-development" class="section level2">
@@ -117,15 +119,16 @@ In other words, user design is an exercise in applied empathy <span class="citat
 <p>This is why a common saying in user design is “You are not your user”<span class="citation">(Alexakis, <a href="#ref-Alexakis2017" role="doc-biblioref">n.d.</a>)</span>.
 Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do.
 For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=cd0e3791ab_0_0" /><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-<p>As compared to yourself, your typical user may likely have a different:
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcd0e3791ab_0_0" /><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>As compared to yourself, your typical user may likely have a different:<br />
 - Educational background.<br />
 - Programming experience level.<br />
 - Set of motivations for using your tool.</p>
-<p>And most importantly your user does not know your tool like you do!
+<p>And most importantly <em>your user does not know your tool like you do</em>!
 You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have.</p>
-<p>Similarly, you don’t have the time to personally give every user a tour of the ins and outs of your tool.
-So how do you clearly communicate the proper use and other really nifty aspects of your tool?</p>
+<p>Also keep in mind users are humans in a context.
+Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/frazzled/etc.
+Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!</p>
 <div id="generalities-about-bioinformatics-tool-users" class="section level3">
 <h3><span class="header-section-number">2.2.1</span> Generalities about bioinformatics tool users</h3>
 <p>On a general level, there are some characteristics we know about bioinformatic tool user communities [].</p>
@@ -140,13 +143,14 @@ Write down what you know (or think you know) and try to identify any knowledge g
 <ul>
 <li>Who is your user community?</li>
 <li>What need of theirs is addressed by your tool?</li>
-<li>What kinds of skills does your tool assume your user has?</li>
+<li>What kinds of skills does your tool assume your user has (does your user community have those skills)?</li>
 </ul>
 <p>Keep the questions about your user community in mind and in a <a href="">later chapter</a>, we’ll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.</p>
 </div>
 </div>
 <div id="general-principles-about-user-friendliness" class="section level2">
 <h2><span class="header-section-number">2.3</span> General principles about user-friendliness</h2>
+<p>While finding out about your user community is critical, there’s also principles we can discuss that are common to all users/humans.</p>
 <div id="humans-like-visuals" class="section level4">
 <h4><span class="header-section-number">2.3.0.1</span> Humans like visuals</h4>
 <p>Humans are drawn to intuitive visuals.
@@ -161,26 +165,34 @@ Instead, spell out abbreviations the first time you mention them (e.g. tab sepa
 This doesn’t mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you’ve used (e.g. <a href="https://en.wikipedia.org/wiki/Tab-separated_values">tab separated values file (TSV)</a>).
 This has the benefit of saving you and your user’s time without making your explanations too long winded.</p>
 </div>
-<div id="make-help-easy-to-find" class="section level4">
-<h4><span class="header-section-number">2.3.0.3</span> Make help easy to find</h4>
+<div id="navigability-make-help-easy-to-find" class="section level4">
+<h4><span class="header-section-number">2.3.0.3</span> Navigability: Make help easy to find</h4>
 <p>When your user has a question in mind, it can make their experience a lot more stress-free if they can find their answer with ease.
-Keep in mind users are humans in a context.
-Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/frazzled/etc.
-And its not always obvious where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches!</p>
-<p>For these reasons, “findability” is important for your tool and documentation.</p>
-<p>Increasing “findability” your tools’ aspects:
-- Workshop an <a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">intuitive layout</a>
-- Minimize the number of clicks for finding help! – The more important a piece of information is to a users’ ability to use your tool, the more it should be in the forefront of your tool!
+Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches!</p>
+<p>For these reasons, navigability is important for your tool and documentation.</p>
+<p>Increasing your tools’ navigability:<br />
+- Workshop an <a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">intuitive layout</a>.<br />
+- Minimize the number of clicks for finding help! – The more important a piece of information is to a users’ ability to use your tool, the more it should be in the forefront of your tool!<br />
 - Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don’t switch it – patterns are super helpful!</p>
 </div>
-<div id="provide-a-method-of-contact" class="section level4">
-<h4><span class="header-section-number">2.3.0.4</span> Provide a method of contact</h4>
+<div id="provide-a-method-for-users-to-file-concerns" class="section level4">
+<h4><span class="header-section-number">2.3.0.4</span> Provide a method for users to file concerns</h4>
 <p>No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time.
 Because of this or other unknown unknowns, a usable tool still has a way for a user to let the developers know when something isn’t working.
 This might a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention.</p>
-<p>It may sound disappointing that a user has found a problem but this is something to be happy about!
-1) This means someone is interested and invested in using your tool!
-2) They’ve identified a way to improve your tool to make it even better!</p>
+<p>It may sound disappointing that a user has found a problem but this is something to be happy about!</p>
+<ol style="list-style-type: decimal">
+<li>This means someone is interested and invested in using your tool!<br />
+</li>
+<li>They’ve identified a way to improve your tool to make it even better!</li>
+</ol>
+<p>Providing a method of contact to your users doesn’t mean you need to give users your personal email.
+In fact, that is probably not the most practical way to keep user queries organized.</p>
+<p><em>Example contact methods</em>:<br />
+- Have a link to a form for users to submit.<br />
+- Direct users to file a GitHub issue.<br />
+- Have a separate email inbox that you have a notification set up for.
+- Have a Slack channel that you direct users to.</p>
 <p>Now that we’ve discussed some major principles about users and design, let’s dive in to talking about how documentation can help!</p>
 
 </div>
