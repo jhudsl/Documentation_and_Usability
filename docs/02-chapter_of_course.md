@@ -1,14 +1,36 @@
 ---
-title: "Chapter of course"
+title: "Chapter title"
 output: html_document
-
 ---
 
+## Learning Objectives
+
+This chapter will cover:  
+
+- {You can use https://www.bu.edu/cme/forms/RSS_forms/tips_for_writing_objectives.pdf to define some learning objectives here}
+- {Another learning objective}
+
+## Libraries
+
+For this chapter, we'll need the following packages attached. 
 
 
-# Topic of Course
+```r
+library(here)
+```
 
-Text text
+```
+## here() starts at /home/rstudio/Desktop/GitRepos/ITCR_Documentation_and_Usability
+```
+
+```r
+library(ggplot2)
+library(magrittr)
+```
+
+# Topic of Section
+
+Text Text
 
 ## Subtopic
 
@@ -26,9 +48,9 @@ if (!dir.exists(output_dir)) {
 
 
 ```r
-iris %>% 
-  ggplot(aes(Sepal.Length, Sepal.Width, color = Species)) + 
-  geom_point() + 
+iris %>%
+  ggplot(aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point() +
   theme_bw()
 ```
 
@@ -77,7 +99,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2021-04-07                  
+##  date     2021-04-09                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        
@@ -138,6 +160,4 @@ devtools::session_info()
 ## [1] /usr/local/lib/R/site-library
 ## [2] /usr/local/lib/R/library
 ```
-
-## References 
 
