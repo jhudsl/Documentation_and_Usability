@@ -40,7 +40,7 @@ Often users like Uri, particularly in the biology and cancer fields, have little
 Even if a user does have programming experience, they are still unfamiliar with how Tina has set up tool. 
 The tool may even be working exactly according to Tina's vision but if users like Uri do not understand Tina's vision or basic programming principles that Tina might take for granted, it can lead to a lot of frustration and time inefficiently spent. 
 
-If the the tool's documentation is non-existant, scarce, out-of-date, or filled with too much jargon, the chances that Uri the user will be able to successfully and efficiently create a product from the tool is slim to none. 
+If the the tool's documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances that Uri the user will be able to successfully and efficiently create a product from the tool is slim to none. 
 
 Lack of usability often leads users to ditch even the most well-programmed of tools.
 
@@ -81,7 +81,7 @@ Uri the tool User is still likely to encounter errors and problems, but with tho
 
 ![](https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_112)
 
-Being equipped with user-cented documentation, Uri is more likely to be able to reach the next steps of their research and potentially share a publishable result. 
+Being equipped with user-centered documentation, Uri is more likely to be able to reach the next steps of their research and potentially share a publishable result. 
 Tina's tool is now more likely to be cited in publications, or other forms of media. 
 
 ![](https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_144)
