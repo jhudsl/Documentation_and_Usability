@@ -1,5 +1,0 @@
-introduction
-motivation
-topic-of-course
-subtopic
-subtopic-of-subtopic
