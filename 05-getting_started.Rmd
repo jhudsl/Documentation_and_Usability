@@ -12,13 +12,21 @@ This chapter will demonstrate how to:
 
 ## The Goal of a Getting Started section 
 
+Get your user to create something with your tool as quickly and easily as possible. 
 
 ## What should be included in a Getting Started section?
 
+- Is easy to find: clearly visible on the main page.
+- Provides the user with the introductory concepts of the tool.
+- Has clear steps for installation.
+- Dependencies are made clear.
+- Directs the user to the How-to Examples section.
 
 ## Good Examples of Getting Started sections
 
-https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html 
-https://snakemake.readthedocs.io/en/stable/getting_started/installation.html 
+- https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html 
+- https://snakemake.readthedocs.io/en/stable/getting_started/installation.html 
 
 ## Exercise: Create your own Getting Started section!
+
+Use [the template Getting Started document](templates/getting_started_template.md) to start your own Getting Started section!
