@@ -26,7 +26,7 @@ jobs:
         with:
           # get the full repo
           fetch-depth: 0
-          # use github PAT 
+          # use github PAT
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # Login to Dockerhub
@@ -44,11 +44,15 @@ jobs:
       - name: Build and Load Docker image
         uses: docker/build-push-action@v2
         with:
-          push: true
+          push: false
           load: true
           context: docker
           file: docker/Dockerfile
           tags: jhudsl/itcr_course_template
+
+      # push the Docker image if this is staging
+      - name: Push Docker image
+        run: docker push jhudsl/itcr_course_template
 
       - name: Commit rendered bookdown
         run: |
