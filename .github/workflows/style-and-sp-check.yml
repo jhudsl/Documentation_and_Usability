@@ -52,7 +52,7 @@ jobs:
         run: Rscript -e "styler::style_file(list.files(pattern = 'Rmd$', recursive = TRUE, full.names = TRUE));warnings()"
 
       - name: Re-render with bookdown
-        run: Rscript -e "bookdown::render_book("index.Rmd")"
+        run: Rscript -e "bookdown::render_book('index.Rmd')"
 
       - name: Commit
         run: |
