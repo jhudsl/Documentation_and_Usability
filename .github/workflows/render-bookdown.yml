@@ -52,7 +52,8 @@ jobs:
 
       # Run bookdown rendering
       - name: Run bookdown render
-        run: docker run \
+        run: |
+          docker run \
           --mount type=bind,target=/home/rstudio,source=$PWD \
           jhudsl/itcr_course_template \
           Rscript -e "bookdown::render_book('index.Rmd')"
