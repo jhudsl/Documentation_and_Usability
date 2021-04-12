@@ -37,7 +37,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       # Set up Docker build
-      - name: Set up Docker Buildx
+      - name: Set up Docker Build
         uses: docker/setup-buildx-action@v1
 
       # Build the Docker image
@@ -50,13 +50,19 @@ jobs:
           file: docker/Dockerfile
           tags: jhudsl/itcr_course_template
 
-      # push the Docker image if this is staging
+      # Run bookdown rendering
+      - name: Run bookdown render
+        run: docker run \
+          --mount type=bind,target=/home/rstudio,source=$PWD \
+          jhudsl/itcr_course_template \
+          Rscript -e "bookdown::render_book('index.Rmd')"
+
+      # Push the Docker image
       - name: Push Docker image
         run: docker push jhudsl/itcr_course_template
 
-      - name: Commit rendered bookdown
+      - name: Commit rendered bookdown files
         run: |
-          Rscript -e "bookdown::render_book('index.Rmd')"
           git add -A
           git commit -m 'Render bookdown' || echo "No changes to commit"
           git push origin main || echo "No changes to push"
