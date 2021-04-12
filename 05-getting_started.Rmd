@@ -1,0 +1,24 @@
+---
+title: "Getting Started Sections"
+output: html_document
+---
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of a Getting Started section
+- Write a user friendly Getting Started section for your tool  
+
+## The Goal of a Getting Started section 
+
+
+## What should be included in a Getting Started section?
+
+
+## Good Examples of Getting Started sections
+
+https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html 
+https://snakemake.readthedocs.io/en/stable/getting_started/installation.html 
+
+## Exercise: Create your own Getting Started section!
