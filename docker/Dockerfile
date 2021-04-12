@@ -12,7 +12,15 @@ RUN apt-get install -y --no-install-recommends \
 # Add curl, bzip2
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     bzip2 \
-    curl 
+    curl
+
+# Install pip3 and installation tools
+RUN apt-get -y --no-install-recommends install \
+    python3-pip  python3-dev
+
+# Install python packages with pip3
+RUN pip3 install \
+    "mkdocs==1.1.1"
 
 ## R packages
 

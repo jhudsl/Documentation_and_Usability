@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-09" />
+<meta name="date" content="2021-04-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -75,7 +75,17 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html"><i class="fa fa-check"></i><b>2</b> What does good documentation look like?</a><ul>
 <li class="chapter" data-level="2.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#learning-objectives"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="2.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-context-of-bioinformatics-tool-development"><i class="fa fa-check"></i><b>2.2</b> The context of bioinformatics tool development</a></li>
+<li class="chapter" data-level="2.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#major-components-of-good-documentation"><i class="fa fa-check"></i><b>2.2</b> Major components of good documentation</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>2.2.1</b> The ‘Why’ <img src="resources/images/why.png" width="8%"></a></li>
+<li class="chapter" data-level="2.2.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>2.2.2</b> Getting started <img src="resources/images/getting-started.png" width="8%"></a></li>
+<li class="chapter" data-level="2.2.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>2.2.3</b> How-to examples <img src="resources/images/how-to.png" width="8%"></a></li>
+<li class="chapter" data-level="2.2.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>2.2.4</b> Reference guides <img src="resources/images/ref-guide.png" width="8%"></a></li>
+<li class="chapter" data-level="2.2.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>2.2.5</b> Code comments <img src="resources/images/comment.png" width="8%"></a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#documentation-templates"><i class="fa fa-check"></i><b>2.3</b> Documentation templates!</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#well-documented-checklist"><i class="fa fa-check"></i><b>2.3.1</b> Well-documented checklist</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-use-the-templates-folder"><i class="fa fa-check"></i><b>2.4</b> How to use the templates folder</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 </ul>
@@ -101,23 +111,66 @@
 <h2><span class="header-section-number">2.1</span> Learning Objectives</h2>
 <p>This chapter will demonstrate how to:</p>
 <ul>
-<li>Describe what characteristics of good documentation</li>
 <li>Identify major components common to good documentation</li>
-<li></li>
+<li>Describe the purposes of components of good documentation</li>
 </ul>
 </div>
-<div id="the-context-of-bioinformatics-tool-development" class="section level2">
-<h2><span class="header-section-number">2.2</span> The context of bioinformatics tool development</h2>
-<p>Tools for creating good documentation
-A checklist of “good documentation”
-The “why” of this tool is made known.
-Getting Started Section
-How-to Examples/Vignettes
-Reference Guides
-Code documentation
-Feedback
-The documentation has been kept up to date with updates to the code.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=p" /><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<div id="major-components-of-good-documentation" class="section level2">
+<h2><span class="header-section-number">2.2</span> Major components of good documentation</h2>
+<p>In this chapter we are going to cover the major aspects of a well-documented tool.</p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcd0e3791ab_0_23" /><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<div id="the-why" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> The ‘Why’ <img src="resources/images/why.png" width="8%"></h3>
+<p>The first thing that should be obvious to your user is why they should want to use your tool.</p>
+</div>
+<div id="getting-started" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> Getting started <img src="resources/images/getting-started.png" width="8%"></h3>
+<p>A Getting Started section will tell a new user the exact steps they need to:<br />
+- Install the tool and any of its dependencies.<br />
+- Run the most basic analysis with the tool.<br />
+- Will link out to next steps for the user, like the How-to examples.</p>
+</div>
+<div id="how-to-examples" class="section level3">
+<h3><span class="header-section-number">2.2.3</span> How-to examples <img src="resources/images/how-to.png" width="8%"></h3>
+<p>A set of How-to examples will demonstrate step-by-step the most common uses after they have completed the Getting Started steps.
+- Every step is specifically provided.<br />
+- Any data needed to run the data is provided.<br />
+- Common pitfalls and nuances of the tool are explained in the context of the examples.</p>
+</div>
+<div id="reference-guides" class="section level3">
+<h3><span class="header-section-number">2.2.4</span> Reference guides <img src="resources/images/ref-guide.png" width="8%"></h3>
+<p>A reference guide is like a dictionary that a user can reference as questions arise.
+A user will likely have a specific question about a function, parameter, data type, or option and will want to be able to navigate to information about that item.
+- The listed items are searchable or at least easily able to be visually scanned.<br />
+- All items are described in clear, non-jargon, language.</p>
+</div>
+<div id="code-comments" class="section level3">
+<h3><span class="header-section-number">2.2.5</span> Code comments <img src="resources/images/comment.png" width="8%"></h3>
+<p>Comments in your source code are also a part of documentation!
+In most instances, if your tools is functioning fine, code will probably only be looked at by advanced and/or the most invested users.
+But also recall that documentation is not only for your user but for future you and potential collaborator.</p>
+</div>
+</div>
+<div id="documentation-templates" class="section level2">
+<h2><span class="header-section-number">2.3</span> Documentation templates!</h2>
+<p>We encourage you to create these pieces of documentation we will further discuss in the rest of this course!</p>
+<p>We have <a href="">a folder of template markdown files</a> that you can use as-is in your GitHub repository or have them rendered nicely as a <a href="">read-the-docs site</a>.
+Before we get into getting how to use these templates, we’ll give you a quick preview of this folder’s contents and upcoming chapters.</p>
+<pre><code>templates
+├── well_documented_checklist.md
+├── getting_started_template.md
+├── how_to_examples_examples.md
+└── reference_guide_template.md</code></pre>
+<div id="well-documented-checklist" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> Well-documented checklist</h3>
+<p>This document has a checklist that summarizes the major aspects that should be included in a tools’ documentation.
+You can use it to evaluate your documentation for an existing tool, or as a to-do list that you can check off as you follow along with this course.</p>
+</div>
+</div>
+<div id="how-to-use-the-templates-folder" class="section level2">
+<h2><span class="header-section-number">2.4</span> How to use the templates folder</h2>
+<p>Option 1)</p>
+<p>Option 2)</p>
 
 </div>
 </div>
