@@ -26,8 +26,8 @@ jobs:
         with:
           # get the full repo
           fetch-depth: 0
-          # use alexslemonade-docs-bot
-          token: ${{ secrets.DOCS_BOT_GITHUB_TOKEN }}
+          # use github PAT 
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Login to Dockerhub
       - name: Login to DockerHub
