@@ -36,10 +36,15 @@ If it currently is not clear, take this time to workshop one or two sentences th
 As you craft this sentence, think about the needs of your user and how to summarize your tool's purpose in a brief, punchy way. 
 Stay away from jargon unless perhaps its jargon that you know your user will understand. 
 
-_Examples of tools with their why's well stated:_
+_Examples of tools with their why's well-stated prominently on their web page:_
 
+> Gene Set Enrichment Analysis (GSEA) is a computational method that determines whether an a priori defined set of genes shows statistically significant, concordant differences between two biological states (e.g. phenotypes).
 
+[GSEA](http://www.gsea-msigdb.org/gsea/index.jsp)
 
+> Salmon is a tool for wicked-fast transcript quantification from RNA-seq data. It requires a set of target transcripts (either from a reference or de-novo assembly) to quantify. 
+
+[Salmon](https://salmon.readthedocs.io/en/latest/salmon.html#using-salmon)
 
 ### Getting started <img src="resources/images/getting-started.png" width="8%">
 
