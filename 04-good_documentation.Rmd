@@ -25,9 +25,21 @@ Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 ### The 'Why' <img src="resources/images/why.png" width="8%">
 
-The first thing that should be obvious to your user is why they should want to use your tool!
+Before we get into the technical information in your documentation, the first thing that should be obvious to your user is why they should want to use your tool!
 What need of your users does your tool fulfill?
 If this is not glaringly obvious, users will move on without realizing how valuable your tool could be for their research!
+
+#### Exercise: Write the why of your tool!
+
+This should be the first thing your user sees on the main page of your tool. 
+If it currently is not clear, take this time to workshop one or two sentences that explain the 'why' of your tool. 
+As you craft this sentence, think about the needs of your user and how to summarize your tool's purpose in a brief, punchy way. 
+Stay away from jargon unless perhaps its jargon that you know your user will understand. 
+
+_Examples of tools with their why's well stated:_
+
+
+
 
 ### Getting started <img src="resources/images/getting-started.png" width="8%">
 
