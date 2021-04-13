@@ -9,8 +9,8 @@ output: html_document
 
 This chapter will demonstrate how to:  
 
-- Understand good documentation increases the impact and usability of software tools.
-- Understand good documentation is helpful for both tool developers and users
+- Understand good documentation increases the impact and usability of software tools.  
+- Understand good documentation is helpful for both tool developers and users.  
 
 ## The context of bioinformatics tool development
 
@@ -56,9 +56,9 @@ So why is poor documentation and usability common in bioinformatics?
 We know that bioinformatics tool development doesn't occur in a vaccuum. 
 User designers in the field of bioinformatics have commented on reasons why this is: 
 
-- _Problem 1)_ Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability []. 
-- _Problem 2)_ Bioinformatics tools have a very small and specialized user communities that are often overbooked and not incentivized to give feedback [].  
-- _Problem 3)_ Lack of resources/education about usability specific to bioinformatics tool developing communities [].   
+- _Problem 1)_ Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability [@Mangul2019]. 
+- _Problem 2)_ Bioinformatics tool development teams generally don't have the resources to hire user design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback [@Pavelin2012].  
+- _Problem 3)_ Lack of resources/education about usability specific to bioinformatics tool developing communities [@Pavelin2012].   
 
 Unfortunately this specific course cannot address issues 1 and 2, but will attempt to help with problem 3. 
 
