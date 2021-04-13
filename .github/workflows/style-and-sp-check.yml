@@ -29,7 +29,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install packages
-        run: Rscript -e "install.packages(c('styler', 'spelling'))"
+        run: Rscript -e "install.packages(c('bookdown', 'styler', 'spelling'))"
 
       - name: Run spell check
         id: spell_check_run
