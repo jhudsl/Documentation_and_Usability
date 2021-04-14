@@ -82,7 +82,7 @@ But also recall that documentation is not only for your user but for future you 
 ### User feedback mechanism <img src="resources/images/user-feedback.png" width="8%">
 
 Try as you might, you will not be able to predict every scenario that a user may engage with your tool. 
-Your user may encounter errors or quirks that you did not forsee but that would be helpful for you to know about. 
+Your user may encounter errors or quirks that you did not foresee but that would be helpful for you to know about. 
 Your documentation should direct your users where they should send any comments or concerns. 
 You should also make sure that this feedback method is something you can check up on and respond to regularly.
 
