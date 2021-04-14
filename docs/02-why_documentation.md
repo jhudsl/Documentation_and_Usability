@@ -104,4 +104,4 @@ It not only got him excited about the tool, but allowed him to program a new fea
 
 <img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_127" width="500" height="500" />
 
-Now that you are hopefully energized and ready for creating documentation for your tool, let's get into the details of what good documentation looks like!
+Now that you are hopefully energized and ready for creating documentation for your tool, let's talk about a bit user design concepts!
