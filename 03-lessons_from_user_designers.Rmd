@@ -54,8 +54,8 @@ On a general level, there are some characteristics we know about bioinformatic t
 The typical user of bioinformatics tools are generally:  
 - Highly educated in their specific research topic.  
 - Skilled at picking up new information.  
-- Unlikely to have much experience in programming; may be uncomfortable with using command line.
-- If they do have experience programming, it's likely been from informal and self-taught learning.  
+- Unlikely to have much experience in programming; may be uncomfortable with using command line.  
+- If they do have experience programming, it's likely been from informal and self-taught learning.    
 - Like many professionals, likely to feel time pressure from deadlines.  
 
 However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
@@ -144,7 +144,7 @@ In fact, that is probably not the most practical way to keep user queries organi
 _Example contact methods_:   
 - Have a link to a form for users to submit.   
 - Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
-- Have a separate email inbox that you have a notification set up for. 
+- Have a separate email inbox that you have a notification set up for.  
 - Have a [Slack channel](https://slack.com/) that you direct users to.  
 
 Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to!
