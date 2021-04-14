@@ -45,7 +45,7 @@ Making your tool as easy as possible to use increases the likelihood of your use
 
 ### Generalities about bioinformatics tool users
 
-On a general level, there are some characteristics we know about bioinformatic tool user communities [].  
+On a general level, there are some characteristics we know about bioinformatic tool user communities.  
 
 The typical user of bioinformatics tools are generally:  
 - Highly educated in their specific research topic.  
@@ -67,6 +67,8 @@ However, the bioinformatics user community also includes a variety of individual
 - Core facility scientist  
 - Bioinformatician in an academic or research infrastructure support role  
 - Bioinformatics software developer/software engineer  
+
+Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints. 
 
 __Exercise:__ Think about the user community for your tool. 
 Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community. 
