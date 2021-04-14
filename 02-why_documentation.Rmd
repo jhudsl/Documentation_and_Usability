@@ -64,8 +64,8 @@ Unfortunately this specific course cannot address issues 1 and 2, but will attem
 
 ### Why documentation is worth the time 
 
-Tool developers often feel exhausted once it comes time to create documentation []. 
-The documentation process requires a different skill set from the tool development itself; meaning many developers are not terribly excited about documentation and/or are not really sure how to craft good documentation [].
+Tool developers often feel unenthused about creating documentation [@Wolf2016]. 
+The documentation process requires a different skill set from the tool development itself; meaning many developers are not terribly excited about documentation and/or are not really sure how to craft good documentation [@Wolf2016].
 
 The effort for creating documentation has a high return payoff for the continued success of a tool as a whole!
 Thorough and easy-to-digest documentation not only benefits the user, but the tool developer as well!
