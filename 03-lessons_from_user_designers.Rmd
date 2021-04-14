@@ -25,12 +25,14 @@ This is why a common saying in user design is "You are not your user"[@Alexakis2
 Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. 
 For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user. 
 
-![](https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0)
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0 width = 500, height = 500 />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
 Emojis by OpenMoji License: CC BY-SA 4.0.]
 
+  
+  
 As compared to yourself, your typical user may likely have a different:  
 - Educational background.  
 - Programming experience level.  
@@ -38,6 +40,8 @@ As compared to yourself, your typical user may likely have a different:
 
 And most importantly _your user does not know your tool like you do_! 
 You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have. 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_146 width = 300, height = 300 />
 
 Also keep in mind users are humans in a context. 
 Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/etc.
@@ -77,6 +81,8 @@ Write down what you know (or think you know) and try to identify any knowledge g
 - What need of theirs is addressed by your tool? 
 - What kinds of skills does your tool assume your user has (does your user community have those skills)?
 
+TODO: Need link below
+
 Keep the questions about your user community in mind and in a [later chapter](), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
 
 ## General principles about user-friendliness  
@@ -92,7 +98,7 @@ Sometimes this is particularly helpful for complicated concepts.
 For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files. 
 Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function: 
 
-![](https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44)
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44 width = 400 height = 400 />
 
 #### Stay away from jargon
 
@@ -110,15 +116,16 @@ When your user has a question in mind, it can make their experience a lot more s
 Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches!
 For these reasons, navigability is important for your tool and documentation.
 
-Increasing your tools' navigability:     
-- Workshop an [intuitive layout](https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html).    
+_Quick tips for increasing your tools' navigability_:     
 - Minimize the number of clicks for finding help! -- The more important a piece of information is to a users' ability to use your tool, the more it should be in the forefront of your tool!  
 - Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don't switch it -- patterns are super helpful!  
+- Use visual cues where possible!  
 
-Articles about user-friendly principles:   
+More about user-friendly principles:   
 
 - [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) by @Porter.   
 - [Golden Rules of UI Design](https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/) by @Babich.  
+- [About intuitive layouts](https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html) by @Tidwell.
 
 #### Provide a method for users to file concerns
 
@@ -136,8 +143,10 @@ In fact, that is probably not the most practical way to keep user queries organi
 
 _Example contact methods_:   
 - Have a link to a form for users to submit.   
-- Direct users to file a GitHub issue.    
+- Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
 - Have a separate email inbox that you have a notification set up for. 
-- Have a Slack channel that you direct users to.    
+- Have a [Slack channel](https://slack.com/) that you direct users to.  
+
+Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to!
 
 Now that we've discussed some major principles about users and design, let's dive in to talking about how documentation can help!
