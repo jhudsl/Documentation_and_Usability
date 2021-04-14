@@ -25,9 +25,26 @@ Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 ### The 'Why' <img src="resources/images/why.png" width="8%">
 
-The first thing that should be obvious to your user is why they should want to use your tool!
+Before we get into the technical information in your documentation, the first thing that should be obvious to your user is why they should want to use your tool!
 What need of your users does your tool fulfill?
 If this is not glaringly obvious, users will move on without realizing how valuable your tool could be for their research!
+
+#### Exercise: Write the why of your tool!
+
+This should be the first thing your user sees on the main page of your tool. 
+If it currently is not clear, take this time to workshop one or two sentences that explain the 'why' of your tool. 
+As you craft this sentence, think about the needs of your user and how to summarize your tool's purpose in a brief, punchy way. 
+Stay away from jargon unless perhaps its jargon that you know your user will understand. 
+
+_Examples of tools with their why's well-stated prominently on their web page:_
+
+> Gene Set Enrichment Analysis (GSEA) is a computational method that determines whether an a priori defined set of genes shows statistically significant, concordant differences between two biological states (e.g. phenotypes).
+
+[GSEA](http://www.gsea-msigdb.org/gsea/index.jsp)
+
+> Salmon is a tool for wicked-fast transcript quantification from RNA-seq data. It requires a set of target transcripts (either from a reference or de-novo assembly) to quantify. 
+
+[Salmon](https://salmon.readthedocs.io/en/latest/salmon.html#using-salmon)
 
 ### Getting started <img src="resources/images/getting-started.png" width="8%">
 
@@ -53,7 +70,7 @@ A user will likely have a specific question about a function, parameter, data ty
 Users who end up looking through your reference guide are likely a bit invested and may have already gone through the Getting Started section and/or How-to examples. 
 
 - All items are described in clear, non-jargon, language. 
-- The items are searchable or at least easily able to be visually scanned.    
+- The items are searchable or at least can be easily visually scanned.    
 - All options and defaults are explained and linked to more information where appropriate.  
 
 ### Code comments <img src="resources/images/comment.png" width="8%">
@@ -97,21 +114,35 @@ There are two options we suggest for creating documentation as you follow along 
      _Pros_: Is easier and quicker. 
      _Cons_: Is not as user-friendly as option 2.  
      
-**Option 2)** Clone a repository with these templates and set up a Read the Docs site. (Slightly more work, but a nicer end result).  
-     _Pros_: Read the docs websites are easy to navigate and likely familiar to your user.   
+**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. (Slightly more work, but a very nice end result).  
+     _Pros_: This format of documentation sites are easy to navigate and likely familiar to your user.   
      _Cons_: Will require more Github and `mkdocs` package knowledge to get this set up. 
      
 ### Steps for Option 1) Adding completed markdowns to an existing GitHub repository
 
-- [Download the folder of templates using this link]()
+- [Download the folder of templates using this link](./templates)
 - Complete each markdown template, filling in the blanks as you go along with the course. 
 - File a pull request to your repository to add these files. 
-- (optional but encouraged) [Publish your repository to Github Pages](https://guides.github.com/features/pages/).  
+- (Optional but encouraged) [Publish your repository to Github Pages](https://guides.github.com/features/pages/).  
 
-### Option 2) Creating a read-the-docs site
+### Steps for Option 2) Creating a MkDocs site with Github pages
 
-- Create your own documentation github repository [using this template repository]().  
-    - Click "Use this Template" to get started.  
-- Go to [Read the Docs](https://readthedocs.org/) and click `Sign Up` to create an account.  
+#### Using our template doc repository
 
-TODO: Finish these instructions as I figure it out. 
+- Go to our [template documentation repository](https://github.com/jhudsl/itcr-template-documentation). 
+- Click `Use this Template` to get started.
+- Fill in the template with your own information. 
+
+On your computer's command line:  
+- [`git clone` your new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) you made from our template.   
+- Navigate to your the root of your local version of this repository.   
+- [Install mkdocs following their instructions.](https://www.mkdocs.org/#installation).  
+
+- Run `mkdocs new my-project`  
+- Run `mkdocs serve` to see a preview of your docs   
+
+- Edit the template pages we've provided in the `docs/` folder.  
+- As you make changes you can run `mkdocs build` and then `mkdocs serve` to see a preview.  
+
+- When you are ready to publish your documentation to its own website, run [`mkdocs gh-deploy`](https://www.mkdocs.org/user-guide/deploying-your-docs/), it will return the web address of your new site -- go to that address and bask in the success of your newly made documentation!  
+
