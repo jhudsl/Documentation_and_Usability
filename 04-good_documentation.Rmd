@@ -90,20 +90,28 @@ You should also make sure that this feedback method is something you can check u
 
 We encourage you to create these pieces of documentation we will further discuss in the rest of this course!
 
-We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a [read-the-docs site](https://docs.readthedocs.io/en/stable/).
+We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a Github pages site using [Mkdocs](https://www.mkdocs.org/).
 Here's a a quick preview of this folder's contents (which we will cover in more depth in the upcoming chapters). 
 
+TODO: Fill this in when I have more information on specific repo's doc requirements
+https://galaxyproject.org/develop/
+https://github.com/Bioconductor/Contributions 
+https://bioconductor.org/developers/package-guidelines/
 ```
 templates/
 ├── well_documented_checklist.md
 ├── getting_started_template.md
 ├── how_to_examples_examples.md
-└── reference_guide_template.md
+├── reference_guide_template.md
+├── bioconductor-guides/
+│   ├── 
+└── galaxy-guides/
+    └──
 ```
 
 ### Well-documented checklist
 
-This document has a checklist that summarizes the major aspects that should be included in a tools' documentation. 
+[This document is a checklist](https://raw.githubusercontent.com/jhudsl/ITCR_Documentation_and_Usability/main/templates/well_documented_checklist.md) that summarizes the major aspects that should be included in a tools' documentation. 
 We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course. 
 
 ## How to use the templates folder
@@ -131,14 +139,14 @@ There are two options we suggest for creating documentation as you follow along 
 
 - Go to our [template documentation repository](https://github.com/jhudsl/itcr-template-documentation). 
 - Click `Use this Template` to get started.
-- Fill in the template with your own information. 
+- Name your repository something that relates to your tool.  
 
-On your computer's command line:  
+_On your computer's command line_:    
 - [`git clone` your new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) you made from our template.   
 - Navigate to your the root of your local version of this repository.   
 - [Install mkdocs following their instructions.](https://www.mkdocs.org/#installation).  
 
-- Run `mkdocs new my-project`  
+- Run `mkdocs new my-project` but put replace `my-project` with whatever you'd like your project name to be. 
 - Run `mkdocs serve` to see a preview of your docs   
 
 - Edit the template pages we've provided in the `docs/` folder.  

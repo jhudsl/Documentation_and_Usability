@@ -205,16 +205,24 @@ You should also make sure that this feedback method is something you can check u
 <div id="the-documentation-templates-for-this-course" class="section level2">
 <h2><span class="header-section-number">4.3</span> The documentation templates for this course</h2>
 <p>We encourage you to create these pieces of documentation we will further discuss in the rest of this course!</p>
-<p>We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a <a href="https://docs.readthedocs.io/en/stable/">read-the-docs site</a>.
+<p>We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a Github pages site using <a href="https://www.mkdocs.org/">Mkdocs</a>.
 Here’s a a quick preview of this folder’s contents (which we will cover in more depth in the upcoming chapters).</p>
+<p>TODO: Fill this in when I have more information on specific repo’s doc requirements
+<a href="https://galaxyproject.org/develop/" class="uri">https://galaxyproject.org/develop/</a>
+<a href="https://github.com/Bioconductor/Contributions" class="uri">https://github.com/Bioconductor/Contributions</a>
+<a href="https://bioconductor.org/developers/package-guidelines/" class="uri">https://bioconductor.org/developers/package-guidelines/</a></p>
 <pre><code>templates/
 ├── well_documented_checklist.md
 ├── getting_started_template.md
 ├── how_to_examples_examples.md
-└── reference_guide_template.md</code></pre>
+├── reference_guide_template.md
+├── bioconductor-guides/
+│   ├── 
+└── galaxy-guides/
+    └──</code></pre>
 <div id="well-documented-checklist" class="section level3">
 <h3><span class="header-section-number">4.3.1</span> Well-documented checklist</h3>
-<p>This document has a checklist that summarizes the major aspects that should be included in a tools’ documentation.
+<p><a href="https://raw.githubusercontent.com/jhudsl/ITCR_Documentation_and_Usability/main/templates/well_documented_checklist.md">This document is a checklist</a> that summarizes the major aspects that should be included in a tools’ documentation.
 We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course.</p>
 </div>
 </div>
@@ -243,15 +251,14 @@ We recommend using it to evaluate the documentation for an existing tool and ide
 <ul>
 <li>Go to our <a href="https://github.com/jhudsl/itcr-template-documentation">template documentation repository</a>.</li>
 <li>Click <code>Use this Template</code> to get started.</li>
-<li>Fill in the template with your own information.</li>
+<li>Name your repository something that relates to your tool.</li>
 </ul>
-<p>On your computer’s command line:<br />
+<p><em>On your computer’s command line</em>:<br />
 - <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository"><code>git clone</code> your new repository</a> you made from our template.<br />
 - Navigate to your the root of your local version of this repository.<br />
 - <a href="https://www.mkdocs.org/#installation">Install mkdocs following their instructions.</a>.</p>
 <ul>
-<li><p>Run <code>mkdocs new my-project</code><br />
-</p></li>
+<li><p>Run <code>mkdocs new my-project</code> but put replace <code>my-project</code> with whatever you’d like your project name to be.</p></li>
 <li><p>Run <code>mkdocs serve</code> to see a preview of your docs</p></li>
 <li><p>Edit the template pages we’ve provided in the <code>docs/</code> folder.<br />
 </p></li>
