@@ -40,7 +40,7 @@ And most importantly _your user does not know your tool like you do_!
 You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have. 
 
 Also keep in mind users are humans in a context. 
-Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/frazzled/etc.
+Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/etc.
 Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!
 
 ### Generalities about bioinformatics tool users
@@ -54,7 +54,21 @@ The typical user of bioinformatics tools are generally:
 - If they do have experience programming, it's likely been from informal and self-taught learning.  
 - Like many professionals, likely to feel time pressure from deadlines.  
 
-__Exercise:__ Think about these questions in regards to the user community for your tool. 
+However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
+@Mulder2018 described 10 user personas for bioinformatics software, all with their own skills and competencies:
+
+- Physician 
+- Lab technician 
+- Ethicist  
+- Biocurator  
+- Discovery biologist/academic life science researcher   
+- Molecular life science educator  
+- Academic bioinformatics researcher  
+- Core facility scientist  
+- Bioinformatician in an academic or research infrastructure support role  
+- Bioinformatics software developer/software engineer  
+
+__Exercise:__ Think about the user community for your tool. 
 Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community. 
 
 - Who is your user community? 
@@ -94,10 +108,15 @@ When your user has a question in mind, it can make their experience a lot more s
 Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches!
 For these reasons, navigability is important for your tool and documentation.
 
-Increasing your tools' navigability:   
+Increasing your tools' navigability:     
 - Workshop an [intuitive layout](https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html).    
 - Minimize the number of clicks for finding help! -- The more important a piece of information is to a users' ability to use your tool, the more it should be in the forefront of your tool!  
 - Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don't switch it -- patterns are super helpful!  
+
+Articles about user-friendly principles:   
+
+- [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) by @Porter.   
+- [Golden Rules of UI Design](https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/) by @Babich.  
 
 #### Provide a method for users to file concerns
 
