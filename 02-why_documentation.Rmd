@@ -53,9 +53,8 @@ This is the unfortunate and all-too-common result of many bioinformatics tools.
 
 The lack of focus and education on usability in the bioinformatics tool development is not only a disservice to progress of cancer research, but also to the tool developers themselves who have equally spent uncountable work hours and effort on the development of cancer tools. 
 
-So why is poor documentation and usability common in bioinformatics?
 We know that bioinformatics tool development doesn't occur in a vaccuum. 
-User designers in the field of bioinformatics have commented on reasons why this is: 
+User designers in the field of bioinformatics have commented on reasons why documentation and usability sometimes suffer for bioinformatics tools: 
 
 - _Problem 1)_ Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability [@Mangul2019]. 
 - _Problem 2)_ Bioinformatics tool development teams generally don't have the resources to hire user design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback [@Pavelin2012].  
@@ -72,7 +71,7 @@ In this course, we'd like you to view your tool as Popeye and where documentatio
 
 The effort for creating documentation has a high return payoff for the continued success of a tool as a whole!
 
-_Thorough and easy-to-digest documentation not only benefits users, but tool developers themselves!_ 
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_140" width="500" height="500" />
 
 Returning to our cast of characters, let's say that Tina the Tool Developer, had the time and knowledge to create awesome documentation for her tool. 
 
