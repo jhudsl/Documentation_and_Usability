@@ -16,7 +16,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 
 # Install pip3 and installation tools
 RUN apt-get -y --no-install-recommends install \
-    python3-pip  python3-dev
+    python3-pip  python3.6
 
 # Install python packages with pip3
 RUN pip3 install \
