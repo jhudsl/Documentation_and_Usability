@@ -1,6 +1,6 @@
-book_filename: "ITCR_Course_Name"
+book_filename: "ITCR_Documentation_and_Usability"
 chapter_name: "Chapter "
-repo: https://github.com/jhudsl/ITCR_Course_Template/
+repo: https://github.com/jhudsl/ITCR_Documentation_and_Usability/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "04-good_documentation.Rmd",
