@@ -5,6 +5,7 @@ rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-why_documentation.Rmd",
             "03-lessons_from_user_designers.Rmd",
+            "04-good_documentation.Rmd",
             "05-getting_started.Rmd",
             "About.Rmd"]
 new_session: yes
