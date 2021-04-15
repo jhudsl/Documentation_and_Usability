@@ -62,7 +62,7 @@ It's crucial that the steps here are simple and easy to follow or you risk losin
 
 ### How-to examples <img src="resources/images/how-to.png" width="8%">
 
-A set of How-to examples will demonstrate step-by-step the most common uses after they have completed the Getting Started steps. 
+A set of How-to examples will demonstrate step-by-step the most common uses for your tool after they have completed the Getting Started steps. 
   
 - Every step is specifically provided by code (or by screenshots in the case of a GUI).  
 - Any data needed to run the example is provided.  
@@ -70,7 +70,7 @@ A set of How-to examples will demonstrate step-by-step the most common uses afte
 
 ### Reference guides <img src="resources/images/ref-guide.png" width="8%">
 
-A reference guide is like a dictionary that a user can reference as questions arise. 
+A reference guide is like a dictionary that a user can look up items as questions arise. 
 A user will likely have a specific question about a function, parameter, data type, or option and will want to be able to navigate to information about that item.
 Users who end up looking through your reference guide are likely a bit invested and may have already gone through the Getting Started section and/or How-to examples. 
 
@@ -95,10 +95,11 @@ You should also make sure that this feedback method is something you can check u
 
 We encourage you to create these pieces of documentation we will further discuss in the rest of this course!
 
-We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a Github pages site using [Mkdocs](https://www.mkdocs.org/).
+We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a Github pages site using [MkDocs](https://www.mkdocs.org/).
 Here's a a quick preview of this folder's contents (which we will cover in more depth in the upcoming chapters). 
 
 TODO: Add links to those supp chapters. 
+
 If you are creating documentation to accompany a package you are submitting to [Bioconductor]() or [Galaxy](), we also have more specific templates and recommendations for those instances.  
 
 ```
