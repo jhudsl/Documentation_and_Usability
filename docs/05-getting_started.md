@@ -3,7 +3,7 @@ title: "Creating a smooth getting started section"
 output: html_document
 ---
 
-# Creating a smooth getting started section
+# Creating a smooth getting started section 
 
 ## Learning Objectives
 
@@ -15,7 +15,12 @@ This chapter will demonstrate how to:
 
 ## The goal of a getting started section 
 
-Get your user through the potentially rocky installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
+<img src="resources/images/getting-started.png" width="15%">
+
+Get your baby chick user through the potentially rocky installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
+
 Smooth is the goal here, we want to aim for the least amount roadblocks to your users being able to create something with your tool as possible.
 
 ## Aspects of a smooth getting started section
@@ -82,6 +87,8 @@ Use this opportunity to show off your the simplicity and awesomeness of your too
 
 This rewarding result might be a cool visual or a plot -- but also should demonstrate the most popular thing your users would like to see. 
 
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_23 width = 400 height = 400 />
+
 ### Directs the user to the How-to Examples section.
 
 Now that your user has successfully installed your tool and understands the basic idea, let them know where they can find more examples to keep the learning train going!
@@ -91,7 +98,11 @@ Now that your user has successfully installed your tool and understands the basi
 [Snakemake has a great getting started section](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) [@Molder2021].
 The makers of snakemake tell their users how to install snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!
 
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_0 width = 400 height = 400 />
+
 [GSEA](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html) introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track [@Subramanian2005]!
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_4 width = 400 height = 400 />
 
 ## Exercise: Create your own getting started section!
 
