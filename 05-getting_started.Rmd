@@ -15,9 +15,7 @@ This chapter will demonstrate how to:
 
 ## The goal of a getting started section 
 
-<img src="resources/images/getting-started.png" width="15%">
-
-Get your baby chick user through the potentially rocky installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
+Get your new user through the potentially rocky installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
 
@@ -105,6 +103,8 @@ The makers of snakemake tell their users how to install snakemake using differen
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_4 width = 400 height = 400 />
 
 ## Exercise: Create your own getting started section!
+
+TODO: Update instructions here. 
 
 Use [the template getting started document](templates/getting_started_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
 
