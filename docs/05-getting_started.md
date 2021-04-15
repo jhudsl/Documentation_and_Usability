@@ -15,11 +15,12 @@ This chapter will demonstrate how to:
 
 ## The goal of a getting started section 
 
-Get your new user through the potentially rocky installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
+A getting started section is new users' first experience with your tool. 
+It is also can be the most frustrating experience for your user if installation doesn't happen smoothly. 
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
 
-Smooth is the goal here, we want to aim for the least amount roadblocks to your users being able to create something with your tool as possible.
+Our goal for our getting started section is to guide our new users through installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
 
 ## Aspects of a smooth getting started section
 
@@ -27,6 +28,7 @@ Smooth is the goal here, we want to aim for the least amount roadblocks to your 
 
 It's hard to get started if you don't know where to go to begin with! 
 Your getting started section should be the easiest page to find.
+Have your link to your getting started page prominently feature on your landing page and if you have a navigation bar.
 
 ### Introduce your user to the basics
 
@@ -47,8 +49,7 @@ The _clearer and more specific these steps the better_.
 @Mangul2019b found that tools that required more installation steps (but didn't describe these steps adequately) were less likely to be installed successfully, and tools that were less likely to be installed successfully had significantly less citations!
 
 If installation happens through command line, provide _copy-and-paste commands_ that your user can use as-is. 
-In these commands, if parts of it need to be tailored, call attention where the tailoring needs to happen and how your user can determine what they need to put there. 
-Fill-in-the-blank can be handy for these scenarios. 
+In these commands, if parts of it need to be tailored, call attention where the tailoring needs to happen and how your user can determine what they need to put there. Fill-in-the-blank cues can be handy for these scenarios. 
 
 _Tell your users what to expect_. 
 Do some steps take more time than others? Warn them about that. 
@@ -66,7 +67,7 @@ What dependencies does installing your tool require?
 Will these be installed automatically by the steps you describe or _does your user need to install other software_ before being able to install your tool? 
 This can be a big roadblock to users if dependencies and how to install them are not addressed. 
 
-To recap:  
+**To recap:**  
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_7 width = 400 height = 400 />
 
@@ -106,5 +107,5 @@ The makers of snakemake tell their users how to install snakemake using differen
 
 TODO: Update instructions here. 
 
-Use [the template getting started document](templates/getting_started_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
+Use [the template getting started document](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/getting_started_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
 
