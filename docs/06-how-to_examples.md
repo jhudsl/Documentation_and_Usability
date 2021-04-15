@@ -49,6 +49,29 @@ Getting data formatted correctly is another huge hurdle of users and although yo
 Instead, provide your users with example data that your example code directly downloads (or is available through the GUI). 
 This gives users a positive control for when they are troubleshooting the formatting for their own data later on, but doesn't force them to face that battle before they can follow your example. 
 
+Make sure your example adequately introduces the example: what are the measurements from, what was the goal of this dataset. 
+And of course, link to the source of the data and cite it!
+
+### Example code is about the lesson not the output
+
+Example code is not the same as backend code. 
+Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity. 
+
+This means your examples should include the most easily readable code you can muster -- sometimes this means extra workshoping to reach peak clarity.
+Give commentary at each and every step -- don't assume your users understand your typical conventions. 
+Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
+
+_Related to this, your examples' code should model best practices_
+
+Pretend you are the model user of your tool -- how should your users interact with your tool?
+This does sometimes mean more effort, but assume your example is the peak of clean use. 
+This means keeping in mind the important basics: 
+- Emphasize reproducibility 
+- Code comments 
+- Stick to a style
+- Be consistent with your conventions 
+- Pick good object names
+
 ### Common pitfalls are explained in context
 
 
@@ -59,6 +82,10 @@ If it is absolutely necessary, should this package be something added as a depen
 
 ### Give tips on how to tailor your examples
 
+If your users follow along with your examples successfully, their next step will probably be to tailor your examples to their own questions.
+Whether you intend it or not, your examples will probably be used as template framework for your user's analysis. 
+Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it. 
+Sending them to more information about options and possibilities is always nice too. 
 
 **To recap:**
 
@@ -66,8 +93,13 @@ If it is absolutely necessary, should this package be something added as a depen
 
 ## Good Examples of How-to examples
 
-DESeq2 has excellent 
+[DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)! 
+@Love2014 walks through the most common use cases of DESeq2, providing data and explaining the set up.
+They efficiently move into other scenarios, explaining common questions and areas of nuance along the way. 
 
+[QIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
+@Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
+At the very end of the example they also provide the end result for comparison!
 
 ## Exercise: Create your own How-to examples!
 
