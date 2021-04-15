@@ -11,6 +11,7 @@ This chapter will demonstrate how to:
 
 - Identify major components common to good documentation
 - Describe the purposes of components of good documentation 
+- Set up our documentation templates for following along with the rest of this course  
 
 ## Major components of good documentation
 
@@ -48,8 +49,11 @@ _Examples of tools with their why's well-stated prominently on their web page:_
 
 ### Getting started <img src="resources/images/getting-started.png" width="8%">
 
-A Getting Started section will tell a new user the exact steps they need to "get started" -- no extra steps or long-winded explanations. 
-It will in the fewest but most exact steps as possible, tell the user how to: 
+A Getting Started section will tell a new user's first introduction to your tool after they have decided they are interested.
+It will tell them specific steps they need to "get started" (hence why we call it this) -- no long-winded explanations, just the quickest way to get started. 
+
+It will in the fewest but most exact steps as possible, tell the user how to:     
+
 - Install the tool and any of its dependencies.     
 - Run the most basic analysis with the tool.  
 - Obtain some quick result.  
@@ -59,6 +63,7 @@ It's crucial that the steps here are simple and easy to follow or you risk losin
 ### How-to examples <img src="resources/images/how-to.png" width="8%">
 
 A set of How-to examples will demonstrate step-by-step the most common uses after they have completed the Getting Started steps. 
+  
 - Every step is specifically provided by code (or by screenshots in the case of a GUI).  
 - Any data needed to run the example is provided.  
 - Common pitfalls and nuances of the tool that you may encounter when running the examples are explained in context.  
@@ -93,10 +98,9 @@ We encourage you to create these pieces of documentation we will further discuss
 We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a Github pages site using [Mkdocs](https://www.mkdocs.org/).
 Here's a a quick preview of this folder's contents (which we will cover in more depth in the upcoming chapters). 
 
-TODO: Fill this in when I have more information on specific repo's doc requirements
-https://galaxyproject.org/develop/
-https://github.com/Bioconductor/Contributions 
-https://bioconductor.org/developers/package-guidelines/
+TODO: Add links to those supp chapters. 
+If you are creating documentation to accompany a package you are submitting to [Bioconductor]() or [Galaxy](), we also have more specific templates and recommendations for those instances.  
+
 ```
 templates/
 ├── well_documented_checklist.md
@@ -114,21 +118,21 @@ templates/
 [This document is a checklist](https://raw.githubusercontent.com/jhudsl/ITCR_Documentation_and_Usability/main/templates/well_documented_checklist.md) that summarizes the major aspects that should be included in a tools' documentation. 
 We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course. 
 
-## How to use the templates folder
+## How to use our templates 
 
 There are two options we suggest for creating documentation as you follow along with this course.
 
-**Option 1)** Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository. (This is the less-work option).  
+**Option 1)** Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository. 
      _Pros_: Is easier and quicker. 
      _Cons_: Is not as user-friendly as option 2.  
      
-**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. (Slightly more work, but a very nice end result).  
+**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; [see demo here](https://jhudatascience.org/itcr-template-documentation/).  
      _Pros_: This format of documentation sites are easy to navigate and likely familiar to your user.   
-     _Cons_: Will require more Github and `mkdocs` package knowledge to get this set up. 
+     _Cons_: Will require you to use `mkdocs` package to get this set up. 
      
-### Steps for Option 1) Adding completed markdowns to an existing GitHub repository
+### Steps for Option 1) Adding completed template markdowns to an existing GitHub repository
 
-- [Download the folder of templates using this link](./templates)
+- [Download the folder of templates using this link](./templates) and 
 - Complete each markdown template, filling in the blanks as you go along with the course. 
 - File a pull request to your repository to add these files. 
 - (Optional but encouraged) [Publish your repository to Github Pages](https://guides.github.com/features/pages/).  
@@ -145,12 +149,11 @@ _On your computer's command line_:
 - [`git clone` your new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) you made from our template.   
 - Navigate to your the root of your local version of this repository.   
 - [Install mkdocs following their instructions.](https://www.mkdocs.org/#installation).  
-
 - Run `mkdocs new my-project` but put replace `my-project` with whatever you'd like your project name to be. 
 - Run `mkdocs serve` to see a preview of your docs   
-
 - Edit the template pages we've provided in the `docs/` folder.  
 - As you make changes you can run `mkdocs build` and then `mkdocs serve` to see a preview.  
-
 - When you are ready to publish your documentation to its own website, run [`mkdocs gh-deploy`](https://www.mkdocs.org/user-guide/deploying-your-docs/), it will return the web address of your new site -- go to that address and bask in the success of your newly made documentation!  
 
+
+Now that we have a basic structure and plan for our documentation, let's discuss each each section of this documentation in more detail!

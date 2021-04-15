@@ -1,7 +1,7 @@
 --- 
 title: "Informatics Technology for Cancer Research (ITCR): Documentation and Usability"
 author: "Candace Savonen"
-date: "2021-04-14"
+date: "2021-04-15"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-14" />
+<meta name="date" content="2021-04-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -100,8 +100,8 @@
 <li class="chapter" data-level="4.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-documentation-templates-for-this-course"><i class="fa fa-check"></i><b>4.3</b> The documentation templates for this course</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#well-documented-checklist"><i class="fa fa-check"></i><b>4.3.1</b> Well-documented checklist</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-use-the-templates-folder"><i class="fa fa-check"></i><b>4.4</b> How to use the templates folder</a><ul>
-<li class="chapter" data-level="4.4.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-1-adding-completed-markdowns-to-an-existing-github-repository"><i class="fa fa-check"></i><b>4.4.1</b> Steps for Option 1) Adding completed markdowns to an existing GitHub repository</a></li>
+<li class="chapter" data-level="4.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-use-our-templates"><i class="fa fa-check"></i><b>4.4</b> How to use our templates</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-1-adding-completed-template-markdowns-to-an-existing-github-repository"><i class="fa fa-check"></i><b>4.4.1</b> Steps for Option 1) Adding completed template markdowns to an existing GitHub repository</a></li>
 <li class="chapter" data-level="4.4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-2-creating-a-mkdocs-site-with-github-pages"><i class="fa fa-check"></i><b>4.4.2</b> Steps for Option 2) Creating a MkDocs site with Github pages</a></li>
 </ul></li>
 </ul></li>
@@ -131,6 +131,7 @@
 <ul>
 <li>Identify major components common to good documentation</li>
 <li>Describe the purposes of components of good documentation</li>
+<li>Set up our documentation templates for following along with the rest of this course</li>
 </ul>
 </div>
 <div id="major-components-of-good-documentation" class="section level2">
@@ -162,19 +163,28 @@ Stay away from jargon unless perhaps its jargon that you know your user will und
 </div>
 <div id="getting-started" class="section level3">
 <h3><span class="header-section-number">4.2.2</span> Getting started <img src="resources/images/getting-started.png" width="8%"></h3>
-<p>A Getting Started section will tell a new user the exact steps they need to “get started” – no extra steps or long-winded explanations.
-It will in the fewest but most exact steps as possible, tell the user how to:
-- Install the tool and any of its dependencies.<br />
-- Run the most basic analysis with the tool.<br />
-- Obtain some quick result.</p>
+<p>A Getting Started section will tell a new user’s first introduction to your tool after they have decided they are interested.
+It will tell them specific steps they need to “get started” (hence why we call it this) – no long-winded explanations, just the quickest way to get started.</p>
+<p>It will in the fewest but most exact steps as possible, tell the user how to:</p>
+<ul>
+<li>Install the tool and any of its dependencies.<br />
+</li>
+<li>Run the most basic analysis with the tool.<br />
+</li>
+<li>Obtain some quick result.</li>
+</ul>
 <p>It’s crucial that the steps here are simple and easy to follow or you risk losing new users before they even get going.</p>
 </div>
 <div id="how-to-examples" class="section level3">
 <h3><span class="header-section-number">4.2.3</span> How-to examples <img src="resources/images/how-to.png" width="8%"></h3>
-<p>A set of How-to examples will demonstrate step-by-step the most common uses after they have completed the Getting Started steps.
-- Every step is specifically provided by code (or by screenshots in the case of a GUI).<br />
-- Any data needed to run the example is provided.<br />
-- Common pitfalls and nuances of the tool that you may encounter when running the examples are explained in context.</p>
+<p>A set of How-to examples will demonstrate step-by-step the most common uses after they have completed the Getting Started steps.</p>
+<ul>
+<li>Every step is specifically provided by code (or by screenshots in the case of a GUI).<br />
+</li>
+<li>Any data needed to run the example is provided.<br />
+</li>
+<li>Common pitfalls and nuances of the tool that you may encounter when running the examples are explained in context.</li>
+</ul>
 </div>
 <div id="reference-guides" class="section level3">
 <h3><span class="header-section-number">4.2.4</span> Reference guides <img src="resources/images/ref-guide.png" width="8%"></h3>
@@ -207,10 +217,8 @@ You should also make sure that this feedback method is something you can check u
 <p>We encourage you to create these pieces of documentation we will further discuss in the rest of this course!</p>
 <p>We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a Github pages site using <a href="https://www.mkdocs.org/">Mkdocs</a>.
 Here’s a a quick preview of this folder’s contents (which we will cover in more depth in the upcoming chapters).</p>
-<p>TODO: Fill this in when I have more information on specific repo’s doc requirements
-<a href="https://galaxyproject.org/develop/" class="uri">https://galaxyproject.org/develop/</a>
-<a href="https://github.com/Bioconductor/Contributions" class="uri">https://github.com/Bioconductor/Contributions</a>
-<a href="https://bioconductor.org/developers/package-guidelines/" class="uri">https://bioconductor.org/developers/package-guidelines/</a></p>
+<p>TODO: Add links to those supp chapters.
+If you are creating documentation to accompany a package you are submitting to <a href="">Bioconductor</a> or <a href="">Galaxy</a>, we also have more specific templates and recommendations for those instances.</p>
 <pre><code>templates/
 ├── well_documented_checklist.md
 ├── getting_started_template.md
@@ -226,19 +234,19 @@ Here’s a a quick preview of this folder’s contents (which we will cover in m
 We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course.</p>
 </div>
 </div>
-<div id="how-to-use-the-templates-folder" class="section level2">
-<h2><span class="header-section-number">4.4</span> How to use the templates folder</h2>
+<div id="how-to-use-our-templates" class="section level2">
+<h2><span class="header-section-number">4.4</span> How to use our templates</h2>
 <p>There are two options we suggest for creating documentation as you follow along with this course.</p>
-<p><strong>Option 1)</strong> Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository. (This is the less-work option).<br />
+<p><strong>Option 1)</strong> Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository.
 <em>Pros</em>: Is easier and quicker.
 <em>Cons</em>: Is not as user-friendly as option 2.</p>
-<p><strong>Option 2)</strong> Clone a repository with these templates and set up a MkDocs github pages site. (Slightly more work, but a very nice end result).<br />
+<p><strong>Option 2)</strong> Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; <a href="https://jhudatascience.org/itcr-template-documentation/">see demo here</a>.<br />
 <em>Pros</em>: This format of documentation sites are easy to navigate and likely familiar to your user.<br />
-<em>Cons</em>: Will require more Github and <code>mkdocs</code> package knowledge to get this set up.</p>
-<div id="steps-for-option-1-adding-completed-markdowns-to-an-existing-github-repository" class="section level3">
-<h3><span class="header-section-number">4.4.1</span> Steps for Option 1) Adding completed markdowns to an existing GitHub repository</h3>
+<em>Cons</em>: Will require you to use <code>mkdocs</code> package to get this set up.</p>
+<div id="steps-for-option-1-adding-completed-template-markdowns-to-an-existing-github-repository" class="section level3">
+<h3><span class="header-section-number">4.4.1</span> Steps for Option 1) Adding completed template markdowns to an existing GitHub repository</h3>
 <ul>
-<li><a href="./templates">Download the folder of templates using this link</a></li>
+<li><a href="./templates">Download the folder of templates using this link</a> and</li>
 <li>Complete each markdown template, filling in the blanks as you go along with the course.</li>
 <li>File a pull request to your repository to add these files.</li>
 <li>(Optional but encouraged) <a href="https://guides.github.com/features/pages/">Publish your repository to Github Pages</a>.</li>
@@ -256,15 +264,13 @@ We recommend using it to evaluate the documentation for an existing tool and ide
 <p><em>On your computer’s command line</em>:<br />
 - <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository"><code>git clone</code> your new repository</a> you made from our template.<br />
 - Navigate to your the root of your local version of this repository.<br />
-- <a href="https://www.mkdocs.org/#installation">Install mkdocs following their instructions.</a>.</p>
-<ul>
-<li><p>Run <code>mkdocs new my-project</code> but put replace <code>my-project</code> with whatever you’d like your project name to be.</p></li>
-<li><p>Run <code>mkdocs serve</code> to see a preview of your docs</p></li>
-<li><p>Edit the template pages we’ve provided in the <code>docs/</code> folder.<br />
-</p></li>
-<li><p>As you make changes you can run <code>mkdocs build</code> and then <code>mkdocs serve</code> to see a preview.</p></li>
-<li><p>When you are ready to publish your documentation to its own website, run <a href="https://www.mkdocs.org/user-guide/deploying-your-docs/"><code>mkdocs gh-deploy</code></a>, it will return the web address of your new site – go to that address and bask in the success of your newly made documentation!</p></li>
-</ul>
+- <a href="https://www.mkdocs.org/#installation">Install mkdocs following their instructions.</a>.<br />
+- Run <code>mkdocs new my-project</code> but put replace <code>my-project</code> with whatever you’d like your project name to be.
+- Run <code>mkdocs serve</code> to see a preview of your docs<br />
+- Edit the template pages we’ve provided in the <code>docs/</code> folder.<br />
+- As you make changes you can run <code>mkdocs build</code> and then <code>mkdocs serve</code> to see a preview.<br />
+- When you are ready to publish your documentation to its own website, run <a href="https://www.mkdocs.org/user-guide/deploying-your-docs/"><code>mkdocs gh-deploy</code></a>, it will return the web address of your new site – go to that address and bask in the success of your newly made documentation!</p>
+<p>Now that we have a basic structure and plan for our documentation, let’s discuss each each section of this documentation in more detail!</p>
 
 </div>
 </div>
