@@ -5,9 +5,12 @@ Bioinformatician
 bioinformatic
 Biostatistics
 Bloomberg
+de
 Ethicist
 getavataaars
 GitHub
+github
+Github
 GSEA
 https
 incentivized
@@ -18,6 +21,7 @@ itcrtraining
 ITN
 Markua
 mkdocs
+MkDocs
 novo
 OpenMoji
 phenotypes
