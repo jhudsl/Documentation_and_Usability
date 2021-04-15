@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-14" />
+<meta name="date" content="2021-04-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="documentation-the-spinach-of-tool-development.html"/>
-<link rel="next" href="about-the-authors.html"/>
+<link rel="next" href="what-does-good-documentation-look-like.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -87,6 +87,24 @@
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#general-principles-about-user-friendliness"><i class="fa fa-check"></i><b>3.3</b> General principles about user-friendliness</a></li>
 </ul></li>
+<li class="chapter" data-level="4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html"><i class="fa fa-check"></i><b>4</b> What does good documentation look like?</a><ul>
+<li class="chapter" data-level="4.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#major-components-of-good-documentation"><i class="fa fa-check"></i><b>4.2</b> Major components of good documentation</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>4.2.1</b> The ‘Why’ <img src="resources/images/why.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>4.2.2</b> Getting started <img src="resources/images/getting-started.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>4.2.3</b> How-to examples <img src="resources/images/how-to.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>4.2.4</b> Reference guides <img src="resources/images/ref-guide.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>4.2.5</b> Code comments <img src="resources/images/comment.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.6" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#user-feedback-mechanism"><i class="fa fa-check"></i><b>4.2.6</b> User feedback mechanism <img src="resources/images/user-feedback.png" width="8%"></a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-documentation-templates-for-this-course"><i class="fa fa-check"></i><b>4.3</b> The documentation templates for this course</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#well-documented-checklist"><i class="fa fa-check"></i><b>4.3.1</b> Well-documented checklist</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-use-our-templates"><i class="fa fa-check"></i><b>4.4</b> How to use our templates</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-1-adding-completed-template-markdowns-to-an-existing-github-repository"><i class="fa fa-check"></i><b>4.4.1</b> Steps for Option 1) Adding completed template markdowns to an existing GitHub repository</a></li>
+<li class="chapter" data-level="4.4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-2-creating-a-mkdocs-site-with-github-pages"><i class="fa fa-check"></i><b>4.4.2</b> Steps for Option 2) Creating a MkDocs site with Github pages</a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 </ul>
 
@@ -126,7 +144,7 @@ In other words, user design is an exercise in applied empathy <span class="citat
 <p>This is why a common saying in user design is “You are not your user”<span class="citation">(Alexakis, <a href="#ref-Alexakis2017" role="doc-biblioref">n.d.</a>)</span>.
 Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do.
 For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.</p>
-<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0 width = 500, height = 500 /><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0 width = 500, height = 500 /><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
 <p>As compared to yourself, your typical user may likely have a different:<br />
 - Educational background.<br />
 - Programming experience level.<br />
@@ -268,11 +286,11 @@ In fact, that is probably not the most practical way to keep user queries organi
 </div>
 <div class="footnotes">
 <hr />
-<ol start="1">
-<li id="fn1"><p>For all cartoons:<br />
+<ol start="2">
+<li id="fn2"><p>For all cartoons:<br />
 Avataars by <a href="https://getavataaars.com/" class="uri">https://getavataaars.com/</a>.<br />
 Icons by <a href="https://thenounproject.com/" class="uri">https://thenounproject.com/</a> License CC BY-NC-ND 2.0.<br />
-Emojis by OpenMoji License: CC BY-SA 4.0.<a href="lessons-we-should-borrow-from-user-designers.html#fnref1" class="footnote-back">↩︎</a></p></li>
+Emojis by OpenMoji License: CC BY-SA 4.0.<a href="lessons-we-should-borrow-from-user-designers.html#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -281,7 +299,7 @@ Emojis by OpenMoji License: CC BY-SA 4.0.<a href="lessons-we-should-borrow-from-
         </div>
       </div>
 <a href="documentation-the-spinach-of-tool-development.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="what-does-good-documentation-look-like.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
