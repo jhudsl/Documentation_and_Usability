@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 Creating a helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
+  <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 Creating a helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 Creating a helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  
+  <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
+  
+
+<meta name="author" content="Candace Savonen" />
+
+
+<meta name="date" content="2021-04-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="creating-a-smooth-getting-started-section.html"/>
+<link rel="next" href="about-the-authors.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.1.1</b> Target Audience</a></li>
+<li class="chapter" data-level="1.1.2" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.1.2</b> Curriculum</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html"><i class="fa fa-check"></i><b>2</b> Documentation: The spinach of tool development</a><ul>
+<li class="chapter" data-level="2.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#the-context-of-bioinformatics-tool-development"><i class="fa fa-check"></i><b>2.2</b> The context of bioinformatics tool development</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#bioinformatics-and-usability"><i class="fa fa-check"></i><b>2.2.1</b> Bioinformatics and usability</a></li>
+<li class="chapter" data-level="2.2.2" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#why-documentation-is-worth-the-time"><i class="fa fa-check"></i><b>2.2.2</b> Why documentation is worth the time</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html"><i class="fa fa-check"></i><b>3</b> Lessons we should borrow from user designers</a><ul>
+<li class="chapter" data-level="3.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.2" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#thinking-about-user-centered-development"><i class="fa fa-check"></i><b>3.2</b> Thinking about user-centered development</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#generalities-about-bioinformatics-tool-users"><i class="fa fa-check"></i><b>3.2.1</b> Generalities about bioinformatics tool users</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#general-principles-about-user-friendliness"><i class="fa fa-check"></i><b>3.3</b> General principles about user-friendliness</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html"><i class="fa fa-check"></i><b>4</b> What does good documentation look like?</a><ul>
+<li class="chapter" data-level="4.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#major-components-of-good-documentation"><i class="fa fa-check"></i><b>4.2</b> Major components of good documentation</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>4.2.1</b> The ‘Why’ <img src="resources/images/why.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>4.2.2</b> Getting started <img src="resources/images/getting-started.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>4.2.3</b> How-to examples <img src="resources/images/how-to.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>4.2.4</b> Reference guides <img src="resources/images/ref-guide.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>4.2.5</b> Code comments <img src="resources/images/comment.png" width="8%"></a></li>
+<li class="chapter" data-level="4.2.6" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#user-feedback-mechanism"><i class="fa fa-check"></i><b>4.2.6</b> User feedback mechanism <img src="resources/images/user-feedback.png" width="8%"></a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-documentation-templates-for-this-course"><i class="fa fa-check"></i><b>4.3</b> The documentation templates for this course</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#well-documented-checklist"><i class="fa fa-check"></i><b>4.3.1</b> Well-documented checklist</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-use-our-templates"><i class="fa fa-check"></i><b>4.4</b> How to use our templates</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-1-adding-completed-template-markdowns-to-an-existing-github-repository"><i class="fa fa-check"></i><b>4.4.1</b> Steps for Option 1) Adding completed template markdowns to an existing GitHub repository</a></li>
+<li class="chapter" data-level="4.4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-2-creating-a-mkdocs-site-with-github-pages"><i class="fa fa-check"></i><b>4.4.2</b> Steps for Option 2) Creating a MkDocs site with Github pages</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html"><i class="fa fa-check"></i><b>5</b> Creating a smooth getting started section</a><ul>
+<li class="chapter" data-level="5.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.2" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#the-goal-of-a-getting-started-section"><i class="fa fa-check"></i><b>5.2</b> The goal of a getting started section</a></li>
+<li class="chapter" data-level="5.3" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#aspects-of-a-smooth-getting-started-section"><i class="fa fa-check"></i><b>5.3</b> Aspects of a smooth getting started section</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#easy-to-find"><i class="fa fa-check"></i><b>5.3.1</b> Easy to find!</a></li>
+<li class="chapter" data-level="5.3.2" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#introduce-your-user-to-the-basics"><i class="fa fa-check"></i><b>5.3.2</b> Introduce your user to the basics</a></li>
+<li class="chapter" data-level="5.3.3" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#installation-steps-the-first-big-hurdle"><i class="fa fa-check"></i><b>5.3.3</b> Installation steps: the first big hurdle</a></li>
+<li class="chapter" data-level="5.3.4" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#cover-the-basics"><i class="fa fa-check"></i><b>5.3.4</b> Cover the basics</a></li>
+<li class="chapter" data-level="5.3.5" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#reward-your-user-with-a-short-tutorial"><i class="fa fa-check"></i><b>5.3.5</b> Reward your user with a short tutorial!</a></li>
+<li class="chapter" data-level="5.3.6" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#directs-the-user-to-the-how-to-examples-section."><i class="fa fa-check"></i><b>5.3.6</b> Directs the user to the How-to Examples section.</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#good-examples-of-getting-started-sections"><i class="fa fa-check"></i><b>5.4</b> Good Examples of getting started sections</a></li>
+<li class="chapter" data-level="5.5" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#exercise-create-your-own-getting-started-section"><i class="fa fa-check"></i><b>5.5</b> Exercise: Create your own getting started section!</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html"><i class="fa fa-check"></i><b>6</b> Creating a helpful how-to examples</a><ul>
+<li class="chapter" data-level="6.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>6.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.2" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#the-goal-of-a-how-to-examples"><i class="fa fa-check"></i><b>6.2</b> The goal of a how-to examples</a></li>
+<li class="chapter" data-level="6.3" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#aspects-of-useful-how-to-examples"><i class="fa fa-check"></i><b>6.3</b> Aspects of useful how-to examples</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#should-cover-what-your-user-wants-to-do"><i class="fa fa-check"></i><b>6.3.1</b> Should cover what your user wants to do!</a></li>
+<li class="chapter" data-level="6.3.2" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#every-step-is-specifically-given"><i class="fa fa-check"></i><b>6.3.2</b> Every step is specifically given</a></li>
+<li class="chapter" data-level="6.3.3" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#any-data-needed-to-run-the-example-is-provided-and-explained"><i class="fa fa-check"></i><b>6.3.3</b> Any data needed to run the example is provided and explained</a></li>
+<li class="chapter" data-level="6.3.4" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#common-pitfalls-are-explained-in-context"><i class="fa fa-check"></i><b>6.3.4</b> Common pitfalls are explained in context</a></li>
+<li class="chapter" data-level="6.3.5" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#try-to-only-stick-to-your-own-package-and-its-dependencies"><i class="fa fa-check"></i><b>6.3.5</b> Try to only stick to your own package and its dependencies</a></li>
+<li class="chapter" data-level="6.3.6" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#give-tips-on-how-to-tailor-your-examples"><i class="fa fa-check"></i><b>6.3.6</b> Give tips on how to tailor your examples</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#good-examples-of-how-to-examples"><i class="fa fa-check"></i><b>6.4</b> Good Examples of How-to examples</a></li>
+<li class="chapter" data-level="6.5" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#exercise-create-your-own-how-to-examples"><i class="fa fa-check"></i><b>6.5</b> Exercise: Create your own How-to examples!</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Informatics Technology for Cancer Research (ITCR): Documentation and Usability</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="creating-a-helpful-how-to-examples" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> Creating a helpful how-to examples</h1>
+<div id="learning-objectives" class="section level2">
+<h2><span class="header-section-number">6.1</span> Learning Objectives</h2>
+<p>This chapter will demonstrate how to:</p>
+<ul>
+<li>Understand the goals of a how-to examples</li>
+<li>Describe components included in useful how-to examples</li>
+<li>Create how-to examples that will increase your users’ familiarity with your tool</li>
+</ul>
+</div>
+<div id="the-goal-of-a-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.2</span> The goal of a how-to examples</h2>
+<p>While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it.
+How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!</p>
+<p>How-to examples are like recipes in a cookbook.
+We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!</p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 /></p>
+<p>Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
+Note: In some contexts, like Bioconductor, How-to examples are called vignettes – we consider these to be the same.</p>
+</div>
+<div id="aspects-of-useful-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.3</span> Aspects of useful how-to examples</h2>
+<div id="should-cover-what-your-user-wants-to-do" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Should cover what your user wants to do!</h3>
+<p>Users won’t go through examples that demonstrate analyses they aren’t interested in.
+So although you may have your favorite pet functions of your tool, it doesn’t necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to your favorites).
+You may want to do some asking around, or conduct some user research to find out what your users are most interested in.
+You also are not restricted to just one example, users love having a full library of how-to examples to choose from!
+That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases.</p>
+</div>
+<div id="every-step-is-specifically-given" class="section level3">
+<h3><span class="header-section-number">6.3.2</span> Every step is specifically given</h3>
+<p>Examples should explicitly give every step needed to reproduce your result.
+For command line based tools, provided the exact code your user needs to run.
+Ideally this example can be provided as a notebook or script so your user can run it directly.
+(or by screenshots in the case of a GUI)</p>
+</div>
+<div id="any-data-needed-to-run-the-example-is-provided-and-explained" class="section level3">
+<h3><span class="header-section-number">6.3.3</span> Any data needed to run the example is provided and explained</h3>
+<p>Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user’s data.
+Instead, provide your users with example data that your example code directly downloads (or is available through the GUI).
+This gives users a positive control for when they are troubleshooting the formatting for their own data later on, but doesn’t force them to face that battle before they can follow your example.</p>
+</div>
+<div id="common-pitfalls-are-explained-in-context" class="section level3">
+<h3><span class="header-section-number">6.3.4</span> Common pitfalls are explained in context</h3>
+</div>
+<div id="try-to-only-stick-to-your-own-package-and-its-dependencies" class="section level3">
+<h3><span class="header-section-number">6.3.5</span> Try to only stick to your own package and its dependencies</h3>
+<p>Your user already made it through installation hell, try not to make them add more installation steps to follow your examples unless absolutely necessary.
+If it is absolutely necessary, should this package be something added as a dependency – can you have it automatically installed for the user if it is critical to common uses?</p>
+</div>
+<div id="give-tips-on-how-to-tailor-your-examples" class="section level3">
+<h3><span class="header-section-number">6.3.6</span> Give tips on how to tailor your examples</h3>
+<p><strong>To recap:</strong></p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 /></p>
+</div>
+</div>
+<div id="good-examples-of-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.4</span> Good Examples of How-to examples</h2>
+<p>DESeq2 has excellent</p>
+</div>
+<div id="exercise-create-your-own-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.5</span> Exercise: Create your own How-to examples!</h2>
+<p>TODO: Update instructions here.</p>
+<p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md">the template how-to example template</a> to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
+<p>Keep in mind that if your tool’s destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories’ examples.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="creating-a-smooth-getting-started-section.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

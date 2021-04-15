@@ -7,6 +7,7 @@ rmd_files: ["index.Rmd",
             "03-lessons_from_user_designers.Rmd",
             "04-good_documentation.Rmd",
             "05-getting_started.Rmd",
+            "06-how-to_examples.Rmd",
             "About.Rmd"]
 new_session: yes
 delete_merged_file: true

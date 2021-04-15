@@ -1,0 +1,80 @@
+---
+title: "Creating a helpful how-to examples "
+output: html_document
+---
+
+# Creating a helpful how-to examples 
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of a how-to examples
+- Describe components included in useful how-to examples
+- Create how-to examples that will increase your users' familiarity with your tool
+
+## The goal of a how-to examples 
+
+While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it. 
+How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool! 
+
+How-to examples are like recipes in a cookbook. 
+We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
+
+Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
+Note: In some contexts, like Bioconductor, How-to examples are called vignettes -- we consider these to be the same. 
+
+## Aspects of useful how-to examples 
+  
+### Should cover what your user wants to do!
+
+Users won't go through examples that demonstrate analyses they aren't interested in. 
+So although you may have your favorite pet functions of your tool, it doesn't necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to your favorites). 
+You may want to do some asking around, or conduct some user research to find out what your users are most interested in. 
+You also are not restricted to just one example, users love having a full library of how-to examples to choose from!
+That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases. 
+
+### Every step is specifically given 
+
+Examples should explicitly give every step needed to reproduce your result.
+For command line based tools, provided the exact code your user needs to run. 
+Ideally this example can be provided as a notebook or script so your user can run it directly.
+(or by screenshots in the case of a GUI) 
+
+### Any data needed to run the example is provided and explained  
+
+Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user's data. 
+Instead, provide your users with example data that your example code directly downloads (or is available through the GUI). 
+This gives users a positive control for when they are troubleshooting the formatting for their own data later on, but doesn't force them to face that battle before they can follow your example. 
+
+### Common pitfalls are explained in context
+
+
+### Try to only stick to your own package and its dependencies
+
+Your user already made it through installation hell, try not to make them add more installation steps to follow your examples unless absolutely necessary. 
+If it is absolutely necessary, should this package be something added as a dependency -- can you have it automatically installed for the user if it is critical to common uses? 
+
+### Give tips on how to tailor your examples
+
+
+**To recap:**
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 />
+
+## Good Examples of How-to examples
+
+DESeq2 has excellent 
+
+
+## Exercise: Create your own How-to examples!
+
+TODO: Update instructions here. 
+
+Use [the template how-to example template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
+
+Keep in mind that if your tool's destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories' examples. 
+
+
