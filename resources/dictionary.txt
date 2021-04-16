@@ -6,6 +6,7 @@ bioinformatic
 Biostatistics
 Bloomberg
 de
+DESeq
 Ethicist
 getavataaars
 GitHub
@@ -29,8 +30,10 @@ novo
 OpenMoji
 phenotypes
 priori
+QIME
 reproducibility
 Savonen
+se
 snakemake
 src
 Uri
