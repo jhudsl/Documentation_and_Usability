@@ -9,6 +9,7 @@ rmd_files: ["index.Rmd",
             "05-getting_started_sections.Rmd",
             "06-how-to_examples.Rmd",
             "07-reference_guides.Rmd",
+            "08-code_comments.Rmd",
             "About.Rmd"]
 new_session: yes
 delete_merged_file: true

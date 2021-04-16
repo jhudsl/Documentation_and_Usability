@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 7 Creating comprehensive reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
+  <title>Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 7 Creating comprehensive reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta property="og:title" content="Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 7 Creating comprehensive reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta name="twitter:title" content="Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="creating-a-helpful-how-to-examples.html"/>
-<link rel="next" href="creating-clarifying-code-comments.html"/>
+<link rel="prev" href="creating-comprehensive-reference-guides.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -146,7 +146,7 @@
 <li class="chapter" data-level="7.3.6" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#entries-should-have-a-consistent-format"><i class="fa fa-check"></i><b>7.3.6</b> Entries should have a consistent format</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#good-examples-of-reference-guides"><i class="fa fa-check"></i><b>7.4</b> Good examples of reference guides</a></li>
-<li class="chapter" data-level="7.5" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#exercise-create-your-own-reference-guide"><i class="fa fa-check"></i><b>7.5</b> Exercise: Create your own reference guide!</a></li>
+<li class="chapter" data-level="7.5" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#exercise-create-your-own-how-to-examples"><i class="fa fa-check"></i><b>7.5</b> Exercise: Create your own How-to examples!</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html"><i class="fa fa-check"></i><b>8</b> Creating clarifying code comments</a><ul>
 <li class="chapter" data-level="8.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>8.1</b> Learning Objectives</a></li>
@@ -173,88 +173,42 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="creating-comprehensive-reference-guides" class="section level1">
-<h1><span class="header-section-number">Chapter 7</span> Creating comprehensive reference guides</h1>
+<div id="creating-clarifying-code-comments" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> Creating clarifying code comments</h1>
 <div id="learning-objectives" class="section level2">
-<h2><span class="header-section-number">7.1</span> Learning Objectives</h2>
+<h2><span class="header-section-number">8.1</span> Learning Objectives</h2>
 <p>This chapter will demonstrate how to:</p>
 <ul>
-<li>Understand the goals of a reference guide</li>
-<li>Describe characteristics of helpful reference guides</li>
-<li>Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level</li>
+<li>Understand the goals of a code comments</li>
+<li>Describe characteristics of helpful code comments</li>
 </ul>
 </div>
-<div id="the-goal-of-a-reference-guide" class="section level2">
-<h2><span class="header-section-number">7.2</span> The goal of a reference guide</h2>
-<p>Reference guides are the dictionary of your tool: they aren’t meant to be read front to back, but the best ones are easily searchable.
-Your user will have something in mind that they are trying to find information on – the quicker they can find it, the quicker their question can be answered.</p>
+<div id="the-goal-of-a-code-comments" class="section level2">
+<h2><span class="header-section-number">8.2</span> The goal of a code comments</h2>
 <p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 /></p>
-<p>Our goal for a reference guide is to be as comprehensive, navigable, and as always <em>clear</em> as possible.</p>
 </div>
-<div id="characteristics-of-handy-reference-guides" class="section level2">
-<h2><span class="header-section-number">7.3</span> Characteristics of handy reference guides</h2>
-<div id="is-easy-to-find" class="section level3">
-<h3><span class="header-section-number">7.3.1</span> Is easy to find</h3>
-<p>As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them.</p>
-</div>
-<div id="data-formats-are-described" class="section level3">
-<h3><span class="header-section-number">7.3.2</span> Data formats are described</h3>
-<p>Perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with.</p>
-<p>Ideally, your tool can use a data format that is common.
-But the more that your tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like.</p>
-<ul>
-<li>Including example files are helpful</li>
-<li>Send your user to any tools they can use to convert their data format</li>
-</ul>
-</div>
-<div id="is-searchable" class="section level3">
-<h3><span class="header-section-number">7.3.3</span> Is searchable</h3>
-<p>Reference gudies being alphabetical is a start.
-If you are able to make terms searchable that’s even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function.</p>
-</div>
-<div id="is-comprehensive" class="section level3">
-<h3><span class="header-section-number">7.3.4</span> Is comprehensive</h3>
-<p>All items are covered in the reference guide – every single thing.
-This includes all:</p>
-<ul>
-<li>terms</li>
-<li>functions</li>
-<li>arguments</li>
-<li>parameters</li>
-<li>defaults</li>
-<li>datasets or items included in the package</li>
-<li>buttons (in the case of a GUI)</li>
-</ul>
-</div>
-<div id="all-items-are-described-in-clear-language" class="section level3">
-<h3><span class="header-section-number">7.3.5</span> All items are described in clear language</h3>
-</div>
-<div id="entries-should-have-a-consistent-format" class="section level3">
-<h3><span class="header-section-number">7.3.6</span> Entries should have a consistent format</h3>
+<div id="characteristics-of-clarifying-code-comments" class="section level2">
+<h2><span class="header-section-number">8.3</span> Characteristics of clarifying code comments</h2>
+<p>Most users will probably not look at your code directly – those who do are probably:
+Quite desperately troubleshooting something and were not able to find answers elsewhere.
+Are “power users” who are already pretty invested in your tool and want to get more out of it – may be helpful contributors too!
+About good code documentation:
+<a href="https://www.olioapps.com/blog/the-value-of-code-documentation/" class="uri">https://www.olioapps.com/blog/the-value-of-code-documentation/</a>
+<a href="http://alyssafrazee.com/2014/04/20/rdocs.html" class="uri">http://alyssafrazee.com/2014/04/20/rdocs.html</a>
+<a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits" class="uri">https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits</a>
+<a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24" class="uri">https://itnext.io/what-makes-a-good-code-comment-5267debd2c24</a></p>
 <p><strong>To recap:</strong></p>
 <p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 /></p>
 </div>
+<div id="good-examples-of-code-comments" class="section level2">
+<h2><span class="header-section-number">8.4</span> Good examples of code comments</h2>
 </div>
-<div id="good-examples-of-reference-guides" class="section level2">
-<h2><span class="header-section-number">7.4</span> Good examples of reference guides</h2>
-<p><a href="https://docs.qiime2.org/2021.2/glossary/">QIIME2 a great reference guide</a>!
-<span class="citation">Bolyen et al. (<a href="#ref-Bolyen2019" role="doc-biblioref">2019</a>)</span> cover all items and terms with lots of links to more information or related entries.</p>
-<p><a href="https://bioconductor.org/packages/3.12/bioc/">Bioconductor packages</a> have a consistent format which makes it easier for users to find once they are familiar with the format.
-A typical entry <a href="https://bioconductor.org/packages/3.12/bioc/html/GenomicRanges.html" class="uri">https://bioconductor.org/packages/3.12/bioc/html/GenomicRanges.html</a></p>
-<p><a href="https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data">GSEA has great descriptions of their data formats</a></p>
-</div>
-<div id="exercise-create-your-own-reference-guide" class="section level2">
-<h2><span class="header-section-number">7.5</span> Exercise: Create your own reference guide!</h2>
+<div id="exercise-create-your-own-how-to-examples" class="section level2">
+<h2><span class="header-section-number">8.5</span> Exercise: Create your own How-to examples!</h2>
 <p>TODO: Update instructions here.</p>
 <p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md">the template reference guide template</a> to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
 <p>Keep in mind that if your tool’s destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories’ examples.</p>
 
-</div>
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-Bolyen2019">
-<p>Bolyen, Evan, Jai Ram Rideout, Matthew R. Dillon, Nicholas A. Bokulich, Christian C. Abnet, Gabriel A. Al-Ghalith, Harriet Alexander, et al. 2019. “Reproducible, Interactive, Scalable and Extensible Microbiome Data Science Using QIIME 2.” <em>Nature Biotechnology</em> 37 (8): 852–57. <a href="https://doi.org/10.1038/s41587-019-0209-9">https://doi.org/10.1038/s41587-019-0209-9</a>.</p>
 </div>
 </div>
             </section>
@@ -262,8 +216,8 @@ A typical entry <a href="https://bioconductor.org/packages/3.12/bioc/html/Genomi
           </div>
         </div>
       </div>
-<a href="creating-a-helpful-how-to-examples.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="creating-clarifying-code-comments.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="creating-comprehensive-reference-guides.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
