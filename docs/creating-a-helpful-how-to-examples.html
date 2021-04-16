@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Introduction | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
+  <title>Chapter 6 Creating a helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Introduction | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta property="og:title" content="Chapter 6 Creating a helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Introduction | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta name="twitter:title" content="Chapter 6 Creating a helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="documentation-the-spinach-of-tool-development.html"/>
+<link rel="prev" href="creating-a-smooth-getting-started-section.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -152,41 +152,109 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introduction" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<p>Cancer datasets are plentiful, complicated, and hold information that may be critical for the next research advancements.
-In order to use these data to their full potential, researchers are dependent on the specialized data tools that are continually being published and developed.
-Bioinformatics tools can often be unfriendly to their users, who often have little to no background in programming <span class="citation">(Bolchini et al. <a href="#ref-Bolchini2008" role="doc-biblioref">2008</a>)</span>.
-The usability and quality of the documentation of a tool can be a major factor in how efficiently a researcher is able to obtain useful findings for the next steps of their research.</p>
-<div id="motivation" class="section level2">
-<h2><span class="header-section-number">1.1</span> Motivation</h2>
-<p>Increasing the usability and quality of documentation for a tool is not only helpful for the researcher users, but also for the developers themselves – the many hours of work put into the product will have a higher impact if the tool is usable by the target user community.
-Even the most well-programmed tool will be overlooked by the user community if there is little to no user-friendly documentation.</p>
-<div id="target-audience" class="section level3">
-<h3><span class="header-section-number">1.1.1</span> Target Audience</h3>
-<p>The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the <a href="https://itcr.cancer.gov/informatics-tools">Informatics Technology Cancer Research</a>.</p>
-</div>
-<div id="curriculum" class="section level3">
-<h3><span class="header-section-number">1.1.2</span> Curriculum</h3>
-<p>The curriculum for this course will cover the basics of:</p>
+<div id="creating-a-helpful-how-to-examples" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> Creating a helpful how-to examples</h1>
+<div id="learning-objectives" class="section level2">
+<h2><span class="header-section-number">6.1</span> Learning Objectives</h2>
+<p>This chapter will demonstrate how to:</p>
 <ul>
-<li>Understanding why usability and documentation is vital</li>
-<li>Identifying your user community<br />
-</li>
-<li>Building documentation and tutorials to maximize the usability of developed tools<br />
-</li>
-<li>Obtaining feedback from your users</li>
+<li>Understand the goals of a how-to examples</li>
+<li>Describe components included in useful how-to examples</li>
+<li>Create how-to examples that will increase your users’ familiarity with your tool</li>
 </ul>
-<p>The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.
-Individuals who take this course are encouraged to use these templates as they follow along with the course material to help increase the usability of their informatics tool.</p>
-
 </div>
+<div id="the-goal-of-a-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.2</span> The goal of a how-to examples</h2>
+<p>While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it.
+How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!</p>
+<p>How-to examples are like recipes in a cookbook.
+We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!</p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 /></p>
+<p>Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!</p>
+<p>Note: In some contexts, like Bioconductor, How-to examples are called vignettes – we consider these to be the same.</p>
+</div>
+<div id="aspects-of-useful-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.3</span> Aspects of useful how-to examples</h2>
+<div id="should-cover-what-your-user-wants-to-do" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Should cover what your user wants to do!</h3>
+<p>Users won’t go through examples that demonstrate analyses they aren’t interested in.
+So although you may have your favorite pet functions of your tool, it doesn’t necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to make examples of your favorites).
+You may want to do some asking around, or conduct some user research to find out what your users are most interested in.
+You also are not restricted to just one example, users love having a full library of how-to examples to choose from!
+That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases.</p>
+</div>
+<div id="every-step-is-specifically-given" class="section level3">
+<h3><span class="header-section-number">6.3.2</span> Every step is specifically given</h3>
+<p>Examples should explicitly give every step needed to reproduce your result.
+For command line based tools, provided the exact code your user needs to run.
+Ideally this example can be provided as a notebook or script so your user can run it directly.
+In the case of a GUI, provide screenshots or a video tutorial.</p>
+</div>
+<div id="any-data-needed-to-run-the-example-is-provided-and-explained" class="section level3">
+<h3><span class="header-section-number">6.3.3</span> Any data needed to run the example is provided and explained</h3>
+<p>Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user’s data.
+Instead, provide your users with example data that your example code directly downloads (or is available through your GUI).
+This has the added benefit of being a positive control for when users are troubleshooting the formatting for their own data later on, but doesn’t force them to face that battle before they can follow your example.</p>
+<p>Make sure your example adequately introduces the example: what are the measurements from, what was the goal of this dataset.
+And of course, link to the source of the data and cite it!</p>
+</div>
+<div id="example-code-is-about-the-lesson-not-the-output-per-se" class="section level3">
+<h3><span class="header-section-number">6.3.4</span> Example code is about the lesson not the output per se</h3>
+<p>Example code is not the same as backend code.
+Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.</p>
+<p>This means your examples should include the most easily readable code you can muster – sometimes this means extra workshopping to reach peak clarity.
+Give commentary at each and every step – don’t assume your users understand your typical conventions.
+Also in the interest of being as readable as possible, try to stick to a styling conventions – s p a c i n g matters!</p>
+<p><em>Related to this, your examples’ code should model best practices</em></p>
+<p>Pretend you are the model user of your tool – how should your users interact with your tool?
+This means keeping in mind the important basics:</p>
+<ul>
+<li>Emphasize reproducibility</li>
+<li>Code comments</li>
+<li>Stick to a style</li>
+<li>Be consistent with your conventions</li>
+<li>Pick good object names</li>
+</ul>
+</div>
+<div id="try-to-only-stick-to-your-own-package-and-its-dependencies" class="section level3">
+<h3><span class="header-section-number">6.3.5</span> Try to only stick to your own package and its dependencies</h3>
+<p>Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary.
+If it is absolutely necessary, should this package be something added as a dependency – can you have it automatically installed for the user if it is critical to common uses?</p>
+</div>
+<div id="give-tips-on-how-to-tailor-your-examples" class="section level3">
+<h3><span class="header-section-number">6.3.6</span> Give tips on how to tailor your examples</h3>
+<p>If your users follow along with your examples successfully, their next step will probably be to tailor your examples to their own questions.
+Whether you intend it or not, your examples will probably be used as template framework for your user’s analysis.
+Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it.
+Providing them with more resources about options and possibilities is always nice too.</p>
+<p><strong>To recap:</strong></p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 /></p>
+</div>
+</div>
+<div id="good-examples-of-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.4</span> Good examples of How-to examples</h2>
+<p><a href="http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">DESeq2 has excellent vignettes</a>!
+<span class="citation">Love, Huber, and Anders (<a href="#ref-Love2014" role="doc-biblioref">2014</a>)</span> walk through the most common use cases of DESeq2, providing data and explaining the set up.
+They efficiently move into other scenarios, explaining common questions and areas of nuance along the way.</p>
+<p><a href="https://docs.qiime2.org/2021.2/tutorials/pd-mice/">QIME2 also has an extensive set examples</a>!
+<span class="citation">Bolyen et al. (<a href="#ref-Bolyen2019" role="doc-biblioref">2019</a>)</span> give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
+At the very end of the example they also provide the end result for comparison!</p>
+</div>
+<div id="exercise-create-your-own-how-to-examples" class="section level2">
+<h2><span class="header-section-number">6.5</span> Exercise: Create your own How-to examples!</h2>
+<p>TODO: Update instructions here.</p>
+<p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md">the template how-to example template</a> to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
+<p>Keep in mind that if your tool’s destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories’ examples.</p>
+
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
-<div id="ref-Bolchini2008">
-<p>Bolchini, Davide, Anthony Finkelstein, Vito Perrone, and Sylvia Nagl. 2008. “Better Bioinformatics Through Usability Analysis.” <em>Bioinformatics</em> 25 (3): 406–12. <a href="https://doi.org/10.1093/bioinformatics/btn633">https://doi.org/10.1093/bioinformatics/btn633</a>.</p>
+<div id="ref-Bolyen2019">
+<p>Bolyen, Evan, Jai Ram Rideout, Matthew R. Dillon, Nicholas A. Bokulich, Christian C. Abnet, Gabriel A. Al-Ghalith, Harriet Alexander, et al. 2019. “Reproducible, Interactive, Scalable and Extensible Microbiome Data Science Using QIIME 2.” <em>Nature Biotechnology</em> 37 (8): 852–57. <a href="https://doi.org/10.1038/s41587-019-0209-9">https://doi.org/10.1038/s41587-019-0209-9</a>.</p>
+</div>
+<div id="ref-Love2014">
+<p>Love, Michael I, Wolfgang Huber, and Simon Anders. 2014. “Moderated Estimation of Fold Change and Dispersion for RNA-Seq Data with DESeq2.” <em>Genome Biology</em> 15 (12). <a href="https://doi.org/10.1186/s13059-014-0550-8">https://doi.org/10.1186/s13059-014-0550-8</a>.</p>
 </div>
 </div>
             </section>
@@ -194,8 +262,8 @@ Individuals who take this course are encouraged to use these templates as they f
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="documentation-the-spinach-of-tool-development.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="creating-a-smooth-getting-started-section.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
