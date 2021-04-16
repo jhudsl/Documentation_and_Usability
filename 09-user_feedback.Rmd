@@ -1,0 +1,56 @@
+---
+title: "Obtaining user feedback  "
+output: html_document
+---
+
+# Obtaining user feedback
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of obtaining user feedback. 
+- Construct user feedback methods that inform work on your tool. 
+- Create a plan for how to obtain user feedback for your tool. 
+
+## The goal of user feedback
+
+How do you know if your code is working? You test it and get feedback! 
+Similarly, how do you know if your tool is working for your user? Ask them for feedback!
+
+
+## Characteristics of informative user feedback
+
+## Methods of user feedback
+
+At the most basic level, you need to provide your users a way to alert you if something with your tool is not working appropriately. 
+
+It may sound disappointing that a user has found a problem but this is something to be happy about!  
+1) This means someone is interested and invested in using your tool!   
+2) They've identified a way to improve your tool to make it even better!  
+
+Providing a method of contact to your users doesn't mean you need to give users your personal email. 
+In fact, that is probably not the most practical way to keep user queries organized. 
+
+_Example contact method ideas_: 
+
+- Have a link to a form for users to submit.   
+- Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
+- Have a separate email inbox that you have a notification set up for.  
+- Have a [Slack channel](https://slack.com/) that you direct users to.  
+
+Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to!
+
+**To recap:**
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132 width = 400 height = 400 />
+
+## Case studies of user research
+
+## Exercise: Create a plan for user feedback for your tool
+
+TODO: Update instructions here. 
+
+We have a mock feedback user form set up here. 
+This form shouldn't be used as is, but could be tailored to more specifically ask questions about your tool that you are looking to get information about. 
+

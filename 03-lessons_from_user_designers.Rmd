@@ -132,22 +132,6 @@ More about user-friendly principles:
 No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time. 
 Because of this or other unknown unknowns, a usable tool still has a way for a user to let the developers know when something isn't working. 
 This might a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention. 
-
-It may sound disappointing that a user has found a problem but this is something to be happy about!  
-
-1) This means someone is interested and invested in using your tool!   
-2) They've identified a way to improve your tool to make it even better!  
-
-Providing a method of contact to your users doesn't mean you need to give users your personal email. 
-In fact, that is probably not the most practical way to keep user queries organized. 
-
-_Example contact method ideas_: 
-
-- Have a link to a form for users to submit.   
-- Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
-- Have a separate email inbox that you have a notification set up for.  
-- Have a [Slack channel](https://slack.com/) that you direct users to.  
-
-Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to!
+We'll discuss this in more detail in a [later chapter](). 
 
 Now that we've discussed some major principles about users and design, let's dive in to talking about how documentation can help!

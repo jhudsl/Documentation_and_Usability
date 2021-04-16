@@ -1,0 +1,896 @@
+--- 
+title: "Informatics Technology for Cancer Research (ITCR): Documentation and Usability"
+author: "Candace Savonen"
+date: "2021-04-16"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools."
+---
+
+
+
+
+# About this Course {-}
+
+This course is part of a series of courses for the Informatics Technology for Cancer Research (ITCR) called the Informatics Technology for Cancer Research Education Resource. 
+This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. 
+Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at https://www.itcrtraining.org/ for more information.
+
+
+<!--chapter:end:index.Rmd-->
+
+---
+title: "Course Title"
+output: html_document
+---
+
+# Introduction 
+
+Cancer datasets are plentiful, complicated, and hold information that may be critical for the next research advancements.
+In order to use these data to their full potential, researchers are dependent on the specialized data tools that are continually being published and developed.
+Bioinformatics tools can often be unfriendly to their users, who often have little to no background in programming [@Bolchini2008]. 
+The usability and quality of the documentation of a tool can be a major factor in how efficiently a researcher is able to obtain useful findings for the next steps of their research. 
+
+## Motivation
+
+Increasing the usability and quality of documentation for a tool is not only helpful for the researcher users, but also for the developers themselves -- the many hours of work put into the product will have a higher impact if the tool is usable by the target user community. 
+Even the most well-programmed tool will be overlooked by the user community if there is little to no user-friendly documentation. 
+
+### Target Audience  
+
+The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the [Informatics Technology Cancer Research](https://itcr.cancer.gov/informatics-tools).
+
+### Curriculum    
+
+The curriculum for this course will cover the basics of: 
+   
+- Understanding why usability and documentation is vital 
+- Identifying your user community  
+- Building documentation and tutorials to maximize the usability of developed tools  
+- Obtaining feedback from your users  
+
+The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.
+Individuals who take this course are encouraged to use these templates as they follow along with the course material to help increase the usability of their informatics tool. 
+
+<!--chapter:end:01-intro.Rmd-->
+
+---
+title: "Why Documentation"
+output: html_document
+---
+
+# Documentation: The spinach of tool development 
+
+## Learning Objectives
+
+This chapter will demonstrate how to:  
+
+- Understand good documentation increases the impact and usability of software tools.  
+- Understand good documentation is helpful for both tool developers and users.  
+
+## The context of bioinformatics tool development
+
+Tool development is an exciting but long process -- filled with lots of careful programming, tedious troubleshooting, but also 'Aha' moments that ultimately can result in an amazing product that you should be proud of! 
+
+Tina the Tool developer, perhaps like you, has just gotten her product working well and many of the bugs have been sorted out. 
+Tina's awesome tool is working exactly as designed and Tina is excited to get her tool out there to be used by the community!
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=p" 
+width="500" height="500" />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
+
+This is indeed cause for celebration!
+Perhaps researchers like Uri the Tool User will come across Tina's awesome tool and share in Tina's enthusiasm for the project! 
+Tina's bioinformatics tool may be just what they were needing for their research project!
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_11" width="500" height="500" />
+
+Uri the Tool User can't wait to apply Tina's awesome tool to their project!
+But, it may not be long before Uri encounters errors, or questions about Tina's awesome tool, no matter how high quality Tina's programming of the tool is. 
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_27" width="500" height="500" />
+
+Often users like Uri, particularly in the biology and cancer fields, have little to no programming experience. 
+Even if a user does have programming experience, they are still unfamiliar with how Tina has set up tool. 
+The tool may even be working exactly according to Tina's vision but if users like Uri do not understand Tina's vision or basic programming principles that Tina might take for granted, it can lead to a lot of frustration and time inefficiently spent. 
+
+If the tool's documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances that Uri will be able to successfully and efficiently create a product with the tool is drastically diminished. 
+
+Lack of usability often leads users to ditch even the most well-programmed of tools.
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_60" width="500" height="500" />
+
+This is the unfortunate and all-too-common result of many bioinformatics tools. 
+
+### Bioinformatics and usability 
+
+The lack of focus and education on usability in the bioinformatics tool development is not only a disservice to progress of cancer research, but also to the tool developers themselves who have equally spent uncountable work hours and effort on the development of cancer tools. 
+
+We know that bioinformatics tool development doesn't occur in a vaccuum. 
+User designers in the field of bioinformatics have commented on reasons why documentation and usability sometimes suffer for bioinformatics tools: 
+
+- _Problem 1)_ Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability [@Mangul2019]. 
+- _Problem 2)_ Bioinformatics tool development teams generally don't have the resources to hire user design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback [@Pavelin2012].  
+- _Problem 3)_ Lack of resources/education about usability specific to bioinformatics tool developing communities [@Pavelin2012].   
+
+Unfortunately this specific course cannot address issues 1 and 2, but will attempt to help with problem 3. 
+
+### Why documentation is worth the time 
+
+We realize many tool developers are averse to documentation like some are to spinach, feeling unenthused about the process of creating documentation. 
+The documentation process requires a different skill set from the tool development itself; meaning many developers were likely not attracted to tool development because of documentation and may not be sure how to craft good documentation [@Wolf2016].
+They may know its good for their tool, but they just aren't enthused about it. 
+In this course, we'd like you to view your tool as Popeye and where documentation spinach will make your tool stronger!
+
+The effort for creating documentation has a high return payoff for the continued success of a tool as a whole!
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_140" width="500" height="500" />
+
+Returning to our cast of characters, let's say that Tina the Tool Developer, had the time and knowledge to create awesome documentation for her tool. 
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_47" width="500" height="500" />
+
+Uri the tool User is still likely to encounter errors and problems, but with thorough and easy-to-digest documentation, Uri is better equipped to troubleshoot these problems!
+They may also learn more about the features and limitations of the tool that will better guide Uri's next steps!
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_112" width="500" height="500" />
+
+Being equipped with user-centered documentation, Uri is more likely to be able to reach the next steps of their research and potentially share a publishable result! 
+Tina's tool is now more likely to be cited in publications, or other forms of media. 
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_144" width="500" height="500" />
+
+This rewards Uri for having used Tina's tool, making Uri not only likely to continue to use the tool for their next projects, but Uri may also help spread the word about how great their experience with Tina's tool was. 
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_49" width="500" height="500" />
+
+This means that Tina may have a larger user base for her tool and will help Tina with future funding opportunities and making connections that will help her create more awesome tools!
+
+Well-documented tools help developers better maintain their code in the future because they may forget the mechanics of their tool over time. 
+If Future Tina has to divert her time and effort to another project but then returns to do tool maintenance, documentation may help jog her memory!
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_79" width="500" height="500" />
+
+Thorough and easy-to-digest documentation may also help other tool developers contribute features or fix bugs in Tina's tool. 
+Here Colin the Contributor was able to read Tina's awesome documentation. 
+It not only got him excited about the tool, but allowed him to program a new feature which he sent to Tina. 
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_127" width="500" height="500" />
+
+Now that you are hopefully energized and ready for creating documentation for your tool, let's talk about a bit user design concepts!
+
+<!--chapter:end:02-why_documentation.Rmd-->
+
+---
+title: "Lessons from User Designers"
+output: html_document
+---
+
+# Lessons we should borrow from user designers
+
+## Learning Objectives
+
+This chapter will demonstrate how to:  
+
+- Understand that user design is a form of empathy 
+- Learn about your user community 
+- Use visuals where possible 
+- Communicate while minimizing the impact of jargon 
+- Make tools more navigable
+- Provide users with a method of contact
+
+## Thinking about user-centered development
+
+Creating tools that are easy to use starts with thinking about your user's perspective. 
+In other words, user design is an exercise in applied empathy [@deMatos2013]. 
+
+This is why a common saying in user design is "You are not your user"[@Alexakis2017].
+Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. 
+For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user. 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0 width = 500, height = 500 />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
+  
+As compared to yourself, your typical user may likely have a different:  
+- Educational background.  
+- Programming experience level.  
+- Set of motivations for using your tool.  
+
+And most importantly _your user does not know your tool like you do_! 
+You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have. 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_146 width = 300, height = 300 />
+
+Also keep in mind users are humans in a context. 
+Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/etc.
+Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!
+
+### Generalities about bioinformatics tool users
+
+On a general level, there are some characteristics we know about bioinformatic tool user communities.  
+
+The typical user of bioinformatics tools are generally:
+
+- Highly educated in their specific research topic.  
+- Skilled at picking up new information.  
+- Unlikely to have much experience in programming; may be uncomfortable with using command line.  
+- If they do have experience programming, it's likely been from informal and self-taught learning.    
+- Like many professionals, likely to feel time pressure from deadlines.  
+
+However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
+@Mulder2018 described 10 user personas for bioinformatics software, all with their own skills and competencies:
+
+- Physician 
+- Lab technician 
+- Ethicist  
+- Biocurator  
+- Discovery biologist/academic life science researcher   
+- Molecular life science educator  
+- Academic bioinformatics researcher  
+- Core facility scientist  
+- Bioinformatician in an academic or research infrastructure support role  
+- Bioinformatics software developer/software engineer  
+
+Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints. 
+
+## Exercise: Think about the user community for your tool 
+
+Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community. 
+
+- Who is your user community? 
+- What need of theirs is addressed by your tool? 
+- What kinds of skills does your tool assume your user has (does your user community have those skills)?
+
+TODO: Need link below
+
+Keep the questions about your user community in mind and in a [later chapter](), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
+
+## General principles about user-friendliness  
+
+While finding out about your user community is critical, there's also principles we can discuss that are common to all users/humans.
+
+#### Humans like visuals
+
+Humans are drawn to intuitive visuals.
+Visuals are efficient means of communication and help users absorb information better than long-winded paragraphs (though visuals need an accompanying explanation too).
+
+Sometimes this is particularly helpful for complicated concepts. 
+For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files. 
+Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function: 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44 width = 400 height = 400 />
+
+#### Stay away from jargon
+
+What someone considers jargon is a very relative to their own experiences.  
+Terms that may seem like common knowledge to you may be foreign to your user. 
+
+For example, something seemingly commonplace to you like `TSV` may not be something a user does not understands what it means. 
+To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. 'tab separated values').
+This doesn't mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you've used (e.g. [tab separated values file (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)). 
+This has the benefit of saving you and your user's time without making your explanations too long winded. 
+
+#### Navigability: Make help easy to find
+
+When your user has a question in mind, it can make their experience a lot more stress-free if they can find their answer with ease.
+Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches!
+For these reasons, navigability is important for your tool and documentation.
+
+_Quick tips for increasing your tools' navigability_:     
+- Minimize the number of clicks for finding help! -- The more important a piece of information is to a users' ability to use your tool, the more it should be in the forefront of your tool!  
+- Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don't switch it -- patterns are super helpful!  
+- Use visual cues where possible!  
+
+More about user-friendly principles:   
+
+- [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) by @Porter.   
+- [Golden Rules of UI Design](https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/) by @Babich.  
+- [About intuitive layouts](https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html) by @Tidwell.
+
+#### Provide a method for users to file concerns
+
+No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time. 
+Because of this or other unknown unknowns, a usable tool still has a way for a user to let the developers know when something isn't working. 
+This might a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention. 
+
+It may sound disappointing that a user has found a problem but this is something to be happy about!  
+
+1) This means someone is interested and invested in using your tool!   
+2) They've identified a way to improve your tool to make it even better!  
+
+Providing a method of contact to your users doesn't mean you need to give users your personal email. 
+In fact, that is probably not the most practical way to keep user queries organized. 
+
+_Example contact method ideas_: 
+
+- Have a link to a form for users to submit.   
+- Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
+- Have a separate email inbox that you have a notification set up for.  
+- Have a [Slack channel](https://slack.com/) that you direct users to.  
+
+Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to!
+
+Now that we've discussed some major principles about users and design, let's dive in to talking about how documentation can help!
+
+<!--chapter:end:03-lessons_from_user_designers.Rmd-->
+
+---
+title: "What is good documentation"
+output: html_document
+---
+
+# What does good documentation look like?
+
+## Learning Objectives
+
+This chapter will demonstrate how to:  
+
+- Identify major components common to good documentation
+- Describe the purposes of components of good documentation 
+- Set up our documentation templates for following along with the rest of this course  
+
+## Major components of good documentation
+
+In this chapter we are going to cover the major aspects of a well-documented tool. 
+In the subsequent chapters, we will talk about each of these components in more detail; providing relevant examples and tools. 
+
+![](https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_23)
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
+
+### The 'Why' <img src="resources/images/why.png" width="8%">
+
+Before we get into the technical information in your documentation, the first thing that should be obvious to your user is why they should want to use your tool!
+What need of your users does your tool fulfill?
+If this is not glaringly obvious, users will move on without realizing how valuable your tool could be for their research!
+
+#### Exercise: Write the why of your tool!
+
+This should be the first thing your user sees on the main page of your tool. 
+If it currently is not clear, take this time to workshop one or two sentences that explain the 'why' of your tool. 
+As you craft this sentence, think about the needs of your user and how to summarize your tool's purpose in a brief, punchy way. 
+Stay away from jargon unless perhaps its jargon that you know your user will understand. 
+
+_Examples of tools with their why's well-stated prominently on their web page:_
+
+> Gene Set Enrichment Analysis (GSEA) is a computational method that determines whether an a priori defined set of genes shows statistically significant, concordant differences between two biological states (e.g. phenotypes).
+
+[GSEA](http://www.gsea-msigdb.org/gsea/index.jsp)
+
+> Salmon is a tool for wicked-fast transcript quantification from RNA-seq data. It requires a set of target transcripts (either from a reference or de-novo assembly) to quantify. 
+
+[Salmon](https://salmon.readthedocs.io/en/latest/salmon.html#using-salmon)
+
+### Getting started <img src="resources/images/getting-started.png" width="8%">
+
+A getting started section will be a new user's first introduction to your tool.
+It will tell them specific steps they need to "get started" (hence why we call it this) -- no long-winded explanations, just the quickest way to reach some sort of output. 
+
+In the most clear steps as possible, a getting started section will tell the user how to:     
+
+- Install the tool and any of its dependencies.     
+- Run the most basic analysis with the tool.  
+- Obtain some quick result.  
+
+It's crucial that the steps here are simple and easy to follow or you risk losing new users before they even get going. 
+
+### How-to examples <img src="resources/images/how-to.png" width="8%">
+
+A set of How-to examples are like a cookbook of recipes that will demonstrate step-by-step the most common uses for your tool after they have completed the getting started steps. 
+  
+- The most common use cases of your tool are shown step-by-step
+- Each step is clearly provided and explained.   
+- Any data needed to run the example is provided.  
+- Example code is written with teaching in mind. 
+
+### Reference guides <img src="resources/images/ref-guide.png" width="8%">
+
+A reference guide is like a dictionary that a user can look up items as questions arise. 
+A user will likely have a specific question about a function, parameter, data type, or option and will want to be able to navigate to information about that item.
+Users who end up looking through your reference guide are likely a bit invested and may have already gone through the Getting Started section and/or How-to examples. 
+
+- All items are described in clear, non-jargon, language. 
+- The items are searchable or at least can be easily visually scanned.    
+- All options and defaults are explained and linked to more information where appropriate.  
+
+### Code comments <img src="resources/images/comment.png" width="8%">
+
+Comments in your source code are also a part of documentation -- and likely the first part of the documentation you worked on!
+In most instances, if your tools is functioning fine, code will probably only be looked at by advanced and/or the most invested users. 
+But also recall that documentation is not only for your user but for future you and existing or potential collaborators.
+
+### User feedback mechanism <img src="resources/images/user-feedback.png" width="8%">
+
+Try as you might, you will not be able to predict every scenario that a user may engage with your tool. 
+Your user may encounter errors or quirks that you did not foresee but that would be helpful for you to know about. 
+Your documentation should direct your users where they should send any comments or concerns. 
+You should also make sure that this feedback method is something you can check up on and respond to regularly.
+
+## The documentation templates for this course
+
+We encourage you to create these pieces of documentation we will further discuss in the rest of this course!
+
+We have a folder of template markdown files that you can use as-is in your code repository or have them rendered nicely as a Github pages site using [MkDocs](https://www.mkdocs.org/).
+Here's a a quick preview of this folder's contents (which we will cover in more depth in the upcoming chapters). 
+
+TODO: Add links to those supp chapters. 
+
+If you are creating documentation to accompany a package you are submitting to [Bioconductor]() or [Galaxy](), we also have more specific templates and recommendations for those instances.  
+
+```
+templates/
+├── well_documented_checklist.md
+├── getting_started_template.md
+├── how_to_examples_examples.md
+├── reference_guide_template.md
+├── bioconductor-guides/
+│   ├── 
+└── galaxy-guides/
+    └──
+```
+
+### Well-documented checklist
+
+[This document is a checklist](https://raw.githubusercontent.com/jhudsl/ITCR_Documentation_and_Usability/main/templates/well_documented_checklist.md) that summarizes the major aspects that should be included in a tools' documentation. 
+We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course. 
+
+## Exercise: setting up our templates for your own use
+
+There are two options we suggest for creating documentation as you follow along with this course.
+
+**Option 1)** Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository.   
+     _Pros_: Is easier and quicker.   
+     _Cons_: Is not as user-friendly as option 2.   
+     
+**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; [see demo here](https://jhudatascience.org/itcr-template-documentation/).    
+     _Pros_: This format of documentation sites are easy to navigate and likely familiar to your user.     
+     _Cons_: Will require you to use `mkdocs` package to get this set up.   
+     
+### Steps for Option 1) Adding completed template markdowns to an existing GitHub repository
+
+- [Download the folder of templates using this link](./templates). 
+- Complete each markdown template, filling in the blanks as you go along with the course. 
+- File a pull request to your repository to add these files. 
+- (Optional but encouraged) [Publish your repository to Github Pages](https://guides.github.com/features/pages/).  
+
+### Steps for Option 2) Creating a MkDocs site with Github pages
+
+- Go to our [template documentation repository](https://github.com/jhudsl/itcr-template-documentation). 
+- Click `Use this Template` to get started.
+- Name your repository something that relates to your tool.  
+
+_On your computer's command line_: 
+ 
+- [`git clone` your new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) you made from our template.   
+- Navigate to your the root of your local version of this repository.   
+- [Install mkdocs following their instructions.](https://www.mkdocs.org/#installation).  
+- Run `mkdocs new my-project` but put replace `my-project` with whatever you'd like your project name to be. 
+- Run `mkdocs serve` to see a preview of your docs   
+- Edit the template pages we've provided in the `docs/` folder.  
+- As you make changes you can run `mkdocs build` and then `mkdocs serve` to see a preview.  
+- When you are ready to publish your documentation to its own website, run [`mkdocs gh-deploy`](https://www.mkdocs.org/user-guide/deploying-your-docs/), it will return the web address of your new site -- go to that address and bask in the success of your newly made documentation!  
+
+
+Now that we have a basic structure and plan for our documentation, let's discuss each each section of this documentation in more detail!
+
+<!--chapter:end:04-good_documentation.Rmd-->
+
+---
+title: "Creating a smooth getting started section"
+output: html_document
+---
+
+# Creating a smooth getting started section 
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of a getting started section
+- Make installation step instructions more user-friendly
+- Write a user friendly getting started section for your tool  
+
+## The goal of a getting started section 
+
+A getting started section is new users' first experience with your tool. 
+It is also can be the most frustrating experience for your user if installation doesn't happen smoothly. 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
+
+Our goal for our getting started section is to guide our new users through installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
+
+## Aspects of a smooth getting started section
+
+### Easy to find!
+
+It's hard to get started if you don't know where to go to begin with! 
+Your getting started section should be the easiest page to find.
+Have your link to your getting started page prominently feature on your landing page and if you have a navigation bar.
+
+### Introduce your user to the basics
+
+Provide users with the introductory concepts of the tool; briefly expand a bit more on that `Why` that they already saw.
+
+- In what context would someone be using your tool? 
+- What scientific questions or other needs might this tool? 
+
+If your users' needs fit your description, this will fuel them with the motivation to get through the first big hurdle: installation. 
+
+Before getting to install steps, a special consideration: Does your tool have multiple ways to run it, for example can it be ran either through a GUI or command line? 
+Describe this to your users so they get shuttled to the method of running your tool that is right for them. 
+
+### Installation steps: the first big hurdle
+
+Installation is the first and perhaps biggest hurdle your user will encounter with your tool. 
+The _clearer and more specific these steps the better_. 
+@Mangul2019b found that tools that required more installation steps (but didn't describe these steps adequately) were less likely to be installed successfully, and tools that were less likely to be installed successfully had significantly less citations!
+
+If installation happens through command line, provide _copy-and-paste commands_ that your user can use as-is. 
+In these commands, if parts of it need to be tailored, call attention where the tailoring needs to happen and how your user can determine what they need to put there. Fill-in-the-blank cues can be handy for these scenarios. 
+
+_Tell your users what to expect_. 
+Do some steps take more time than others? Warn them about that. 
+Are there output prompts that may not be intuitive but are to be expected? 
+For example, sometimes a regular red text installation message may indicate things are working fine, but if a user doesn't know what the text means, sometimes they will try to interpret red text as meaning something bad has occurred.
+
+Where it makes sense, you _use screenshots as assurances_ to the user that they are on the right track. 
+Being able to see that your users' screen matches what is shown in your screenshots reassures them that things are progressing correctly. 
+Conversely, if something does not match, it can help them narrow in on a problem. 
+
+Install steps should also try to address any common pitfalls -- particularly _how different operating systems might require different steps_. 
+You may consider having separate sections or pages to describe install steps on different operating systems. 
+
+What dependencies does installing your tool require? 
+Will these be installed automatically by the steps you describe or _does your user need to install other software_ before being able to install your tool? 
+This can be a big roadblock to users if dependencies and how to install them are not addressed. 
+
+**To recap:**  
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_7 width = 400 height = 400 />
+
+Installation steps can be tricky -- and admittedly hard to give guidance on when individual computer' set ups can differ so much, but the more you are able to workshop your guidance to your users here, the more they will appreciate it and stick with your tool!
+
+### Cover the basics
+
+Your getting started section should give your users the basic concepts they need for running your tool -- a knowledge foundation that they can build upon as they continue to explore and follow your How-to Examples. 
+
+### Reward your user with a short tutorial!
+
+Installation steps are not fun so the later part of your getting started section should lead your user into a quick tutorial that will reward your user for making it through the hard part!
+
+Give your users the fewest steps needed to produce a rewarding result that will excite them about continuing to use your tool!
+Use this opportunity to show off your the simplicity and awesomeness of your tool!
+
+This rewarding result might be a cool visual or a plot -- but also should demonstrate the most popular thing your users would like to see. 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_23 width = 400 height = 400 />
+
+### Directs the user to the How-to Examples section.
+
+Now that your user has successfully installed your tool and understands the basic idea, let them know where they can find more examples to keep the learning train going!
+
+## Good Examples of getting started sections
+
+[Snakemake has a great getting started section](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) [@Molder2021].
+The makers of snakemake tell their users how to install snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_0 width = 400 height = 400 />
+
+[GSEA](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html) introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track [@Subramanian2005]!
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_4 width = 400 height = 400 />
+
+## Exercise: Create your own getting started section!
+
+TODO: Update instructions here. 
+
+Use [the template getting started document](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/getting_started_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
+
+
+<!--chapter:end:05-getting_started_sections.Rmd-->
+
+---
+title: "Creating a helpful how-to examples "
+output: html_document
+---
+
+# Creating a helpful how-to examples 
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of a how-to examples
+- Describe components included in useful how-to examples
+- Create how-to examples that will increase your users' familiarity with your tool
+
+## The goal of a how-to examples 
+
+While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it. 
+How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool! 
+
+How-to examples are like recipes in a cookbook. 
+We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 />
+
+Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
+
+Note: In some contexts, like Bioconductor, How-to examples are called vignettes -- we consider these to be the same. 
+
+## Aspects of useful how-to examples 
+  
+### Should cover what your user wants to do!
+
+Users won't go through examples that demonstrate analyses they aren't interested in. 
+So although you may have your favorite pet functions of your tool, it doesn't necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to make examples of your favorites). 
+You may want to do some asking around, or conduct some user research to find out what your users are most interested in. 
+You also are not restricted to just one example, users love having a full library of how-to examples to choose from!
+That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases. 
+
+### Every step is specifically given 
+
+Examples should explicitly give every step needed to reproduce your result.
+For command line based tools, provided the exact code your user needs to run. 
+Ideally this example can be provided as a notebook or script so your user can run it directly.
+In the case of a GUI, provide screenshots or a video tutorial.
+
+### Any data needed to run the example is provided and explained  
+
+Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user's data. 
+Instead, provide your users with example data that your example code directly downloads (or is available through your GUI). 
+This has the added benefit of being a positive control for when users are troubleshooting the formatting for their own data later on, but doesn't force them to face that battle before they can follow your example. 
+
+Make sure your example adequately introduces the example: what are the measurements from, what was the goal of this dataset. 
+And of course, link to the source of the data and cite it!
+
+### Example code is about the lesson not the output per se
+
+Example code is not the same as backend code. 
+Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity. 
+
+This means your examples should include the most easily readable code you can muster -- sometimes this means extra workshopping to reach peak clarity.
+Give commentary at each and every step -- don't assume your users understand your typical conventions. 
+Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
+
+_Related to this, your examples' code should model best practices_
+
+Pretend you are the model user of your tool -- how should your users interact with your tool?
+This means keeping in mind the important basics: 
+
+- Emphasize reproducibility 
+- Code comments 
+- Stick to a style
+- Be consistent with your conventions 
+- Pick good object names
+
+### Try to only stick to your own package and its dependencies
+
+Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary. 
+If it is absolutely necessary, should this package be something added as a dependency -- can you have it automatically installed for the user if it is critical to common uses? 
+
+### Give tips on how to tailor your examples
+
+If your users follow along with your examples successfully, their next step will probably be to tailor your examples to their own questions.
+Whether you intend it or not, your examples will probably be used as template framework for your user's analysis. 
+Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it. 
+Providing them with more resources about options and possibilities is always nice too. 
+
+**To recap:**
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 />
+
+## Good examples of How-to examples
+
+[DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)! 
+@Love2014 walk through the most common use cases of DESeq2, providing data and explaining the set up.
+They efficiently move into other scenarios, explaining common questions and areas of nuance along the way. 
+
+[QIIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
+@Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
+At the very end of the example they also provide the end result for comparison!
+
+## Exercise: Create your own How-to examples!
+
+TODO: Update instructions here. 
+
+Use [the template how-to example template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
+
+Keep in mind that if your tool's destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories' examples. 
+
+<!--chapter:end:06-how-to_examples.Rmd-->
+
+---
+title: "Creating comprehensive reference guides  "
+output: html_document
+---
+
+# Creating comprehensive reference guides 
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of a reference guide
+- Describe characteristics of helpful reference guides
+- Create a reference guide that will aid your user's ability to interpret and utilize your tool to the next level
+
+## The goal of a reference guide
+
+Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable.
+Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered. 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 />
+
+Our goal for a reference guide is to be as comprehensive, navigable, and as always _clear_ as possible. 
+
+## Characteristics of handy reference guides
+  
+### Is easy to find
+
+As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them. 
+
+### Data formats are described
+
+Perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with. 
+
+Ideally, your tool can use a data format that is common.
+But the more that your tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like. 
+
+- Including example files are helpful
+- Send your user to any tools they can use to convert their data format
+
+### Is searchable 
+
+Reference gudies being alphabetical is a start. 
+If you are able to make terms searchable that's even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function. 
+
+### Is comprehensive
+
+All items are covered in the reference guide -- every single thing. 
+This includes all:
+
+- terms
+- functions
+- arguments
+- parameters
+- defaults 
+- datasets or items included in the package
+- buttons (in the case of a GUI)
+
+### All items are described in clear language
+
+
+### Entries should have a consistent format
+
+
+**To recap:**
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 />
+
+## Good examples of reference guides
+
+[QIIME2 a great reference guide](https://docs.qiime2.org/2021.2/glossary/)!
+@Bolyen2019 cover all items and terms with lots of links to more information or related entries. 
+
+[Bioconductor packages](https://bioconductor.org/packages/3.12/bioc/) have a consistent format which makes it easier for users to find once they are familiar with the format. 
+A typical entry https://bioconductor.org/packages/3.12/bioc/html/GenomicRanges.html
+
+[GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data)
+
+## Exercise: Create your own reference guide!
+
+TODO: Update instructions here. 
+
+Use [the template reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
+
+Keep in mind that if your tool's destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories' examples. 
+
+<!--chapter:end:07-reference_guides.Rmd-->
+
+---
+title: "Creating clarifying code comments  "
+output: html_document
+---
+
+# Creating clarifying code comments
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of good code documentation
+- Describe characteristics of helpful code comments
+
+## The goal of a code documentation
+
+Code documentation goes beyond your user.
+It's a part of writing good code and helps your collaborators and future you!
+
+Most users will probably not look at your code directly -- those who do are probably:
+
+- Quite desperately troubleshooting something and were not able to find answers elsewhere.
+- Are “power users” who are already pretty invested in your tool and want to get more out of it -- may be helpful contributors too!
+
+## Characteristics of clarifying code comments
+
+Plenty of people have discussed good code comments at length so we'll refer to those discussions here: 
+
+-[What Makes a Good Code Comment?](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24) @Cronin2019.
+-[The Value of Code Documentation](https://www.olioapps.com/blog/the-value-of-code-documentation/) @Meza2018.
+-[Some internet wisdom on R documentation](http://alyssafrazee.com/2014/04/20/rdocs.html) @Frazee2014
+-[How to Comment Your Code Like a Pro: Best Practices and Good Habits](https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits) @Keeton2019.
+
+**To recap:**
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132 width = 400 height = 400 />
+
+
+<!--chapter:end:08-code_comments.Rmd-->
+
+---
+title: "Creating clarifying code comments  "
+output: html_document
+---
+
+# Creating clarifying code comments
+
+## Learning Objectives
+
+This chapter will demonstrate how to:
+
+- Understand the goals of good code documentation
+- Describe characteristics of helpful code comments
+
+## The goal of a code documentation
+
+Code documentation goes beyond your user.
+It's a part of writing good code and helps your collaborators and future you!
+
+Most users will probably not look at your code directly -- those who do are probably:
+
+- Quite desperately troubleshooting something and were not able to find answers elsewhere.
+- Are “power users” who are already pretty invested in your tool and want to get more out of it -- may be helpful contributors too!
+
+## Characteristics of clarifying code comments
+
+Plenty of people have discussed good code comments at length so we'll refer to those discussions here: 
+
+-[What Makes a Good Code Comment?](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24) @Cronin2019.
+-[The Value of Code Documentation](https://www.olioapps.com/blog/the-value-of-code-documentation/) @Meza2018.
+-[Some internet wisdom on R documentation](http://alyssafrazee.com/2014/04/20/rdocs.html) @Frazee2014
+-[How to Comment Your Code Like a Pro: Best Practices and Good Habits](https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits) @Keeton2019.
+
+**To recap:**
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132 width = 400 height = 400 />
+
+
+<!--chapter:end:09-user_feedback.Rmd-->
+
+---
+title: "about"
+output: html_document
+---
+
+# About the Authors {-}
+
+
+**Candace Savonen** is a Research Associate in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. 
+She creates bioinformatic education materials for cancer genomics, looking for ways to emphasize reproducibility and good data science practices. 
+Her research background is in Neuroscience.
+
+
+<!--chapter:end:About.Rmd-->
+

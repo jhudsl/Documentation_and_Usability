@@ -76,7 +76,6 @@ A typical entry https://bioconductor.org/packages/3.12/bioc/html/GenomicRanges.h
 
 [GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data)
 
-
 ## Exercise: Create your own reference guide!
 
 TODO: Update instructions here. 
