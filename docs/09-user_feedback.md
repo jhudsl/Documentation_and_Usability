@@ -1,37 +1,57 @@
 ---
-title: "Creating clarifying code comments  "
+title: "Obtaining user feedback  "
 output: html_document
 ---
 
-# Creating clarifying code comments
+# Obtaining user feedback
 
 ## Learning Objectives
 
 This chapter will demonstrate how to:
 
-- Understand the goals of good code documentation
-- Describe characteristics of helpful code comments
+- Understand the goals of obtaining user feedback. 
+- Construct user feedback methods that inform work on your tool. 
+- Create a plan for how to obtain user feedback for your tool. 
 
-## The goal of a code documentation
+## The goal of user feedback
 
-Code documentation goes beyond your user.
-It's a part of writing good code and helps your collaborators and future you!
+How do you know if your code is working? You test it and get feedback! 
+Similarly, how do you know if your tool is working for your user? Ask them for feedback!
 
-Most users will probably not look at your code directly -- those who do are probably:
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173 width = 400 height = 400 />
 
-- Quite desperately troubleshooting something and were not able to find answers elsewhere.
-- Are “power users” who are already pretty invested in your tool and want to get more out of it -- may be helpful contributors too!
+## Characteristics of informative user feedback
 
-## Characteristics of clarifying code comments
+## Methods of user feedback
 
-Plenty of people have discussed good code comments at length so we'll refer to those discussions here: 
+At the most basic level, you need to provide your users a way to alert you if something with your tool is not working appropriately. 
 
--[What Makes a Good Code Comment?](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24) @Cronin2019.
--[The Value of Code Documentation](https://www.olioapps.com/blog/the-value-of-code-documentation/) @Meza2018.
--[Some internet wisdom on R documentation](http://alyssafrazee.com/2014/04/20/rdocs.html) @Frazee2014
--[How to Comment Your Code Like a Pro: Best Practices and Good Habits](https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits) @Keeton2019.
+It may sound disappointing that a user has found a problem but this is something to be happy about!  
+1) This means someone is interested and invested in using your tool!   
+2) They've identified a way to improve your tool to make it even better!  
+
+Providing a method of contact to your users doesn't mean you need to give users your personal email. 
+In fact, that is probably not the most practical way to keep user queries organized. 
+
+_Example contact method ideas_: 
+
+- Have a link to a form for users to submit.   
+- Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
+- Have a separate email inbox that you have a notification set up for.  
+- Have a [Slack channel](https://slack.com/) that you direct users to.  
+
+Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to!
 
 **To recap:**
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132 width = 400 height = 400 />
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_168 width = 400 height = 400 />
+
+## Case studies of user research
+
+## Exercise: Create a plan for user feedback for your tool
+
+TODO: Update instructions here. 
+
+We have a mock feedback user form [set up here](). 
+This form shouldn't be used as is, but could be tailored to more specifically ask questions about your tool that you are looking to get information about. 
 
