@@ -14,6 +14,9 @@ Github
 GSEA
 https
 incentivized
+Ethicist
+getavataaars
+GSEA
 https
 img
 ITCR
@@ -28,6 +31,7 @@ phenotypes
 priori
 reproducibility
 Savonen
+snakemake
 src
 Uri
 Uri's
