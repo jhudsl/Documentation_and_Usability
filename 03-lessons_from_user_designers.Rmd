@@ -30,8 +30,6 @@ For example, a warning message that may seem perfectly clear to you as a develop
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
 Emojis by OpenMoji License: CC BY-SA 4.0.]
-
-  
   
 As compared to yourself, your typical user may likely have a different:  
 - Educational background.  
@@ -51,7 +49,8 @@ Making your tool as easy as possible to use increases the likelihood of your use
 
 On a general level, there are some characteristics we know about bioinformatic tool user communities.  
 
-The typical user of bioinformatics tools are generally:  
+The typical user of bioinformatics tools are generally:
+
 - Highly educated in their specific research topic.  
 - Skilled at picking up new information.  
 - Unlikely to have much experience in programming; may be uncomfortable with using command line.  
@@ -74,7 +73,8 @@ However, the bioinformatics user community also includes a variety of individual
 
 Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints. 
 
-__Exercise:__ Think about the user community for your tool. 
+## Exercise: Think about the user community for your tool 
+
 Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community. 
 
 - Who is your user community? 
@@ -141,7 +141,8 @@ It may sound disappointing that a user has found a problem but this is something
 Providing a method of contact to your users doesn't mean you need to give users your personal email. 
 In fact, that is probably not the most practical way to keep user queries organized. 
 
-_Example contact methods_:   
+_Example contact method ideas_: 
+
 - Have a link to a form for users to submit.   
 - Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
 - Have a separate email inbox that you have a notification set up for.  

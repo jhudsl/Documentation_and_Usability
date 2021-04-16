@@ -49,10 +49,10 @@ _Examples of tools with their why's well-stated prominently on their web page:_
 
 ### Getting started <img src="resources/images/getting-started.png" width="8%">
 
-A Getting Started section will tell a new user's first introduction to your tool after they have decided they are interested.
-It will tell them specific steps they need to "get started" (hence why we call it this) -- no long-winded explanations, just the quickest way to get started. 
+A getting started section will be a new user's first introduction to your tool.
+It will tell them specific steps they need to "get started" (hence why we call it this) -- no long-winded explanations, just the quickest way to reach some sort of output. 
 
-It will in the fewest but most exact steps as possible, tell the user how to:     
+In the most clear steps as possible, a getting started section will tell the user how to:     
 
 - Install the tool and any of its dependencies.     
 - Run the most basic analysis with the tool.  
@@ -62,11 +62,12 @@ It's crucial that the steps here are simple and easy to follow or you risk losin
 
 ### How-to examples <img src="resources/images/how-to.png" width="8%">
 
-A set of How-to examples will demonstrate step-by-step the most common uses for your tool after they have completed the Getting Started steps. 
+A set of How-to examples are like a cookbook of recipes that will demonstrate step-by-step the most common uses for your tool after they have completed the getting started steps. 
   
-- Every step is specifically provided by code (or by screenshots in the case of a GUI).  
+- The most common use cases of your tool are shown step-by-step
+- Each step is clearly provided and explained.   
 - Any data needed to run the example is provided.  
-- Common pitfalls and nuances of the tool that you may encounter when running the examples are explained in context.  
+- Example code is written with teaching in mind. 
 
 ### Reference guides <img src="resources/images/ref-guide.png" width="8%">
 
@@ -119,34 +120,33 @@ templates/
 [This document is a checklist](https://raw.githubusercontent.com/jhudsl/ITCR_Documentation_and_Usability/main/templates/well_documented_checklist.md) that summarizes the major aspects that should be included in a tools' documentation. 
 We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course. 
 
-## How to use our templates 
+## Exercise: setting up our templates for your own use
 
 There are two options we suggest for creating documentation as you follow along with this course.
 
-**Option 1)** Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository. 
-     _Pros_: Is easier and quicker. 
-     _Cons_: Is not as user-friendly as option 2.  
+**Option 1)** Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository.   
+     _Pros_: Is easier and quicker.   
+     _Cons_: Is not as user-friendly as option 2.   
      
-**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; [see demo here](https://jhudatascience.org/itcr-template-documentation/).  
-     _Pros_: This format of documentation sites are easy to navigate and likely familiar to your user.   
-     _Cons_: Will require you to use `mkdocs` package to get this set up. 
+**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; [see demo here](https://jhudatascience.org/itcr-template-documentation/).    
+     _Pros_: This format of documentation sites are easy to navigate and likely familiar to your user.     
+     _Cons_: Will require you to use `mkdocs` package to get this set up.   
      
 ### Steps for Option 1) Adding completed template markdowns to an existing GitHub repository
 
-- [Download the folder of templates using this link](./templates) and 
+- [Download the folder of templates using this link](./templates). 
 - Complete each markdown template, filling in the blanks as you go along with the course. 
 - File a pull request to your repository to add these files. 
 - (Optional but encouraged) [Publish your repository to Github Pages](https://guides.github.com/features/pages/).  
 
 ### Steps for Option 2) Creating a MkDocs site with Github pages
 
-#### Using our template doc repository
-
 - Go to our [template documentation repository](https://github.com/jhudsl/itcr-template-documentation). 
 - Click `Use this Template` to get started.
 - Name your repository something that relates to your tool.  
 
-_On your computer's command line_:    
+_On your computer's command line_: 
+ 
 - [`git clone` your new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) you made from our template.   
 - Navigate to your the root of your local version of this repository.   
 - [Install mkdocs following their instructions.](https://www.mkdocs.org/#installation).  

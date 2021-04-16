@@ -21,7 +21,7 @@ How-to examples can turn these moderately interested users into enthusiastic and
 How-to examples are like recipes in a cookbook. 
 We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 />
 
 Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
 Note: In some contexts, like Bioconductor, How-to examples are called vignettes -- we consider these to be the same. 
@@ -31,7 +31,7 @@ Note: In some contexts, like Bioconductor, How-to examples are called vignettes 
 ### Should cover what your user wants to do!
 
 Users won't go through examples that demonstrate analyses they aren't interested in. 
-So although you may have your favorite pet functions of your tool, it doesn't necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to your favorites). 
+So although you may have your favorite pet functions of your tool, it doesn't necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to make examples of your favorites). 
 You may want to do some asking around, or conduct some user research to find out what your users are most interested in. 
 You also are not restricted to just one example, users love having a full library of how-to examples to choose from!
 That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases. 
@@ -41,18 +41,18 @@ That being said, for your own time and planning, you may want to start with the 
 Examples should explicitly give every step needed to reproduce your result.
 For command line based tools, provided the exact code your user needs to run. 
 Ideally this example can be provided as a notebook or script so your user can run it directly.
-(or by screenshots in the case of a GUI) 
+In the case of a GUI, provide screenshots or a video tutorial.
 
 ### Any data needed to run the example is provided and explained  
 
 Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user's data. 
-Instead, provide your users with example data that your example code directly downloads (or is available through the GUI). 
-This gives users a positive control for when they are troubleshooting the formatting for their own data later on, but doesn't force them to face that battle before they can follow your example. 
+Instead, provide your users with example data that your example code directly downloads (or is available through your GUI). 
+This has the added benefit of being a positive control for when users are troubleshooting the formatting for their own data later on, but doesn't force them to face that battle before they can follow your example. 
 
 Make sure your example adequately introduces the example: what are the measurements from, what was the goal of this dataset. 
 And of course, link to the source of the data and cite it!
 
-### Example code is about the lesson not the output
+### Example code is about the lesson not the output per se
 
 Example code is not the same as backend code. 
 Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity. 
@@ -64,16 +64,13 @@ Also in the interest of being as readable as possible, try to stick to a styling
 _Related to this, your examples' code should model best practices_
 
 Pretend you are the model user of your tool -- how should your users interact with your tool?
-This does sometimes mean more effort, but assume your example is the peak of clean use. 
 This means keeping in mind the important basics: 
+
 - Emphasize reproducibility 
 - Code comments 
 - Stick to a style
 - Be consistent with your conventions 
 - Pick good object names
-
-### Common pitfalls are explained in context
-
 
 ### Try to only stick to your own package and its dependencies
 
@@ -85,13 +82,13 @@ If it is absolutely necessary, should this package be something added as a depen
 If your users follow along with your examples successfully, their next step will probably be to tailor your examples to their own questions.
 Whether you intend it or not, your examples will probably be used as template framework for your user's analysis. 
 Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it. 
-Sending them to more information about options and possibilities is always nice too. 
+Providing them with more resources about options and possibilities is always nice too. 
 
 **To recap:**
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 />
 
-## Good Examples of How-to examples
+## Good examples of How-to examples
 
 [DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)! 
 @Love2014 walks through the most common use cases of DESeq2, providing data and explaining the set up.
@@ -108,5 +105,3 @@ TODO: Update instructions here.
 Use [the template how-to example template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
 
 Keep in mind that if your tool's destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories' examples. 
-
-
