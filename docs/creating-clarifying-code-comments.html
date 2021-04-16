@@ -146,14 +146,12 @@
 <li class="chapter" data-level="7.3.6" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#entries-should-have-a-consistent-format"><i class="fa fa-check"></i><b>7.3.6</b> Entries should have a consistent format</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#good-examples-of-reference-guides"><i class="fa fa-check"></i><b>7.4</b> Good examples of reference guides</a></li>
-<li class="chapter" data-level="7.5" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#exercise-create-your-own-how-to-examples"><i class="fa fa-check"></i><b>7.5</b> Exercise: Create your own How-to examples!</a></li>
+<li class="chapter" data-level="7.5" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#exercise-create-your-own-reference-guide"><i class="fa fa-check"></i><b>7.5</b> Exercise: Create your own reference guide!</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html"><i class="fa fa-check"></i><b>8</b> Creating clarifying code comments</a><ul>
 <li class="chapter" data-level="8.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>8.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="8.2" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#the-goal-of-a-code-comments"><i class="fa fa-check"></i><b>8.2</b> The goal of a code comments</a></li>
+<li class="chapter" data-level="8.2" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#the-goal-of-a-code-documentation"><i class="fa fa-check"></i><b>8.2</b> The goal of a code documentation</a></li>
 <li class="chapter" data-level="8.3" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#characteristics-of-clarifying-code-comments"><i class="fa fa-check"></i><b>8.3</b> Characteristics of clarifying code comments</a></li>
-<li class="chapter" data-level="8.4" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#good-examples-of-code-comments"><i class="fa fa-check"></i><b>8.4</b> Good examples of code comments</a></li>
-<li class="chapter" data-level="8.5" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#exercise-create-your-own-how-to-examples"><i class="fa fa-check"></i><b>8.5</b> Exercise: Create your own How-to examples!</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 </ul>
@@ -179,36 +177,45 @@
 <h2><span class="header-section-number">8.1</span> Learning Objectives</h2>
 <p>This chapter will demonstrate how to:</p>
 <ul>
-<li>Understand the goals of a code comments</li>
+<li>Understand the goals of good code documentation</li>
 <li>Describe characteristics of helpful code comments</li>
 </ul>
 </div>
-<div id="the-goal-of-a-code-comments" class="section level2">
-<h2><span class="header-section-number">8.2</span> The goal of a code comments</h2>
-<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 /></p>
+<div id="the-goal-of-a-code-documentation" class="section level2">
+<h2><span class="header-section-number">8.2</span> The goal of a code documentation</h2>
+<p>Code documentation goes beyond your user.
+It’s a part of writing good code and helps your collaborators and future you!</p>
+<p>Most users will probably not look at your code directly – those who do are probably:</p>
+<ul>
+<li>Quite desperately troubleshooting something and were not able to find answers elsewhere.</li>
+<li>Are “power users” who are already pretty invested in your tool and want to get more out of it – may be helpful contributors too!</li>
+</ul>
 </div>
 <div id="characteristics-of-clarifying-code-comments" class="section level2">
 <h2><span class="header-section-number">8.3</span> Characteristics of clarifying code comments</h2>
-<p>Most users will probably not look at your code directly – those who do are probably:
-Quite desperately troubleshooting something and were not able to find answers elsewhere.
-Are “power users” who are already pretty invested in your tool and want to get more out of it – may be helpful contributors too!
-About good code documentation:
-<a href="https://www.olioapps.com/blog/the-value-of-code-documentation/" class="uri">https://www.olioapps.com/blog/the-value-of-code-documentation/</a>
-<a href="http://alyssafrazee.com/2014/04/20/rdocs.html" class="uri">http://alyssafrazee.com/2014/04/20/rdocs.html</a>
-<a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits" class="uri">https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits</a>
-<a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24" class="uri">https://itnext.io/what-makes-a-good-code-comment-5267debd2c24</a></p>
+<p>Plenty of people have discussed good code comments at length so we’ll refer to those discussions here:</p>
+<p>-<a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">What Makes a Good Code Comment?</a> <span class="citation">Cronin (<a href="#ref-Cronin2019" role="doc-biblioref">2019</a>)</span>.
+-<a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">The Value of Code Documentation</a> <span class="citation">Meza (<a href="#ref-Meza2018" role="doc-biblioref">2018</a>)</span>.
+-<a href="http://alyssafrazee.com/2014/04/20/rdocs.html">Some internet wisdom on R documentation</a> <span class="citation">Frazee (<a href="#ref-Frazee2014" role="doc-biblioref">2014</a>)</span>
+-<a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">How to Comment Your Code Like a Pro: Best Practices and Good Habits</a> <span class="citation">Keeto (<a href="#ref-Keeton2019" role="doc-biblioref">2019</a>)</span>.</p>
 <p><strong>To recap:</strong></p>
-<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 /></p>
-</div>
-<div id="good-examples-of-code-comments" class="section level2">
-<h2><span class="header-section-number">8.4</span> Good examples of code comments</h2>
-</div>
-<div id="exercise-create-your-own-how-to-examples" class="section level2">
-<h2><span class="header-section-number">8.5</span> Exercise: Create your own How-to examples!</h2>
-<p>TODO: Update instructions here.</p>
-<p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md">the template reference guide template</a> to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
-<p>Keep in mind that if your tool’s destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories’ examples.</p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132 width = 400 height = 400 /></p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-Cronin2019">
+<p>Cronin, Mike. 2019. “What Makes a Good Code Comment?” <a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">https://itnext.io/what-makes-a-good-code-comment-5267debd2c24</a>.</p>
+</div>
+<div id="ref-Frazee2014">
+<p>Frazee, Alyssa. 2014. “Some Internet Wisdom on R Documentation.” <a href="http://alyssafrazee.com/2014/04/20/rdocs.html">http://alyssafrazee.com/2014/04/20/rdocs.html</a>.</p>
+</div>
+<div id="ref-Keeton2019">
+<p>Keeto, B. J. 2019. “How to Comment Your Code Like a Pro: Best Practices and Good Habits.” <a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits</a>.</p>
+</div>
+<div id="ref-Meza2018">
+<p>Meza, Frank. 2018. “The Value of Code Documentation.” <a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">https://www.olioapps.com/blog/the-value-of-code-documentation/</a>.</p>
 </div>
 </div>
             </section>
