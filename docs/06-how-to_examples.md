@@ -95,7 +95,7 @@ Providing them with more resources about options and possibilities is always nic
 @Love2014 walk through the most common use cases of DESeq2, providing data and explaining the set up.
 They efficiently move into other scenarios, explaining common questions and areas of nuance along the way. 
 
-[QIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
+[QIIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
 @Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
 At the very end of the example they also provide the end result for comparison!
 
@@ -103,6 +103,6 @@ At the very end of the example they also provide the end result for comparison!
 
 TODO: Update instructions here. 
 
-Use [the template how-to example template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
+Use [the template how-to example template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
 
 Keep in mind that if your tool's destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories' examples. 

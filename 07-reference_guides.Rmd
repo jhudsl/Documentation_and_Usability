@@ -24,36 +24,63 @@ Our goal for a reference guide is to be as comprehensive, navigable, and as alwa
 
 ## Characteristics of handy reference guides
   
-- [ ] Is easy to find: clearly visible on the main page.
-- [ ] Is searchable or at least visually easily able to be scanned.
-- [ ] All items are described in clear language:
-- [ ] Any input file formats are described (example file format included is ideal).
-- [ ] Any output file formats are described.
-  
-- [ ] All functions are described.
-- [ ] All arguments of those functions are described.
-- [ ] All parameters are described and defaults explained.
-- [ ] Any additional datasets or items included in the package are documented.
-- [ ] All buttons are described.
+### Is easy to find
+
+As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them. 
+
+### Data formats are described
+
+Perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with. 
+
+Ideally, your tool can use a data format that is common.
+But the more that your tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like. 
+
+- Including example files are helpful
+- Send your user to any tools they can use to convert their data format
+
+### Is searchable 
+
+Reference gudies being alphabetical is a start. 
+If you are able to make terms searchable that's even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function. 
+
+### Is comprehensive
+
+All items are covered in the reference guide -- every single thing. 
+This includes all:
+
+- terms
+- functions
+- arguments
+- parameters
+- defaults 
+- datasets or items included in the package
+- buttons (in the case of a GUI)
+
+### All items are described in clear language
+
+
+### Entries should have a consistent format
+
 
 **To recap:**
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 />
 
-## Good examples of How-to examples
+## Good examples of reference guides
 
-[DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)! 
-@Love2014 walks through the most common use cases of DESeq2, providing data and explaining the set up.
-They efficiently move into other scenarios, explaining common questions and areas of nuance along the way. 
+[QIIME2 a great reference guide](https://docs.qiime2.org/2021.2/glossary/)!
+@Bolyen2019 cover all items and terms with lots of links to more information or related entries. 
 
-[QIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
-@Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
-At the very end of the example they also provide the end result for comparison!
+[Bioconductor packages](https://bioconductor.org/packages/3.12/bioc/) have a consistent format which makes it easier for users to find once they are familiar with the format. 
+A typical entry https://bioconductor.org/packages/3.12/bioc/html/GenomicRanges.html
+
+[GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data)
+
 
 ## Exercise: Create your own How-to examples!
 
 TODO: Update instructions here. 
 
-Use [the template how-to example template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
+Use [the template reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
 
 Keep in mind that if your tool's destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories' examples. 
