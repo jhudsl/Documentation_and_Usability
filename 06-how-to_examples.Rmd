@@ -24,6 +24,7 @@ We can generally assume your user has found the kitchen, now give them various s
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 />
 
 Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
+
 Note: In some contexts, like Bioconductor, How-to examples are called vignettes -- we consider these to be the same. 
 
 ## Aspects of useful how-to examples 
@@ -57,7 +58,7 @@ And of course, link to the source of the data and cite it!
 Example code is not the same as backend code. 
 Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity. 
 
-This means your examples should include the most easily readable code you can muster -- sometimes this means extra workshoping to reach peak clarity.
+This means your examples should include the most easily readable code you can muster -- sometimes this means extra workshopping to reach peak clarity.
 Give commentary at each and every step -- don't assume your users understand your typical conventions. 
 Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
 
@@ -74,7 +75,7 @@ This means keeping in mind the important basics:
 
 ### Try to only stick to your own package and its dependencies
 
-Your user already made it through installation hell, try not to make them add more installation steps to follow your examples unless absolutely necessary. 
+Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary. 
 If it is absolutely necessary, should this package be something added as a dependency -- can you have it automatically installed for the user if it is critical to common uses? 
 
 ### Give tips on how to tailor your examples
@@ -91,7 +92,7 @@ Providing them with more resources about options and possibilities is always nic
 ## Good examples of How-to examples
 
 [DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)! 
-@Love2014 walks through the most common use cases of DESeq2, providing data and explaining the set up.
+@Love2014 walk through the most common use cases of DESeq2, providing data and explaining the set up.
 They efficiently move into other scenarios, explaining common questions and areas of nuance along the way. 
 
 [QIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
