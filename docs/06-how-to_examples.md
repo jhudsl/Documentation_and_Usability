@@ -1,9 +1,9 @@
 ---
-title: "Creating a helpful how-to examples "
+title: "Creating helpful how-to examples "
 output: html_document
 ---
 
-# Creating a helpful how-to examples 
+# Creating helpful how-to examples 
 
 ## Learning Objectives
 

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Documentation: The spinach of tool development | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
+  <title>Chapter 7 Comprehensive reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Documentation: The spinach of tool development | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta property="og:title" content="Chapter 7 Comprehensive reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Documentation: The spinach of tool development | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta name="twitter:title" content="Chapter 7 Comprehensive reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="introduction.html"/>
-<link rel="next" href="lessons-we-should-borrow-from-user-designers.html"/>
+<link rel="prev" href="creating-a-helpful-how-to-examples.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -166,110 +166,115 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="documentation-the-spinach-of-tool-development" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Documentation: The spinach of tool development</h1>
+<div id="comprehensive-reference-guides" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> Comprehensive reference guides</h1>
 <div id="learning-objectives" class="section level2">
-<h2><span class="header-section-number">2.1</span> Learning Objectives</h2>
+<h2><span class="header-section-number">7.1</span> Learning Objectives</h2>
 <p>This chapter will demonstrate how to:</p>
 <ul>
-<li>Understand good documentation increases the impact and usability of software tools.<br />
-</li>
-<li>Understand good documentation is helpful for both tool developers and users.</li>
+<li>Understand the goals of a reference guide</li>
+<li>Describe characteristics of helpful reference guides</li>
+<li>Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level</li>
 </ul>
 </div>
-<div id="the-context-of-bioinformatics-tool-development" class="section level2">
-<h2><span class="header-section-number">2.2</span> The context of bioinformatics tool development</h2>
-<p>Tool development is an exciting but long process – filled with lots of careful programming, tedious troubleshooting, but also ‘Aha’ moments that ultimately can result in an amazing product that you should be proud of!</p>
-<p>Tina the Tool developer, perhaps like you, has just gotten her product working well and many of the bugs have been sorted out.
-Tina’s awesome tool is working exactly as designed and Tina is excited to get her tool out there to be used by the community!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=p" 
-width="500" height="500" /><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-<p>This is indeed cause for celebration!
-Perhaps researchers like Uri the Tool User will come across Tina’s awesome tool and share in Tina’s enthusiasm for the project!
-Tina’s bioinformatics tool may be just what they were needing for their research project!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_11" width="500" height="500" /></p>
-<p>Uri the Tool User can’t wait to apply Tina’s awesome tool to their project!
-But, it may not be long before Uri encounters errors, or questions about Tina’s awesome tool, no matter how high quality Tina’s programming of the tool is.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_27" width="500" height="500" /></p>
-<p>Often users like Uri, particularly in the biology and cancer fields, have little to no programming experience.
-Even if a user does have programming experience, they are still unfamiliar with how Tina has set up tool.
-The tool may even be working exactly according to Tina’s vision but if users like Uri do not understand Tina’s vision or basic programming principles that Tina might take for granted, it can lead to a lot of frustration and time inefficiently spent.</p>
-<p>If the tool’s documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances that Uri will be able to successfully and efficiently create a product with the tool is drastically diminished.</p>
-<p>Lack of usability often leads users to ditch even the most well-programmed of tools.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_60" width="500" height="500" /></p>
-<p>This is the unfortunate and all-too-common result of many bioinformatics tools.</p>
-<div id="bioinformatics-and-usability" class="section level3">
-<h3><span class="header-section-number">2.2.1</span> Bioinformatics and usability</h3>
-<p>The lack of focus and education on usability in the bioinformatics tool development is not only a disservice to progress of cancer research, but also to the tool developers themselves who have equally spent uncountable work hours and effort on the development of cancer tools.</p>
-<p>We know that bioinformatics tool development doesn’t occur in a vaccuum.
-User designers in the field of bioinformatics have commented on reasons why documentation and usability sometimes suffer for bioinformatics tools:</p>
+<div id="the-goal-of-a-reference-guide" class="section level2">
+<h2><span class="header-section-number">7.2</span> The goal of a reference guide</h2>
+<p>Reference guides are the dictionary of your tool: they aren’t made to be read front to back, but the best ones are easily searchable.</p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 /></p>
+<p>Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
+Note: In some contexts, like Bioconductor, How-to examples are called vignettes – we consider these to be the same.</p>
+</div>
+<div id="aspects-of-useful-how-to-examples" class="section level2">
+<h2><span class="header-section-number">7.3</span> Aspects of useful how-to examples</h2>
+<div id="should-cover-what-your-user-wants-to-do" class="section level3">
+<h3><span class="header-section-number">7.3.1</span> Should cover what your user wants to do!</h3>
+<p>Users won’t go through examples that demonstrate analyses they aren’t interested in.
+So although you may have your favorite pet functions of your tool, it doesn’t necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to make examples of your favorites).
+You may want to do some asking around, or conduct some user research to find out what your users are most interested in.
+You also are not restricted to just one example, users love having a full library of how-to examples to choose from!
+That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases.</p>
+</div>
+<div id="every-step-is-specifically-given" class="section level3">
+<h3><span class="header-section-number">7.3.2</span> Every step is specifically given</h3>
+<p>Examples should explicitly give every step needed to reproduce your result.
+For command line based tools, provided the exact code your user needs to run.
+Ideally this example can be provided as a notebook or script so your user can run it directly.
+In the case of a GUI, provide screenshots or a video tutorial.</p>
+</div>
+<div id="any-data-needed-to-run-the-example-is-provided-and-explained" class="section level3">
+<h3><span class="header-section-number">7.3.3</span> Any data needed to run the example is provided and explained</h3>
+<p>Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user’s data.
+Instead, provide your users with example data that your example code directly downloads (or is available through your GUI).
+This has the added benefit of being a positive control for when users are troubleshooting the formatting for their own data later on, but doesn’t force them to face that battle before they can follow your example.</p>
+<p>Make sure your example adequately introduces the example: what are the measurements from, what was the goal of this dataset.
+And of course, link to the source of the data and cite it!</p>
+</div>
+<div id="example-code-is-about-the-lesson-not-the-output-per-se" class="section level3">
+<h3><span class="header-section-number">7.3.4</span> Example code is about the lesson not the output per se</h3>
+<p>Example code is not the same as backend code.
+Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.</p>
+<p>This means your examples should include the most easily readable code you can muster – sometimes this means extra workshoping to reach peak clarity.
+Give commentary at each and every step – don’t assume your users understand your typical conventions.
+Also in the interest of being as readable as possible, try to stick to a styling conventions – s p a c i n g matters!</p>
+<p><em>Related to this, your examples’ code should model best practices</em></p>
+<p>Pretend you are the model user of your tool – how should your users interact with your tool?
+This means keeping in mind the important basics:</p>
 <ul>
-<li><em>Problem 1)</em> Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability <span class="citation">(Mangul, Martin, et al. <a href="#ref-Mangul2019" role="doc-biblioref">2019</a>)</span>.</li>
-<li><em>Problem 2)</em> Bioinformatics tool development teams generally don’t have the resources to hire user design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback <span class="citation">(Pavelin et al. <a href="#ref-Pavelin2012" role="doc-biblioref">2012</a>)</span>.<br />
-</li>
-<li><em>Problem 3)</em> Lack of resources/education about usability specific to bioinformatics tool developing communities <span class="citation">(Pavelin et al. <a href="#ref-Pavelin2012" role="doc-biblioref">2012</a>)</span>.</li>
+<li>Emphasize reproducibility</li>
+<li>Code comments</li>
+<li>Stick to a style</li>
+<li>Be consistent with your conventions</li>
+<li>Pick good object names</li>
 </ul>
-<p>Unfortunately this specific course cannot address issues 1 and 2, but will attempt to help with problem 3.</p>
 </div>
-<div id="why-documentation-is-worth-the-time" class="section level3">
-<h3><span class="header-section-number">2.2.2</span> Why documentation is worth the time</h3>
-<p>We realize many tool developers are averse to documentation like some are to spinach, feeling unenthused about the process of creating documentation.
-The documentation process requires a different skill set from the tool development itself; meaning many developers were likely not attracted to tool development because of documentation and may not be sure how to craft good documentation <span class="citation">(Wolf <a href="#ref-Wolf2016" role="doc-biblioref">2016</a>)</span>.
-They may know its good for their tool, but they just aren’t enthused about it.
-In this course, we’d like you to view your tool as Popeye and where documentation spinach will make your tool stronger!</p>
-<p>The effort for creating documentation has a high return payoff for the continued success of a tool as a whole!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_140" width="500" height="500" /></p>
-<p>Returning to our cast of characters, let’s say that Tina the Tool Developer, had the time and knowledge to create awesome documentation for her tool.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_47" width="500" height="500" /></p>
-<p>Uri the tool User is still likely to encounter errors and problems, but with thorough and easy-to-digest documentation, Uri is better equipped to troubleshoot these problems!
-They may also learn more about the features and limitations of the tool that will better guide Uri’s next steps!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_112" width="500" height="500" /></p>
-<p>Being equipped with user-centered documentation, Uri is more likely to be able to reach the next steps of their research and potentially share a publishable result!
-Tina’s tool is now more likely to be cited in publications, or other forms of media.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_144" width="500" height="500" /></p>
-<p>This rewards Uri for having used Tina’s tool, making Uri not only likely to continue to use the tool for their next projects, but Uri may also help spread the word about how great their experience with Tina’s tool was.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_49" width="500" height="500" /></p>
-<p>This means that Tina may have a larger user base for her tool and will help Tina with future funding opportunities and making connections that will help her create more awesome tools!</p>
-<p>Well-documented tools help developers better maintain their code in the future because they may forget the mechanics of their tool over time.
-If Future Tina has to divert her time and effort to another project but then returns to do tool maintenance, documentation may help jog her memory!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_79" width="500" height="500" /></p>
-<p>Thorough and easy-to-digest documentation may also help other tool developers contribute features or fix bugs in Tina’s tool.
-Here Colin the Contributor was able to read Tina’s awesome documentation.
-It not only got him excited about the tool, but allowed him to program a new feature which he sent to Tina.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_127" width="500" height="500" /></p>
-<p>Now that you are hopefully energized and ready for creating documentation for your tool, let’s talk about a bit user design concepts!</p>
+<div id="try-to-only-stick-to-your-own-package-and-its-dependencies" class="section level3">
+<h3><span class="header-section-number">7.3.5</span> Try to only stick to your own package and its dependencies</h3>
+<p>Your user already made it through installation hell, try not to make them add more installation steps to follow your examples unless absolutely necessary.
+If it is absolutely necessary, should this package be something added as a dependency – can you have it automatically installed for the user if it is critical to common uses?</p>
+</div>
+<div id="give-tips-on-how-to-tailor-your-examples" class="section level3">
+<h3><span class="header-section-number">7.3.6</span> Give tips on how to tailor your examples</h3>
+<p>If your users follow along with your examples successfully, their next step will probably be to tailor your examples to their own questions.
+Whether you intend it or not, your examples will probably be used as template framework for your user’s analysis.
+Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it.
+Providing them with more resources about options and possibilities is always nice too.</p>
+<p><strong>To recap:</strong></p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 /></p>
+</div>
+</div>
+<div id="good-examples-of-how-to-examples" class="section level2">
+<h2><span class="header-section-number">7.4</span> Good examples of How-to examples</h2>
+<p><a href="http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">DESeq2 has excellent vignettes</a>!
+<span class="citation">Love, Huber, and Anders (<a href="#ref-Love2014" role="doc-biblioref">2014</a>)</span> walks through the most common use cases of DESeq2, providing data and explaining the set up.
+They efficiently move into other scenarios, explaining common questions and areas of nuance along the way.</p>
+<p><a href="https://docs.qiime2.org/2021.2/tutorials/pd-mice/">QIME2 also has an extensive set examples</a>!
+<span class="citation">Bolyen et al. (<a href="#ref-Bolyen2019" role="doc-biblioref">2019</a>)</span> give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
+At the very end of the example they also provide the end result for comparison!</p>
+</div>
+<div id="exercise-create-your-own-how-to-examples" class="section level2">
+<h2><span class="header-section-number">7.5</span> Exercise: Create your own How-to examples!</h2>
+<p>TODO: Update instructions here.</p>
+<p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md">the template how-to example template</a> to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
+<p>Keep in mind that if your tool’s destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories’ examples.</p>
 
-</div>
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
-<div id="ref-Mangul2019">
-<p>Mangul, Serghei, Lana S. Martin, Eleazar Eskin, and Ran Blekhman. 2019. “Improving the Usability and Archival Stability of Bioinformatics Software.” <em>Genome Biology</em> 20 (1). <a href="https://doi.org/10.1186/s13059-019-1649-8">https://doi.org/10.1186/s13059-019-1649-8</a>.</p>
+<div id="ref-Bolyen2019">
+<p>Bolyen, Evan, Jai Ram Rideout, Matthew R. Dillon, Nicholas A. Bokulich, Christian C. Abnet, Gabriel A. Al-Ghalith, Harriet Alexander, et al. 2019. “Reproducible, Interactive, Scalable and Extensible Microbiome Data Science Using QIIME 2.” <em>Nature Biotechnology</em> 37 (8): 852–57. <a href="https://doi.org/10.1038/s41587-019-0209-9">https://doi.org/10.1038/s41587-019-0209-9</a>.</p>
 </div>
-<div id="ref-Pavelin2012">
-<p>Pavelin, Katrina, Jennifer A. Cham, Paula de Matos, Cath Brooksbank, Graham Cameron, and Christoph Steinbeck. 2012. “Bioinformatics Meets User-Centred Design: A Perspective.” Edited by Philip E. Bourne. <em>PLoS Computational Biology</em> 8 (7): e1002554. <a href="https://doi.org/10.1371/journal.pcbi.1002554">https://doi.org/10.1371/journal.pcbi.1002554</a>.</p>
+<div id="ref-Love2014">
+<p>Love, Michael I, Wolfgang Huber, and Simon Anders. 2014. “Moderated Estimation of Fold Change and Dispersion for RNA-Seq Data with DESeq2.” <em>Genome Biology</em> 15 (12). <a href="https://doi.org/10.1186/s13059-014-0550-8">https://doi.org/10.1186/s13059-014-0550-8</a>.</p>
 </div>
-<div id="ref-Wolf2016">
-<p>Wolf, Damian. 2016. “Why Developers Write Horrible Documentation and How to Solve It.” <a href="https://dzone.com/articles/why-developers-write-horrible-documentation-and-ho">https://dzone.com/articles/why-developers-write-horrible-documentation-and-ho</a>.</p>
-</div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p>For all cartoons:<br />
-Avataars by <a href="https://getavataaars.com/" class="uri">https://getavataaars.com/</a>.<br />
-Icons by <a href="https://thenounproject.com/" class="uri">https://thenounproject.com/</a> License CC BY-NC-ND 2.0.<br />
-Emojis by OpenMoji License: CC BY-SA 4.0.<a href="documentation-the-spinach-of-tool-development.html#fnref1" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="lessons-we-should-borrow-from-user-designers.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="creating-a-helpful-how-to-examples.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
