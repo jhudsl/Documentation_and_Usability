@@ -1,6 +1,7 @@
 Avataars
 BEDtools
 Biocurator
+Bioconductor's
 Bioinformatician
 bioinformatic
 Biostatistics
@@ -32,6 +33,7 @@ phenotypes
 priori
 QIIME
 reproducibility
+RMarkdown
 Savonen
 se
 snakemake

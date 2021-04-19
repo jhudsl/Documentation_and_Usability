@@ -79,7 +79,7 @@ A typical package's reference guide [looks like this](https://bioconductor.org/p
 
 ## Exercise: Create your own How-to examples!
 
-Use [the template reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
+Use [the template reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
 
 If your tool's destination is Bioconductor or Galaxy, see our specific guidance on those repositories' examples:
 
