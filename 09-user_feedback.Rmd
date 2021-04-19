@@ -43,22 +43,70 @@ _Example contact method ideas_:
 
 Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to.
 
-## Informative interviews and usability testing
+## Interviews and usability testing
 
-In whatever contact method you settle on, give your users a way to indicate if they are willing to chat with you or provide even more feedback. 
+In whatever contact method you settle on, give your users a way to indicate if they are willing to chat with you or do testing to provide even more feedback. 
 
+Depending on your time and resources you can do a lot with usability testing. 
+[This excellent article](https://uxstudioteam.com/ux-blog/usability-testing/) by @Csontos2019 takes us through how to conduct usability testing which we will echo the main points of here. 
 
+What to use usability testing for: 
 
-**To recap:**
+> - Identifying main issues in the usability of a product
+> - Checking if users understand the steps to carry out a task and the navigation
+> - Observing how easily and quickly they accomplish tasks
+> - Validating the value proposition of an app or website – do your potential customers understand it?
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_168 width = 400 height = 400 />
+_To summarize the steps laid out by @Csontos2019 for conducting usability research_:
 
-## Case studies of user research
+[Step 1) Plan out your study](https://uxstudioteam.com/ux-blog/usability-testing/#Step_1_Plan_your_study) - clarify what you want to learn and write a plan and script. 
 
-## Exercise: Create a plan for user feedback for your tool
+- What main questions about your tool do you have? -- try to narrow down to one or two priority questions that you can design a test for. 
+- What tasks would a user participant perform that would best inform you about your questions?
+- Write out a script that you would use to conduct testing. 
 
-TODO: Update instructions here. 
+_See more advice about writing usability testing scripts here:_    
 
-We have a mock feedback user form [set up here](). 
+- [Steve Krug's usability testing script template](http://sensible.com/downloads/test-script-web.pdf) from @Krug2010.
+- [Gitlab's advice about usability testing script](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/) from @Gitlab. 
+- [Gitlab's usability testing template script](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit)
+
+[Step 2) Find user participants](https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants). 
+
+Who is interested in available for being your test subjects?
+You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around. 
+
+[Step 3) Lead your test](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)
+
+- Pilot your test: before you use your test on a potential user, borrow a colleague or other internal person to run through your plan and script for a rehearsal. 
+- Conduct the tests! 
+- If you are able to record the testing sessions, make sure to ask the participant's permission.
+- [Use this checklist](http://sensible.com/downloads/checklists.pdf) from @Krug2010 to check if you are prepared!
+
+A very important point from @Csontos2019: 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_5 width = 400 height = 400 />
+
+You can use [these prompts](https://sensible.com/downloads/things-a-therapist-would-say.pdf) from @Krug2010 to help you know what to say to help create a non-judgmental atmosphere for testing. 
+
+[Step 4) Analyze & Report](https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report)
+Sit down with your notes and recordings, look for patterns. 
+
+_More reading on usability testing:_. 
+
+- [How to run moderated usability testing](https://www.hotjar.com/usability-testing/process-examples/) @Hotjar2020.
+- [Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/) @Moran2019.
+- See @Krug2010 's list of [downloadable usability resources](https://sensible.com/download-files/).
+- For even more reading, you could buy [this book by @Krug2010](https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO). 
+- See this [case study](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002554) for a user designer conducting user research on a bioinformatics tool [@Pavelin2012]. 
+
+## Exercise 1: Create a plan for user feedback for your tool
+
+Set up a method of contact for your users. 
+We have a mock feedback user form [set up here](https://docs.google.com/forms/d/1erbaH2k8cra0A2GB6W9Da0tqJCT41ZPlCmHXpKRcMLk/edit?usp=sharing). 
 This form shouldn't be used as is, but could be tailored to more specifically ask questions about your tool that you are looking to get information about. 
 
+## Exercise 2: Determine a plan for usability testing
+
+Go through [All You Need to Know to Run Successful Usability Testing](https://uxstudioteam.com/ux-blog/usability-testing/) and construct a plan for usability testing following the steps we discussed above from the article. 
+Think about what in your tool you want to test and write a plan for it.
