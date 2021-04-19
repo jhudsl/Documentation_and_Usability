@@ -30,7 +30,7 @@ novo
 OpenMoji
 phenotypes
 priori
-QIME
+QIIME
 reproducibility
 Savonen
 se
@@ -43,4 +43,5 @@ thenounproject
 TSV
 UI
 unenthused
+workshopping
 www
