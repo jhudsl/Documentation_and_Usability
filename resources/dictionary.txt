@@ -1,6 +1,7 @@
 Avataars
 BEDtools
 Biocurator
+Bioconductor's
 Bioinformatician
 bioinformatic
 Biostatistics
@@ -30,8 +31,9 @@ novo
 OpenMoji
 phenotypes
 priori
-QIME
+QIIME
 reproducibility
+RMarkdown
 Savonen
 se
 snakemake
@@ -43,4 +45,5 @@ thenounproject
 TSV
 UI
 unenthused
+workshopping
 www
