@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
+  <title>Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta property="og:title" content="Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
+  <meta name="twitter:title" content="Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="introduction.html"/>
+<link rel="prev" href="creating-handy-reference-guides.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -170,25 +170,65 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Informatics Technology for Cancer Research (ITCR): Documentation and Usability</h1>
-<p class="author"><em>Candace Savonen</em></p>
-<p class="date"><em>2021-04-19</em></p>
+<div id="creating-clarifying-code-comments" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> Creating clarifying code comments</h1>
+<div id="learning-objectives" class="section level2">
+<h2><span class="header-section-number">8.1</span> Learning Objectives</h2>
+<p>This chapter will demonstrate how to:</p>
+<ul>
+<li>Understand the goals of good code documentation</li>
+<li>Describe characteristics of helpful code comments</li>
+</ul>
 </div>
-<div id="about-this-course" class="section level1 unnumbered">
-<h1>About this Course</h1>
-<p>This course is part of a series of courses for the Informatics Technology for Cancer Research (ITCR) called the Informatics Technology for Cancer Research Education Resource.
-This material was created by the ITCR Training Network (ITN) which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events.
-Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at <a href="https://www.itcrtraining.org/" class="uri">https://www.itcrtraining.org/</a> for more information.</p>
+<div id="the-goal-of-a-code-documentation" class="section level2">
+<h2><span class="header-section-number">8.2</span> The goal of a code documentation</h2>
+<p>Code documentation goes beyond your user.
+It’s a part of writing good code and helps your collaborators and future you!</p>
+<p>Most users will probably not look at your code directly – those who do are probably:</p>
+<ul>
+<li>Quite desperately troubleshooting something and were not able to find answers elsewhere.</li>
+<li>Are “power users” who are already pretty invested in your tool and want to get more out of it – may be helpful contributors too!</li>
+</ul>
+</div>
+<div id="characteristics-of-clarifying-code-comments" class="section level2">
+<h2><span class="header-section-number">8.3</span> Characteristics of clarifying code comments</h2>
+<p>Plenty of people have discussed good code comments at length so we’ll refer to those discussions here:</p>
+<ul>
+<li><a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">What Makes a Good Code Comment?</a> by <span class="citation">Cronin (<a href="#ref-Cronin2019" role="doc-biblioref">2019</a>)</span>.<br />
+</li>
+<li><a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">The Value of Code Documentation</a> by <span class="citation">Meza (<a href="#ref-Meza2018" role="doc-biblioref">2018</a>)</span>.<br />
+</li>
+<li><a href="http://alyssafrazee.com/2014/04/20/rdocs.html">Some internet wisdom on R documentation</a> by <span class="citation">Frazee (<a href="#ref-Frazee2014" role="doc-biblioref">2014</a>)</span>.<br />
+</li>
+<li><a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">How to Comment Your Code Like a Pro: Best Practices and Good Habits</a> by <span class="citation">Keeto (<a href="#ref-Keeton2019" role="doc-biblioref">2019</a>)</span>.</li>
+</ul>
+<p><strong>Some major points from these articles:</strong></p>
+<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132 width = 400 height = 400 /></p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-Cronin2019">
+<p>Cronin, Mike. 2019. “What Makes a Good Code Comment?” <a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">https://itnext.io/what-makes-a-good-code-comment-5267debd2c24</a>.</p>
+</div>
+<div id="ref-Frazee2014">
+<p>Frazee, Alyssa. 2014. “Some Internet Wisdom on R Documentation.” <a href="http://alyssafrazee.com/2014/04/20/rdocs.html">http://alyssafrazee.com/2014/04/20/rdocs.html</a>.</p>
+</div>
+<div id="ref-Keeton2019">
+<p>Keeto, B. J. 2019. “How to Comment Your Code Like a Pro: Best Practices and Good Habits.” <a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits</a>.</p>
+</div>
+<div id="ref-Meza2018">
+<p>Meza, Frank. 2018. “The Value of Code Documentation.” <a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">https://www.olioapps.com/blog/the-value-of-code-documentation/</a>.</p>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="creating-handy-reference-guides.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
