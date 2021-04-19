@@ -46,6 +46,8 @@ This includes all:
 - Datasets or items included in the package
 - Buttons (in the case of a GUI)
 
+For Bioconductor packages, there's [specific guidance on manuals](http://cran.fhcrc.org/doc/manuals/R-exts.html#Documenting-functions).
+
 ### Data formats are described
 
 Perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with.
@@ -58,7 +60,7 @@ But the more that your tool is particular about an odd data format, the more you
 
 ### Entries should have a consistent format
 
-Consistency helps your users know what to expect and know where to find information. 
+Consistency helps your users know what to expect and know where to find information!
 
 **To recap:**
 
@@ -77,8 +79,15 @@ A typical package's reference guide [looks like this](https://bioconductor.org/p
 
 ## Exercise: Create your own How-to examples!
 
-TODO: Update instructions here.
-
 Use [the template reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
 
-Keep in mind that if your tool's destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories' examples.
+If your tool's destination is Bioconductor or Galaxy, see our specific guidance on those repositories' examples:
+
+
+_For Bioconductor vignettes_: 
+
+- [ ] [Bioconductor's guidnace on manual pages](https://bioconductor.org/developers/package-guidelines/#manpages)
+
+
+_For Galaxy vignettes_: 
+
