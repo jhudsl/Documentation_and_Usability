@@ -132,6 +132,6 @@ More about user-friendly principles:
 No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time. 
 Because of this or other unknown unknowns, a usable tool still has a way for a user to let the developers know when something isn't working. 
 This might a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention. 
-We'll discuss this in more detail in a [later chapter](). 
+We'll discuss this in more detail in a [later chapter](#obtaining-user-feedback). 
 
 Now that we've discussed some major principles about users and design, let's dive in to talking about how documentation can help!
