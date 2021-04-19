@@ -27,7 +27,7 @@ Our goal for our how-to examples is to show off the best and most exciting use c
 
 Note: In some contexts, like Bioconductor, How-to examples are called vignettes -- we consider these to be the same. 
 
-## Aspects of useful how-to examples 
+## Characteristics of useful how-to examples 
   
 ### Should cover what your user wants to do!
 
@@ -72,12 +72,12 @@ Pretend you are the model user of your tool -- how should your users interact wi
 This means keeping in mind the important basics: 
 
 - Emphasize reproducibility 
-- Code comments 
-- Stick to a style
+- Include code comments 
+- Stick to a code style
 - Be consistent with your conventions 
 - Pick good object names
 
-### Try to only stick to your own package and its dependencies
+### Try to stick to your own package and its dependencies
 
 Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary. 
 If it is absolutely necessary, should this package be something added as a dependency -- can you have it automatically installed for the user if it is critical to common uses? 
