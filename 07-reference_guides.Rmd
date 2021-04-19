@@ -1,9 +1,9 @@
 ---
-title: "Creating comprehensive reference guides  "
+title: "Creating handy reference guides  "
 output: html_document
 ---
 
-# Creating comprehensive reference guides
+# Creating handy reference guides
 
 ## Learning Objectives
 
@@ -58,6 +58,8 @@ But the more that your tool is particular about an odd data format, the more you
 - Including example files are helpful
 - Send your user to any tools they can use to convert their data format
 
+[GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data) with examples of what the data formats look like. 
+
 ### Entries should have a consistent format
 
 Consistency helps your users know what to expect and know where to find information!
@@ -68,26 +70,15 @@ Consistency helps your users know what to expect and know where to find informat
 
 ## Good examples of reference guides
 
-[QIIME2 a great reference guide](https://docs.qiime2.org/2021.2/glossary/)!
+[QIIME2 has a great reference guide](https://docs.qiime2.org/2021.2/glossary/)!
 @Bolyen2019 cover all items and terms with lots of links to more information or related entries.
 
 [Bioconductor packages](https://bioconductor.org/packages/3.12/bioc/) have a consistent reference guide format that the packages there adhere to which makes it easier for users to find once they are familiar with the format.
 A typical package's reference guide [looks like this](https://bioconductor.org/packages/3.12/bioc/manuals/GenomicRanges/man/GenomicRanges.pdf).
 
-[GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data) with examples of what the data formats look like. 
+## Exercise: Create your own reference guide!
 
+Use [the reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
 
-## Exercise: Create your own How-to examples!
-
-Use [the template reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
-
-If your tool's destination is Bioconductor or Galaxy, see our specific guidance on those repositories' examples:
-
-
-_For Bioconductor vignettes_: 
-
-- [ ] [Bioconductor's guidnace on manual pages](https://bioconductor.org/developers/package-guidelines/#manpages)
-
-
-_For Galaxy vignettes_: 
+If your tool's destination is Bioconductor, see Bioconductor's specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages).
 

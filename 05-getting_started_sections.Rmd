@@ -22,7 +22,7 @@ It is also can be the most frustrating experience for your user if installation 
 
 Our goal for our getting started section is to guide our new users through installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
 
-## Aspects of a smooth getting started section
+## Characteristics of a smooth getting started section
 
 ### Easy to find!
 
