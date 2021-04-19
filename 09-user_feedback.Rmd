@@ -20,13 +20,14 @@ Similarly, how do you know if your tool is working for your user? Ask them for f
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173 width = 400 height = 400 />
 
-## Characteristics of informative user feedback
+## How to collect informative user feedback
 
 ## Methods of user feedback
 
 At the most basic level, you need to provide your users a way to alert you if something with your tool is not working appropriately. 
 
 It may sound disappointing that a user has found a problem but this is something to be happy about!  
+  
 1) This means someone is interested and invested in using your tool!   
 2) They've identified a way to improve your tool to make it even better!  
 
@@ -35,12 +36,18 @@ In fact, that is probably not the most practical way to keep user queries organi
 
 _Example contact method ideas_: 
 
-- Have a link to a form for users to submit.   
+- Have a link to a form for users to submit (Google forms are free).   
 - Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
 - Have a separate email inbox that you have a notification set up for.  
 - Have a [Slack channel](https://slack.com/) that you direct users to.  
 
-Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to!
+Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to.
+
+## Informative interviews and usability testing
+
+In whatever contact method you settle on, give your users a way to indicate if they are willing to chat with you or provide even more feedback. 
+
+
 
 **To recap:**
 
