@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-16" />
+<meta name="date" content="2021-04-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -139,19 +139,13 @@
 <li class="chapter" data-level="7.2" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#the-goal-of-a-reference-guide"><i class="fa fa-check"></i><b>7.2</b> The goal of a reference guide</a></li>
 <li class="chapter" data-level="7.3" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#characteristics-of-handy-reference-guides"><i class="fa fa-check"></i><b>7.3</b> Characteristics of handy reference guides</a><ul>
 <li class="chapter" data-level="7.3.1" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#is-easy-to-find"><i class="fa fa-check"></i><b>7.3.1</b> Is easy to find</a></li>
-<li class="chapter" data-level="7.3.2" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#data-formats-are-described"><i class="fa fa-check"></i><b>7.3.2</b> Data formats are described</a></li>
-<li class="chapter" data-level="7.3.3" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#is-searchable"><i class="fa fa-check"></i><b>7.3.3</b> Is searchable</a></li>
-<li class="chapter" data-level="7.3.4" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#is-comprehensive"><i class="fa fa-check"></i><b>7.3.4</b> Is comprehensive</a></li>
-<li class="chapter" data-level="7.3.5" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#all-items-are-described-in-clear-language"><i class="fa fa-check"></i><b>7.3.5</b> All items are described in clear language</a></li>
-<li class="chapter" data-level="7.3.6" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#entries-should-have-a-consistent-format"><i class="fa fa-check"></i><b>7.3.6</b> Entries should have a consistent format</a></li>
+<li class="chapter" data-level="7.3.2" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#is-searchable"><i class="fa fa-check"></i><b>7.3.2</b> Is searchable</a></li>
+<li class="chapter" data-level="7.3.3" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#is-comprehensive"><i class="fa fa-check"></i><b>7.3.3</b> Is comprehensive</a></li>
+<li class="chapter" data-level="7.3.4" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#data-formats-are-described"><i class="fa fa-check"></i><b>7.3.4</b> Data formats are described</a></li>
+<li class="chapter" data-level="7.3.5" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#entries-should-have-a-consistent-format"><i class="fa fa-check"></i><b>7.3.5</b> Entries should have a consistent format</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#good-examples-of-reference-guides"><i class="fa fa-check"></i><b>7.4</b> Good examples of reference guides</a></li>
-<li class="chapter" data-level="7.5" data-path="creating-comprehensive-reference-guides.html"><a href="creating-comprehensive-reference-guides.html#exercise-create-your-own-reference-guide"><i class="fa fa-check"></i><b>7.5</b> Exercise: Create your own reference guide!</a></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html"><i class="fa fa-check"></i><b>8</b> Creating clarifying code comments</a><ul>
-<li class="chapter" data-level="8.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>8.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="8.2" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#the-goal-of-a-code-comments"><i class="fa fa-check"></i><b>8.2</b> The goal of a code comments</a></li>
-<li class="chapter" data-level="8.3" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#characteristics-of-clarifying-code-comments"><i class="fa fa-check"></i><b>8.3</b> Characteristics of clarifying code comments</a></li>
+<li class="chapter" data-level="7.5" data-path="creating-a-helpful-how-to-examples.html"><a href="creating-a-helpful-how-to-examples.html#exercise-create-your-own-how-to-examples"><i class="fa fa-check"></i><b>7.5</b> Exercise: Create your own How-to examples!</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 </ul>
@@ -205,9 +199,11 @@ That being said, for your own time and planning, you may want to start with the 
 <div id="every-step-is-specifically-given" class="section level3">
 <h3><span class="header-section-number">6.3.2</span> Every step is specifically given</h3>
 <p>Examples should explicitly give every step needed to reproduce your result.
-For command line based tools, provided the exact code your user needs to run.
-Ideally this example can be provided as a notebook or script so your user can run it directly.
-In the case of a GUI, provide screenshots or a video tutorial.</p>
+Keep a special look out for steps you complete that you may take for granted that your user would know.
+For example, if your user needs to change to a specific directory to run a command, don’t assume that they will know that for sure.</p>
+<p>For command line based tools, provided the exact code your user needs to run.
+Ideally this example can be provided as a notebook or script so your user can run it directly.</p>
+<p>In the case of a GUI, provide screenshots or a video tutorial.</p>
 </div>
 <div id="any-data-needed-to-run-the-example-is-provided-and-explained" class="section level3">
 <h3><span class="header-section-number">6.3.3</span> Any data needed to run the example is provided and explained</h3>
@@ -261,14 +257,26 @@ At the very end of the example they also provide the end result for comparison!<
 </div>
 <div id="exercise-create-your-own-how-to-examples" class="section level2">
 <h2><span class="header-section-number">6.5</span> Exercise: Create your own How-to examples!</h2>
-<p>TODO: Update instructions here.</p>
-<p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how-to_examples_template.md">the template how-to example template</a> to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
-<p>Keep in mind that if your tool’s destination is Bioconductor or Galaxy, you should see our specific guidance on those repositories’ examples.</p>
+<p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md">the how-to example templates</a> to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
+<p>If your tool’s destination is Bioconductor or Galaxy, see our specific guidance on those repositories’ examples:</p>
+<p><em>For Bioconductor vignettes</em>:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md">Our Bioconductor specific How-to example templates</a></li>
+<li><a href="https://www.bioconductor.org/developers/package-guidelines/#Vignettes">Bioconductor’s own vignette guidance</a></li>
+<li><span class="citation">Andrzej Oleś and Morgan (<a href="#ref-Oles2021" role="doc-biblioref">2021</a>)</span> have <a href="https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html">guidance on writing RMarkdown Vignettes</a></li>
+</ul>
+<p><em>For Galaxy vignettes</em>:</p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html">See this Galaxy tutorial for creating new tutorials!</a></li>
+</ul>
 
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
+<div id="ref-Oles2021">
+<p>Andrzej Oleś, Wolfgang Huber, and Martin Morgan. 2021. “Authoring R Markdown Vignettes.” <a href="https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html">https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html</a>.</p>
+</div>
 <div id="ref-Bolyen2019">
 <p>Bolyen, Evan, Jai Ram Rideout, Matthew R. Dillon, Nicholas A. Bokulich, Christian C. Abnet, Gabriel A. Al-Ghalith, Harriet Alexander, et al. 2019. “Reproducible, Interactive, Scalable and Extensible Microbiome Data Science Using QIIME 2.” <em>Nature Biotechnology</em> 37 (8): 852–57. <a href="https://doi.org/10.1038/s41587-019-0209-9">https://doi.org/10.1038/s41587-019-0209-9</a>.</p>
 </div>
