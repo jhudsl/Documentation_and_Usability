@@ -107,12 +107,13 @@ If you are creating documentation to accompany a package you are submitting to [
 templates/
 ├── well_documented_checklist.md
 ├── getting_started_template.md
-├── how_to_examples_examples.md
+├── how_to_examples.md
 ├── reference_guide_template.md
 ├── bioconductor-guides/
-│   ├── 
+│   ├── bioconductor_example_script.R
+│   ├── bioconductor_vignette_template.Rmd
+│   └── README.md
 └── galaxy-guides/
-    └──
 ```
 
 ### Well-documented checklist

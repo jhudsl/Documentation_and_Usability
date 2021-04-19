@@ -152,6 +152,15 @@
 <li class="chapter" data-level="8.2" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#the-goal-of-a-code-documentation"><i class="fa fa-check"></i><b>8.2</b> The goal of a code documentation</a></li>
 <li class="chapter" data-level="8.3" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#characteristics-of-clarifying-code-comments"><i class="fa fa-check"></i><b>8.3</b> Characteristics of clarifying code comments</a></li>
 </ul></li>
+<li class="chapter" data-level="9" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html"><i class="fa fa-check"></i><b>9</b> Obtaining user feedback</a><ul>
+<li class="chapter" data-level="9.1" data-path="documentation-the-spinach-of-tool-development.html"><a href="documentation-the-spinach-of-tool-development.html#learning-objectives"><i class="fa fa-check"></i><b>9.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="9.2" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#the-goal-of-user-feedback"><i class="fa fa-check"></i><b>9.2</b> The goal of user feedback</a></li>
+<li class="chapter" data-level="9.3" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#how-to-collect-informative-user-feedback"><i class="fa fa-check"></i><b>9.3</b> How to collect informative user feedback</a></li>
+<li class="chapter" data-level="9.4" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#methods-of-user-feedback"><i class="fa fa-check"></i><b>9.4</b> Methods of user feedback</a></li>
+<li class="chapter" data-level="9.5" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#interviews-and-usability-testing"><i class="fa fa-check"></i><b>9.5</b> Interviews and usability testing</a></li>
+<li class="chapter" data-level="9.6" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#exercise-1-create-a-plan-for-user-feedback-for-your-tool"><i class="fa fa-check"></i><b>9.6</b> Exercise 1: Create a plan for user feedback for your tool</a></li>
+<li class="chapter" data-level="9.7" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#exercise-2-determine-a-plan-for-usability-testing"><i class="fa fa-check"></i><b>9.7</b> Exercise 2: Determine a plan for usability testing</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 </ul>
 
@@ -185,7 +194,7 @@
 <h2><span class="header-section-number">4.2</span> Major components of good documentation</h2>
 <p>In this chapter we are going to cover the major aspects of a well-documented tool.
 In the subsequent chapters, we will talk about each of these components in more detail; providing relevant examples and tools.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcd0e3791ab_0_23" /><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcd0e3791ab_0_23" /><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <div id="the-why" class="section level3">
 <h3><span class="header-section-number">4.2.1</span> The ‘Why’ <img src="resources/images/why.png" width="8%"></h3>
 <p>Before we get into the technical information in your documentation, the first thing that should be obvious to your user is why they should want to use your tool!
@@ -270,12 +279,13 @@ Here’s a a quick preview of this folder’s contents (which we will cover in m
 <pre><code>templates/
 ├── well_documented_checklist.md
 ├── getting_started_template.md
-├── how_to_examples_examples.md
+├── how_to_examples.md
 ├── reference_guide_template.md
 ├── bioconductor-guides/
-│   ├── 
-└── galaxy-guides/
-    └──</code></pre>
+│   ├── bioconductor_example_script.R
+│   ├── bioconductor_vignette_template.Rmd
+│   └── README.md
+└── galaxy-guides/</code></pre>
 <div id="well-documented-checklist" class="section level3">
 <h3><span class="header-section-number">4.3.1</span> Well-documented checklist</h3>
 <p><a href="https://raw.githubusercontent.com/jhudsl/ITCR_Documentation_and_Usability/main/templates/well_documented_checklist.md">This document is a checklist</a> that summarizes the major aspects that should be included in a tools’ documentation.
@@ -331,11 +341,11 @@ We recommend using it to evaluate the documentation for an existing tool and ide
 </div>
 <div class="footnotes">
 <hr />
-<ol start="3">
-<li id="fn3"><p>For all cartoons:<br />
+<ol start="1">
+<li id="fn1"><p>For all cartoons:<br />
 Avataars by <a href="https://getavataaars.com/" class="uri">https://getavataaars.com/</a>.<br />
 Icons by <a href="https://thenounproject.com/" class="uri">https://thenounproject.com/</a> License CC BY-NC-ND 2.0.<br />
-Emojis by OpenMoji License: CC BY-SA 4.0.<a href="what-does-good-documentation-look-like.html#fnref3" class="footnote-back">↩︎</a></p></li>
+Emojis by OpenMoji License: CC BY-SA 4.0.<a href="what-does-good-documentation-look-like.html#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
