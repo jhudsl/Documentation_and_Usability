@@ -19,8 +19,7 @@ Tool development is an exciting but long process -- filled with lots of careful 
 Tina the Tool developer, perhaps like you, has just gotten her product working well and many of the bugs have been sorted out. 
 Tina's awesome tool is working exactly as designed and Tina is excited to get her tool out there to be used by the community!
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=p" 
-width="500" height="500" />
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=p width=500 height=500 />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -30,7 +29,7 @@ This is indeed cause for celebration!
 Perhaps researchers like Uri the Tool User will come across Tina's awesome tool and share in Tina's enthusiasm for the project! 
 Tina's bioinformatics tool may be just what they were needing for their research project!
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_11" width="500" height="500" />
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_11 width=500 height=500 />
 
 Uri the Tool User can't wait to apply Tina's awesome tool to their project!
 But, it may not be long before Uri encounters errors, or questions about Tina's awesome tool, no matter how high quality Tina's programming of the tool is. 

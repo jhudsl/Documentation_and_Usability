@@ -31,7 +31,8 @@ Avataars by https://getavataaars.com/.
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
 Emojis by OpenMoji License: CC BY-SA 4.0.]
   
-As compared to yourself, your typical user may likely have a different:  
+As compared to yourself, your typical user may likely have a different:
+
 - Educational background.  
 - Programming experience level.  
 - Set of motivations for using your tool.  
@@ -81,9 +82,7 @@ Write down what you know (or think you know) and try to identify any knowledge g
 - What need of theirs is addressed by your tool? 
 - What kinds of skills does your tool assume your user has (does your user community have those skills)?
 
-TODO: Need link below
-
-Keep the questions about your user community in mind and in a [later chapter](), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
+Keep the questions about your user community in mind and in a [later chapter](https://jhudatascience.org/ITCR_Documentation_and_Usability/obtaining-user-feedback.html), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
 
 ## General principles about user-friendliness  
 
@@ -100,13 +99,15 @@ Some of these principles can be complicated to visualize, but the authors of BED
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44 width = 400 height = 400 />
 
+Here, this figure explains how the merge function works given a particular set of ranges. 
+
 #### Stay away from jargon
 
 What someone considers jargon is a very relative to their own experiences.  
 Terms that may seem like common knowledge to you may be foreign to your user. 
 
 For example, something seemingly commonplace to you like `TSV` may not be something a user does not understands what it means. 
-To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. 'tab separated values').
+To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. 'tab separated values (TSV)').
 This doesn't mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you've used (e.g. [tab separated values file (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)). 
 This has the benefit of saving you and your user's time without making your explanations too long winded. 
 
@@ -116,7 +117,8 @@ When your user has a question in mind, it can make their experience a lot more s
 Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches!
 For these reasons, navigability is important for your tool and documentation.
 
-_Quick tips for increasing your tools' navigability_:     
+_Quick tips for increasing your tools' navigability_:
+
 - Minimize the number of clicks for finding help! -- The more important a piece of information is to a users' ability to use your tool, the more it should be in the forefront of your tool!  
 - Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don't switch it -- patterns are super helpful!  
 - Use visual cues where possible!  
