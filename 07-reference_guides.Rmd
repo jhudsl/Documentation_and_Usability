@@ -81,6 +81,12 @@ A typical package's reference guide [looks like this](https://bioconductor.org/p
 
 ## Exercise: Create your own reference guide!
 
-Use [the reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
+_For R package documentation:_ 
+Follow the advice from Hadley Wickham from the [R Packages book](https://r-pkgs.org/man.html) which includes using [roxygen2 package](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) to automatically render those .Rd files! 
 
-If your tool's destination is Bioconductor, see Bioconductor's specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages).
+_For Python package documentation:_
+Follow the docstrings guidance and instructions [here](https://realpython.com/documenting-python-code/).
+
+If your tool's destination is Bioconductor, see their specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages). 
+
+For other general purposes, you can our [the reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
