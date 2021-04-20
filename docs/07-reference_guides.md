@@ -9,9 +9,9 @@ output: html_document
 
 This chapter will demonstrate how to:
 
-- Understand the goals of a reference guide
-- Describe characteristics of helpful reference guides
-- Create a reference guide that will aid your user's ability to interpret and utilize your tool to the next level
+- Understand the goals of a reference guide.
+- Describe characteristics of helpful reference guides.
+- Create a reference guide that will aid your user's ability to interpret and utilize your tool to the next level.
 
 ## The goal of a reference guide
 
@@ -27,9 +27,11 @@ Our goal for a reference guide is to be as comprehensive, navigable, and as alwa
 ### Is easy to find
 
 As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them.
+Make sure that a link to the reference guide is clear to find. 
 
 ### Is searchable
 
+Users will be digging into your reference guide looking for a specific entry.
 Reference guides being alphabetical is a start.
 If you are able to make terms searchable that's even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function.
 
@@ -55,14 +57,15 @@ Perhaps after installation, getting data formatted correctly is one of the other
 Ideally, your tool can use a data format that is common.
 But the more that your tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like.
 
-- Including example files are helpful
-- Send your user to any tools they can use to convert their data format
+- Including example files are helpful.
+- Send your user to any tools they can use to convert their data format.
 
 [GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data) with examples of what the data formats look like. 
 
 ### Entries should have a consistent format
 
 Consistency helps your users know what to expect and know where to find information!
+Each entry in the reference guide should have the same format and sections, in the same order.
 
 **To recap:**
 
@@ -81,4 +84,3 @@ A typical package's reference guide [looks like this](https://bioconductor.org/p
 Use [the reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
 
 If your tool's destination is Bioconductor, see Bioconductor's specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages).
-

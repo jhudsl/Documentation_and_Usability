@@ -9,9 +9,9 @@ output: html_document
 
 This chapter will demonstrate how to:
 
-- Understand the goals of a how-to examples
-- Describe components included in useful how-to examples
-- Create how-to examples that will increase your users' familiarity with your tool
+- Understand the goals of a how-to examples.
+- Describe components included in useful how-to examples.
+- Create how-to examples that will increase your users' familiarity with your tool.
 
 ## The goal of a how-to examples 
 
@@ -25,7 +25,7 @@ We can generally assume your user has found the kitchen, now give them various s
 
 Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
 
-Note: In some contexts, like Bioconductor, How-to examples are called vignettes -- we consider these to be the same. 
+Note: In some contexts, like Bioconductor, how-to examples are called vignettes -- we consider these to be the same. 
 
 ## Characteristics of useful how-to examples 
   
@@ -103,7 +103,7 @@ They efficiently move into other scenarios, explaining common questions and area
 @Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
 At the very end of the example they also provide the end result for comparison!
 
-## Exercise: Create your own How-to examples!
+## Exercise: Create your own how-to examples!
 
 Use [the how-to example templates](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md) to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter. 
 
@@ -111,7 +111,7 @@ If your tool's destination is Bioconductor or Galaxy, see our specific guidance 
 
 _For Bioconductor vignettes_: 
 
-- [Our Bioconductor specific How-to example templates](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md)
+- [Our Bioconductor specific how-to example templates](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md)
 - [Bioconductor's own vignette guidance](https://www.bioconductor.org/developers/package-guidelines/#Vignettes)
 - @Oles2021 have [guidance on writing RMarkdown Vignettes](https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html)
 
