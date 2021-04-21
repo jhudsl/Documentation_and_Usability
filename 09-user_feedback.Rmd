@@ -15,8 +15,10 @@ This chapter will demonstrate how to:
 
 ## The goal of user feedback
 
-How do you know if your code is working? You test it and get feedback! 
-Similarly, how do you know if your tool is working for your user? Ask them for feedback!
+How do you know if your code is working? 
+You test it and get feedback! 
+Similarly, how do you know if your tool is working for your user? 
+Ask them for feedback!
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173 width = 400 height = 400 />
 

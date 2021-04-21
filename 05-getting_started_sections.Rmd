@@ -9,9 +9,9 @@ output: html_document
 
 This chapter will demonstrate how to:
 
-- Understand the goals of a getting started section
-- Make installation step instructions more user-friendly
-- Write a user friendly getting started section for your tool  
+- Understand the goals of a getting started section.
+- Make installation step instructions more user-friendly.
+- Write a user friendly getting started section for your tool.  
 
 ## The goal of a getting started section 
 
@@ -49,7 +49,8 @@ The _clearer and more specific these steps the better_.
 @Mangul2019b found that tools that required more installation steps (but didn't describe these steps adequately) were less likely to be installed successfully, and tools that were less likely to be installed successfully had significantly less citations!
 
 If installation happens through command line, provide _copy-and-paste commands_ that your user can use as-is. 
-In these commands, if parts of it need to be tailored, call attention where the tailoring needs to happen and how your user can determine what they need to put there. Fill-in-the-blank cues can be handy for these scenarios. 
+In these commands, if parts of it need to be tailored, call attention where the tailoring needs to happen and how your user can determine what they need to put there. 
+Fill-in-the-blank cues can be handy for these scenarios. 
 
 _Tell your users what to expect_. 
 Do some steps take more time than others? Warn them about that. 
@@ -88,14 +89,14 @@ This rewarding result might be a cool visual or a plot -- but also should demons
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_23 width = 400 height = 400 />
 
-### Directs the user to the How-to Examples section.
+### Directs the user to the how-to examples section.
 
 Now that your user has successfully installed your tool and understands the basic idea, let them know where they can find more examples to keep the learning train going!
 
-## Good Examples of getting started sections
+## Good examples of getting started sections
 
 [Snakemake has a great getting started section](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) [@Molder2021].
-The makers of snakemake tell their users how to install snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!
+The makers of Snakemake tell their users how to install Snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_0 width = 400 height = 400 />
 

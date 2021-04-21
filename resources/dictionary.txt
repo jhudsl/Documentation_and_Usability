@@ -8,6 +8,7 @@ Biostatistics
 Bloomberg
 de
 DESeq
+docstrings
 Ethicist
 getavataaars
 GitHub
@@ -18,12 +19,15 @@ https
 incentivized
 Ethicist
 getavataaars
+Gitlab's
 GSEA
+Hadley
 https
 img
 ITCR
 itcrtraining
 ITN
+Krug's
 Markua
 mkdocs
 MkDocs
@@ -34,6 +38,7 @@ priori
 QIIME
 reproducibility
 RMarkdown
+roxygen
 Savonen
 se
 snakemake
@@ -45,5 +50,6 @@ thenounproject
 TSV
 UI
 unenthused
+Wickham
 workshopping
 www

@@ -9,8 +9,8 @@ output: html_document
 
 This chapter will demonstrate how to:
 
-- Understand the goals of good code documentation
-- Describe characteristics of helpful code comments
+- Understand the goals of good code documentation.
+- Describe characteristics of helpful code comments.
 
 ## The goal of a code documentation
 
