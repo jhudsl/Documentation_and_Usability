@@ -32,4 +32,4 @@ jobs:
         uses: paramt/url-checker@master
         with:
           files: "${{ steps.get_rmds.outputs.all_files }}"
-          blacklist: "${{ steps.get_rmds.outputs.all_files }},01-intro.md,about.md,doi2bib.org,https://en.wikipedia.org/wiki/Tab-separated_values),http://bokardo.com/principles-of-user-interface-design/"
+          blacklist: "${{ steps.get_rmds.outputs.all_files }},01-intro.md,about.md,doi2bib.org,https://en.wikipedia.org/wiki/Tab-separated_values),http://bokardo.com/principles-of-user-interface-design/,http://sensible.com/downloads/checklists.pdf,https://sensible.com/downloads/things-a-therapist-would-say.pdf,https://sensible.com/download-files/,https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO,http://sensible.com/downloads/test-script-web.pdf"
