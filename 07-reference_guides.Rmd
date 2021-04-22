@@ -5,13 +5,7 @@ output: html_document
 
 # Creating handy reference guides
 
-## Learning Objectives
-
-This chapter will demonstrate how to:
-
-- Understand the goals of a reference guide.
-- Describe characteristics of helpful reference guides.
-- Create a reference guide that will aid your user's ability to interpret and utilize your tool to the next level.
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_48 width=500 height=500 />
 
 ## The goal of a reference guide
 
@@ -27,7 +21,7 @@ Our goal for a reference guide is to be as comprehensive, navigable, and as alwa
 ### Is easy to find
 
 As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them.
-Make sure that a link to the reference guide is clear to find. 
+Make sure that a link to the reference guide is clear to find.
 
 ### Is searchable
 
@@ -60,7 +54,7 @@ But the more that your tool is particular about an odd data format, the more you
 - Including example files are helpful.
 - Send your user to any tools they can use to convert their data format.
 
-[GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data) with examples of what the data formats look like. 
+[GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data) with examples of what the data formats look like.
 
 ### Entries should have a consistent format
 
@@ -81,12 +75,12 @@ A typical package's reference guide [looks like this](https://bioconductor.org/p
 
 ## Exercise: Create your own reference guide!
 
-_For R package documentation:_ 
-Follow the advice from Hadley Wickham from the [R Packages book](https://r-pkgs.org/man.html) which includes using [roxygen2 package](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) to automatically render those .Rd files! 
+_For R package documentation:_
+Follow the advice from Hadley Wickham from the [R Packages book](https://r-pkgs.org/man.html) which includes using [roxygen2 package](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) to automatically render those .Rd files!
 
 _For Python package documentation:_
 Follow the docstrings guidance and instructions [here](https://realpython.com/documenting-python-code/).
 
-If your tool's destination is Bioconductor, see their specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages). 
+If your tool's destination is Bioconductor, see their specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages).
 
 For other general purposes, you can our [the reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.

@@ -5,12 +5,7 @@ output: html_document
 
 # Documentation: The spinach of tool development
 
-## Learning Objectives
-
-This chapter will demonstrate how to:  
-
-- Understand good documentation increases the impact and usability of software tools.  
-- Understand good documentation is helpful for both tool developers and users.  
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_16 width=500 height=500 />
 
 ## The context of bioinformatics tool development
 
