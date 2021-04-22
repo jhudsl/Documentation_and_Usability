@@ -5,12 +5,7 @@ output: html_document
 
 # Creating clarifying code comments
 
-## Learning Objectives
-
-This chapter will demonstrate how to:
-
-- Understand the goals of good code documentation.
-- Describe characteristics of helpful code comments.
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_54 width=500 height=500 />
 
 ## The goal of a code documentation
 
@@ -24,7 +19,7 @@ Most users will probably not look at your code directly -- those who do are prob
 
 ## Characteristics of clarifying code comments
 
-Plenty of people have discussed good code comments at length so we'll refer to those discussions here: 
+Plenty of people have discussed good code comments at length so we'll refer to those discussions here:
 
 - [What Makes a Good Code Comment?](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24) by @Cronin2019.  
 - [The Value of Code Documentation](https://www.olioapps.com/blog/the-value-of-code-documentation/) by @Meza2018.  
@@ -34,4 +29,3 @@ Plenty of people have discussed good code comments at length so we'll refer to t
 **Some major points from these articles:**
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132 width = 400 height = 400 />
-

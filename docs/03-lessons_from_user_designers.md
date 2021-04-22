@@ -5,44 +5,35 @@ output: html_document
 
 # Lessons we should borrow from user designers
 
-## Learning Objectives
-
-This chapter will demonstrate how to:  
-
-- Understand that user design is a form of empathy 
-- Learn about your user community 
-- Use visuals where possible 
-- Communicate while minimizing the impact of jargon 
-- Make tools more navigable
-- Provide users with a method of contact
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_24 width=500 height=500 />
 
 ## Thinking about user-centered development
 
-Creating tools that are easy to use starts with thinking about your user's perspective. 
-In other words, user design is an exercise in applied empathy [@deMatos2013]. 
+Creating tools that are easy to use starts with thinking about your user's perspective.
+In other words, user design is an exercise in applied empathy [@deMatos2013].
 
 This is why a common saying in user design is "You are not your user"[@Alexakis2017].
-Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. 
-For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user. 
+Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do.
+For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0 width = 500, height = 500 />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
 Emojis by OpenMoji License: CC BY-SA 4.0.]
-  
+
 As compared to yourself, your typical user may likely have a different:
 
 - Educational background.  
 - Programming experience level.  
 - Set of motivations for using your tool.  
 
-And most importantly _your user does not know your tool like you do_! 
-You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have. 
+And most importantly _your user does not know your tool like you do_!
+You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have.
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_146 width = 300, height = 300 />
 
-Also keep in mind users are humans in a context. 
+Also keep in mind users are humans in a context.
 Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/etc.
 Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!
 
@@ -61,8 +52,8 @@ The typical user of bioinformatics tools are generally:
 However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
 @Mulder2018 described 10 user personas for bioinformatics software, all with their own skills and competencies:
 
-- Physician 
-- Lab technician 
+- Physician
+- Lab technician
 - Ethicist  
 - Biocurator  
 - Discovery biologist/academic life science researcher   
@@ -72,14 +63,14 @@ However, the bioinformatics user community also includes a variety of individual
 - Bioinformatician in an academic or research infrastructure support role  
 - Bioinformatics software developer/software engineer  
 
-Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints. 
+Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints.
 
-## Exercise: Think about the user community for your tool 
+## Exercise: Think about the user community for your tool
 
-Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community. 
+Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community.
 
-- Who is your user community? 
-- What need of theirs is addressed by your tool? 
+- Who is your user community?
+- What need of theirs is addressed by your tool?
 - What kinds of skills does your tool assume your user has (does your user community have those skills)?
 
 Keep the questions about your user community in mind and in a [later chapter](https://jhudatascience.org/ITCR_Documentation_and_Usability/obtaining-user-feedback.html), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
@@ -93,23 +84,23 @@ While finding out about your user community is critical, there's also principles
 Humans are drawn to intuitive visuals.
 Visuals are efficient means of communication and help users absorb information better than long-winded paragraphs (though visuals need an accompanying explanation too).
 
-Sometimes this is particularly helpful for complicated concepts. 
-For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files. 
-Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function: 
+Sometimes this is particularly helpful for complicated concepts.
+For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files.
+Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44 width = 400 height = 400 />
 
-Here, this figure explains how the merge function works given a particular set of ranges. 
+Here, this figure explains how the merge function works given a particular set of ranges.
 
 #### Stay away from jargon
 
 What someone considers jargon is a very relative to their own experiences.  
-Terms that may seem like common knowledge to you may be foreign to your user. 
+Terms that may seem like common knowledge to you may be foreign to your user.
 
-For example, something seemingly commonplace to you like `TSV` may not be something a user does not understands what it means. 
+For example, something seemingly commonplace to you like `TSV` may not be something a user does not understands what it means.
 To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. 'tab separated values (TSV)').
-This doesn't mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you've used (e.g. [tab separated values file (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)). 
-This has the benefit of saving you and your user's time without making your explanations too long winded. 
+This doesn't mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you've used (e.g. [tab separated values file (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)).
+This has the benefit of saving you and your user's time without making your explanations too long winded.
 
 #### Navigability: Make help easy to find
 
@@ -131,9 +122,9 @@ More about user-friendly principles:
 
 #### Provide a method for users to file concerns
 
-No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time. 
-Because of this or other unknown unknowns, a usable tool still has a way for a user to let the developers know when something isn't working. 
-This might a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention. 
-We'll discuss this in more detail in a [later chapter](#obtaining-user-feedback). 
+No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time.
+Because of this or other unknown unknowns, a usable tool still has a way for a user to let the developers know when something isn't working.
+This might a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention.
+We'll discuss this in more detail in a [later chapter](#obtaining-user-feedback).
 
 Now that we've discussed some major principles about users and design, let's dive in to talking about how documentation can help!
