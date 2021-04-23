@@ -18,6 +18,12 @@ Avataars by https://getavataaars.com/.
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
 Emojis by OpenMoji License: CC BY-SA 4.0.]
 
+We can think of these components of documentation in terms of how much time a user has invested in learning the tool: 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_26 width=400 height=400 />
+
+This isn't always a perfect linear timeline like this, users may use these items in a different order than we expect, but this demonstrates the intent of how users would progress through the documentation. 
+
 ### The 'Why' <img src="resources/images/why.png" width="8%">
 
 Before we get into the technical information in your documentation, the first thing that should be obvious to your user is why they should want to use your tool!
