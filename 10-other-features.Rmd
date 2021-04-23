@@ -1,0 +1,23 @@
+---
+title: "Other helpful features "
+output: html_document
+---
+
+# Other helpful features
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0 width=500 height=500 />
+
+## The goal of these "other features"
+
+THere are some features that can increase the usability of your tool, but would probably not work well as standalone documentation. 
+
+In this chapter, we will discuss these other features, when you might want to consider adding them to your set of documentation. 
+
+<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173 width = 400 height = 400 />
+
+## Forums
+## FAQs
+## Cheatsheets
+## Videos
+
+## Exercise: Determine which (if any) of these features would work well for your tool

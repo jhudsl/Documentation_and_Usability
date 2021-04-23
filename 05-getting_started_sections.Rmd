@@ -100,6 +100,4 @@ The makers of Snakemake tell their users how to install Snakemake using differen
 
 ## Exercise: Create your own getting started section!
 
-TODO: Update instructions here.
-
 Use [the template getting started document](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/getting_started_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
