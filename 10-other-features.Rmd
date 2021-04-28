@@ -9,9 +9,9 @@ output: html_document
 
 ## The goal of these "other features"
 
-THere are some features that can increase the usability of your tool, but would probably not work well as standalone documentation. 
+There are some features that can increase the usability of your tool, but would probably not work well as standalone documentation. 
 
-In this chapter, we will discuss these other features, when you might want to consider adding them to your set of documentation. 
+In this chapter, we will discuss these other features and when you might want to consider adding them to your set of documentation. 
 
 ## FAQs
 
@@ -24,6 +24,7 @@ In this instance, a FAQ page may be what you need.
 ## Cheatsheets
 
 If your tool has a lot of items that are handy but tough keep track of a cheatsheet may be especially helpful for your users.  
+Users like cheatsheets for handy referencing!
 
 For inspiration and examples of nice cheatsheets, take a look through [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
@@ -33,10 +34,8 @@ If you use Overleaf, there are [template cheatsheets you can use here](https://w
 
 If your tool uses a graphics user interface, sometimes videos can be the best way to demonstrate how-to examples. 
 
-
-https://www.techsmith.com/blog/instructional-videos/
-
-https://training.galaxyproject.org/training-material/topics/introduction/
+- [Creating Instructional Videos](https://www.techsmith.com/blog/instructional-videos/)
+- [See Galaxy's tutorial videos as examples](https://training.galaxyproject.org/training-material/topics/introduction/)
 
 ## Forums
 

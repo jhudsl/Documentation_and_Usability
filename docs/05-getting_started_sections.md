@@ -42,24 +42,24 @@ Installation is the first and perhaps biggest hurdle your user will encounter wi
 The _clearer and more specific these steps the better_.
 @Mangul2019b found that tools that required more installation steps (but didn't describe these steps adequately) were less likely to be installed successfully, and tools that were less likely to be installed successfully had significantly less citations!
 
-If installation happens through command line, provide _copy-and-paste commands_ that your user can use as-is.
+If installation happens through command line, provide **copy-and-paste or directly runnable commands** that your user can use as-is.
 In these commands, if parts of it need to be tailored, call attention where the tailoring needs to happen and how your user can determine what they need to put there.
 Fill-in-the-blank cues can be handy for these scenarios.
 
-_Tell your users what to expect_.
+**Tell your users what to expect**.
 Do some steps take more time than others? Warn them about that.
 Are there output prompts that may not be intuitive but are to be expected?
 For example, sometimes a regular red text installation message may indicate things are working fine, but if a user doesn't know what the text means, sometimes they will try to interpret red text as meaning something bad has occurred.
 
-Where it makes sense, you _use screenshots as assurances_ to the user that they are on the right track.
+Where it makes sense, you **use screenshots as assurances** to the user that they are on the right track.
 Being able to see that your users' screen matches what is shown in your screenshots reassures them that things are progressing correctly.
 Conversely, if something does not match, it can help them narrow in on a problem.
 
-Install steps should also try to address any common pitfalls -- particularly _how different operating systems might require different steps_.
+Install steps should also try to address any common pitfalls -- particularly **how different operating systems might require different steps**.
 You may consider having separate sections or pages to describe install steps on different operating systems.
 
 What dependencies does installing your tool require?
-Will these be installed automatically by the steps you describe or _does your user need to install other software_ before being able to install your tool?
+Will these be installed automatically by the steps you describe or **does your user need to install other software** before being able to install your tool?
 This can be a big roadblock to users if dependencies and how to install them are not addressed.
 
 **To recap:**  
@@ -70,7 +70,10 @@ Installation steps can be tricky -- and admittedly hard to give guidance on when
 
 ### Cover the basics
 
-Your getting started section should give your users the basic concepts they need for running your tool -- a knowledge foundation that they can build upon as they continue to explore and follow your How-to Examples.
+Your getting started section should give your users the basic concepts they need for running your tool -- a knowledge foundation that they can build upon as they continue to explore and follow your how-to examples.
+
+- What basic terms should your users know?
+- What do your users need to get started - what kind of data? 
 
 ### Reward your user with a short tutorial!
 
@@ -83,7 +86,7 @@ This rewarding result might be a cool visual or a plot -- but also should demons
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_23 width = 400 height = 400 />
 
-### Directs the user to the how-to examples section.
+### Directs the user to the how-to examples section
 
 Now that your user has successfully installed your tool and understands the basic idea, let them know where they can find more examples to keep the learning train going!
 

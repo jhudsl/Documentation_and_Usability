@@ -18,7 +18,7 @@ Ask them for feedback!
 
 ## How to collect informative user feedback
 
-## Methods of user feedback
+### User contact method
 
 At the most basic level, you need to provide your users a way to alert you if something with your tool is not working appropriately.
 
@@ -39,7 +39,7 @@ _Example contact method ideas_:
 
 Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to.
 
-## Interviews and usability testing
+### Interviews and usability testing
 
 In whatever contact method you settle on, give your users a way to indicate if they are willing to chat with you or do testing to provide even more feedback.
 
