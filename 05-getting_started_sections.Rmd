@@ -5,14 +5,14 @@ output: html_document
 
 # Creating a smooth getting started section
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_36 width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_36" width="500" height="500" />
 
 ## The goal of a getting started section
 
 A getting started section is new users' first experience with your tool.
 It is also can be the most frustrating experience for your user if installation doesn't happen smoothly.
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12" width="500" height="500" />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -58,6 +58,8 @@ For example, sometimes a regular red text installation message may indicate thin
 Where it makes sense, you **use screenshots as assurances** to the user that they are on the right track.
 Being able to see that your users' screen matches what is shown in your screenshots reassures them that things are progressing correctly.
 Conversely, if something does not match, it can help them narrow in on a problem.
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_79" width="500" height="500" />
 
 Install steps should also try to address any common pitfalls -- particularly **how different operating systems might require different steps**.
 You may consider having separate sections or pages to describe install steps on different operating systems.

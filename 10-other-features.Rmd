@@ -5,7 +5,7 @@ output: html_document
 
 # Other helpful features
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0 width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0" width="500" height="500" />
 
 ## The goal of these "other features"
 
@@ -21,6 +21,9 @@ Ideally you would make sure the most _frequently_ asked questions would be addre
 
 But, there may be other recurring questions that you don't have a logical place to put the answers but it would be helpful for users to have the answers written somewhere.
 In this instance, a FAQ page may be what you need.
+
+- [Making a killer FAQ page](https://www.socialmediatoday.com/content/10-tips-creating-killer-faq-page)
+- [25 of the Best Examples of Effective FAQ Pages](https://www.searchenginejournal.com/best-faq-page-examples/267709/)
 
 ## Cheatsheets
 
@@ -55,5 +58,8 @@ If you don't have the resources to host your own forum, a Slack channel could se
 
 - [Knowledge base options](https://herothemes.com/blog/best-knowledge-base-software/)
 - [Building an online community](https://geekflare.com/online-community-software/)
+- [A Quick Guide for Building a Successful Bioinformatics Community](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003972)
 
 ## Exercise: Determine which (if any) of these features would work well for your tool
+
+Now that we've discussed some of other features that are helpful for your users, think about which of these might be helpful for your own tool, keeping mind your current documentation set up, user base, and general format. 
