@@ -44,3 +44,5 @@ If your tool grows a big user base and your team has trouble keeping up with inq
 If you don't have the resources to host your own forum, a Slack channel could serve similar purposes. 
 
 ## Exercise: Determine which (if any) of these features would work well for your tool
+
+
