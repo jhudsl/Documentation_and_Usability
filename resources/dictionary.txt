@@ -6,6 +6,8 @@ Bioinformatician
 bioinformatic
 Biostatistics
 Bloomberg
+cheatsheet
+cheatsheets
 de
 DESeq
 docstrings
@@ -31,6 +33,7 @@ Krug's
 Markua
 mkdocs
 MkDocs
+NCI
 novo
 OpenMoji
 phenotypes
@@ -39,10 +42,13 @@ QIIME
 reproducibility
 RMarkdown
 roxygen
+RStudio's
+runnable
 Savonen
 se
 snakemake
 src
+UE
 Uri
 Uri's
 vaccuum

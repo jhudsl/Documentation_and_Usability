@@ -1,13 +1,13 @@
 ---
-title: "Creating a helpful how-to examples "
+title: "Creating helpful how-to examples "
 output: html_document
 ---
 
-# Creating a helpful how-to examples
+# Creating helpful how-to examples
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_42 width=500 height=500 />
 
-## The goal of a how-to examples
+## The goal of how-to examples
 
 While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it.
 How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!
@@ -70,6 +70,12 @@ This means keeping in mind the important basics:
 - Stick to a code style
 - Be consistent with your conventions
 - Pick good object names
+
+For more tips on reproducible code: 
+
+- [How to Write a Reproducible Example - Hadley Wickham](https://gist.github.com/hadley/270442#how-to-write-a-reproducible-example)
+- [Making your code reproducible](https://methodsblog.com/2017/12/06/making-your-code-reproducible/)
+- [How to Make a Great R Reproducible Example](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example)
 
 ### Try to stick to your own package and its dependencies
 
