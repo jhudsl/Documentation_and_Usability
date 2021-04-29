@@ -16,6 +16,10 @@ How-to examples are like recipes in a cookbook.
 We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
 
@@ -71,7 +75,7 @@ This means keeping in mind the important basics:
 - Be consistent with your conventions
 - Pick good object names
 
-For more tips on reproducible code: 
+For more tips on reproducible code:
 
 - [How to Write a Reproducible Example - Hadley Wickham](https://gist.github.com/hadley/270442#how-to-write-a-reproducible-example)
 - [Making your code reproducible](https://methodsblog.com/2017/12/06/making-your-code-reproducible/)

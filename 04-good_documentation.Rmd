@@ -100,7 +100,7 @@ We'll also discuss how to conduct usability research to get the most informative
 We encourage you to create these pieces of documentation we will further discuss in the rest of this course!
 We have template documentation you can use to use as a starting point.
 
-TODO: Add links to those supp chapters.
+TODO: Add links to those supp chapters/or separate courses.
 
 If you are creating documentation to accompany a package you are submitting to [Bioconductor]() or [Galaxy](), we also have more specific templates and recommendations for those instances.  
 
@@ -108,6 +108,10 @@ If you are creating documentation to accompany a package you are submitting to [
 
 [This document is a checklist](https://github.com/jhudsl/itcr-template-documentation/blob/master/docs/well_documented_checklist.md) that summarizes the major aspects that should be included in a tools' documentation.
 We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course.
+
+For more inspiration, here's more articles about good documentation: 
+
+- [ ](https://codeburst.io/5-examples-of-what-great-documentation-looks-like-for-developers-162bdec11020) 
 
 ## Exercise: setting up our templates for your own use
 

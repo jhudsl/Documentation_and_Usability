@@ -14,10 +14,12 @@ Informatics tools are designed to be used by a broad audience, everyone from ent
 
 ## Learning Objectives
 
-This course will teach learners to:  
+This course will demonstrate how to:
 
-- {You can use https://www.bu.edu/cme/forms/RSS_forms/tips_for_writing_objectives.pdf to define some learning objectives here}
-- {More learning objectives}
+- Understand why usability and documentation is vital.
+- Identify your user community.
+- Build documentation and tutorials to maximize the usability of developed tools.
+- Obtain feedback from your users.
 
 ## Encountering problems?
 

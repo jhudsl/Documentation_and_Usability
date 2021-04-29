@@ -13,6 +13,10 @@ Reference guides are the dictionary of your tool: they aren't meant to be read f
 Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_97 width = 400 height = 400 />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 Our goal for a reference guide is to be as comprehensive, navigable, and as always, as _clear_ as possible.
 

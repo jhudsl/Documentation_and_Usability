@@ -13,6 +13,10 @@ A getting started section is new users' first experience with your tool.
 It is also can be the most frustrating experience for your user if installation doesn't happen smoothly.
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12 width = 400 height = 400 />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 Our goal for our getting started section is to guide our new users through installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!
 
@@ -73,7 +77,10 @@ Installation steps can be tricky -- and admittedly hard to give guidance on when
 Your getting started section should give your users the basic concepts they need for running your tool -- a knowledge foundation that they can build upon as they continue to explore and follow your how-to examples.
 
 - What basic terms should your users know?
-- What do your users need to get started - what kind of data? 
+- What do your users need to get started - what kind of data?
+
+Because you know all the ins and outs of your tool, you may be tempted to discuss an intricacy of your tool as you are writing the getting started information, but try to stick to "just in time" information -- only bring up concepts exactly when your users will need them, not before.
+Users will almost always feel more information-overload than you suspect.
 
 ### Reward your user with a short tutorial!
 
@@ -89,6 +96,7 @@ This rewarding result might be a cool visual or a plot -- but also should demons
 ### Directs the user to the how-to examples section
 
 Now that your user has successfully installed your tool and understands the basic idea, let them know where they can find more examples to keep the learning train going!
+Have a link at the end of your getting started section that sends them to a place they can browse your how-to examples (which we will discuss in the next section!).
 
 ## Good examples of getting started sections
 

@@ -15,6 +15,10 @@ Similarly, how do you know if your tool is working for your user?
 Ask them for feedback!
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173 width = 400 height = 400 />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 ## How to collect informative user feedback
 

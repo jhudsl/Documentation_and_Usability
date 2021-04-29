@@ -3,7 +3,7 @@ title: "Why Documentation"
 output: html_document
 ---
 
-# Documentation: The spinach of tool development
+# Documentation: Why it's worth the effort!
 
 <img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_16 width=500 height=500 />
 
@@ -58,12 +58,11 @@ Unfortunately this specific course cannot address issues 1 and 2, but will attem
 
 ### Why documentation is worth the time
 
-We realize many tool developers are averse to documentation like some are to spinach, feeling unenthused about the process of creating documentation.
+We realize many tool developers feel unenthused about the process of creating documentation.
 The documentation process requires a different skill set from the tool development itself; meaning many developers were likely not attracted to tool development because of documentation and may not be sure how to craft good documentation [@Wolf2016].
 They may know its good for their tool, but they just aren't enthused about it.
-In this course, we'd like you to view your tool as Popeye and where documentation spinach will make your tool stronger!
 
-The effort for creating documentation has a high return payoff for the continued success of a tool as a whole!
+We'd like to assure you that the effort for creating documentation has a high return payoff for the continued success of your tool as a whole!
 
 <img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_140" width="500" height="500" />
 
