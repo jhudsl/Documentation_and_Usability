@@ -31,7 +31,7 @@ It's worth spending time thinking about your own development process and how you
 However you track your tasks, also track your documentation issues and always pair a software fix with a documentation fix -- or at least check if it affects anything user-facing. 
 To help you remind you of this, you may want to use an [issue template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) (if you use Github) and make sure that issue template includes a reminder to update documentation. 
 
-## Make sure links are current! (Use a url checker)
+## Make sure links work
 
 A very simple but all too common problem with out of date documentation is broken links!
 

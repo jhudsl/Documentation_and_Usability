@@ -66,6 +66,8 @@ Having this knowledge base be searchable can reduce the support load of your tea
 
 If you don't have the resources to host your own forum, a Slack channel could serve similar purposes or you can look into the options discussed in these articles: 
 
+_More reading on knowledge bases and forums:_ 
+
 - [Knowledge Base Options](https://herothemes.com/blog/best-knowledge-base-software/) [@Herothemes].
 - [Building an Online Community](https://geekflare.com/online-community-software/)[@Rehan2019].
 - [A Quick Guide for Building a Successful Bioinformatics Community](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003972) [@Budd2015].
