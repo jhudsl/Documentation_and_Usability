@@ -5,7 +5,7 @@ output: html_document
 
 # Creating helpful how-to examples
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_42 width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_42" width="500" height="500" />
 
 ## The goal of how-to examples
 
@@ -15,7 +15,7 @@ How-to examples can turn these moderately interested users into enthusiastic and
 How-to examples are like recipes in a cookbook.
 We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21 width = 400 height = 400 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21" width="500" height=" 500" />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -60,7 +60,9 @@ And of course, link to the source of the data and cite it!
 Example code is not the same as backend code.
 Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.
 
-This means your examples should include the most easily readable code you can muster -- sometimes this means extra workshopping to reach peak clarity.
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_128" width="500" height=" 500" />
+
+This means your examples should include the most easily readable code you can muster -- this often means extra workshopping to reach peak clarity.
 Give commentary at each and every step -- don't assume your users understand your typical conventions.
 Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
 
@@ -88,14 +90,14 @@ If it is absolutely necessary, should this package be something added as a depen
 
 ### Give tips on how to tailor your examples
 
-If your users follow along with your examples successfully, their next step will probably be to tailor your examples to their own questions.
+If your users follow along with your examples successfully, next they will probably to tailor your examples to their own questions and data.
 Whether you intend it or not, your examples will probably be used as template framework for your user's analysis.
 Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it.
 Providing them with more resources about options and possibilities is always nice too.
 
 **To recap:**
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12 width = 400 height = 400 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12" width="500" height="500" />
 
 ## Good examples of How-to examples
 

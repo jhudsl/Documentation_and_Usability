@@ -16,13 +16,13 @@ Increasing the usability and quality of documentation for a tool is not only hel
 70% of bioinformatics tools surveyed by @Duck2016 were not reused beyond their introductory publication.
 Even the most well-programmed tool will be overlooked by the user community if there is little to no user-friendly documentation or if they were not designed with the user in mind.
 
-### Target Audience  
+## Target Audience  
 
 The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the [Informatics Technology Cancer Research](https://itcr.cancer.gov/informatics-tools).
 
-### Curriculum    
+## Curriculum    
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_10 width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_10" width="500" height="500" />
 
 The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.
 Individuals who take this course are encouraged to use these templates as they follow along with the course material to help increase the usability of their informatics tool.

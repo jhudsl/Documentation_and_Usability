@@ -1,0 +1,62 @@
+---
+title: "Documentation maintenance"
+output: html_document
+---
+
+# How to keep your documentation up to date
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_0" width=500 height=500 />
+
+## The goal of documentation maintenance
+
+So you've been making improvements or otherwise have been updating your software tool!
+That's excellent and you deserve a big kudos for continuing maintenance on your tool. 
+
+But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update. 
+As a user, the only thing worse than a tool having no documentation at all is having documentation that is out of date or otherwise incorrect.
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_5" width=500 height=500 />
+
+If documentation updates aren't prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading. 
+
+## Keep your documentation in one, version-controlled place
+
+Presumably you have some sort of process for version controlling your tool updates (we assume Github but could be other services).
+Ideally, your documentation should be version controlled similarly and, if appropriate, in the same place. 
+The easier you make it on yourself to update your documentation, the more likely future you will be at updating it successfully!
+It's worth spending time thinking about your own development process and how you can make it easier on yourself and your team for longer-term better maintained documentation. 
+
+## Do not consider a tool fix done before its relevant documentation update is also completed
+
+However you track your tasks, also track your documentation issues and always pair a software fix with a documentation fix -- or at least check if it affects anything user-facing. 
+To help you remind you of this, you may want to use an [issue template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) (if you use Github) and make sure that issue template includes a reminder to update documentation. 
+
+## Make sure links work
+
+A very simple but all too common problem with out of date documentation is broken links!
+
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_37" width=500 height=500 />
+
+You can catch these broken links this manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway!
+There are Github actions and other automated tools that can check your URLs for you. 
+Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!
+
+Here's some options for automated URL-checking: 
+
+- [Github action: urlchecker-action](https://github.com/marketplace/actions/urlchecker-action)
+- [Github action: URL checker](https://github.com/marketplace/actions/url-checker)
+- [6 Tools to Find Broken Links on Your Website](https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/) [@OutlookStudios2020].
+
+## Exercise 1: Add a reminder for documentation updates to your task manager
+
+- If you use Github, add an [issue template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) that has a reminder to update documentation. 
+
+- If you use something else for task management, look for some other way to remind yourself (and your fellow developers on the project) to keep documentation update for each change. 
+
+## Exercise 2: Implement a URL checker 
+
+- If you use Github for your documentation, add a url checking Github action to your repository. 
+We use a url-checker Github action for developing this course! 
+You can see [ours here for an example](https://github.com/jhudsl/ITCR_Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml).
+
+- If you use something else for version control, look into URL checkers that you can easily implement into your development process.  

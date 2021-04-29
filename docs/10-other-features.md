@@ -1,11 +1,11 @@
 ---
-title: "Other helpful features "
+title: "Other helpful features"
 output: html_document
 ---
 
 # Other helpful features
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0 width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0" width="500" height="500" />
 
 ## The goal of these "other features"
 
@@ -22,38 +22,57 @@ Ideally you would make sure the most _frequently_ asked questions would be addre
 But, there may be other recurring questions that you don't have a logical place to put the answers but it would be helpful for users to have the answers written somewhere.
 In this instance, a FAQ page may be what you need.
 
+FAQ'S can easily get disorganized and out of hand as they grow.
+Try to keep similar questions underneath larger headings.
+
+_More reading on FAQ pages:_  
+
+- [Making a killer FAQ page](https://www.socialmediatoday.com/content/10-tips-creating-killer-faq-page) [@Moon2011].
+- [25 of the Best Examples of Effective FAQ Pages](https://www.searchenginejournal.com/best-faq-page-examples/267709/) [@Wilson2020].
+
 ## Cheatsheets
 
 If your tool has a lot of items that are handy but tough keep track of a cheatsheet may be especially helpful for your users.  
-Cheatsheets are like reference guides but one or two pages and more aesthetically pleasing.
+Cheatsheets are like reference guides but shorter (one or two pages) and more aesthetically pleasing.
 Users like cheatsheets for handy referencing!
+Ideally your cheatsheet won't be identical to your reference guide but instead will highlight the most commonly used/most helpful items!
 
-For inspiration and examples of nice cheatsheets, take a look through [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+_More reading on cheatsheets:_ 
 
-If you use Overleaf, there are [template cheatsheets you can use here](https://www.overleaf.com/gallery/tagged/cheat-sheet).
+- For inspiration and examples of nice cheatsheets, take a look through [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/) [@RStudioTeam2020].
+- If you use Overleaf, there are [template cheatsheets you can use here](https://www.overleaf.com/gallery/tagged/cheat-sheet).
 
 ## Videos
 
-If your tool uses a graphics user interface, sometimes videos can be the best way to demonstrate how-to examples.
+Particularly, if your tool has a graphics user interface, sometimes videos can be the best way to demonstrate getting started information.
 Videos are not scannable so in general, shouldn't be depended on as the main source of information.
 Your users may have a quick question they wanted answered quickly and videos require they sit through the whole thing and may find out only after watching it that the video didn't answer their question.
 
 That being said, videos are very helpful for GUI's in particular or for introducing basic concepts.
 And the majority of users who like visuals will appreciate that aspect of videos.
 
-- [Creating Instructional Videos](https://www.techsmith.com/blog/instructional-videos/)
-- [See Galaxy's tutorial videos as examples](https://training.galaxyproject.org/training-material/topics/introduction/)
+_More reading on making videos:_ 
+
+- [Creating Instructional Videos](https://www.techsmith.com/blog/instructional-videos/) [@Simon2020].
+- [7 Great Tools for Creating Your Own Instructional Videos](https://helpdeskgeek.com/free-tools-review/7-great-tools-for-creating-your-own-video-tutorials/) [@Trounce2019].
+- [See Galaxy's tutorial videos as examples](https://training.galaxyproject.org/training-material/topics/introduction/) [@Afgan2018].
 
 ## Forums/Knowledge Base
 
-Forums can be a handy way to keep public records of questions and answers and reduce the number of times your team has to respond to a repeated question.
+Forums and knowledge bases can be a handy way to keep public records of questions and answers and reduce the number of times your team has to respond to a repeated question.
 Forums are mostly useful for if your tool grows a big user base (hooray!) and your team has trouble keeping up with inquiries.
 Advanced users may also be able to help answer questions of newer users which further frees up your team for other issues.
 Having this knowledge base be searchable can reduce the support load of your team.  
 
 If you don't have the resources to host your own forum, a Slack channel could serve similar purposes or you can look into the options discussed in these articles: 
 
-- [Knowledge base options](https://herothemes.com/blog/best-knowledge-base-software/)
-- [Building an online community](https://geekflare.com/online-community-software/)
+_More reading on knowledge bases and forums:_ 
+
+- [Knowledge Base Options](https://herothemes.com/blog/best-knowledge-base-software/) [@Herothemes].
+- [Building an Online Community](https://geekflare.com/online-community-software/)[@Rehan2019].
+- [A Quick Guide for Building a Successful Bioinformatics Community](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003972) [@Budd2015].
 
 ## Exercise: Determine which (if any) of these features would work well for your tool
+
+Now that we've discussed some of other features that are helpful for your users, think about which of these might be helpful for your own tool, keeping mind your current documentation set up, user base, and general format. 
+The answer might be multiple or none of these features -- only you and your team can answer this!

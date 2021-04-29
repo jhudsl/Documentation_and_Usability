@@ -5,7 +5,7 @@ output: html_document
 
 # Documentation: Why it's worth the effort!
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_16 width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_16" width="500" height="500" />
 
 ## The context of bioinformatics tool development
 
@@ -14,7 +14,7 @@ Tool development is an exciting but long process -- filled with lots of careful 
 Tina the Tool developer, perhaps like you, has just gotten her product working well and many of the bugs have been sorted out.
 Tina's awesome tool is working exactly as designed and Tina is excited to get her tool out there to be used by the community!
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=p width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=p" width="500" height="500" />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -24,7 +24,7 @@ This is indeed cause for celebration!
 Perhaps researchers like Uri the Tool User will come across Tina's awesome tool and share in Tina's enthusiasm for the project!
 Tina's bioinformatics tool may be just what they were needing for their research project!
 
-<img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_11 width=500 height=500 />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf14585424_0_11" width="500" height="500" />
 
 Uri the Tool User can't wait to apply Tina's awesome tool to their project!
 But, it may not be long before Uri encounters errors, or questions about Tina's awesome tool, no matter how high quality Tina's programming of the tool is.
@@ -43,7 +43,7 @@ Lack of usability often leads users to ditch even the most well-programmed of to
 
 This is the unfortunate and all-too-common result of many bioinformatics tools.
 
-### Bioinformatics and usability
+## Bioinformatics and usability
 
 The lack of focus and education on usability in the bioinformatics tool development is not only a disservice to progress of cancer research, but also to the tool developers themselves who have equally spent uncountable work hours and effort on the development of cancer tools.
 
@@ -56,7 +56,7 @@ User designers in the field of bioinformatics have commented on reasons why docu
 
 Unfortunately this specific course cannot address issues 1 and 2, but will attempt to help with problem 3.
 
-### Why documentation is worth the time
+## Why documentation is worth the time
 
 We realize many tool developers feel unenthused about the process of creating documentation.
 The documentation process requires a different skill set from the tool development itself; meaning many developers were likely not attracted to tool development because of documentation and may not be sure how to craft good documentation [@Wolf2016].
