@@ -35,4 +35,4 @@ Plenty of people have discussed good code comments at length so we'll refer to t
 Take a look through some of your tool's code and its comments. 
 Are there places it could be clearer?
 Take sometime to think about your coding process and how it could improve. 
-[Code review](https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/) is also an excellent way to improve code clarity and quality!
+[Code review](https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/) is also an excellent way to improve code clarity and quality [@Bodner2018]!

@@ -45,7 +45,7 @@ Here's some options for automated URL-checking:
 
 - [Github action: urlchecker-action](https://github.com/marketplace/actions/urlchecker-action)
 - [Github action: URL checker](https://github.com/marketplace/actions/url-checker)
-- [6 Tools for Checking Broken Links on Your Website](http://www.thesempost.com/tools-for-checking-broken-links-website/)
+- [6 Tools to Find Broken Links on Your Website](https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/) [@OutlookStudios2020].
 
 ## Exercise 1: Add a reminder for documentation updates to your task manager
 

@@ -108,5 +108,5 @@ This form shouldn't be used as is, but could be tailored to more specifically as
 
 ## Exercise 2: Determine a plan for usability testing
 
-Go through [All You Need to Know to Run Successful Usability Testing](https://uxstudioteam.com/ux-blog/usability-testing/) and construct a plan for usability testing following the steps we discussed above from the article.
+Go through [All You Need to Know to Run Successful Usability Testing](https://uxstudioteam.com/ux-blog/usability-testing/) and construct a plan for usability testing following the steps we discussed above from the article [@Csontos2019].
 Think about what in your tool you want to test and write a plan for it.
