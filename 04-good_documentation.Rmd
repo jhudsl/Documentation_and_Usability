@@ -111,7 +111,9 @@ We recommend using it to evaluate the documentation for an existing tool and ide
 
 For more inspiration, here's more articles about good documentation: 
 
-- [ ](https://codeburst.io/5-examples-of-what-great-documentation-looks-like-for-developers-162bdec11020) 
+- [Benefits of Software Documentation - SDLC Best Practices](https://systemsplusgroup.blogspot.com/2014/05/benefits-of-software-documentation-sdlc.html)
+- [5 Examples of What Great Documentation Looks Like for Developers](https://codeburst.io/5-examples-of-what-great-documentation-looks-like-for-developers-162bdec11020) 
+- [Software Documentation Types and Best Practices](https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f)
 
 ## Exercise: setting up our templates for your own use
 
