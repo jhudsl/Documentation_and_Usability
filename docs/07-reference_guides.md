@@ -46,7 +46,7 @@ This includes all:
 - Datasets or items included in the package
 - Buttons (in the case of a GUI)
 
-The most useful entries in these reference guides...
+**The most useful entries in these reference guides...**  
 
 - Not only define the item, but tell how it relates to other items (and they have links where relevant). 
 - Discuss all the possible inputs that can be used as well as how to decide which input fits the user's needs. 
