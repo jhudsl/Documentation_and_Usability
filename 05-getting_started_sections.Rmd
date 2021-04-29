@@ -43,7 +43,7 @@ Describe this to your users so they get shuttled to the method of running your t
 ### Installation steps: the first big hurdle
 
 Installation is the first and perhaps biggest hurdle your user will encounter with your tool.
-The _clearer and more specific these steps the better_.
+The **clearer and more specific these steps the better**.
 @Mangul2019b found that tools that required more installation steps (but didn't describe these steps adequately) were less likely to be installed successfully, and tools that were less likely to be installed successfully had significantly less citations!
 
 If installation happens through command line, provide **copy-and-paste or directly runnable commands** that your user can use as-is.

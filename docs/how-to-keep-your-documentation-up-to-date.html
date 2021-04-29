@@ -71,10 +71,9 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
-<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a><ul>
-<li class="chapter" data-level="1.1.1" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.1.1</b> Target Audience</a></li>
-<li class="chapter" data-level="1.1.2" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.1.2</b> Curriculum</a></li>
-</ul></li>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.3</b> Curriculum</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="documentation-why-its-worth-the-effort.html"><a href="documentation-why-its-worth-the-effort.html"><i class="fa fa-check"></i><b>2</b> Documentation: Why it’s worth the effort!</a><ul>
 <li class="chapter" data-level="2.1" data-path="documentation-why-its-worth-the-effort.html"><a href="documentation-why-its-worth-the-effort.html#the-context-of-bioinformatics-tool-development"><i class="fa fa-check"></i><b>2.1</b> The context of bioinformatics tool development</a></li>
@@ -208,7 +207,8 @@ As a user, the only thing worse than a tool having no documentation at all is ha
 <h2><span class="header-section-number">11.2</span> Keep your documentation in one, version-controlled place</h2>
 <p>Presumably you have some sort of process for version controlling your tool updates (we assume Github but could be other services).
 Ideally, your documentation should be version controlled similarly and, if appropriate, in the same place.
-The easier you make it on yourself to update your documentation, the more likely future you will be at updating it successfully!</p>
+The easier you make it on yourself to update your documentation, the more likely future you will be at updating it successfully!
+It’s worth spending time thinking about your own development process and how you can make it easier on yourself and your team for longer-term better maintained documentation.</p>
 </div>
 <div id="do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed" class="section level2">
 <h2><span class="header-section-number">11.3</span> Do not consider a tool fix done before its relevant documentation update is also completed</h2>
@@ -219,10 +219,10 @@ To help you remind you of this, you may want to use an <a href="https://docs.git
 <h2><span class="header-section-number">11.4</span> Make sure links are current! (Use a url checker)</h2>
 <p>A very simple but all too common problem with out of date documentation is broken links!</p>
 <p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_37" width=500 height=500 /></p>
-<p>You can do this manually by clicking on links, but sometimes broken links will still slip through the cracks.
-There are github actions and other automated tools that can check your urls for you.
-Take advantage of automation to do this for you!</p>
-<p>Here’s some options for automated url-checking:</p>
+<p>You can catch these broken links this manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway!
+There are Github actions and other automated tools that can check your URLs for you.
+Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!</p>
+<p>Here’s some options for automated URL-checking:</p>
 <ul>
 <li><a href="https://github.com/marketplace/actions/urlchecker-action">Github action: urlchecker-action</a></li>
 <li><a href="https://github.com/marketplace/actions/url-checker">Github action: URL checker</a></li>

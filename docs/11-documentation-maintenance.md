@@ -24,6 +24,7 @@ If documentation updates aren't prioritized, your tool can easily get several ve
 Presumably you have some sort of process for version controlling your tool updates (we assume Github but could be other services).
 Ideally, your documentation should be version controlled similarly and, if appropriate, in the same place. 
 The easier you make it on yourself to update your documentation, the more likely future you will be at updating it successfully!
+It's worth spending time thinking about your own development process and how you can make it easier on yourself and your team for longer-term better maintained documentation. 
 
 ## Do not consider a tool fix done before its relevant documentation update is also completed
 
@@ -36,11 +37,11 @@ A very simple but all too common problem with out of date documentation is broke
 
 <img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_37" width=500 height=500 />
 
-You can do this manually by clicking on links, but sometimes broken links will still slip through the cracks. 
-There are github actions and other automated tools that can check your urls for you. 
-Take advantage of automation to do this for you!
+You can catch these broken links this manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway!
+There are Github actions and other automated tools that can check your URLs for you. 
+Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!
 
-Here's some options for automated url-checking: 
+Here's some options for automated URL-checking: 
 
 - [Github action: urlchecker-action](https://github.com/marketplace/actions/urlchecker-action)
 - [Github action: URL checker](https://github.com/marketplace/actions/url-checker)
