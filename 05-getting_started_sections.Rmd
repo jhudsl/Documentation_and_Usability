@@ -75,6 +75,9 @@ Your getting started section should give your users the basic concepts they need
 - What basic terms should your users know?
 - What do your users need to get started - what kind of data? 
 
+Because you know all the ins and outs of your tool, you may be tempted to discuss an intricacy of your tool as you are writing the getting started information, but try to stick to "just in time" information -- only bring up concepts exactly when your users will need them, not before. 
+Users will almost always feel more information-overload than you suspect. 
+
 ### Reward your user with a short tutorial!
 
 Installation steps are not fun so the later part of your getting started section should lead your user into a quick tutorial that will reward your user for making it through the hard part!
@@ -89,6 +92,7 @@ This rewarding result might be a cool visual or a plot -- but also should demons
 ### Directs the user to the how-to examples section
 
 Now that your user has successfully installed your tool and understands the basic idea, let them know where they can find more examples to keep the learning train going!
+Have a link at the end of your getting started section that sends them to a place they can browse your how-to examples (which we will discuss in the next section!). 
 
 ## Good examples of getting started sections
 
