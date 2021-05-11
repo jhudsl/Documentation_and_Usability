@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 6 Creating helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 6 Creating helpful how-to examples | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-29" />
+<meta name="date" content="2021-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,9 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -168,7 +171,7 @@
 <li class="chapter" data-level="11.1" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>11.1</b> The goal of documentation maintenance</a></li>
 <li class="chapter" data-level="11.2" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>11.2</b> Keep your documentation in one, version-controlled place</a></li>
 <li class="chapter" data-level="11.3" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>11.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
-<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-are-current-use-a-url-checker"><i class="fa fa-check"></i><b>11.4</b> Make sure links are current! (Use a url checker)</a></li>
+<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-work"><i class="fa fa-check"></i><b>11.4</b> Make sure links work</a></li>
 <li class="chapter" data-level="11.5" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>11.5</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
 <li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
 </ul></li>
@@ -194,14 +197,14 @@
             <section class="normal" id="section-">
 <div id="creating-helpful-how-to-examples" class="section level1">
 <h1><span class="header-section-number">Chapter 6</span> Creating helpful how-to examples</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_42" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_42" width="500" height="500" alt="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool."/></p>
 <div id="the-goal-of-how-to-examples" class="section level2">
 <h2><span class="header-section-number">6.1</span> The goal of how-to examples</h2>
 <p>While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it.
 How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!</p>
 <p>How-to examples are like recipes in a cookbook.
 We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21" width="500" height=" 500" /><a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21" width="500" height=" 500" alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie."/><a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
 <p>Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!</p>
 <p>Note: In some contexts, like Bioconductor, how-to examples are called vignettes – we consider these to be the same.</p>
 </div>
@@ -236,7 +239,7 @@ And of course, link to the source of the data and cite it!</p>
 <h3><span class="header-section-number">6.2.4</span> Example code is about the lesson not the output per se</h3>
 <p>Example code is not the same as backend code.
 Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_128" width="500" height=" 500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_128" width="500" height="500" alt="Example code is not the same as backend code it is primarily meant to teach!"/></p>
 <p>This means your examples should include the most easily readable code you can muster – this often means extra workshopping to reach peak clarity.
 Give commentary at each and every step – don’t assume your users understand your typical conventions.
 Also in the interest of being as readable as possible, try to stick to a styling conventions – s p a c i n g matters!</p>
@@ -269,7 +272,7 @@ Whether you intend it or not, your examples will probably be used as template fr
 Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it.
 Providing them with more resources about options and possibilities is always nice too.</p>
 <p><strong>To recap:</strong></p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12" width="500" height="500" alt="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips."/></p>
 </div>
 </div>
 <div id="good-examples-of-how-to-examples" class="section level2">
@@ -348,6 +351,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {

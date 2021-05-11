@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 8 Creating clarifying code comments | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-29" />
+<meta name="date" content="2021-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,9 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -168,7 +171,7 @@
 <li class="chapter" data-level="11.1" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>11.1</b> The goal of documentation maintenance</a></li>
 <li class="chapter" data-level="11.2" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>11.2</b> Keep your documentation in one, version-controlled place</a></li>
 <li class="chapter" data-level="11.3" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>11.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
-<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-are-current-use-a-url-checker"><i class="fa fa-check"></i><b>11.4</b> Make sure links are current! (Use a url checker)</a></li>
+<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-work"><i class="fa fa-check"></i><b>11.4</b> Make sure links work</a></li>
 <li class="chapter" data-level="11.5" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>11.5</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
 <li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
 </ul></li>
@@ -194,7 +197,7 @@
             <section class="normal" id="section-">
 <div id="creating-clarifying-code-comments" class="section level1">
 <h1><span class="header-section-number">Chapter 8</span> Creating clarifying code comments</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_54" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_54" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."/></p>
 <div id="the-goal-of-a-code-documentation" class="section level2">
 <h2><span class="header-section-number">8.1</span> The goal of a code documentation</h2>
 <p>Code documentation goes beyond your user.
@@ -218,7 +221,7 @@ It’s a part of writing good code and helps your collaborators and future you!<
 <li><a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">How to Comment Your Code Like a Pro: Best Practices and Good Habits</a> by <span class="citation">Keeto (<a href="#ref-Keeton2019" role="doc-biblioref">2019</a>)</span>.</li>
 </ul>
 <p><strong>Some major points from these articles:</strong></p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132" width="500" height="500" alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."/></p>
 </div>
 <div id="exercise-evaluate-your-own-codes-comments" class="section level2">
 <h2><span class="header-section-number">8.3</span> Exercise: Evaluate your own code’s comments</h2>
@@ -276,6 +279,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {

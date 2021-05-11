@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 5 Creating a smooth getting started section | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 5 Creating a smooth getting started section | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-29" />
+<meta name="date" content="2021-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,9 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -168,7 +171,7 @@
 <li class="chapter" data-level="11.1" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>11.1</b> The goal of documentation maintenance</a></li>
 <li class="chapter" data-level="11.2" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>11.2</b> Keep your documentation in one, version-controlled place</a></li>
 <li class="chapter" data-level="11.3" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>11.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
-<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-are-current-use-a-url-checker"><i class="fa fa-check"></i><b>11.4</b> Make sure links are current! (Use a url checker)</a></li>
+<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-work"><i class="fa fa-check"></i><b>11.4</b> Make sure links work</a></li>
 <li class="chapter" data-level="11.5" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>11.5</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
 <li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
 </ul></li>
@@ -194,12 +197,12 @@
             <section class="normal" id="section-">
 <div id="creating-a-smooth-getting-started-section" class="section level1">
 <h1><span class="header-section-number">Chapter 5</span> Creating a smooth getting started section</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_36" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_36" width="500" height="500" alt="Learning Objectives. This chapter will demonstrate how to: Understand the goals of a getting started section. Make installation step instructions more user-friendly. Write a user friendly getting started section for your tool."/></p>
 <div id="the-goal-of-a-getting-started-section" class="section level2">
 <h2><span class="header-section-number">5.1</span> The goal of a getting started section</h2>
 <p>A getting started section is new users’ first experience with your tool.
 It is also can be the most frustrating experience for your user if installation doesn’t happen smoothly.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12" width="500" height="500" /><a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_12" width="500" height="500" alt="Your new users are represented as a baby chick emoji who is surrounded by a photo of an alligator labeled with your tool’s software dependencies. Software dependencies and other installation problems can easily overwhelm new users."/><a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
 <p>Our goal for our getting started section is to guide our new users through installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!</p>
 </div>
 <div id="aspects-of-a-smooth-getting-started-section" class="section level2">
@@ -236,14 +239,14 @@ For example, sometimes a regular red text installation message may indicate thin
 <p>Where it makes sense, you <strong>use screenshots as assurances</strong> to the user that they are on the right track.
 Being able to see that your users’ screen matches what is shown in your screenshots reassures them that things are progressing correctly.
 Conversely, if something does not match, it can help them narrow in on a problem.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_79" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_79" width="500" height="500" alt="The documentation tells Uri the tool user to look for a screenshot. Uri has that same screenshot and says This matches what I’m seeing! I’m confident I’m on my way!"/></p>
 <p>Install steps should also try to address any common pitfalls – particularly <strong>how different operating systems might require different steps</strong>.
 You may consider having separate sections or pages to describe install steps on different operating systems.</p>
 <p>What dependencies does installing your tool require?
 Will these be installed automatically by the steps you describe or <strong>does your user need to install other software</strong> before being able to install your tool?
 This can be a big roadblock to users if dependencies and how to install them are not addressed.</p>
 <p><strong>To recap:</strong></p>
-<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_7 width = 400 height = 400 /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_7" width="500" height="500" alt="Install Steps Goals include: Be as clear and specific as possible - copy and paste commands. Assure your user about what to expect. Address any common pitfalls. Address how operating systems might differ. Provide steps for software dependencies."/></p>
 <p>Installation steps can be tricky – and admittedly hard to give guidance on when individual computer’ set ups can differ so much, but the more you are able to workshop your guidance to your users here, the more they will appreciate it and stick with your tool!</p>
 </div>
 <div id="cover-the-basics" class="section level3">
@@ -262,7 +265,8 @@ Users will almost always feel more information-overload than you suspect.</p>
 <p>Give your users the fewest steps needed to produce a rewarding result that will excite them about continuing to use your tool!
 Use this opportunity to show off your the simplicity and awesomeness of your tool!</p>
 <p>This rewarding result might be a cool visual or a plot – but also should demonstrate the most popular thing your users would like to see.</p>
-<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_23 width = 400 height = 400 /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d4e1_0_23" width="500" height="500" alt="The software tool says “you installed me successfully”. The new user, represented by a baby chick is rewarded with some rewarding output, represented as a gift.
+"/></p>
 </div>
 <div id="directs-the-user-to-the-how-to-examples-section" class="section level3">
 <h3><span class="header-section-number">5.2.6</span> Directs the user to the how-to examples section</h3>
@@ -274,9 +278,9 @@ Have a link at the end of your getting started section that sends them to a plac
 <h2><span class="header-section-number">5.3</span> Good examples of getting started sections</h2>
 <p><a href="https://snakemake.readthedocs.io/en/stable/getting_started/installation.html">Snakemake has a great getting started section</a> <span class="citation">(Molder et al. <a href="#ref-Molder2021" role="doc-biblioref">2021</a>)</span>.
 The makers of Snakemake tell their users how to install Snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!</p>
-<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_0 width = 400 height = 400 /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_0" width="500" height="500" alt="Here is a screenshot of snakemake’s documentation. It shows the sidebar which has installation, a tutorial, and another short tutorial."/></p>
 <p><a href="https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html">GSEA</a> introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track <span class="citation">(Subramanian et al. <a href="#ref-Subramanian2005" role="doc-biblioref">2005</a>)</span>!</p>
-<p><img src=https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_4 width = 400 height = 400 /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_4" width="500" height="500" alt="Here is a screenshot of GSEA’s documentation. It shows screenshots to assure the user what to expect."/></p>
 </div>
 <div id="exercise-create-your-own-getting-started-section" class="section level2">
 <h2><span class="header-section-number">5.4</span> Exercise: Create your own getting started section!</h2>
@@ -334,6 +338,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {

@@ -5,7 +5,7 @@ output: html_document
 
 # Other helpful features
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0" width="500" height="500" />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0" width="500" height="500" alt="Learning Objectives. This chapter will demonstrate how to: Add other helpful features that help usability of a tool. Determine which of these features are most useful for your particular context."/>
 
 ## The goal of these "other features"
 
@@ -37,7 +37,7 @@ Cheatsheets are like reference guides but shorter (one or two pages) and more ae
 Users like cheatsheets for handy referencing!
 Ideally your cheatsheet won't be identical to your reference guide but instead will highlight the most commonly used/most helpful items!
 
-_More reading on cheatsheets:_ 
+_More reading on cheatsheets:_
 
 - For inspiration and examples of nice cheatsheets, take a look through [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/) [@RStudioTeam2020].
 - If you use Overleaf, there are [template cheatsheets you can use here](https://www.overleaf.com/gallery/tagged/cheat-sheet).
@@ -51,7 +51,7 @@ Your users may have a quick question they wanted answered quickly and videos req
 That being said, videos are very helpful for GUI's in particular or for introducing basic concepts.
 And the majority of users who like visuals will appreciate that aspect of videos.
 
-_More reading on making videos:_ 
+_More reading on making videos:_
 
 - [Creating Instructional Videos](https://www.techsmith.com/blog/instructional-videos/) [@Simon2020].
 - [7 Great Tools for Creating Your Own Instructional Videos](https://helpdeskgeek.com/free-tools-review/7-great-tools-for-creating-your-own-video-tutorials/) [@Trounce2019].
@@ -64,9 +64,9 @@ Forums are mostly useful for if your tool grows a big user base (hooray!) and yo
 Advanced users may also be able to help answer questions of newer users which further frees up your team for other issues.
 Having this knowledge base be searchable can reduce the support load of your team.  
 
-If you don't have the resources to host your own forum, a Slack channel could serve similar purposes or you can look into the options discussed in these articles: 
+If you don't have the resources to host your own forum, a Slack channel could serve similar purposes or you can look into the options discussed in these articles:
 
-_More reading on knowledge bases and forums:_ 
+_More reading on knowledge bases and forums:_
 
 - [Knowledge Base Options](https://herothemes.com/blog/best-knowledge-base-software/) [@Herothemes].
 - [Building an Online Community](https://geekflare.com/online-community-software/)[@Rehan2019].
@@ -74,5 +74,5 @@ _More reading on knowledge bases and forums:_
 
 ## Exercise: Determine which (if any) of these features would work well for your tool
 
-Now that we've discussed some of other features that are helpful for your users, think about which of these might be helpful for your own tool, keeping mind your current documentation set up, user base, and general format. 
+Now that we've discussed some of other features that are helpful for your users, think about which of these might be helpful for your own tool, keeping mind your current documentation set up, user base, and general format.
 The answer might be multiple or none of these features -- only you and your team can answer this!

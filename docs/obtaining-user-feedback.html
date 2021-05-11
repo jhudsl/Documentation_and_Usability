@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 9 Obtaining user feedback | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 9 Obtaining user feedback | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-29" />
+<meta name="date" content="2021-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,9 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -168,7 +171,7 @@
 <li class="chapter" data-level="11.1" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>11.1</b> The goal of documentation maintenance</a></li>
 <li class="chapter" data-level="11.2" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>11.2</b> Keep your documentation in one, version-controlled place</a></li>
 <li class="chapter" data-level="11.3" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>11.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
-<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-are-current-use-a-url-checker"><i class="fa fa-check"></i><b>11.4</b> Make sure links are current! (Use a url checker)</a></li>
+<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-work"><i class="fa fa-check"></i><b>11.4</b> Make sure links work</a></li>
 <li class="chapter" data-level="11.5" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>11.5</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
 <li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
 </ul></li>
@@ -194,14 +197,14 @@
             <section class="normal" id="section-">
 <div id="obtaining-user-feedback" class="section level1">
 <h1><span class="header-section-number">Chapter 9</span> Obtaining user feedback</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_60" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_60" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."/></p>
 <div id="the-goal-of-user-feedback" class="section level2">
 <h2><span class="header-section-number">9.1</span> The goal of user feedback</h2>
 <p>How do you know if your code is working?
 You test it and get feedback!
 Similarly, how do you know if your tool is working for your user?
 Ask them for feedback!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173" width="500" height="500" /><a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173" width="500" height="500" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"/><a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
 </div>
 <div id="how-to-collect-informative-user-feedback" class="section level2">
 <h2><span class="header-section-number">9.2</span> How to collect informative user feedback</h2>
@@ -266,7 +269,7 @@ You might be able recruit people from setting up a feedback form, but you also m
 <li><a href="http://sensible.com/downloads/checklists.pdf">Use this checklist</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to check if you are prepared!</li>
 </ul>
 <p>A very important point from <span class="citation">Csontos (<a href="#ref-Csontos2019" role="doc-biblioref">2019</a>)</span>:</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_5" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_5" width="500" height="500" alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."/></p>
 <p>You can use <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">these prompts</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to help you know what to say to help create a non-judgmental atmosphere for testing.</p>
 <p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report">Step 4) Analyze &amp; Report</a>
 Sit down with your notes and recordings, look for patterns.</p>
@@ -352,6 +355,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
