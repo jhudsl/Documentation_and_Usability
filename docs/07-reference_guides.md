@@ -5,14 +5,14 @@ output: html_document
 
 # Creating handy reference guides
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_48" width="500" height="500" />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_48" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level."/>
 
 ## The goal of a reference guide
 
 Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable.
 Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_97" width="500 height="500" />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_97" width="500 height="500" alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide."/>
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -48,12 +48,12 @@ This includes all:
 
 **The most useful entries in these reference guides...**  
 
-- Not only define the item, but tell how it relates to other items (and they have links where relevant). 
-- Discuss all the possible inputs that can be used as well as how to decide which input fits the user's needs. 
-- Make any existing defaults very clear. 
+- Not only define the item, but tell how it relates to other items (and they have links where relevant).
+- Discuss all the possible inputs that can be used as well as how to decide which input fits the user's needs.
+- Make any existing defaults very clear.
 - Shows the usage of that item in context -- some example lines of code go a long way.
 
-Take a look at [DESeq2's reference guide](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf), @Love2014 do a great job at their entries -- covering the right amounts of information and informing the user how to decide what works for them. 
+Take a look at [DESeq2's reference guide](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf), @Love2014 do a great job at their entries -- covering the right amounts of information and informing the user how to decide what works for them.
 
 ### Data formats are described
 
@@ -72,12 +72,12 @@ But the more that your tool is particular about an odd data format, the more you
 Consistency helps your users know what to expect and know where to find information!
 Each entry in the reference guide should have the same format and sections, in the same order.
 
-Depending on the destination of your package, a consistent format may already be determined for you. 
+Depending on the destination of your package, a consistent format may already be determined for you.
 Bioconductor packages have [specific guidance on these reference manuals](http://cran.fhcrc.org/doc/manuals/R-exts.html#Documenting-functions).
 
 **To recap:**
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_0" width="500" height="500" />
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_0" width="500" height="500" alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted."/>
 
 ## Good examples of reference guides
 

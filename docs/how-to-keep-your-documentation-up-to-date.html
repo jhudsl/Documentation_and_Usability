@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 11 How to keep your documentation up to date | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 11 How to keep your documentation up to date | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-29" />
+<meta name="date" content="2021-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,9 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -162,8 +165,7 @@
 <li class="chapter" data-level="10.3" data-path="other-helpful-features.html"><a href="other-helpful-features.html#cheatsheets"><i class="fa fa-check"></i><b>10.3</b> Cheatsheets</a></li>
 <li class="chapter" data-level="10.4" data-path="other-helpful-features.html"><a href="other-helpful-features.html#videos"><i class="fa fa-check"></i><b>10.4</b> Videos</a></li>
 <li class="chapter" data-level="10.5" data-path="other-helpful-features.html"><a href="other-helpful-features.html#forumsknowledge-base"><i class="fa fa-check"></i><b>10.5</b> Forums/Knowledge Base</a></li>
-<li class="chapter" data-level="10.6" data-path="other-helpful-features.html"><a href="other-helpful-features.html#forumsknowledge-base-1"><i class="fa fa-check"></i><b>10.6</b> Forums/Knowledge Base</a></li>
-<li class="chapter" data-level="10.7" data-path="other-helpful-features.html"><a href="other-helpful-features.html#exercise-determine-which-if-any-of-these-features-would-work-well-for-your-tool"><i class="fa fa-check"></i><b>10.7</b> Exercise: Determine which (if any) of these features would work well for your tool</a></li>
+<li class="chapter" data-level="10.6" data-path="other-helpful-features.html"><a href="other-helpful-features.html#exercise-determine-which-if-any-of-these-features-would-work-well-for-your-tool"><i class="fa fa-check"></i><b>10.6</b> Exercise: Determine which (if any) of these features would work well for your tool</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html"><i class="fa fa-check"></i><b>11</b> How to keep your documentation up to date</a><ul>
 <li class="chapter" data-level="11.1" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>11.1</b> The goal of documentation maintenance</a></li>
@@ -195,14 +197,14 @@
             <section class="normal" id="section-">
 <div id="how-to-keep-your-documentation-up-to-date" class="section level1">
 <h1><span class="header-section-number">Chapter 11</span> How to keep your documentation up to date</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_0" width=500 height=500 /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_0" width="500" height="500" alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date."/></p>
 <div id="the-goal-of-documentation-maintenance" class="section level2">
 <h2><span class="header-section-number">11.1</span> The goal of documentation maintenance</h2>
 <p>So you’ve been making improvements or otherwise have been updating your software tool!
 That’s excellent and you deserve a big kudos for continuing maintenance on your tool.</p>
 <p>But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update.
 As a user, the only thing worse than a tool having no documentation at all is having documentation that is out of date or otherwise incorrect.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_5" width=500 height=500 /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_5" width="500" height="500" alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button."/></p>
 <p>If documentation updates aren’t prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.</p>
 </div>
 <div id="keep-your-documentation-in-one-version-controlled-place" class="section level2">
@@ -220,7 +222,7 @@ To help you remind you of this, you may want to use an <a href="https://docs.git
 <div id="make-sure-links-work" class="section level2">
 <h2><span class="header-section-number">11.4</span> Make sure links work</h2>
 <p>A very simple but all too common problem with out of date documentation is broken links!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_37" width=500 height=500 /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_37" width="500" height="500" alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." /></p>
 <p>You can catch these broken links this manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway!
 There are Github actions and other automated tools that can check your URLs for you.
 Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!</p>
@@ -284,6 +286,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {

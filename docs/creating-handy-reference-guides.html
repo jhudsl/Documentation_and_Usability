@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 7 Creating handy reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 7 Creating handy reference guides | Informatics Technology for Cancer Research (ITCR): Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-04-29" />
+<meta name="date" content="2021-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,9 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -168,7 +171,7 @@
 <li class="chapter" data-level="11.1" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>11.1</b> The goal of documentation maintenance</a></li>
 <li class="chapter" data-level="11.2" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>11.2</b> Keep your documentation in one, version-controlled place</a></li>
 <li class="chapter" data-level="11.3" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>11.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
-<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-are-current-use-a-url-checker"><i class="fa fa-check"></i><b>11.4</b> Make sure links are current! (Use a url checker)</a></li>
+<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-work"><i class="fa fa-check"></i><b>11.4</b> Make sure links work</a></li>
 <li class="chapter" data-level="11.5" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>11.5</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
 <li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
 </ul></li>
@@ -194,12 +197,12 @@
             <section class="normal" id="section-">
 <div id="creating-handy-reference-guides" class="section level1">
 <h1><span class="header-section-number">Chapter 7</span> Creating handy reference guides</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_48" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_48" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level."/></p>
 <div id="the-goal-of-a-reference-guide" class="section level2">
 <h2><span class="header-section-number">7.1</span> The goal of a reference guide</h2>
 <p>Reference guides are the dictionary of your tool: they aren’t meant to be read front to back, but the best ones are easily searchable.
 Your user will have something in mind that they are trying to find information on – the quicker they can find it, the quicker their question can be answered.</p>
-<p>&lt;img src=“<a href="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcdcbd8d802_0_97" class="uri">https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcdcbd8d802_0_97</a>” width=“500 height=”500" /&gt;<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></p>
+<p>&lt;img src=“<a href="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcdcbd8d802_0_97" class="uri">https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&amp;pageid=gcdcbd8d802_0_97</a>” width=“500 height=”500" alt=“Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide.”/&gt;<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></p>
 <p>Our goal for a reference guide is to be as comprehensive, navigable, and as always, as <em>clear</em> as possible.</p>
 </div>
 <div id="characteristics-of-handy-reference-guides" class="section level2">
@@ -255,7 +258,7 @@ Each entry in the reference guide should have the same format and sections, in t
 <p>Depending on the destination of your package, a consistent format may already be determined for you.
 Bioconductor packages have <a href="http://cran.fhcrc.org/doc/manuals/R-exts.html#Documenting-functions">specific guidance on these reference manuals</a>.</p>
 <p><strong>To recap:</strong></p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_0" width="500" height="500" /></p>
+<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_0" width="500" height="500" alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted."/></p>
 </div>
 </div>
 <div id="good-examples-of-reference-guides" class="section level2">
@@ -323,6 +326,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
