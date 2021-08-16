@@ -122,7 +122,7 @@ Large chunks of texts are hard on your user, especially if they are trying to sc
 
 To help these chunks of text be less cumbersome, utilize reading patterns:
 
-Described in this [useful article @Soegaard](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns), humans' eyes are drawn to items based on:
+Described in this [useful article @Soegaard2020](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns), humans' eyes are drawn to items based on:
 
 >
 - Size: Larger elements will dominate and catch eyes first.
@@ -134,18 +134,21 @@ Described in this [useful article @Soegaard](https://www.interaction-design.org/
 - Whitespace: Including whitespace around elements singles them out as separate groups of information.
 - Texture and Style: Using distinct textures/styles (e.g., chunky, military-style buttons) draws the eye while setting the theme.
 
-Based on this, human eyes will scan a website's page in Z or F pattern.
+Based on this, human eyes will scan a website's page in Z or F pattern [@Soegaard2020].
+
+> The Z Pattern — In designs without much text, our eye starts scanning from top left to top right, then diagonally down to bottom left, stopping at the bottom right.
+
+> The F Pattern — In designs with more text, we scan across the top, from left to right, then down the left, searching for clues to what we want to know. On finding one, we’ll scan across to the right.
 
 For more details on these patterns and how to implement them with your own content, read more:
-- [About natural eye movements](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns)
-- [About "F" patterns](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394)
+- [About natural eye movements](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns) by @Soegaard2020.
+- [About "F" patterns](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394) @Babich2017.
 
-More about user-friendly principles:   
+More about user-friendly principles in general:   
 
 - [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) by @Porter.   
 - [Golden Rules of UI Design](https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/) by @Babich.  
 - [About intuitive layouts](https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html) by @Tidwell.
-
 
 
 #### Provide a method for users to file concerns
