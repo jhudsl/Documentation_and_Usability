@@ -51,7 +51,7 @@ We know that bioinformatics tool development doesn't occur in a vaccuum.
 User designers in the field of bioinformatics have commented on reasons why documentation and usability sometimes suffer for bioinformatics tools:
 
 - _Problem 1)_ Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability [@Mangul2019].
-- _Problem 2)_ Bioinformatics tool development teams generally don't have the resources to hire user design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback [@Pavelin2012].  
+- _Problem 2)_ Bioinformatics tool development teams generally don't have the resources to hire user-centered design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback [@Pavelin2012].  
 - _Problem 3)_ Lack of resources/education about usability specific to bioinformatics tool developing communities [@Pavelin2012].   
 
 Unfortunately this specific course cannot address issues 1 and 2, but will attempt to help with problem 3.
@@ -97,4 +97,4 @@ It not only got him excited about the tool, but allowed him to program a new fea
 
 <img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_127" width="500" height="500" alt="Colin the Contributor says, Tina’s documentation introduced me to the tool so well that I was excited to contribute a new feature! The feature is represented as a sparkling coge. Tina the Tool Developer is excited to incorporate this new feature to the tool."/>
 
-Now that you are hopefully energized and ready for creating documentation for your tool, let's talk about a bit user design concepts!
+Now that you are hopefully energized and ready for creating documentation for your tool, let's talk about a bit user-centered design concepts!

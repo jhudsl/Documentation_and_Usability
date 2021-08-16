@@ -10,9 +10,9 @@ output: html_document
 ## Thinking about user-centered development
 
 Creating tools that are easy to use starts with thinking about your user's perspective.
-In other words, user design is an exercise in applied empathy [@deMatos2013].
+In other words, user-centered design is an exercise in applied empathy [@deMatos2013].
 
-This is why a common saying in user design is "You are not your user"[@Alexakis2017].
+This is why a common saying in user-centered design is "You are not your user"[@Alexakis2017].
 Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do.
 For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.
 
