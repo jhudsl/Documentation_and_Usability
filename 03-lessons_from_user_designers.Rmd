@@ -114,11 +114,39 @@ _Quick tips for increasing your tools' navigability_:
 - Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don't switch it -- patterns are super helpful!  
 - Use visual cues where possible!  
 
+##### Use reading patterns to your advantage:
+
+Even if you try to make your text succinct and lean on visuals where possible, there will still be instances where you may inevitably require large chunks of text.
+
+Large chunks of texts are hard on your user, especially if they are trying to scan the information for something in particular.
+
+To help these chunks of text be less cumbersome, utilize reading patterns:
+
+Described in this [useful article @Soegaard2020](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns), humans' eyes are drawn to items based on:
+
+>
+- Size: Larger elements will dominate and catch eyes first.
+- Color: Bright colors catch eyes ahead of muted, drab ones.
+- Contrast: Stark differences between elements draw eyes to the brighter one.
+- Alignment: Users expect to find certain elements in the same place.
+- Repetition: A repeated quality (e.g.,colored parts of text) draws the user’s eye.
+- Proximity: Putting related elements (e.g., header with associated text) close together means these are related.
+- Whitespace: Including whitespace around elements singles them out as separate groups of information.
+- Texture and Style: Using distinct textures/styles (e.g., chunky, military-style buttons) draws the eye while setting the theme.
+
+Based on this, human eyes will scan a website's page in Z or F pattern.
+
+For more details on these patterns and how to implement them with your own content, read more:
+- [About natural eye movements](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns) by @Soegaard2020.
+- [About "F" patterns](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394) @Babich2017.
+
 More about user-friendly principles:   
 
 - [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) by @Porter.   
 - [Golden Rules of UI Design](https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/) by @Babich.  
 - [About intuitive layouts](https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html) by @Tidwell.
+
+
 
 #### Provide a method for users to file concerns
 
