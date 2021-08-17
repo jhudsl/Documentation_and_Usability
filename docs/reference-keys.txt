@@ -14,6 +14,7 @@ general-principles-about-user-friendliness
 humans-like-visuals
 stay-away-from-jargon
 navigability-make-help-easy-to-find
+use-reading-patterns-to-your-advantage
 provide-a-method-for-users-to-file-concerns
 what-does-good-documentation-look-like
 major-components-of-good-documentation
