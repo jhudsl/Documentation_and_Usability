@@ -12,7 +12,7 @@ output: html_document
 Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable.
 Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_97" width="500 height="500" alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide."/>
+<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_97" width="500" height="500" alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide."/>
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
