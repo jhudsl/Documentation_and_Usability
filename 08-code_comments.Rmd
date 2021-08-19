@@ -17,15 +17,23 @@ Most users will probably not look at your code directly -- those who do are prob
 - Quite desperately troubleshooting something and were not able to find answers elsewhere.
 - Are “power users” who are already pretty invested in your tool and want to get more out of it -- may be helpful contributors too!
 
-Good code comments are a part of writing good code!
-If you are the only person that knows what's happening in your code, you will be the only person who will be able to fix it when it breaks!
-Your code is more likely to stand the test of time for longer if others can help you maintain it and want to use it because they can see what's happening enough to trust it themselves!
-Working code is a start, but **readable** working code is best!
-Code comments not only can clarify at points where your code might need further explanation but it can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.
+Good code comments are a part of writing good, readable code!
+Your code is more likely to stand the test of time for longer if others, including yourself in the future, can help you maintain it and want to use it because they can see what's happening enough to trust it themselves!
+
+Current You who is writing your code may know what is happening but Future You will have no idea what Current You was thinking [@Spielman]:
+
+> Future You comes into existence about one second after you write code, and has no idea what on earth Past You was thinking. Help out Future You by adding lots of comments! Future You next week thinks Today You is an idiot, and the only way you can convince Future You that Today You is reasonably competent is by adding comments in your code explaining why Today You is actually not so bad.
+
+Your code and your understanding of it will fade soon after you write it, leaving your hard work to deprecate.
+Code that works is a start, but **readable** AND working code is best!
+
+Commments can help clarify at points where your code might need further explanation but the act of writing them can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.
 
 ## Characteristics of clarifying code comments
 
-@Spertus lays out helpful "Rules" for writing helpful code comments [in this article](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) which we recommend you read.
+What kinds of comments are most helpful for Future You and others?
+
+@Spertus lays out "Rules" for writing helpful code comments [in this article](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) which we recommend you read.
 
 > Rule 1: Comments should not duplicate the code.
 
