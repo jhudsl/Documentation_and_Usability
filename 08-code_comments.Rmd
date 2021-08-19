@@ -17,16 +17,41 @@ Most users will probably not look at your code directly -- those who do are prob
 - Quite desperately troubleshooting something and were not able to find answers elsewhere.
 - Are “power users” who are already pretty invested in your tool and want to get more out of it -- may be helpful contributors too!
 
+Good code comments are a part of writing good code that others can read (and they will be more likely to use and cite your code too).
+Working code is a start, but **readable** working code is best!
+Code comments not only can clarify at points where your code might need further explanation but it can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.
+
 ## Characteristics of clarifying code comments
 
-Plenty of people have discussed good code comments at length so we'll refer to those discussions here:
+@Spertus lays out helpful "Rules" for writing helpful code comments [in this article](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) which we recommend you read.
 
+> Rule 1: Comments should not duplicate the code.
+
+> Rule 2: Good comments do not excuse unclear code.
+
+> Rule 3: If you can’t write a clear comment, there may be a problem with the code.
+
+> Rule 4: Comments should dispel confusion, not cause it.
+
+> Rule 5: Explain unidiomatic code in comments.
+
+> Rule 6: Provide links to the original source of copied code.
+
+> Rule 7: Include links to external references where they will be most helpful.
+
+> Rule 8: Add comments when fixing bugs.
+
+> Rule 9: Use comments to mark incomplete implementations.
+
+Here is more reading about good code comments that have plenty of great discussions about how to up your code comment game.
+
+- [Best Practices for Writing Code Comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) by @Spertus.
 - [What Makes a Good Code Comment?](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24) by @Cronin2019.  
 - [The Value of Code Documentation](https://www.olioapps.com/blog/the-value-of-code-documentation/) by @Meza2018.  
 - [Some internet wisdom on R documentation](http://alyssafrazee.com/2014/04/20/rdocs.html) by @Frazee2014.  
 - [How to Comment Your Code Like a Pro: Best Practices and Good Habits](https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits) by @Keeton2019.  
 
-**Some major points from these articles:**
+**In summary:**
 
 <img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132" width="500" height="500" alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."/>
 
