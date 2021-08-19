@@ -44,8 +44,16 @@ jobs:
           svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/book.bib
           svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/packages.bib
 
-          # Also need .Rmd files for leanbuild (at least first time... then might need to manually update iframes etc)
-          svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/*.Rmd
+          base_url=https://${GIT_TOKEN}@raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
+          rmd_list=$(find . -name '*.Rmd'  | grep '.Rmd')
+
+          for path in $rmd_list
+          do
+            # test that the path is to an Rmd file, error if not
+            [[ $path != *.Rmd ]] && echo "'$path' is not an .Rmd file." && exit 1
+            echo $path
+            curl --fail -s ${base_url}/${path} > ${path}
+          done
 
       - name: Create PR with rendered docs files
         uses: peter-evans/create-pull-request@v3
