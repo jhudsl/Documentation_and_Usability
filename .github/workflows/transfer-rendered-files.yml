@@ -7,19 +7,13 @@
 name: Copy files from Bookdown to Leanpub repo
 # Copy rendered notebooks to Leanpub repo
 
-
-# This will be run upon PRs to main
-on:
-  pull_request:
-    branches: [ main ]
-
 # This workflow will run when there are changes to docs/ files in THIS repo
-#on:
-  #workflow_run:
-  #  workflows: [ "Build, Render, and Push" ]
-  #  branches: [ main ]
-  #  types:
-  #    - completed
+on:
+  workflow_run:
+    workflows: [ "Build, Render, and Push" ]
+    branches: [ main ]
+    types:
+      - completed
 
 jobs:
   file-bookdown-pr:
