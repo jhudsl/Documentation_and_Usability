@@ -45,6 +45,8 @@ roxygen
 RStudio's
 runnable
 Savonen
+SDLC
+scannable
 se
 snakemake
 src
@@ -55,6 +57,7 @@ vaccuum
 thenounproject
 TSV
 UI
+urlchecker
 unenthused
 Wickham
 workshopping

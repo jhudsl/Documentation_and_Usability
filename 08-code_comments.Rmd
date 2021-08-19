@@ -27,7 +27,7 @@ Current You who is writing your code may know what is happening but Future You w
 Your code and your understanding of it will fade soon after you write it, leaving your hard work to deprecate.
 Code that works is a start, but **readable** AND working code is best!
 
-Commments can help clarify at points where your code might need further explanation but the act of writing them can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.
+Comments can help clarify at points where your code might need further explanation but the act of writing them can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.
 
 ## Characteristics of clarifying code comments
 
