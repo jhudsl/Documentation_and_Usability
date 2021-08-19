@@ -17,7 +17,9 @@ Most users will probably not look at your code directly -- those who do are prob
 - Quite desperately troubleshooting something and were not able to find answers elsewhere.
 - Are “power users” who are already pretty invested in your tool and want to get more out of it -- may be helpful contributors too!
 
-Good code comments are a part of writing good code that others can read (and they will be more likely to use and cite your code too).
+Good code comments are a part of writing good code!
+If you are the only person that knows what's happening in your code, you will be the only person who will be able to fix it when it breaks!
+Your code is more likely to stand the test of time for longer if others can help you maintain it and want to use it because they can see what's happening enough to trust it themselves!
 Working code is a start, but **readable** working code is best!
 Code comments not only can clarify at points where your code might need further explanation but it can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.
 
