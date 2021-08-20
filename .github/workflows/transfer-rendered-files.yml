@@ -35,12 +35,16 @@ jobs:
           sudo apt-get install subversion
 
           # remove old docs/ files and folder
-          rm -r docs
+          rm -r manuscript
+
+          # make manuscript directory
+          mkdir manuscript
 
           # Copy over any .bib files too!
           svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/book.bib
           svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/packages.bib
 
+          # Get list of Rmds needing to copy
           rmd_list=$(find . -name '*.Rmd'  | grep '.Rmd')
 
           for path in $rmd_list
@@ -48,7 +52,7 @@ jobs:
             # test that the path is to an Rmd file, error if not
             [[ $path != *.Rmd ]] && echo "'$path' is not an .Rmd file." && exit 1
             echo $path
-            svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/${path}
+            svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/manuscript/${path}
           done
 
       - name: Create PR with rendered docs files
