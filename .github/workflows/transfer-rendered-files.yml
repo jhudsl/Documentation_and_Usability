@@ -37,14 +37,10 @@ jobs:
           # remove old docs/ files and folder
           rm -r docs
 
-          # Copy over files in docs
-          svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/docs
-
           # Copy over any .bib files too!
           svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/book.bib
           svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/packages.bib
 
-          base_url=https://${GIT_TOKEN}@raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
           rmd_list=$(find . -name '*.Rmd'  | grep '.Rmd')
 
           for path in $rmd_list
@@ -52,7 +48,7 @@ jobs:
             # test that the path is to an Rmd file, error if not
             [[ $path != *.Rmd ]] && echo "'$path' is not an .Rmd file." && exit 1
             echo $path
-            curl --fail -s ${base_url}/${path} > ${path}
+            svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/${path}
           done
 
       - name: Create PR with rendered docs files
