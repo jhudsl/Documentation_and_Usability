@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-08-17" />
+<meta name="date" content="2021-08-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -207,11 +207,50 @@ It’s a part of writing good code and helps your collaborators and future you!<
 <li>Quite desperately troubleshooting something and were not able to find answers elsewhere.</li>
 <li>Are “power users” who are already pretty invested in your tool and want to get more out of it – may be helpful contributors too!</li>
 </ul>
+<p>Good code comments are a part of writing good, readable code!
+Your code is more likely to stand the test of time for longer if others, including yourself in the future, can help you maintain it and want to use it because they can see what’s happening enough to trust it themselves!</p>
+<p>Current You who is writing your code may know what is happening but Future You will have no idea what Current You was thinking <span class="citation">(Spielman, <a href="#ref-Spielman" role="doc-biblioref">n.d.</a>)</span>:</p>
+<blockquote>
+<p>Future You comes into existence about one second after you write code, and has no idea what on earth Past You was thinking. Help out Future You by adding lots of comments! Future You next week thinks Today You is an idiot, and the only way you can convince Future You that Today You is reasonably competent is by adding comments in your code explaining why Today You is actually not so bad.</p>
+</blockquote>
+<p>Your code and your understanding of it will fade soon after you write it, leaving your hard work to deprecate.
+Code that works is a start, but <strong>readable</strong> AND working code is best!</p>
+<p>Comments can help clarify at points where your code might need further explanation but the act of writing them can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.</p>
 </div>
 <div id="characteristics-of-clarifying-code-comments" class="section level2">
 <h2><span class="header-section-number">8.2</span> Characteristics of clarifying code comments</h2>
-<p>Plenty of people have discussed good code comments at length so we’ll refer to those discussions here:</p>
+<p>What kinds of comments are most helpful for Future You and others?</p>
+<p><span class="citation">(<span class="citeproc-not-found" data-reference-id="Spertus"><strong>???</strong></span>)</span> lays out “Rules” for writing helpful code comments <a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">in this article</a> which we recommend you read.</p>
+<blockquote>
+<p>Rule 1: Comments should not duplicate the code.</p>
+</blockquote>
+<blockquote>
+<p>Rule 2: Good comments do not excuse unclear code.</p>
+</blockquote>
+<blockquote>
+<p>Rule 3: If you can’t write a clear comment, there may be a problem with the code.</p>
+</blockquote>
+<blockquote>
+<p>Rule 4: Comments should dispel confusion, not cause it.</p>
+</blockquote>
+<blockquote>
+<p>Rule 5: Explain unidiomatic code in comments.</p>
+</blockquote>
+<blockquote>
+<p>Rule 6: Provide links to the original source of copied code.</p>
+</blockquote>
+<blockquote>
+<p>Rule 7: Include links to external references where they will be most helpful.</p>
+</blockquote>
+<blockquote>
+<p>Rule 8: Add comments when fixing bugs.</p>
+</blockquote>
+<blockquote>
+<p>Rule 9: Use comments to mark incomplete implementations.</p>
+</blockquote>
+<p>Here is more reading about good code comments that have plenty of great discussions about how to up your code comment game.</p>
 <ul>
+<li><a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">Best Practices for Writing Code Comments</a> by <span class="citation">(<span class="citeproc-not-found" data-reference-id="Spertus"><strong>???</strong></span>)</span>.</li>
 <li><a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">What Makes a Good Code Comment?</a> by <span class="citation">Cronin (<a href="#ref-Cronin2019" role="doc-biblioref">2019</a>)</span>.<br />
 </li>
 <li><a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">The Value of Code Documentation</a> by <span class="citation">Meza (<a href="#ref-Meza2018" role="doc-biblioref">2018</a>)</span>.<br />
@@ -220,7 +259,7 @@ It’s a part of writing good code and helps your collaborators and future you!<
 </li>
 <li><a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">How to Comment Your Code Like a Pro: Best Practices and Good Habits</a> by <span class="citation">Keeto (<a href="#ref-Keeton2019" role="doc-biblioref">2019</a>)</span>.</li>
 </ul>
-<p><strong>Some major points from these articles:</strong></p>
+<p><strong>In summary:</strong></p>
 <p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132" width="500" height="500" alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."/></p>
 </div>
 <div id="exercise-evaluate-your-own-codes-comments" class="section level2">
@@ -248,6 +287,9 @@ Take sometime to think about your coding process and how it could improve.
 </div>
 <div id="ref-Meza2018">
 <p>Meza, Frank. 2018. “The Value of Code Documentation.” <a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">https://www.olioapps.com/blog/the-value-of-code-documentation/</a>.</p>
+</div>
+<div id="ref-Spielman">
+<p>Spielman, Stephanie. n.d. “Introduction to R - Cb2r Data Science Workshop, Summer 2020.” <a href="https://github.com/sjspielman/cb2r-ds-summer2020/blob/71cb11277e7383292bf727841ab5fa4ed43cfcbe/resources/introduction_to_R.Rmd#L92">https://github.com/sjspielman/cb2r-ds-summer2020/blob/71cb11277e7383292bf727841ab5fa4ed43cfcbe/resources/introduction_to_R.Rmd#L92</a>.</p>
 </div>
 </div>
             </section>
