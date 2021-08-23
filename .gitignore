@@ -5,7 +5,5 @@
 .local
 .rstudio
 .bash_history
-
+docker/git_token.txt
 spell_check_results.tsv
-
-
