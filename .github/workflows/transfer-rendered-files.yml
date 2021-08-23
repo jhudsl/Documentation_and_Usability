@@ -33,42 +33,55 @@ jobs:
           GH_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: |
           sudo apt-get install subversion
+          sudo apt install r-base
 
-          # remove old docs/ files and folder
-          rm -r manuscript
+          # Copy over book.bib file
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/docs
 
-          # make manuscript directory
-          mkdir manuscript
+          # Copy over book.bib file
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/book.bib
 
-          # Copy over any .bib files too!
-          svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/book.bib
-          svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/packages.bib
+          # Copy over _bookdown.yml
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/_bookdown.yml
 
           # Get list of Rmds needing to copy
-          rmd_list=$(find . -name '*.Rmd'  | grep '.Rmd')
+          Rscript --vanilla scripts/get_rmd_filenames.R
 
-          for path in $rmd_list
+          # Copy over images folder
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/resources/images resources/images
+
+          # the url from this repo where files will be downloaded from
+          base_url=https://${GIT_TOKEN}@raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
+
+          # remove old Rmd files
+          rm $(find . -name '*.Rmd'  | grep '.Rmd' )
+
+          input="resources/rmd_list.txt"
+          while IFS= read -r line
           do
-            # test that the path is to an Rmd file, error if not
-            [[ $path != *.Rmd ]] && echo "'$path' is not an .Rmd file." && exit 1
-            echo $path
-            svn export https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/manuscript/${path}
-          done
+            echo "$line"
+            curl --fail -s ${base_url}/${line} > ${line}
+          done < "$input"
 
       - name: Create PR with rendered docs files
         uses: peter-evans/create-pull-request@v3
         id: cpr
         with:
           token: ${{ secrets.GIT_TOKEN }}
-          commit-message: Copy docs/ files from Bookdown repository
+          commit-message: Copy leanbuild-needed files from Bookdown repository
           signoff: false
           branch: auto_copy_rendered_files
           delete-branch: true
-          title: 'GHA: Automated transfer of docs/ from Bookdown repository'
+          title: 'GHA: Automated transfer of leanbuild-needed from Bookdown repository'
           body: |
             ### Description:
-            This PR auto-generated from github actions
-              - Copy the bookdown rendered files in docs/ from Bookdown repository
+            This PR auto-generated from github actions which copies the leanbuild-needed files from the from Bookdown repository:
+              - All Rmds files listed in the _bookdown.yml file
+              - docs/ folder
+              - resources/images folder
+              - book.bib file
+              - _bookdown.yml file
+
           labels: |
             automated
           reviewers: $GITHUB_ACTOR
