@@ -57,14 +57,8 @@ jobs:
           # the url from this repo where files will be downloaded from
           base_url=https://${GIT_TOKEN}@raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
 
-          # If there's Rmds, remove them
-          count=`ls -1 *.Rmd 2>/dev/null | wc -l`
-          if [ $count != 0 ]
-          then
-            # remove old Rmd files
-            rm $(find . -name '*.Rmd'  | grep '.Rmd' )
-          fi
-
+          # remove old Rmd files
+          rm $(find . -name '*.Rmd'  | grep '.Rmd' )
 
           input="resources/rmd_list.txt"
           while IFS= read -r line
