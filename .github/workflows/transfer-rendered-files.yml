@@ -28,7 +28,7 @@ jobs:
           repository: jhudsl/ITCR_Documentation_and_Usability_Leanpub
           token: ${{ secrets.GIT_TOKEN }}
 
-      - name: Get docs/ from Bookdown repo
+      - name: Get files from Bookdown repo
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.GIT_TOKEN }}
@@ -36,8 +36,11 @@ jobs:
           sudo apt-get install subversion
           sudo apt install r-base
 
-          # Copy over book.bib file
-          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/docs
+          if [ -d "docs/" ]
+          then
+            # remove old docs/ files and folder
+            rm -r docs/*
+          fi
 
           # Copy over book.bib file
           svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/book.bib
@@ -45,11 +48,11 @@ jobs:
           # Copy over _bookdown.yml
           svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/_bookdown.yml
 
-          # Get list of Rmds needing to copy
-          Rscript --vanilla scripts/get_rmd_filenames.R
-
           # Copy over images folder
           svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/resources/images resources/images
+
+          # Get list of Rmds needing to copy
+          Rscript --vanilla scripts/get_rmd_filenames.R
 
           # the url from this repo where files will be downloaded from
           base_url=https://${GIT_TOKEN}@raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
@@ -69,20 +72,19 @@ jobs:
         id: cpr
         with:
           token: ${{ secrets.GIT_TOKEN }}
-          commit-message: Copy leanbuild-needed files from Bookdown repository
+          commit-message: Copy files from Bookdown repository
           signoff: false
           branch: auto_copy_rendered_files
           delete-branch: true
-          title: 'GHA: Automated transfer of leanbuild-needed from Bookdown repository'
+          title: 'GHA: Automated transfer of leanbuild-needed files from Bookdown repository'
           body: |
             ### Description:
-            This PR auto-generated from github actions which copies the leanbuild-needed files from the from Bookdown repository:
-              - All Rmds files listed in the _bookdown.yml file
-              - docs/ folder
-              - resources/images folder
-              - book.bib file
-              - _bookdown.yml file
-
+             Copying over the leanbuild-needed files from Bookdown repository:
+               - Rmds listed in the _bookdoown.yml
+               - _bookdown.yml
+               - docs/*
+               - book.bib
+               - resources/images/*
           labels: |
             automated
           reviewers: $GITHUB_ACTOR
