@@ -2,7 +2,7 @@
 
 This is a bookdown based course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools.
 
-This course is a part of an [ITCR training series](https://www.itcrtraining.org/) and was in part created from [this github template](https://github.com/jhudsl/ITCR_Course_Template).
+This course is a part of an [ITCR training series](https://www.itcrtraining.org/) and was in part created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
 You can see the rendered course material here: {Link to rendered bookdown and/or to the Leanpub.}
 
@@ -23,4 +23,4 @@ This course will demonstrate how to:
 
 ## Encountering problems?
 
-If you are encountering any problems with this course, please file a GitHub issue or contact us at {Some email or web address with a contact form}.
+If you are encountering any problems with this course, please file a GitHub issue or fill out [this feedback form](https://forms.gle/bQHH3jPjMUj3gmcN7).
