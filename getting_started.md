@@ -20,6 +20,7 @@ _Background information_:
     - [Set up GitHub pages](#set-up-github-pages)
       - [Set up branches](#set-up-branches)
   - [Set up Github secrets](#set-up-github-secrets)
+    - [Dockerhub related secrets](#dockerhub-related-secrets)
     - [Google Slide related Secrets](#google-slide-related-secrets)
 - [Setting up the Docker image](#setting-up-the-docker-image)
   - [Starting a new Docker image](#starting-a-new-docker-image)
@@ -28,6 +29,9 @@ _Background information_:
     - [Rebuilding the Docker image](#rebuilding-the-docker-image)
 - [Citations](#citations)
 - [Github actions](#github-actions)
+  - [About customizing render-bookdown.yml (also called `build-all`)](#about-customizing-render-bookdownyml-also-called-build-all)
+    - [For a course that will need changes to Docker image](#for-a-course-that-will-need-changes-to-docker-image)
+    - [For a course that needs linking to Google Slides](#for-a-course-that-needs-linking-to-google-slides)
   - [Linking to Leanpub repository](#linking-to-leanpub-repository)
   - [Style guide](#style-guide)
   - [Spell check](#spell-check)
@@ -107,11 +111,21 @@ The Github actions that this repository uses needs four Github secrets set up.
 
 It's important that these are set up and named exactly what they are below in order for Github actions to work correctly.
 
+See [Github Actions section](#github-actions) for how you can customize Github actions which can change the necessity of these secrets.  
+
 ![Github secrets](resources/git-secrets.png)
 
 To set up these repository secrets, on your repository's main Github page, go to `Settings` and scroll down to see `Secrets` on the left side menu bar.
 
 For each new secret, click the `New repository secret` button and set each as follows, clicking `Add secret` as you fill each in appropriately:  
+
+_Name: `GIT_TOKEN`_:  
+For `value`: Create a personal access token [following these instructions](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token#creating-a-token). Underneath `Select scopes`, check both `repo` and `workflow`.
+Then copy the PAT and save as the value.
+
+#### Dockerhub related secrets
+
+Note these are not required if [Docker update Github actions are not turned on](#about-customizing-render-bookdownyml-also-called-build-all).
 
 _Name: `DOCKERHUB_USERNAME`_:  
 For `value`: put your login username for https://hub.docker.com/
@@ -120,11 +134,9 @@ _Name: `DOCKERHUB_TOKEN`_:
 For `value`: put a access token for Dockerhub.
 You can create this by following [these instructions](https://docs.docker.com/docker-hub/access-tokens/#create-an-access-token).
 
-_Name: `GIT_TOKEN`_:  
-For `value`: Create a personal access token [following these instructions](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token#creating-a-token). Underneath `Select scopes`, check both `repo` and `workflow`.
-Then copy the PAT and save as the value.
+#### Google Slide related secrets
 
-#### Google Slide related Secrets
+Note these steps are not required if [Google slide update Github actions are not turned on](#about-customizing-render-bookdownyml-also-called-build-all).
 
 Before following these steps, you'll need to set up the Google slides following the [instructions here](#adding-images-and-graphics).
 
@@ -238,9 +250,14 @@ For more info on how to use Docker, they have very [extensive documentation here
 
 ### Starting a new Docker image
 
-Should you find that your course needs additional packages beyond what's included in the template, you should probably start a new Docker image.
+Should you find that your course needs additional packages beyond what's included in the template, you should probably start a new Docker image and you'll need to do two things to get this going:
+
+1) You need to uncomment the Docker image update [following these instructions](#for-a-course-that-will-need-changes-to-docker-image).  
+2) You'll need to set up a Dockerhub account and set up Dockerhub secrets [following these instructions](#dockerhub-related-secrets).   
 
 To start up a new Docker image for your new course, you can start with the Dockerfile in this repository and add the additional packages you need using the tips in the next section, but you'll need to change the tag.
+
+If you wish to keep the Docker image underneath the Dockerhub `jhudsl` organization account, you'll need to be granted access to that organization -- contact one of the `jhudsl` team to have them add you.
 
 ### Adding packages to the Dockerfile
 
@@ -277,9 +294,12 @@ RUN pip3 install \
 #### Rebuilding the Docker image
 
 When you've added a package to the Dockerfile, you'll need to check that it builds successfully before including it in a pull request.
-You'll need to rebuild the docker image using this command:
+
+First create a GITHUB token file by making a token and copying a pasting it into a plain text file named `docker/github_token.txt`.
+
+Then you'll need to rebuild the docker image using this command:
 ```
-docker build -< docker/Dockerfile -t jhudsl/<TAG_FOR_COURSE>
+docker build -f docker/Dockerfile . -t jhudsl/course_template
 ```
 If it fails, often the issue is a missing dependency.
 Take a look at the error messages and see if you can determine the issue with some Googling.
@@ -318,19 +338,44 @@ To reference the citations in your writing follow the [bookdown instructions](ht
 
 > Items can be cited directly within the documentation using the syntax @key where key is the citation key in the first line of the entry, e.g., @R-base. To put citations in parentheses, use [@key]. To cite multiple entries, separate the keys by semicolons, e.g., [@key-1; @key-2; @key-3]. To suppress the mention of the author, add a minus sign before @, e.g., [-@R-base].
 
+See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
+
 ## Github actions
 
 Here's a summary of the Github actions set up in this repository.
 
 ![](resources/GHASetUp.png)
 
+
+### About customizing render-bookdown.yml (also called `build-all`)
+
 Note that `build-all` and `docker-build-test` are not something we recommend requiring for status checks because `docker-build-test` is only run if there are changes to the Dockerfile and `build-all` is only run upon the acceptance and merging of a pull request.
 
-Once `build-all` is run, the `docs/` folder where the rendered files are place are copied over to the Leanpub repository and filed as a pull request.
+However for simplicity purposes there are two sections this Github action that can you keep off if you won't be making changes to the Docker image or you won't be wanting it to sync to Google Slides automatically.
+
+#### For a course that will need changes to Docker image
+
+If you know for sure that the course you are working on will never require Docker updates -- this may be the case if the course doesn't any interactive code as a part of the material, you can delete the Docker updating chunk or keep it commented out.
+
+However, if you will need to make any change to the Docker image specific to the course you are working on, in the file `.github/render-bookdown.yml` you should uncomment the
+`###### START OF DOCKER UPDATE CHUNK` up to the part that says `###### END OF DOCKER UPDATE CHUNK`.
+
+This will require you to set up the [Github secrets for Docker](#dockerhub-related-secrets).
+
+#### For a course that needs linking to Google Slides
+
+If you know for sure that the course you are working on does not need Google Slide automatic updating, you can delete the Google Slide updating chunk or keep it commented out.
+
+However, if you will need to make any change to the Docker image specific to the course you are working on, in the file `.github/render-bookdown.yml` you should uncomment the
+`###### START OF GOOGLE SLIDE UPDATE CHUNK` up to the part that says `###### END OF GOOGLE SLIDE UPDATE CHUNK`.
+
+This will require you to set up the [Github secrets for Google Slides](#google-slide-related-secrets).
 
 ### Linking to Leanpub repository
 
 `transfer-rendered-files.yml` is a Github action that will copy over the output `docs/` files rendered by Bookdown to a parallel `Leanpub` repository.
+
+Once `build-all` is run, the `docs/` folder where the rendered files are place are copied over to the Leanpub repository and filed as a pull request.
 
 There are two edits to `.github/workflow/transfer-rendered-files.yml` that need to be done to turn on the automatic copying of files between these repos:  
 
@@ -357,6 +402,7 @@ Style changes will automatically be committed back to your branch.
 ### Spell check
 
 Github actions will automatically [run a spell check on all Rmds](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
+Depending on your preference, you may find it easier to [spell check manually on your local computer](#running-spell-check-and-styler-manually) before pushing to Github.
 
 It will fail if there are more than 2 spelling errors and you'll need to resolve those before being able to merge your pull request.
 
@@ -380,7 +426,7 @@ Note that the steps in [Google Slide related Secrets](#google-slide-related-secr
 1) `google_slides_image_linker.R` makes sure any code output images are updated after bookdown is re-rendered.
 2) `google_slide_png_downloader.R` downloads all the slides from the linked Google slide set as PNGs to `resources/gs_slides`.
 
-If you don't wish for either of these actions to occur automatically, you can delete these steps from [`render-bookdown.yml`](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/workflows/render-bookdown.yml).
+Note that for the Google Slides actions to run you need to set up the [Google Slides Github actions in the `render-bookdown.yml` file](#for-a-course-that-will-need-changes-to-docker-image) and its [related secrets](#google-slide-related-secrets).
 
 ### Running spell check and styler manually
 
@@ -403,27 +449,34 @@ If the URL checker is failing on something that isn't really a URL or doesn't ne
 
 ### Adding logo
 
-Currently the logos are saved within the images directory of the resources directory.
-The `_output.yml` file adds this as image above the table of contents when the content is rendered with `bookdown`.
+Logos for the table of contents are added with the  `_output.yml` file. This adds this an image above the table of contents when the content is rendered with `bookdown`.
 
-**Please replace the URL in the last line of code for the `_output.yml` file with the URL for the GitHub repo for your course.** This will allow people to more easily find how out how you created your course. Otherwise, they will be directed to this template.
+If you are creating a general DaSL course:
+ - Please replace the URL in the line 13 of code for the `_output.yml` file with the URL for the GitHub repo for your course. This will allow people to more easily find how out how you created your course. Otherwise, they will be directed to this template.
+
+If you are creating a DaSL course for a project other than [ITN](https://www.itcrtraining.org/):
+ - Delete the `_output.yml` file and rename the `_output-itcr.yml` to be `_output.yml`.  
+ - Please modify the lines that link to the http://jhudatascience.org/ with your own website and logo if you are not part of the [jhuDaSL](http://jhudatascience.org/) .
+- Please replace the URL in the line 13 of code with the URL for the GitHub repo for your course. This will allow people to more easily find how out how you created your course. Otherwise, they will be directed to this template.
+- If you wish to create a different color scheme, the font colors can also be modified along with other aspects in the `assets/style.css` file. Take a look at the `assets/style_ITN.css` file to see what was changed for that color scheme from the `assets/style.css` file.
+- You can replace the logo with the appropriate project logo by replacing `https://www.itcrtraining.org/` with the project website link and ` "https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png"` for the project logo image link in line 11.
+
+If you are creating an ITCR course for [ITN](https://www.itcrtraining.org/):
+- Delete the `_output.yml` file and rename the `_output-itcr.yml` to be `_output.yml`.
+- Please modify the lines that link to the http://jhudatascience.org/ with your own website and logo if you are not part of the [jhuDaSL](http://jhudatascience.org/) .
+- Please replace the URL in the line 13 of code with the URL for the GitHub repo for your course. This will allow people to more easily find how out how you created your course. Otherwise, they will be directed to this template.
+
 
 ## Setting Up Images and Graphics
-
-Also replace the logo link which is currently: `"https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png"` if you are working on a project with the DaSL that has its own project logo.
-Create an image file with both the project logo on the left and a [black and white version of the DaSL logo](https://public.3.basecamp.com/p/gDNxkEZuMRVEkvXukGY96pLe) on the right and host this online on GitHub so that others working on your project can use the link so that the logo will get updated if need be.
 
 To maintain style and attributions for graphics and images, as well as to enable easy updates in the future, please start a new Google Slide document for your course.
 This also allows you to make videos of your slides that can be added to your course.
 
 Each Rmd with images that is a part of your bookdown needs to have this chunk at the beginning so that images are stored properly for Leanpub conversion:
+
 `````
 ```{r, include=FALSE}
-fp <- knitr::fig_path()
-fp <- dirname(fp)
-fp <- paste0("images/", fp, "/")
-print(paste0("figpath is ", fp))
-knitr::opts_chunk$set(fig.path = fp)
+leanbuild::set_knitr_image_path()
 ```
 `````
 
@@ -527,11 +580,11 @@ All images should be included in your Google Slides with the captions we discuss
 To add images in the text in your Rmd, use the following function within an [R code chunk](https://bookdown.org/yihui/rmarkdown/r-code.html).
 
 `````
-```{r, fig.alt="Alternative text",}
+```{r, fig.alt="Alternative text", echo = FALSE, outwidth = "100%"}
 leanbuild::include_slide(<google_slide_url>)
 `````
 _You must define `fig.alt` in the code chunk options/parameters to pass to `knitr`._
-You can adjust the size, alignment, or caption of the image you can use these arguments in the code chunk tag:  
+You can adjust the size(fig.hight, fig.width, out.width, out.height), alignment (fig.align), or caption (fig.cap) of the image you can use these arguments in the code chunk tag:  
 
 `````
 ```{r, fig.alt="Alternative text", fig.height=4, fig.align='center', fig.cap='...'}
@@ -539,6 +592,65 @@ You can adjust the size, alignment, or caption of the image you can use these ar
 `````
 
 It's also okay to use `<img src` for your images if you like you but you still need to make sure that you have alternative text designated using something like: `<img src="blah.png" alt="SOMETHING">`.
+
+Google Slides must be **public**. Share settings must be set to "Anyone on the internet with this link can view". Note that "Private" is the default setting when you make a new presentation.
+
+See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
+
+## Adding videos in text
+
+To add a youtube video to your Rmd files use the following:
+
+`````
+```{r, fig.align="center", fig.alt = "video", echo=FALSE, out.width="100%"}
+knitr::include_url("https://www.youtube.com/embed/yiZQaE0q9BY")
+```
+`````
+
+To get the appropriate youtube url do the following:
+1) click on the **SHARE** button on the lower right corner of the video on youtube
+2) click on the **Embed** option on the far left
+3) copy just the part after `"src ="` and paste the url into the `knitr::include_url()` function
+
+Again, it is important to use the `echo=FALSE` option so that only the video is shown and not the code to generate it.
+
+You could alternatively use html code by copying the entire embed code provded by youtube, but you might want to modify it a bit to center the video, like so:
+
+`````
+<p align="center"><iframe width="560" height="315" alt = "video of Russell McClain on biases and stereotypes" src="https://www.youtube.com/embed/yiZQaE0q9BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+`````
+See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
+
+## Adding embedded files to text
+
+Sometimes it is useful to include an embedded version of a website or file on a website, if there is a particularly important link and you don't want to rely on learners clicking the link.
+
+To include such a file or website do the following:
+
+`````
+```{r, fig.align="center", echo=FALSE}
+knitr::include_url("https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf", height = "800px")
+```
+`````
+
+Again you will need to include `echo = FALSE` to ensure that the code to generate the preview of the website or file is not included in your course material.
+
+If you want to include a file that is not hosted online, consider hosting it on GitHub using the method described for hosting your Bookdown version of the course. See the [Set up GitHub pages](#set-up-github-pages) section.
+
+Then you would do the following, where the url is that of your hosted file:
+`````
+```{r, fig.align="center", echo=FALSE}
+knitr::include_url("https://carriewright11.github.io/stringr_RLadies/index.html", height = "800px")
+```
+`````
+
+You can also use html code for this like so:
+
+`````
+<p align="center"><iframe src="https://widgets.figshare.com/articles/5427418/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0" alt = "expectation document"></iframe></p>
+`````
+
+See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
 
 ## Learning Objectives Formatting
 
