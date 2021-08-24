@@ -5,7 +5,7 @@ output: html_document
 
 # Lessons we should borrow from user designers
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_24" width="500" height="500" alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users."/>
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_24" width="500" height="500" alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users."/>
 
 ## Thinking about user-centered development
 
@@ -16,7 +16,7 @@ This is why a common saying in user-centered design is "You are not your user"[@
 Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do.
 For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0" width = "500" height = "500" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!"/>
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_0" width = "500" height = "500" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!"/>
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -31,7 +31,7 @@ As compared to yourself, your typical user may likely have a different:
 And most importantly _your user does not know your tool like you do_!
 You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have.
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_146" width="500" height="500" alt="Your user does not know your tool like you do!"/>
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd228cc29d1_0_146" width="500" height="500" alt="Your user does not know your tool like you do!"/>
 
 Also keep in mind users are humans in a context.
 Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/etc.
@@ -88,7 +88,7 @@ Sometimes this is particularly helpful for complicated concepts.
 For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files.
 Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44" width="500" height="500" alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. "/>
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcd0e3791ab_0_44" width="500" height="500" alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. "/>
 
 Here, this figure explains how the merge function works given a particular set of ranges.
 
