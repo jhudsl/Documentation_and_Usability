@@ -5,7 +5,7 @@ output: html_document
 
 # Creating clarifying code comments
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_54" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."/>
+<img src="08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png" title="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments." alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."  />
 
 ## The goal of a code documentation
 
@@ -33,7 +33,7 @@ Comments can help clarify at points where your code might need further explanati
 
 What kinds of comments are most helpful for Future You and others?
 
-@Spertus lays out "Rules" for writing helpful code comments [in this article](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) which we recommend you read.
+@Spertus2021 lays out "Rules" for writing helpful code comments [in this article](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) which we recommend you read.
 
 > Rule 1: Comments should not duplicate the code.
 
@@ -55,7 +55,7 @@ What kinds of comments are most helpful for Future You and others?
 
 Here is more reading about good code comments that have plenty of great discussions about how to up your code comment game.
 
-- [Best Practices for Writing Code Comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) by @Spertus.
+- [Best Practices for Writing Code Comments](https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/) by @Spertus2021.
 - [What Makes a Good Code Comment?](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24) by @Cronin2019.  
 - [The Value of Code Documentation](https://www.olioapps.com/blog/the-value-of-code-documentation/) by @Meza2018.  
 - [Some internet wisdom on R documentation](http://alyssafrazee.com/2014/04/20/rdocs.html) by @Frazee2014.  
@@ -63,7 +63,7 @@ Here is more reading about good code comments that have plenty of great discussi
 
 **In summary:**
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132" width="500" height="500" alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."/>
+<img src="08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png" title="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process." alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."  />
 
 ## Exercise: Evaluate your own code's comments
 

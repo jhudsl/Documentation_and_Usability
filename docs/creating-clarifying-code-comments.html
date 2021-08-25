@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-08-24" />
+<meta name="date" content="2021-08-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,6 +54,7 @@
 
 
 
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
 
 <body>
@@ -66,7 +67,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<a href="https://www.itcrtraining.org/"><img src="resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"/></a>
+<a href="https://www.itcrtraining.org/"><img src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
@@ -193,7 +194,11 @@
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="divider"></li>
-<p style="text-align:center;"> <a href="https://github.com/jhudsl/ITCR_Course_Template_Bookdown" target="blank" > Content published with</a> <a href="https://bookdown.org/" target="blank"> bookdown</a> </p>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="text-align:center;"> <button type="button"> <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Feedback Form </a></p> </button> </a> </p>
 </ul>
 
       </nav>
@@ -211,9 +216,21 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/ITCR_Cancer_Research_Leadership/main/images/main_image.png">
+</div>
 <div id="creating-clarifying-code-comments" class="section level1" number="8">
 <h1><span class="header-section-number">Chapter 8</span> Creating clarifying code comments</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_54" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."/></p>
+<p><img src="08-code_comments_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png" title="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments." alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."  /></p>
 <div id="the-goal-of-a-code-documentation" class="section level2" number="8.1">
 <h2><span class="header-section-number">8.1</span> The goal of a code documentation</h2>
 <p>Code documentation goes beyond your user.
@@ -236,7 +253,7 @@ Code that works is a start, but <strong>readable</strong> AND working code is be
 <div id="characteristics-of-clarifying-code-comments" class="section level2" number="8.2">
 <h2><span class="header-section-number">8.2</span> Characteristics of clarifying code comments</h2>
 <p>What kinds of comments are most helpful for Future You and others?</p>
-<p><span class="citation">(<a href="#ref-Spertus" role="doc-biblioref"><strong>Spertus?</strong></a>)</span> lays out “Rules” for writing helpful code comments <a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">in this article</a> which we recommend you read.</p>
+<p><span class="citation">Spertus (<a href="about-the-authors.html#ref-Spertus2021" role="doc-biblioref">n.d.</a>)</span> lays out “Rules” for writing helpful code comments <a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">in this article</a> which we recommend you read.</p>
 <blockquote>
 <p>Rule 1: Comments should not duplicate the code.</p>
 </blockquote>
@@ -266,7 +283,7 @@ Code that works is a start, but <strong>readable</strong> AND working code is be
 </blockquote>
 <p>Here is more reading about good code comments that have plenty of great discussions about how to up your code comment game.</p>
 <ul>
-<li><a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">Best Practices for Writing Code Comments</a> by <span class="citation">(<a href="#ref-Spertus" role="doc-biblioref"><strong>Spertus?</strong></a>)</span>.</li>
+<li><a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">Best Practices for Writing Code Comments</a> by <span class="citation">Spertus (<a href="about-the-authors.html#ref-Spertus2021" role="doc-biblioref">n.d.</a>)</span>.</li>
 <li><a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">What Makes a Good Code Comment?</a> by <span class="citation">Cronin (<a href="about-the-authors.html#ref-Cronin2019" role="doc-biblioref">2019</a>)</span>.<br />
 </li>
 <li><a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">The Value of Code Documentation</a> by <span class="citation">Meza (<a href="about-the-authors.html#ref-Meza2018" role="doc-biblioref">2018</a>)</span>.<br />
@@ -276,7 +293,7 @@ Code that works is a start, but <strong>readable</strong> AND working code is be
 <li><a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">How to Comment Your Code Like a Pro: Best Practices and Good Habits</a> by <span class="citation">Keeto (<a href="about-the-authors.html#ref-Keeton2019" role="doc-biblioref">2019</a>)</span>.</li>
 </ul>
 <p><strong>In summary:</strong></p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_132" width="500" height="500" alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."/></p>
+<p><img src="08-code_comments_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png" title="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process." alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."  /></p>
 </div>
 <div id="exercise-evaluate-your-own-codes-comments" class="section level2" number="8.3">
 <h2><span class="header-section-number">8.3</span> Exercise: Evaluate your own code’s comments</h2>
@@ -287,6 +304,14 @@ Take sometime to think about your coding process and how it could improve.
 
 </div>
 </div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
             </section>
 
           </div>

@@ -5,7 +5,9 @@ output: html_document
 
 # Obtaining user feedback
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_60" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."/>
+```{r, fig.alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool.", echo = FALSE}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_60")
+```
 
 ## The goal of user feedback
 
@@ -14,7 +16,9 @@ You test it and get feedback!
 Similarly, how do you know if your tool is working for your user?
 Ask them for feedback!
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173" width="500" height="500" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"/>
+```{r, fig.alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!", echo = FALSE}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173")
+```
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -85,7 +89,9 @@ You might be able recruit people from setting up a feedback form, but you also m
 
 A very important point from @Csontos2019:
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_5" width="500" height="500" alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."/>
+```{r, fig.alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated.", echo = FALSE}
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_5")
+```
 
 You can use [these prompts](https://sensible.com/downloads/things-a-therapist-would-say.pdf) from @Krug2010 to help you know what to say to help create a non-judgmental atmosphere for testing.
 

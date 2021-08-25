@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-08-24" />
+<meta name="date" content="2021-08-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,6 +54,7 @@
 
 
 
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
 
 <body>
@@ -66,7 +67,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<a href="https://www.itcrtraining.org/"><img src="resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"/></a>
+<a href="https://www.itcrtraining.org/"><img src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
@@ -193,7 +194,11 @@
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="divider"></li>
-<p style="text-align:center;"> <a href="https://github.com/jhudsl/ITCR_Course_Template_Bookdown" target="blank" > Content published with</a> <a href="https://bookdown.org/" target="blank"> bookdown</a> </p>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="text-align:center;"> <button type="button"> <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Feedback Form </a></p> </button> </a> </p>
 </ul>
 
       </nav>
@@ -211,16 +216,28 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/ITCR_Cancer_Research_Leadership/main/images/main_image.png">
+</div>
 <div id="obtaining-user-feedback" class="section level1" number="9">
 <h1><span class="header-section-number">Chapter 9</span> Obtaining user feedback</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_60" width="500" height="500" alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."/></p>
+<p><img src="09-user_feedback_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_60.png" title="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."  /></p>
 <div id="the-goal-of-user-feedback" class="section level2" number="9.1">
 <h2><span class="header-section-number">9.1</span> The goal of user feedback</h2>
 <p>How do you know if your code is working?
 You test it and get feedback!
 Similarly, how do you know if your tool is working for your user?
 Ask them for feedback!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_173" width="500" height="500" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"/>
+<p><img src="09-user_feedback_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"  />
 <a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
 </div>
 <div id="how-to-collect-informative-user-feedback" class="section level2" number="9.2">
@@ -286,7 +303,7 @@ You might be able recruit people from setting up a feedback form, but you also m
 <li><a href="http://sensible.com/downloads/checklists.pdf">Use this checklist</a> from <span class="citation">Krug (<a href="about-the-authors.html#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to check if you are prepared!</li>
 </ul>
 <p>A very important point from <span class="citation">Csontos (<a href="about-the-authors.html#ref-Csontos2019" role="doc-biblioref">2019</a>)</span>:</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd2cd8e726d_0_5" width="500" height="500" alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."/></p>
+<p><img src="09-user_feedback_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_5.png" title="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."  /></p>
 <p>You can use <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">these prompts</a> from <span class="citation">Krug (<a href="about-the-authors.html#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to help you know what to say to help create a non-judgmental atmosphere for testing.</p>
 <p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report">Step 4) Analyze &amp; Report</a>
 Sit down with your notes and recordings, look for patterns.</p>
@@ -322,6 +339,14 @@ Icons by <a href="https://thenounproject.com/" class="uri">https://thenounprojec
 Emojis by OpenMoji License: CC BY-SA 4.0.<a href="obtaining-user-feedback.html#fnref7" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
             </section>
 
           </div>

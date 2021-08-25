@@ -5,7 +5,7 @@ output: html_document
 
 # How to keep your documentation up to date
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_0" width="500" height="500" alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date."/>
+<img src="11-documentation-maintenance_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_0.png" title="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date."  />
 
 ## The goal of documentation maintenance
 
@@ -15,7 +15,7 @@ That's excellent and you deserve a big kudos for continuing maintenance on your 
 But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update.
 As a user, the only thing worse than a tool having no documentation at all is having documentation that is out of date or otherwise incorrect.
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_5" width="500" height="500" alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button."/>
+<img src="11-documentation-maintenance_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_5.png" title="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button."  />
 
 If documentation updates aren't prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.
 
@@ -35,7 +35,7 @@ To help you remind you of this, you may want to use an [issue template](https://
 
 A very simple but all too common problem with out of date documentation is broken links!
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_37" width="500" height="500" alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." />
+<img src="11-documentation-maintenance_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_37.png" title="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy."  />
 
 You can catch these broken links this manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway!
 There are Github actions and other automated tools that can check your URLs for you.

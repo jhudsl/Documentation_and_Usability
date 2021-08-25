@@ -5,7 +5,7 @@ output: html_document
 
 # Other helpful features
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0" width="500" height="500" alt="Learning Objectives. This chapter will demonstrate how to: Add other helpful features that help usability of a tool. Determine which of these features are most useful for your particular context."/>
+<img src="10-other-features_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd436f8053d_0_0.png" title="Learning Objectives. This chapter will demonstrate how to: Add other helpful features that help usability of a tool. Determine which of these features are most useful for your particular context." alt="Learning Objectives. This chapter will demonstrate how to: Add other helpful features that help usability of a tool. Determine which of these features are most useful for your particular context."  />
 
 ## The goal of these "other features"
 
