@@ -116,7 +116,7 @@ Thorough and easy-to-digest documentation may also help other tool developers co
 Here Colin the Contributor was able to read Tina's awesome documentation.
 It not only got him excited about the tool, but allowed him to program a new feature which he sent to Tina.
 
-```{r, fig.alt="Colin the Contributor says, Tina’s documentation introduced me to the tool so well that I was excited to contribute a new feature! The feature is represented as a sparkling coge. Tina the Tool Developer is excited to incorporate this new feature to the tool.", echo = FALSE}
+```{r, fig.alt="Colin the Contributor says, Tina’s documentation introduced me to the tool so well that I was excited to contribute a new feature! The feature is represented as a sparkling code. Tina the Tool Developer is excited to incorporate this new feature to the tool.", echo = FALSE}
 leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcf4eaa5799_5_127")
 ```
 
