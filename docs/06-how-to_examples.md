@@ -5,7 +5,7 @@ output: html_document
 
 # Creating helpful how-to examples
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_42" width="500" height="500" alt="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool."/>
+<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_42.png" title="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool." alt="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool."  />
 
 ## The goal of how-to examples
 
@@ -15,7 +15,7 @@ How-to examples can turn these moderately interested users into enthusiastic and
 How-to examples are like recipes in a cookbook.
 We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_21" width="500" height=" 500" alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie."/>
+<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_21.png" title="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie." alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie."  />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -60,7 +60,7 @@ And of course, link to the source of the data and cite it!
 Example code is not the same as backend code.
 Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_128" width="500" height="500" alt="Example code is not the same as backend code it is primarily meant to teach!"/>
+<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_128.png" title="Example code is not the same as backend code it is primarily meant to teach!" alt="Example code is not the same as backend code it is primarily meant to teach!"  />
 
 This means your examples should include the most easily readable code you can muster -- this often means extra workshopping to reach peak clarity.
 Give commentary at each and every step -- don't assume your users understand your typical conventions.
@@ -97,7 +97,7 @@ Providing them with more resources about options and possibilities is always nic
 
 **To recap:**
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gcdcbd8d802_0_12" width="500" height="500" alt="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips."/>
+<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_12.png" title="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips." alt="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips."  />
 
 ## Good examples of How-to examples
 

@@ -22,7 +22,7 @@ The course is intended for cancer informatics tool developers, particularly thos
 
 ## Curriculum    
 
-<img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd422c5de97_0_10" width="500" height="500" alt = "This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users"/>
+<img src="01-intro_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_10.png" title="This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users" alt="This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users"  />
 
 The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.
 Individuals who take this course are encouraged to use these templates as they follow along with the course material to help increase the usability of their informatics tool.

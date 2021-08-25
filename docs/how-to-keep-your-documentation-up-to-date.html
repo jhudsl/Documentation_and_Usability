@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-08-24" />
+<meta name="date" content="2021-08-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,6 +54,7 @@
 
 
 
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
 
 <body>
@@ -66,7 +67,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<a href="https://www.itcrtraining.org/"><img src="resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"/></a>
+<a href="https://www.itcrtraining.org/"><img src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
@@ -193,7 +194,11 @@
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="divider"></li>
-<p style="text-align:center;"> <a href="https://github.com/jhudsl/ITCR_Course_Template_Bookdown" target="blank" > Content published with</a> <a href="https://bookdown.org/" target="blank"> bookdown</a> </p>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="text-align:center;"> <button type="button"> <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Feedback Form </a></p> </button> </a> </p>
 </ul>
 
       </nav>
@@ -211,16 +216,28 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/ITCR_Cancer_Research_Leadership/main/images/main_image.png">
+</div>
 <div id="how-to-keep-your-documentation-up-to-date" class="section level1" number="11">
 <h1><span class="header-section-number">Chapter 11</span> How to keep your documentation up to date</h1>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_0" width="500" height="500" alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date."/></p>
+<p><img src="11-documentation-maintenance_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_0.png" title="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date."  /></p>
 <div id="the-goal-of-documentation-maintenance" class="section level2" number="11.1">
 <h2><span class="header-section-number">11.1</span> The goal of documentation maintenance</h2>
 <p>So you’ve been making improvements or otherwise have been updating your software tool!
 That’s excellent and you deserve a big kudos for continuing maintenance on your tool.</p>
 <p>But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update.
 As a user, the only thing worse than a tool having no documentation at all is having documentation that is out of date or otherwise incorrect.</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_5" width="500" height="500" alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button."/></p>
+<p><img src="11-documentation-maintenance_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_5.png" title="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button."  /></p>
 <p>If documentation updates aren’t prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.</p>
 </div>
 <div id="keep-your-documentation-in-one-version-controlled-place" class="section level2" number="11.2">
@@ -238,7 +255,7 @@ To help you remind you of this, you may want to use an <a href="https://docs.git
 <div id="make-sure-links-work" class="section level2" number="11.4">
 <h2><span class="header-section-number">11.4</span> Make sure links work</h2>
 <p>A very simple but all too common problem with out of date documentation is broken links!</p>
-<p><img src="https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd5f2c75a67_0_37" width="500" height="500" alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." /></p>
+<p><img src="11-documentation-maintenance_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_37.png" title="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy."  /></p>
 <p>You can catch these broken links this manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway!
 There are Github actions and other automated tools that can check your URLs for you.
 Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!</p>
@@ -267,6 +284,14 @@ You can see <a href="https://github.com/jhudsl/ITCR_Documentation_and_Usability/
 
 </div>
 </div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
             </section>
 
           </div>
