@@ -3,10 +3,14 @@ title: "Other helpful features"
 output: html_document
 ---
 
+```{r, include = FALSE, echo = FALSE}
+leanbuild::set_knitr_image_path()
+```
+
 # Other helpful features
 
 ```{r, fig.alt="Learning Objectives. This chapter will demonstrate how to: Add other helpful features that help usability of a tool. Determine which of these features are most useful for your particular context.", echo = FALSE}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg&pageid=gd436f8053d_0_0")
+leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd436f8053d_0_0")
 ```
 
 ## The goal of these "other features"
