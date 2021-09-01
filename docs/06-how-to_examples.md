@@ -3,19 +3,19 @@ title: "Creating helpful how-to examples "
 output: html_document
 ---
 
+
+
 # Creating helpful how-to examples
 
-<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_42.png" title="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool." alt="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool."  />
+<img src="resources/images/06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_42.png" title="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool." alt="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool."  />
 
 ## The goal of how-to examples
 
-While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it.
-How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!
+While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it. How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!
 
-How-to examples are like recipes in a cookbook.
-We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
+How-to examples are like recipes in a cookbook. We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
 
-<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_21.png" title="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie." alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie."  />
+<img src="resources/images/06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_21.png" title="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie." alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie."  />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -29,42 +29,29 @@ Note: In some contexts, like Bioconductor, how-to examples are called vignettes 
 
 ### Should cover what your user wants to do!
 
-Users won't go through examples that demonstrate analyses they aren't interested in.
-So although you may have your favorite pet functions of your tool, it doesn't necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to make examples of your favorites).
-You may want to do some asking around, or conduct some user research to find out what your users are most interested in.
-You also are not restricted to just one example, users love having a full library of how-to examples to choose from!
-That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases.
+Users won't go through examples that demonstrate analyses they aren't interested in. So although you may have your favorite pet functions of your tool, it doesn't necessarily mean that those are the prime interests of your user (though perhaps after you create a good set of examples you can return to make examples of your favorites). You may want to do some asking around, or conduct some user research to find out what your users are most interested in. You also are not restricted to just one example, users love having a full library of how-to examples to choose from! That being said, for your own time and planning, you may want to start with the most common use cases to create examples for and then you can move to more fringe cases.
 
 ### Every step is specifically given
 
-Examples should explicitly give every step needed to reproduce your result.
-Keep a special look out for steps you complete that you may take for granted that your user would know.
-For example, if your user needs to change to a specific directory to run a command, don't assume that they will know that for sure.
+Examples should explicitly give every step needed to reproduce your result. Keep a special look out for steps you complete that you may take for granted that your user would know. For example, if your user needs to change to a specific directory to run a command, don't assume that they will know that for sure.
 
-For command line based tools, provided the exact code your user needs to run.
-Ideally this example can be provided as a notebook or script so your user can run it directly.
+For command line based tools, provided the exact code your user needs to run. Ideally this example can be provided as a notebook or script so your user can run it directly.
 
 In the case of a GUI, provide screenshots or a video tutorial.
 
 ### Any data needed to run the example is provided and explained  
 
-Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user's data.
-Instead, provide your users with example data that your example code directly downloads (or is available through your GUI).
-This has the added benefit of being a positive control for when users are troubleshooting the formatting for their own data later on, but doesn't force them to face that battle before they can follow your example.
+Getting data formatted correctly is another huge hurdle of users and although you should give guidance on how data should be formatted for your tool, your examples should not depend on your user's data. Instead, provide your users with example data that your example code directly downloads (or is available through your GUI). This has the added benefit of being a positive control for when users are troubleshooting the formatting for their own data later on, but doesn't force them to face that battle before they can follow your example.
 
-Make sure your example adequately introduces the example: what are the measurements from, what was the goal of this dataset.
-And of course, link to the source of the data and cite it!
+Make sure your example adequately introduces the example: what are the measurements from, what was the goal of this dataset. And of course, link to the source of the data and cite it!
 
 ### Example code is about the lesson not the output per se
 
-Example code is not the same as backend code.
-Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.
+Example code is not the same as backend code. Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.
 
-<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_128.png" title="Example code is not the same as backend code it is primarily meant to teach!" alt="Example code is not the same as backend code it is primarily meant to teach!"  />
+<img src="resources/images/06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_128.png" title="Example code is not the same as backend code it is primarily meant to teach!" alt="Example code is not the same as backend code it is primarily meant to teach!"  />
 
-This means your examples should include the most easily readable code you can muster -- this often means extra workshopping to reach peak clarity.
-Give commentary at each and every step -- don't assume your users understand your typical conventions.
-Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
+This means your examples should include the most easily readable code you can muster -- this often means extra workshopping to reach peak clarity. Give commentary at each and every step -- don't assume your users understand your typical conventions. Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
 
 _Related to this, your examples' code should model best practices_
 
@@ -85,29 +72,23 @@ For more tips on reproducible code:
 
 ### Try to stick to your own package and its dependencies
 
-Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary.
-If it is absolutely necessary, should this package be something added as a dependency -- can you have it automatically installed for the user if it is critical to common uses?
+Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary. If it is absolutely necessary, should this package be something added as a dependency -- can you have it automatically installed for the user if it is critical to common uses?
 
 ### Give tips on how to tailor your examples
 
-If your users follow along with your examples successfully, next they will probably to tailor your examples to their own questions and data.
-Whether you intend it or not, your examples will probably be used as template framework for your user's analysis.
-Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it.
-Providing them with more resources about options and possibilities is always nice too.
+If your users follow along with your examples successfully, next they will probably to tailor your examples to their own questions and data. Whether you intend it or not, your examples will probably be used as template framework for your user's analysis. Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it. Providing them with more resources about options and possibilities is always nice too.
 
 **To recap:**
 
-<img src="06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_12.png" title="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips." alt="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips."  />
+<img src="resources/images/06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_12.png" title="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips." alt="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips."  />
 
 ## Good examples of How-to examples
 
 [DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)!
-@Love2014 walk through the most common use cases of DESeq2, providing data and explaining the set up.
-They efficiently move into other scenarios, explaining common questions and areas of nuance along the way.
+@Love2014 walk through the most common use cases of DESeq2, providing data and explaining the set up. They efficiently move into other scenarios, explaining common questions and areas of nuance along the way.
 
 [QIIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
-@Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question.
-At the very end of the example they also provide the end result for comparison!
+@Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question. At the very end of the example they also provide the end result for comparison!
 
 ## Exercise: Create your own how-to examples!
 

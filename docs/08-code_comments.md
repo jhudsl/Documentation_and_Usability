@@ -3,29 +3,28 @@ title: "Creating clarifying code comments  "
 output: html_document
 ---
 
+
+
 # Creating clarifying code comments
 
-<img src="08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png" title="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments." alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."  />
+<img src="resources/images/08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png" title="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments." alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."  />
 
 ## The goal of a code documentation
 
-Code documentation goes beyond your user.
-It's a part of writing good code and helps your collaborators and future you!
+Code documentation goes beyond your user. It's a part of writing good code and helps your collaborators and future you!
 
 Most users will probably not look at your code directly -- those who do are probably:
 
 - Quite desperately troubleshooting something and were not able to find answers elsewhere.
 - Are “power users” who are already pretty invested in your tool and want to get more out of it -- may be helpful contributors too!
 
-Good code comments are a part of writing good, readable code!
-Your code is more likely to stand the test of time for longer if others, including yourself in the future, can help you maintain it and want to use it because they can see what's happening enough to trust it themselves!
+Good code comments are a part of writing good, readable code! Your code is more likely to stand the test of time for longer if others, including yourself in the future, can help you maintain it and want to use it because they can see what's happening enough to trust it themselves!
 
 Current You who is writing your code may know what is happening but Future You will have no idea what Current You was thinking [@Spielman]:
 
 > Future You comes into existence about one second after you write code, and has no idea what on earth Past You was thinking. Help out Future You by adding lots of comments! Future You next week thinks Today You is an idiot, and the only way you can convince Future You that Today You is reasonably competent is by adding comments in your code explaining why Today You is actually not so bad.
 
-Your code and your understanding of it will fade soon after you write it, leaving your hard work to deprecate.
-Code that works is a start, but **readable** AND working code is best!
+Your code and your understanding of it will fade soon after you write it, leaving your hard work to deprecate. Code that works is a start, but **readable** AND working code is best!
 
 Comments can help clarify at points where your code might need further explanation but the act of writing them can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.
 
@@ -63,11 +62,8 @@ Here is more reading about good code comments that have plenty of great discussi
 
 **In summary:**
 
-<img src="08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png" title="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process." alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."  />
+<img src="resources/images/08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png" title="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process." alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."  />
 
 ## Exercise: Evaluate your own code's comments
 
-Take a look through some of your tool's code and its comments.
-Are there places it could be clearer?
-Take sometime to think about your coding process and how it could improve.
-[Code review](https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/) is also an excellent way to improve code clarity and quality [@Bodner2018]!
+Take a look through some of your tool's code and its comments. Are there places it could be clearer? Take sometime to think about your coding process and how it could improve. [Code review](https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/) is also an excellent way to improve code clarity and quality [@Bodner2018]!

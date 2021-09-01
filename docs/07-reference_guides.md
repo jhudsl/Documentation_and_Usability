@@ -3,16 +3,17 @@ title: "Creating handy reference guides  "
 output: html_document
 ---
 
+
+
 # Creating handy reference guides
 
-<img src="07-reference_guides_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_48.png" title="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level." alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level."  />
+<img src="resources/images/07-reference_guides_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_48.png" title="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level." alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level."  />
 
 ## The goal of a reference guide
 
-Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable.
-Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
+Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable. Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
 
-<img src="07-reference_guides_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_97.png" title="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide." alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide."  />
+<img src="resources/images/07-reference_guides_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_97.png" title="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide." alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide."  />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -24,14 +25,11 @@ Our goal for a reference guide is to be as comprehensive, navigable, and as alwa
 
 ### Is easy to find
 
-As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them.
-Make sure that a link to the reference guide is clear to find in a navigation bar and/or the main page.
+As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them. Make sure that a link to the reference guide is clear to find in a navigation bar and/or the main page.
 
 ### Is searchable
 
-Users will be digging into your reference guide looking for a specific entry.
-Reference guides being alphabetical is a start.
-If you are able to make terms searchable that's even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function.
+Users will be digging into your reference guide looking for a specific entry. Reference guides being alphabetical is a start. If you are able to make terms searchable that's even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function.
 
 ### Is comprehensive
 
@@ -59,8 +57,7 @@ Take a look at [DESeq2's reference guide](https://bioconductor.org/packages/rele
 
 Perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with.
 
-Ideally, your tool can use a data format that is common.
-But the more that your tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like.
+Ideally, your tool can use a data format that is common. But the more that your tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like.
 
 - Include example files for a positive control/example.
 - Send your user to any tools they can use to convert their data format automatically.
@@ -69,23 +66,19 @@ But the more that your tool is particular about an odd data format, the more you
 
 ### Entries should have a consistent format
 
-Consistency helps your users know what to expect and know where to find information!
-Each entry in the reference guide should have the same format and sections, in the same order.
+Consistency helps your users know what to expect and know where to find information! Each entry in the reference guide should have the same format and sections, in the same order.
 
-Depending on the destination of your package, a consistent format may already be determined for you.
-Bioconductor packages have [specific guidance on these reference manuals](http://cran.fhcrc.org/doc/manuals/R-exts.html#Documenting-functions).
+Depending on the destination of your package, a consistent format may already be determined for you. Bioconductor packages have [specific guidance on these reference manuals](http://cran.fhcrc.org/doc/manuals/R-exts.html#Documenting-functions).
 
 **To recap:**
 
-<img src="07-reference_guides_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_0.png" title="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted." alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted."  />
+<img src="resources/images/07-reference_guides_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_0.png" title="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted." alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted."  />
 
 ## Good examples of reference guides
 
-[QIIME2 has a great reference guide](https://docs.qiime2.org/2021.2/glossary/)!
-@Bolyen2019 cover all items and terms with lots of links to more information or related entries.
+[QIIME2 has a great reference guide](https://docs.qiime2.org/2021.2/glossary/)! @Bolyen2019 cover all items and terms with lots of links to more information or related entries.
 
-[Bioconductor packages](https://bioconductor.org/packages/3.12/bioc/) have a consistent reference guide format that the packages there adhere to which makes it easier for users to find once they are familiar with the format.
-A typical package's reference guide [looks like this](https://bioconductor.org/packages/3.12/bioc/manuals/GenomicRanges/man/GenomicRanges.pdf).
+[Bioconductor packages](https://bioconductor.org/packages/3.12/bioc/) have a consistent reference guide format that the packages there adhere to which makes it easier for users to find once they are familiar with the format. A typical package's reference guide [looks like this](https://bioconductor.org/packages/3.12/bioc/manuals/GenomicRanges/man/GenomicRanges.pdf).
 
 ## Exercise: Create your own reference guide!
 

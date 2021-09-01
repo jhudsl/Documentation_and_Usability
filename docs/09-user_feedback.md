@@ -3,9 +3,11 @@ title: "Obtaining user feedback  "
 output: html_document
 ---
 
+
+
 # Obtaining user feedback
 
-<img src="09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_60.png" title="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."  />
+<img src="resources/images/09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_60.png" title="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."  />
 
 ## The goal of user feedback
 
@@ -14,7 +16,7 @@ You test it and get feedback!
 Similarly, how do you know if your tool is working for your user?
 Ask them for feedback!
 
-<img src="09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"  />
+<img src="resources/images/09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"  />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -31,8 +33,7 @@ It may sound disappointing that a user has found a problem but this is something
 1) This means someone is interested and invested in using your tool!   
 2) They've identified a way to improve your tool to make it even better!  
 
-Providing a method of contact to your users doesn't mean you need to give users your personal email.
-In fact, that is probably not the most practical way to keep user queries organized.
+Providing a method of contact to your users doesn't mean you need to give users your personal email. In fact, that is probably not the most practical way to keep user queries organized.
 
 _Example contact method ideas_:
 
@@ -47,8 +48,7 @@ Whatever method of contact you provide your users, just make sure its something 
 
 In whatever contact method you settle on, give your users a way to indicate if they are willing to chat with you or do testing to provide even more feedback.
 
-Depending on your time and resources you can do a lot with usability testing.
-[This excellent article](https://uxstudioteam.com/ux-blog/usability-testing/) by @Csontos2019 takes us through how to conduct usability testing which we will echo the main points of here.
+Depending on your time and resources you can do a lot with usability testing. [This excellent article](https://uxstudioteam.com/ux-blog/usability-testing/) by @Csontos2019 takes us through how to conduct usability testing which we will echo the main points of here.
 
 What to use usability testing for:
 
@@ -73,8 +73,7 @@ _See more advice about writing usability testing scripts here:_
 
 [Step 2) Find user participants](https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants).
 
-Who is interested in available for being your test subjects?
-You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around.
+Who is interested in available for being your test subjects? You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around.
 
 [Step 3) Lead your test](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)
 
@@ -85,7 +84,7 @@ You might be able recruit people from setting up a feedback form, but you also m
 
 A very important point from @Csontos2019:
 
-<img src="09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_5.png" title="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."  />
+<img src="resources/images/09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_5.png" title="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."  />
 
 You can use [these prompts](https://sensible.com/downloads/things-a-therapist-would-say.pdf) from @Krug2010 to help you know what to say to help create a non-judgmental atmosphere for testing.
 
@@ -102,11 +101,8 @@ _More reading on usability testing:_.
 
 ## Exercise 1: Create a plan for user feedback for your tool
 
-Set up a method of contact for your users.
-We have a mock feedback user form [set up here](https://docs.google.com/forms/d/1erbaH2k8cra0A2GB6W9Da0tqJCT41ZPlCmHXpKRcMLk/edit?usp=sharing).
-This form shouldn't be used as is, but could be tailored to more specifically ask questions about your tool that you are looking to get information about.
+Set up a method of contact for your users. We have a mock feedback user form [set up here](https://docs.google.com/forms/d/1erbaH2k8cra0A2GB6W9Da0tqJCT41ZPlCmHXpKRcMLk/edit?usp=sharing). This form shouldn't be used as is, but could be tailored to more specifically ask questions about your tool that you are looking to get information about.
 
 ## Exercise 2: Determine a plan for usability testing
 
-Go through [All You Need to Know to Run Successful Usability Testing](https://uxstudioteam.com/ux-blog/usability-testing/) and construct a plan for usability testing following the steps we discussed above from the article [@Csontos2019].
-Think about what in your tool you want to test and write a plan for it.
+Go through [All You Need to Know to Run Successful Usability Testing](https://uxstudioteam.com/ux-blog/usability-testing/) and construct a plan for usability testing following the steps we discussed above from the article [@Csontos2019]. Think about what in your tool you want to test and write a plan for it.
