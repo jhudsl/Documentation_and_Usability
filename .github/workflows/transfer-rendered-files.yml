@@ -31,7 +31,7 @@ jobs:
       - name: Get files from Bookdown repo
         shell: bash
         env:
-          GH_TOKEN: ${{ secrets.GIT_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           sudo apt-get install subversion
           sudo apt install r-base
