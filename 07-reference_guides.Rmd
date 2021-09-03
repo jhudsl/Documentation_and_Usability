@@ -33,6 +33,8 @@ Our goal for a reference guide is to be as comprehensive, navigable, and as alwa
 
 As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them. Make sure that a link to the reference guide is clear to find in a navigation bar and/or the main page.
 
+If the reference guide is a part of a command line package, make sure that it is clear in your documentation what command you need to see it (e.g. `--help`).
+
 ### Is searchable
 
 Users will be digging into your reference guide looking for a specific entry. Reference guides being alphabetical is a start. If you are able to make terms searchable that's even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function.
@@ -56,6 +58,7 @@ This includes all:
 - Discuss all the possible inputs that can be used as well as how to decide which input fits the user's needs.
 - Make any existing defaults very clear.
 - Shows the usage of that item in context -- some example lines of code go a long way.
+- Tries to avoid the use of jargon, but if absolutely necessary to use a jargon-y term tries to link to information of where to learn about the meaning of the term. 
 
 Take a look at [DESeq2's reference guide](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf), @Love2014 do a great job at their entries -- covering the right amounts of information and informing the user how to decide what works for them.
 
