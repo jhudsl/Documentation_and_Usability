@@ -4,8 +4,7 @@
 .local
 .rstudio
 .bash_history
+spell_check_results.tsv
 .RData
 .httr-oauth
 docker/git_token.txt
-docs/*
-spell_check_results.tsv
