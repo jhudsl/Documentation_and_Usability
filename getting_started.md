@@ -2,6 +2,9 @@
 
 This template includes all of the files that you need to get started creating your course in [R Markdown](https://rmarkdown.rstudio.com/) using the [bookdown package](https://bookdown.org/).
 
+
+This course template repository also has [accessory tools](#using-this-template-for-publishing-to-coursera) for publishing to [Coursera](https://www.coursera.org/) and a [companion course template repository](https://github.com/jhudsl/DaSL_Course_Template_Leanpub) for if you are interested in publishing the content on [Leanpub](https://leanpub.com/).
+
 Please take a look at the [code of conduct](./code_of_conduct.md).
 
 _Note all materials in this template are licensed [CC-BY](https://tldrlegal.com/license/creative-commons-attribution-(cc)) and can be repurposed freely with attribution._
@@ -49,50 +52,177 @@ _Background information_:
 - [Adding embedded files to text](#adding-embedded-files-to-text)
 - [Learning Objectives Formatting](#learning-objectives-formatting)
 - [Bookdown Rendering](#bookdown-rendering)
+- [Using this template for publishing to Coursera](#using-this-template-for-publishing-to-coursera)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Creating your course
 
-In the upper right of this screen, click `Use this template` and follow the steps to set up your course's GitHub repository.
+In the upper right of the landing page for this repository, click the green `Use this template` button and follow the steps to set up your course's GitHub repository.
+
+![Where is the `Use this template` button?](resources/template_button.png)
 
 Name your repository fill in a short description (If this is an ITCR course, start the repo name with `ITCR_`).
 
-_Trigger the workflow to set up the Github issues that you can use to guide your set up of this course_:   
-- Go to `Actions` > under `Workflows` click on `Issue Filer`.
-- Where it says `This workflow has a workflow_dispatch event trigger.` click `Run workflow` and then click the green button that says `Run workflow`.
-- Now if you go to `Issues` you will see issues filed that you can follow to set up the new course!
+![Creating new course repository](resources/creating_new_course_repo.png)
 
-Now start filling out the documents with the information for the course!
+Now if you go to `Issues` you will see issues filed that you can follow to set up the new course!
+
+![Issues to Guide you through creating the course](resouces/guides_issues.png)
+
+We then recommend that set up a project with RStudio and connect this with your repository on GitHub.
+
+<details> <summary> Click here to see more about creating new projects in RStudio and setting them up with Git version control. </summary>
+
+First, to create a new project in RStudio, select File > New Project.
+![Make a new project](resources/new_project.png)
+
+Select a directory for your course to live. We suggest a new directory.
+
+![Select a directory for your new project](resources/select_directory.png)
+
+Select `New Project` for project type.
+
+![Select project type](resources/project_type.png)
+
+If creating a new directory for your project, name the new directory and decide where it should be.
+
+![New Project Directory](resources/project_directory.png)
+
+
+Go back to your new GitHub repository for the course you are creating and click on the green button on the right corner of the landing page to clone the repository.
+
+This will pop up a window that looks like this:
+
+![Clone the GitHub repo to work on the files on your local machine](resources/clone.png)
+
+Click the button that looks like a clip board to copy the location of your repository on GitHub.
+
+In the terminal pane of RStudio, make sure you are in the newly created directory for your project.
+
+Then type: `git init` and press enter.
+
+Then type:`git clone` and paste the location of the repository that you just copied from GitHub and press enter.
+
+Finally type: `git pull origin main` and you should see the files on GitHub populate your directory.
+
+This will give you a message like this:
+
+![cloning messages](resources/messages.png)
+
+Next make a new git branch in the terminal in RStudio by typing the following and replacing `branch_name` with something that makes sense for you like `update_about`: `git checkout -b branch_name`
+
+Now you are ready to start making changes to files for the next section!
+
+</details>
+
+
+
+
+Start with the issue called `New Course - Templates to Edit`.
+
+![Templates to Edit Guide Checklist](resources/templates_to_edit.png)
 
 _If you are creating an ITCR course:_
 
-- Delete `_output.yml` and `index.Rmd` files
-- Keep the `_output-itcr.yml` and `index-itcr.Rmd` files but delete the `-itcr` parts of those file names.
+- Use git to delete `_output.yml` and `index.Rmd` files like so:
+    `git rm _output.yml` and `git rm index.Rmd`
+    This will remove these files locally and on GitHub.
+- Keep the `_output-itcr.yml` and `index-itcr.Rmd` files but use git to rename them to remove the `-itcr` parts of those file names like so:
+    `git mv _output-itcr.yml _output.yml` and `git mv index-itcr.Rmd index.Rmd`
 
 _If you are creating any other courses:_
 
-- Delete the `_output-itcr.yml` and `index-itcr.Rmd` files.
+- Use Git to delete the `_output-itcr.yml` and `index-itcr.Rmd` files like so:
+    `git rm _output-itcr.yml` and `git rm index-itcr.Rmd`
 
 Now, you can go through each file (the issues have checklists to guide you) and make sure the existing Rmd template files are changed to fit your course, and delete the `code_output` folder if you do not expect to have any code output (or if you wish to call the folder something else).
-There are `{}` in these files to get you started filling out information and should be deleted after you've filled them out.
+There are `{}` in these files to get you started filling out information and should be deleted after you've filled them out. **Make your changes in a new branch to enable you to make a pull request with Git.** If you are unfamiliar with how to do this, please see the above section about how to set up a RStudio project with Git/GitHub.
+
+<details> <summary>Also see here for more information about how to make changes to your files with pull requests using RStudio and Git.</summary>
+
+To make changes to files, you can open them in Rstudio by clicking on the file name from the file pane (lower right corner).
+
+![Open File in RStudio](resources/file_pane.png)
+
+After editing a file, make sure you save it.
+
+Then in the terminal you can use Git for version control. Again, if you are new to Git please see this [tutorial](https://happygitwithr.com/).
+
+However, as a brief introduction:
+
+You can type: `git add` and the file name to stage it for commiting to GitHub. For example `git add about.Rmd`.
+
+Then type a message about what changes you are committing to the copy on GitHub:
+
+For example:
+
+`git commit -m "updating the about file."`
+
+Then type `git push`.
+
+You will get a message about your branch the first time - you can do what git suggests. Then on GitHub you should see that new Pull Request is possible.
+
+Click on the green button that says `Compare & pull request`.
+
+![New pull request possible](resources/pull_request.png)
+
+Then fill out the prompt with the information about your pull request. Dont worry if some of the later sections are unclear, we will get to more of that in a bit.
+
+![Submitting pull request](resources/pull_request2.png)
+
+When you are done click the `Create pull request` button!
+
+The first time you shouldn't have any conflicts with the main branch, thus you should see something like this:
+
+![Pull request output](resources/pull_request3.png)
+
+If everything looks good, you can press the `Merge pull request` button.
+</details>
+
+
+It is likely that you might see something like this with your pull requests which will happen if you have too many new words not in the dictionary:
+
+![Spelling check fails](resources/spell_check_fails.png)
+
+We will discuss how to get the spelling results and fix your file in a bit, but for now you can press the merge pull request button.
+
+
+
+
+Once this is done, you can start on the next issue guide checklist called `New Course - Set Repository Settings`.
 
 ### Recommended repository settings:
 
 With your course repository set up, there are some settings recommended for development.
 
+Using the issue guide checklist called `New Course - Set Repository Settings`, you can walk through the steps for setting up your repository as we would recommend.
+
+![Next issues checklist for repository settings](resources/guides_issues_2.png)
+
 #### Set up GitHub pages
 
 Go to `Settings` > `Pages`.
+
+![Find pages settings](resources/pages_settings.png)
+
+![Change pages settings](resources/change_pages_settings.png)
 
 - Under `Source`, pick the drop down menu and pick `main` and `/docs`.  
 - Then click `Save`.  
 - Lastly, check the box that says `Enforce HTTPS` at the bottom of this page.   
 
+![Enforce HTTPS](resources/change_https.png)
+
 ##### Set up branches
 
 Go to `Settings` > `Branches` and click `Add rule`.
+
+![Add branch rule](resources/branches.png)
+
 For `Branch name pattern`, put `main`.
+
+![Put main for branch name pattern](resources/main.png)
 
 _Protect the main branch_:  
 Then check the box that says `Require pull request reviews before merging`.
@@ -100,6 +230,10 @@ Then check the box that says `Require pull request reviews before merging`.
 _Make sure branches are updated_:  
 - Check the box that says `Require status checks to pass before merging`.
 - Underneath this also check the box that says `Require branches to be up to date before merging`.
+
+![Branch settings](resources/branch_settings.png)
+
+Submit a pull request if you haven't already done so, to enable you to do the next step of establishing the branch settings.
 
 _Use automatic spell and URL checks_:  
 After the first pull request, a couple of checks will automatically happen and then appear here in settings.
@@ -358,6 +492,12 @@ See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/mai
 Here's a summary of the Github actions set up in this repository.
 
 ![](resources/GHASetUp.png)
+
+
+These Github actions also work across repositories to support converting Bookdown content into formats ready for publishing on Coursera or Leanpub.
+
+If you are only looking to use this template for creating a Bookdown course, this diagram is not as pertinent.
+![Summary of publishing process](https://docs.google.com/presentation/d/18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU/export/png?id=18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU&pageid=ged277ddb11_3_5)
 
 
 ### About customizing render-bookdown.yml (also called `build-all`)
@@ -710,3 +850,19 @@ Note that when you run `bookdown` it will create an `.rds` file; you can general
 You will then see a live version of your book in your RStudio viewer.
 
 Note that When a pull request is merged to main, `bookdown::render_book()` will be re-run by the [GitHub actions](#github-actions) and the results added to `main`.
+
+## Using this template for publishing to Coursera
+
+The Github actions set up in the [render-bookdown.yml](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/workflows/render-bookdown.yml) also render your course material in a format suitable for linking to Coursera.
+
+Github actions does this by using this command within the docker image:
+```
+Rscript scripts/render_coursera.R
+```
+You can run this same command locally if you wish to test something.
+This render the chapters without the table of Contents.
+If you do not wish to publish to Coursera and prefer this do not run, you may delete this section (but it shouldn't hurt anything to keep as is -- unless for some reason it causes you some troubles).
+
+Additionally, the Leanpub companion repository has a [Leanpub -> Coursera quiz conversion script](https://github.com/jhudsl/DaSL_Course_Template_Leanpub/blob/main/scripts/coursera_quiz_conversion.R) if you choose to create quizzes and publish on both Leanpub and Coursera.
+
+TODO: Fill in with instructions on how to actually publish on Coursera here (for both JH and non-JH folks).
