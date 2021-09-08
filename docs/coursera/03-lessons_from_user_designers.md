@@ -1,0 +1,147 @@
+---
+title: "Lessons from User Designers"
+output: html_document
+---
+
+
+
+# Lessons we should borrow from user designers
+
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_24.png" title="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users."  />
+
+## Thinking about user-centered development
+
+Creating tools that are easy to use starts with thinking about your user's perspective.
+In other words, user-centered design is an exercise in applied empathy [@deMatos2013].
+
+This is why a common saying in user-centered design is "You are not your user"[@Alexakis2017]. Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.
+
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_0.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!"  />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
+
+As compared to yourself, your typical user may likely have a different:
+
+- Educational background.  
+- Programming experience level.  
+- Set of motivations for using your tool.  
+
+And most importantly _your user does not know your tool like you do_! You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have.
+
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd228cc29d1_0_146.png" title="Your user does not know your tool like you do!" alt="Your user does not know your tool like you do!"  />
+
+Also keep in mind users are humans in a context. Humans have demands in their life distracting them, or are otherwise been working a long day, and are tired/frustrated/distracted/etc. Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!
+
+### Generalities about bioinformatics tool users
+
+On a general level, there are some characteristics we know about bioinformatic tool user communities.  
+
+The typical user of bioinformatics tools are generally:
+
+- Highly educated in their specific research topic.  
+- Skilled at picking up new information.  
+- Unlikely to have much experience in programming; may be uncomfortable with using command line.  
+- If they do have experience programming, it's likely been from informal and self-taught learning.    
+- Like many professionals, likely to feel time pressure from deadlines.  
+
+However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
+@Mulder2018 described 10 user personas for bioinformatics software, all with their own skills and competencies:
+
+- Physician
+- Lab technician
+- Ethicist  
+- Biocurator  
+- Discovery biologist/academic life science researcher   
+- Molecular life science educator  
+- Academic bioinformatics researcher  
+- Core facility scientist  
+- Bioinformatician in an academic or research infrastructure support role  
+- Bioinformatics software developer/software engineer  
+
+Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints.
+
+## Exercise: Think about the user community for your tool
+
+Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community.
+
+- Who is your user community?
+- What need of theirs is addressed by your tool?
+- What kinds of skills does your tool assume your user has (does your user community have those skills)?
+
+Keep the questions about your user community in mind and in a [later chapter](https://jhudatascience.org/ITCR_Documentation_and_Usability/obtaining-user-feedback.html), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
+
+## General principles about user-friendliness  
+
+While finding out about your user community is critical, there's also principles we can discuss that are common to all users/humans.
+
+#### Humans like visuals
+
+Humans are drawn to intuitive visuals. Visuals are efficient means of communication and help users absorb information better than long-winded paragraphs (though visuals need an accompanying explanation too).
+
+Sometimes this is particularly helpful for complicated concepts. For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files. Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:
+
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_44.png" title="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. "  />
+
+Here, this figure explains how the merge function works given a particular set of ranges.
+
+#### Stay away from jargon
+
+What someone considers jargon is a very relative to their own experiences. Terms that may seem like common knowledge to you may be foreign to your user.
+
+For example, something seemingly commonplace to you like `TSV` may not be something a user does not understands what it means. To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. 'tab separated values (TSV)'). This doesn't mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you've used (e.g. [tab separated values file (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)). This has the benefit of saving you and your user's time without making your explanations too long winded.
+
+#### Navigability: Make help easy to find
+
+When your user has a question in mind, it can make their experience a lot more stress-free if they can find their answer with ease. Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches! For these reasons, navigability is important for your tool and documentation.
+
+_Quick tips for increasing your tools' navigability_:
+
+- Minimize the number of clicks for finding help! -- The more important a piece of information is to a users' ability to use your tool, the more it should be in the forefront of your tool!  
+- Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don't switch it -- patterns are super helpful!  
+- Use visual cues where possible!  
+
+##### Use reading patterns to your advantage:
+
+Even if you try to make your text succinct and lean on visuals where possible, there will still be instances where you may inevitably require large chunks of text.
+
+Large chunks of texts are hard on your user, especially if they are trying to scan the information for something in particular.
+
+To help these chunks of text be less cumbersome, utilize reading patterns:
+
+Described in this [useful article @Soegaard2020](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns), humans' eyes are drawn to items based on:
+
+>
+- Size: Larger elements will dominate and catch eyes first.
+- Color: Bright colors catch eyes ahead of muted, drab ones.
+- Contrast: Stark differences between elements draw eyes to the brighter one.
+- Alignment: Users expect to find certain elements in the same place.
+- Repetition: A repeated quality (e.g.,colored parts of text) draws the user’s eye.
+- Proximity: Putting related elements (e.g., header with associated text) close together means these are related.
+- Whitespace: Including whitespace around elements singles them out as separate groups of information.
+- Texture and Style: Using distinct textures/styles (e.g., chunky, military-style buttons) draws the eye while setting the theme.
+
+Based on this, human eyes will scan a website's page in Z or F pattern [@Soegaard2020].
+
+> The Z Pattern — In designs without much text, our eye starts scanning from top left to top right, then diagonally down to bottom left, stopping at the bottom right.
+
+> The F Pattern — In designs with more text, we scan across the top, from left to right, then down the left, searching for clues to what we want to know. On finding one, we’ll scan across to the right.
+
+For more details on these patterns and how to implement them with your own content, read more:
+- [About natural eye movements](https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns) by @Soegaard2020.
+- [About "F" patterns](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394) @Babich2017.
+
+More about user-friendly principles in general:   
+
+- [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) by @Porter.   
+- [Golden Rules of UI Design](https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/) by @Babich.  
+- [About intuitive layouts](https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html) by @Tidwell.
+
+
+#### Provide a method for users to file concerns
+
+No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time. Because of this or other unknown unknowns, a usable tool still has a way for a user to let the developers know when something isn't working. This might a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention.
+We'll discuss this in more detail in a [later chapter](#obtaining-user-feedback).
+
+Now that we've discussed some major principles about users and design, let's dive in to talking about how documentation can help!

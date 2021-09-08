@@ -30,8 +30,10 @@ if (length(old_files) > 0) {
 needed_directories <- c("assets", "code_output", "resources")
 
 lapply(needed_directories, function(needed_dir) {
-  if (!dir.exists(file.path(output_dir, needed_dir))) {
-    fs::dir_copy(needed_dir, file.path(output_dir, needed_dir), overwrite = TRUE)
+  if (dir.exists(needed_dir)) {
+    if (!dir.exists(file.path(output_dir, needed_dir))) {
+      fs::dir_copy(needed_dir, file.path(output_dir, needed_dir), overwrite = TRUE)
+    }
   }
 })
 
