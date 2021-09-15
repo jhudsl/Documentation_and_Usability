@@ -41,21 +41,29 @@ jobs:
             # remove old docs/ files and folder
             rm -r docs/*
           fi
+          # Copy over docs folder
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/docs
 
           # Copy over book.bib file
           svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/book.bib
 
+          # Get assets folder
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/assets
+
           # Copy over _bookdown.yml
           svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/_bookdown.yml
 
+          # Copy over _output.ymls
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/_output.yml
+
           # Copy over images folder
-          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/resources/images resources/images
+          svn export --force https://github.com/${GITHUB_REPOSITORY}.git/branches/${GITHUB_REF#refs/heads/}/resources/ resources/
 
           # Get list of Rmds needing to copy
           Rscript --vanilla scripts/get_rmd_filenames.R
 
           # the url from this repo where files will be downloaded from
-          base_url=https://${GIT_TOKEN}@raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
+          base_url=https://${GH_PAT}@raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF#refs/heads/}
 
           # remove old Rmd files
           rm $(find . -name '*.Rmd'  | grep '.Rmd' )
@@ -84,7 +92,8 @@ jobs:
                - _bookdown.yml
                - docs/*
                - book.bib
-               - resources/images/*
+               - resources/*
+               - _output.yml
           labels: |
             automated
           reviewers: $GITHUB_ACTOR
