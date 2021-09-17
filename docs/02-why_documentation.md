@@ -47,7 +47,7 @@ We know that bioinformatics tool development doesn't occur in a vaccuum. User de
 
 - Problem 1) Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability [@Mangul2019].
 - Problem 2) Bioinformatics tool development teams generally don't have the resources to hire user-centered design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback [@Pavelin2012].  
-- Problem 3) Lack of resources/education about usability specific to bioinformatics tool developing communities [@Pavelin2012].   
+- Problem 3) There is a lack of resources/education about usability specific to bioinformatics tool developing communities [@Pavelin2012].   
 
 Unfortunately this specific course cannot address issues 1 and 2, but will attempt to help with problem 3.
 
@@ -77,7 +77,7 @@ This rewards Uri for having used Tina's tool, making Uri not only likely to cont
 
 This means that Tina may have a larger user base for her tool and will help Tina with future funding opportunities and making connections that will help her create more awesome tools!
 
-Well-documented tools help developers better maintain their code in the future because they may forget the mechanics of their tool over time. If Future Tina has to divert her time and effort to another project but then returns to do tool maintenance, documentation may help jog her memory!
+Well-documented tools help developers better maintain their code in the future because they may forget the mechanics of their tool over time. If future Tina has to divert her time and effort to another project but then returns to do tool maintenance, documentation may help jog her memory!
 
 <img src="resources/images/02-why_documentation_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcf4eaa5799_5_79.png" title="Future Tina the Tool Developer now has gray hair and Tina’s awesome documentation is between Tina and Tina’s awesome tool. The documentation says It’s been awhile, let me re-introduce you to the awesome tool you made a while back!" alt="Future Tina the Tool Developer now has gray hair and Tina’s awesome documentation is between Tina and Tina’s awesome tool. The documentation says It’s been awhile, let me re-introduce you to the awesome tool you made a while back!"  />
 

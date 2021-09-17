@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-09-15" />
+<meta name="date" content="2021-09-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -242,12 +242,12 @@
 <h2><span class="header-section-number">7.2</span> Characteristics of handy reference guides</h2>
 <div id="is-easy-to-find" class="section level3" number="7.2.1">
 <h3><span class="header-section-number">7.2.1</span> Is easy to find</h3>
-<p>As with our other documentation sections, no matter how well they are crafted, they are no use if no one can find them. Make sure that a link to the reference guide is clear to find in a navigation bar and/or the main page.</p>
+<p>As with our other documentation sections, no matter how well they are crafted, they are of no use if no one can find them. Make sure that a link to the reference guide is clear to find in a navigation bar and/or the main page.</p>
 <p>If the reference guide is a part of a command line package, make sure that it is clear in your documentation what command you need to see it (e.g. <code>--help</code>).</p>
 </div>
 <div id="is-searchable" class="section level3" number="7.2.2">
 <h3><span class="header-section-number">7.2.2</span> Is searchable</h3>
-<p>Users will be digging into your reference guide looking for a specific entry. Reference guides being alphabetical is a start. If you are able to make terms searchable that’s even better, but at the very least, if your reference guide is visually easily able to be scanned, that can serve a similar function.</p>
+<p>Users will be digging into your reference guide looking for a specific entry. Making your reference guide alphabetical is a start. If you are able to make terms searchable that’s even better, but at the very least, if your reference guide is visually easy to be scan, that can serve a similar function.</p>
 </div>
 <div id="is-comprehensive" class="section level3" number="7.2.3">
 <h3><span class="header-section-number">7.2.3</span> Is comprehensive</h3>
@@ -268,9 +268,9 @@ This includes all:</p>
 <li>Discuss all the possible inputs that can be used as well as how to decide which input fits the user’s needs.</li>
 <li>Make any existing defaults very clear.</li>
 <li>Shows the usage of that item in context – some example lines of code go a long way.</li>
-<li>Tries to avoid the use of jargon, but if absolutely necessary to use a jargon-y term tries to link to information of where to learn about the meaning of the term.</li>
+<li>Tries to avoid the use of jargon, but if it is absolutely necessary to use a jargon-y term it links to information about the meaning of the term.</li>
 </ul>
-<p>Take a look at <a href="https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf">DESeq2’s reference guide</a>, <span class="citation">Love, Huber, and Anders (<a href="about-the-authors.html#ref-Love2014" role="doc-biblioref">2014</a>)</span> do a great job at their entries – covering the right amounts of information and informing the user how to decide what works for them.</p>
+<p>Take a look at <a href="https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf">DESeq2’s reference guide</a>, <span class="citation">Love, Huber, and Anders (<a href="about-the-authors.html#ref-Love2014" role="doc-biblioref">2014</a>)</span> do a great job at their entries – covering the right amounts of information and informing the user about how to decide what works for them.</p>
 </div>
 <div id="data-formats-are-described" class="section level3" number="7.2.4">
 <h3><span class="header-section-number">7.2.4</span> Data formats are described</h3>
@@ -279,6 +279,7 @@ This includes all:</p>
 <ul>
 <li>Include example files for a positive control/example.</li>
 <li>Send your user to any tools they can use to convert their data format automatically.</li>
+<li>If its feasible, include an automatic data converter as a part of your tool.</li>
 </ul>
 <p><a href="https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data">GSEA has great descriptions of their data formats</a> with examples of what the data formats look like.</p>
 </div>
@@ -293,15 +294,15 @@ This includes all:</p>
 <div id="good-examples-of-reference-guides" class="section level2" number="7.3">
 <h2><span class="header-section-number">7.3</span> Good examples of reference guides</h2>
 <p><a href="https://docs.qiime2.org/2021.2/glossary/">QIIME2 has a great reference guide</a>! <span class="citation">Bolyen et al. (<a href="about-the-authors.html#ref-Bolyen2019" role="doc-biblioref">2019</a>)</span> cover all items and terms with lots of links to more information or related entries.</p>
-<p><a href="https://bioconductor.org/packages/3.12/bioc/">Bioconductor packages</a> have a consistent reference guide format that the packages there adhere to which makes it easier for users to find once they are familiar with the format. A typical package’s reference guide <a href="https://bioconductor.org/packages/3.12/bioc/manuals/GenomicRanges/man/GenomicRanges.pdf">looks like this</a>.</p>
+<p><a href="https://bioconductor.org/packages/3.12/bioc/">Bioconductor packages</a> have a consistent reference guide format that the packages there adhere to which makes it easier for users to find what they are looking for once they are familiar with the format. A typical package’s reference guide <a href="https://bioconductor.org/packages/3.12/bioc/manuals/GenomicRanges/man/GenomicRanges.pdf">looks like this</a>.</p>
 </div>
 <div id="exercise-create-your-own-reference-guide" class="section level2" number="7.4">
 <h2><span class="header-section-number">7.4</span> Exercise: Create your own reference guide!</h2>
 <p><em>For R package documentation:</em>
 Follow the advice from Hadley Wickham from the <a href="https://r-pkgs.org/man.html">R Packages book</a> which includes using <a href="https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html">roxygen2 package</a> to automatically render those .Rd files!</p>
-<p><em>For Python package documentation:</em>
-Follow the docstrings guidance and instructions <a href="https://realpython.com/documenting-python-code/">here</a>.</p>
 <p>If your tool’s destination is Bioconductor, see their specific guidance on <a href="https://bioconductor.org/developers/package-guidelines/#manpages">manual pages</a>.</p>
+<p><em>For Python package documentation:</em>
+Follow the <code>docstrings</code> guidance and instructions <a href="https://realpython.com/documenting-python-code/">here</a>.</p>
 <p>For other general purposes, you can our <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md">the reference guide template</a> to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.</p>
 
 </div>
