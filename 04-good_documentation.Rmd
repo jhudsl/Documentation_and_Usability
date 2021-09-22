@@ -133,7 +133,7 @@ There are two options we suggest for creating documentation as you follow along 
 **Option 1)** Use these template markdowns essentially as they are (after you fill them in) and add them to an existing repository.   
      _Pros_: Is easier and quicker.   
      _Cons_: Is not as user-friendly as option 2.   
-
+  
 **Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; [see demo here](https://jhudatascience.org/itcr-template-documentation/).    
      _Pros_: This format of documentation sites are easy to navigate and likely familiar to your user.     
      _Cons_: Will require you to use `mkdocs` package to get this set up.   

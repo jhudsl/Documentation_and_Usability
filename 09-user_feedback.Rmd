@@ -65,15 +65,16 @@ _To summarize the steps laid out by @Csontos2019 for conducting usability resear
 
 [Step 1) Plan out your study](https://uxstudioteam.com/ux-blog/usability-testing/#Step_1_Plan_your_study) - clarify what you want to learn and write a plan and script.
 
-- What main questions about your tool do you have? -- try to narrow down to one or two priority questions that you can design a test for.
-- What tasks would a user participant perform that would best inform you about your questions?
-- Write out a script that you would use to conduct testing.
+- What main questions about your tool do you have? -- try to narrow down to one or two priority questions that you can design a test for.  
+- What tasks would a user participant perform that would best inform you about your questions?  
+- Write out a script that you would use to conduct testing.  
 
 _See more advice about writing usability testing scripts here:_    
 
-- [Steve Krug's usability testing script template](http://sensible.com/downloads/test-script-web.pdf) from @Krug2010.
-- [Gitlab's advice about usability testing script](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/) from @Gitlab.
-- [Gitlab's usability testing template script](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit)
+- [Steve Krug's usability testing script template](http://sensible.com/downloads/test-script-web.pdf) from @Krug2010.  
+- [Gitlab's advice about usability testing script](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/) from @Gitlab.  
+- [Gitlab's usability testing template script](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit).  
+  
 
 [Step 2) Lead your test](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)
 
