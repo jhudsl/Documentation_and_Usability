@@ -87,7 +87,7 @@ If your users follow along with your examples successfully, next they will proba
 [DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)!
 @Love2014 walk through the most common use cases of DESeq2, providing data and explaining the set up. They efficiently move into other scenarios, explaining common questions and areas of nuance along the way.
 
-[QIIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
+[QIIME2 also has an extensive set of examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
 @Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question. At the very end of the example they also provide the end result for comparison!
 
 ## Exercise: Create your own how-to examples!
@@ -98,9 +98,9 @@ If your tool's destination is Bioconductor or Galaxy, see our specific guidance 
 
 _For Bioconductor vignettes_:
 
-- [Our Bioconductor specific how-to example templates]( https://jhudatascience.org/itcr-template-documentation/bioconductor_guides/bioconductor_vignette_template.Rmd)
-- [Bioconductor's own vignette guidance](https://www.bioconductor.org/developers/package-guidelines/#Vignettes)
-- @Oles2021 have [guidance on writing RMarkdown Vignettes](https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html)
+- [Our Bioconductor specific how-to example templates]( https://jhudatascience.org/itcr-template-documentation/bioconductor_guides/bioconductor_vignette_template.Rmd).  
+- [Bioconductor's own vignette guidance](https://www.bioconductor.org/developers/package-guidelines/#Vignettes).  
+- [Guidance on writing RMarkdown Vignettes](https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html) by @Oles2021.  
 
 _For Galaxy vignettes_:
 
