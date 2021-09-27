@@ -5,18 +5,39 @@ output: html_document
 
 # About the Authors
 
-This work is supported by NCI Grant UE5 CA254170.
+These credits are based on our [course contributors table guidelines](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/How-to-give-credits).  
+ 
+&nbsp;
+&nbsp;
+***In [memory](https://galaxyproject.org/jxtx/) of [James Taylor](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02016-0), who was instrumental in initiating this project.***
 
-These credits are based on our [course contributors table guidelines](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/How-to-give-credits).
+&nbsp;
 
 |Credits|Names|
 |-------|-----|
 |Lead Content Instructor|[Candace Savonen](https://www.cansavvy.com/)|
-|Content Consultant|[Jeff Leek](https://jtleek.com/), [Deepa Prasad](https://www.linkedin.com/in/dvprasad991)|
+|Content Editors/Reviewer|[Carrie Wright](https://carriewright11.github.io/), [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
 |Content Directors|[Jeff Leek](https://jtleek.com/), [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
-|Content Reviewer|[Carrie Wright](https://carriewright11.github.io/), [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
+|Content Consultant|[Jeff Leek](https://jtleek.com/), [Deepa Prasad](https://www.linkedin.com/in/dvprasad991)|
 |Template Publishing Engineer|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
-|Publishing Maintainence Engineer|[Candace Savonen](https://www.cansavvy.com/)|
-|Technical Publishing Stylist|[Carrie Wright](https://carriewright11.github.io/), [Candace Savonen](https://www.cansavvy.com/)|
-|Packages|[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
+|**Production**||
+|Content Publisher|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
+|Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Carrie Wright](https://carriewright11.github.io/)|
+|**Technical**||
+|Course Publishing Engineer|[Candace Savonen](https://www.cansavvy.com/)|
+|Template Publishing Engineers|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
+|Publishing Maintenance Engineer|[Candace Savonen](https://www.cansavvy.com/)|
+|Technical Publishing Stylists|[Carrie Wright](https://carriewright11.github.io/), [Candace Savonen](https://www.cansavvy.com/)|
+|Package Developers ([Leanbuild](https://github.com/jhudsl/leanbuild))[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
+|**Art and Design**||
 |Illustrator|[Candace Savonen](https://www.cansavvy.com/)|
+|**Funding**||
+|Funder|[National Cancer Institute (NCI)](https://www.cancer.gov/) UE5 CA254170|
+|Funding Staff| Emily Voeglein, Fallon Bachman|
+
+&nbsp;
+
+```{r, echo = FALSE}
+devtools::session_info()
+```
+
