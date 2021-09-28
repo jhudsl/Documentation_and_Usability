@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Lessons we should borrow from user designers | about</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Lessons we should borrow from user designers | about" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-09-23" />
+<meta name="date" content="2021-09-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -34,7 +34,8 @@
 <link rel="prev" href="documentation-why-its-worth-the-effort.html"/>
 <link rel="next" href="what-does-good-documentation-look-like.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +51,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -234,8 +259,8 @@
 <div id="thinking-about-user-centered-development" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Thinking about user-centered development</h2>
 <p>Creating tools that are easy to use starts with thinking about your user’s perspective.
-In other words, user-centered design is an exercise in applied empathy <span class="citation">(<a href="about-the-authors.html#ref-deMatos2013" role="doc-biblioref">Matos et al. 2013</a>)</span>.</p>
-<p>This is why a common saying in user-centered design is “You are not your user” <span class="citation">(<a href="about-the-authors.html#ref-Alexakis2017" role="doc-biblioref">Alexakis, n.d.</a>)</span>. Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.</p>
+In other words, user-centered design is an exercise in applied empathy <span class="citation">(<a href="#ref-deMatos2013" role="doc-biblioref">Matos et al. 2013</a>)</span>.</p>
+<p>This is why a common saying in user-centered design is “You are not your user” <span class="citation">(<a href="#ref-Alexakis2017" role="doc-biblioref">Alexakis, n.d.</a>)</span>. Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.</p>
 <p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_0.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!"  />
 <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
 <p>As compared to yourself, your typical user may likely have a different:</p>
@@ -265,7 +290,7 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <li>Like many professionals, likely to feel time pressure from deadlines.</li>
 </ul>
 <p>However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
-<span class="citation">Mulder et al. (<a href="about-the-authors.html#ref-Mulder2018" role="doc-biblioref">2018</a>)</span> described 10 user personas for bioinformatics software, all with their own skills and competencies:</p>
+<span class="citation">Mulder et al. (<a href="#ref-Mulder2018" role="doc-biblioref">2018</a>)</span> described 10 user personas for bioinformatics software, all with their own skills and competencies:</p>
 <ul>
 <li>Physician</li>
 <li>Lab technician</li>
@@ -304,7 +329,7 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <div id="humans-like-visuals" class="section level4" number="3.3.0.1">
 <h4><span class="header-section-number">3.3.0.1</span> Humans like visuals</h4>
 <p>Humans are drawn to intuitive visuals. Visuals are efficient means of communication and help users absorb information better than long-winded paragraphs (though visuals need an accompanying explanation too).</p>
-<p>Sometimes this is particularly helpful for complicated concepts. For example, BEDtools (<span class="citation">Quinlan and Hall (<a href="about-the-authors.html#ref-Quinlan2010" role="doc-biblioref">2010</a>)</span>) allows for the manipulation of genomic sequences in BED files. Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:</p>
+<p>Sometimes this is particularly helpful for complicated concepts. For example, BEDtools (<span class="citation">Quinlan and Hall (<a href="#ref-Quinlan2010" role="doc-biblioref">2010</a>)</span>) allows for the manipulation of genomic sequences in BED files. Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:</p>
 <p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_44.png" title="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. "  /></p>
 <p>Here, this figure explains how the merge function works given a particular set of ranges.</p>
 </div>
@@ -330,7 +355,7 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <p>Even if you try to make your text succinct and lean on visuals where possible, there will still be instances where you may inevitably require large chunks of text.</p>
 <p>Large chunks of texts are hard on your user, especially if they are trying to scan the information for something in particular.</p>
 <p>To help these chunks of text be less cumbersome, utilize reading patterns:</p>
-<p>Described in this <span class="citation">(useful article <a href="about-the-authors.html#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>(<a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns" class="uri">https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns</a>), humans’ eyes are drawn to items based on:</p>
+<p>Described in this <span class="citation">(useful article <a href="#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>(<a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns" class="uri">https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns</a>), humans’ eyes are drawn to items based on:</p>
 <blockquote>
 <ul>
 <li>Size: Larger elements will dominate and catch eyes first.</li>
@@ -343,7 +368,7 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <li>Texture and Style: Using distinct textures/styles (e.g., chunky, military-style buttons) draws the eye while setting the theme.</li>
 </ul>
 </blockquote>
-<p>Based on this, human eyes will scan a website’s page in Z or F pattern <span class="citation">(<a href="about-the-authors.html#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>.</p>
+<p>Based on this, human eyes will scan a website’s page in Z or F pattern <span class="citation">(<a href="#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>.</p>
 <blockquote>
 <p>The Z Pattern — In designs without much text, our eye starts scanning from top left to top right, then diagonally down to bottom left, stopping at the bottom right.</p>
 </blockquote>
@@ -351,15 +376,15 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <p>The F Pattern — In designs with more text, we scan across the top, from left to right, then down the left, searching for clues to what we want to know. On finding one, we’ll scan across to the right.</p>
 </blockquote>
 <p>For more details on these patterns and how to implement them with your own content, read more:
-- <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">About natural eye movements</a> by <span class="citation">Soegaard (<a href="about-the-authors.html#ref-Soegaard2020" role="doc-biblioref">n.d.</a>)</span>.
-- <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">About “F” patterns</a> <span class="citation">Babich (<a href="about-the-authors.html#ref-Babich2017" role="doc-biblioref">n.d.</a>)</span>.</p>
+- <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">About natural eye movements</a> by <span class="citation">Soegaard (<a href="#ref-Soegaard2020" role="doc-biblioref">n.d.</a>)</span>.
+- <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">About “F” patterns</a> <span class="citation">Babich (<a href="#ref-Babich2017" role="doc-biblioref">n.d.</a>)</span>.</p>
 <p>More about user-friendly principles in general:</p>
 <ul>
-<li><a href="http://bokardo.com/principles-of-user-interface-design/">Principles of User Interface Design</a> by <span class="citation">Porter (<a href="about-the-authors.html#ref-Porter" role="doc-biblioref">n.d.</a>)</span>.<br />
+<li><a href="http://bokardo.com/principles-of-user-interface-design/">Principles of User Interface Design</a> by <span class="citation">Porter (<a href="#ref-Porter" role="doc-biblioref">n.d.</a>)</span>.<br />
 </li>
-<li><a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">Golden Rules of UI Design</a> by <span class="citation">Babich (<a href="about-the-authors.html#ref-Babich" role="doc-biblioref">2019</a>)</span>.<br />
+<li><a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">Golden Rules of UI Design</a> by <span class="citation">Babich (<a href="#ref-Babich" role="doc-biblioref">2019</a>)</span>.<br />
 </li>
-<li><a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">About intuitive layouts</a> by <span class="citation">Tidwell (<a href="about-the-authors.html#ref-Tidwell" role="doc-biblioref">2021</a>)</span>.</li>
+<li><a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">About intuitive layouts</a> by <span class="citation">Tidwell (<a href="#ref-Tidwell" role="doc-biblioref">2021</a>)</span>.</li>
 </ul>
 </div>
 </div>
@@ -370,6 +395,36 @@ We’ll discuss this in more detail in a <a href="obtaining-user-feedback.html#o
 <p>Now that we’ve discussed some major principles about users and design, let’s dive in to talking about how documentation can help!</p>
 
 </div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Alexakis2017" class="csl-entry">
+Alexakis, Alex. n.d. <span>“You’re Not Your User.”</span> <a href="https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8">https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8</a>.
+</div>
+<div id="ref-Babich" class="csl-entry">
+Babich, Nick. 2019. <span>“The 4 Golden Rules of UI Design.”</span> <a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/</a>.
+</div>
+<div id="ref-Babich2017" class="csl-entry">
+———. n.d. <span>“F-Shaped Pattern for Reading Content.”</span> <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394</a>.
+</div>
+<div id="ref-deMatos2013" class="csl-entry">
+Matos, Paula de, Jennifer A Cham, Hong Cao, Rafael Alcántara, Francis Rowland, Rodrigo Lopez, and Christoph Steinbeck. 2013. <span>“The Enzyme Portal: A Case Study in Applying User-Centred Design Methods in Bioinformatics.”</span> <em><span>BMC</span> Bioinformatics</em> 14 (1): 103. <a href="https://doi.org/10.1186/1471-2105-14-103">https://doi.org/10.1186/1471-2105-14-103</a>.
+</div>
+<div id="ref-Mulder2018" class="csl-entry">
+Mulder, Nicola, Russell Schwartz, Michelle D. Brazas, Cath Brooksbank, Bruno Gaeta, Sarah L. Morgan, Mark A. Pauley, et al. 2018. <span>“The Development and Application of Bioinformatics Core Competencies to Improve Bioinformatics Training and Education.”</span> Edited by Olga G. Troyanskaya. <em><span>PLOS</span> Computational Biology</em> 14 (2): e1005772. <a href="https://doi.org/10.1371/journal.pcbi.1005772">https://doi.org/10.1371/journal.pcbi.1005772</a>.
+</div>
+<div id="ref-Porter" class="csl-entry">
+Porter, Joshua. n.d. <span>“Principles of User Interface Design.”</span> <a href="http://bokardo.com/principles-of-user-interface-design/">http://bokardo.com/principles-of-user-interface-design/</a>.
+</div>
+<div id="ref-Quinlan2010" class="csl-entry">
+Quinlan, Aaron R., and Ira M. Hall. 2010. <span>“<span>BEDTools</span>: A Flexible Suite of Utilities for Comparing Genomic Features.”</span> <em>Bioinformatics</em> 26 (6): 841–42. <a href="https://doi.org/10.1093/bioinformatics/btq033">https://doi.org/10.1093/bioinformatics/btq033</a>.
+</div>
+<div id="ref-Soegaard2020" class="csl-entry">
+Soegaard, Mads. n.d. <span>“Visual Hierarchy: Organizing Content to Follow Natural Eye Movement Patterns.”</span> <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns</a>.
+</div>
+<div id="ref-Tidwell" class="csl-entry">
+Tidwell, Jeniger. 2021. <span>“Organizing the Page:layout of Page Elements.”</span> <a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html</a>.
 </div>
 </div>
 <div class="footnotes">
@@ -399,7 +454,6 @@ Emojis by OpenMoji License: CC BY-SA 4.0.<a href="lessons-we-should-borrow-from-
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -418,6 +472,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -438,6 +493,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }

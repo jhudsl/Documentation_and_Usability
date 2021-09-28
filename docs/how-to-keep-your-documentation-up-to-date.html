@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 11 How to keep your documentation up to date | about</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 11 How to keep your documentation up to date | about" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-09-23" />
+<meta name="date" content="2021-09-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -34,7 +34,8 @@
 <link rel="prev" href="other-helpful-features.html"/>
 <link rel="next" href="about-the-authors.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +51,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -258,7 +283,7 @@ The easier you make it on yourself to update your documentation, the more likely
 </li>
 <li><a href="https://github.com/marketplace/actions/url-checker">GitHub action: URL checker</a>.<br />
 </li>
-<li><a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">6 Tools to Find Broken Links on Your Website</a> <span class="citation">(<a href="about-the-authors.html#ref-OutlookStudios2020" role="doc-biblioref">Studios 2020</a>)</span>.</li>
+<li><a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">6 Tools to Find Broken Links on Your Website</a> <span class="citation">(<a href="#ref-OutlookStudios2020" role="doc-biblioref">Studios 2020</a>)</span>.</li>
 </ul>
 </div>
 <div id="exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager" class="section level2" number="11.5">
@@ -281,6 +306,12 @@ You can see <a href="https://github.com/jhudsl/ITCR_Documentation_and_Usability/
 
 </div>
 </div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-OutlookStudios2020" class="csl-entry">
+Studios, Outlook. 2020. <span>“6 Tools to Find Broken Links on Your Website.”</span> <a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/</a>.
+</div>
+</div>
 <hr>
 <center> 
   <div class="footer">
@@ -299,7 +330,6 @@ You can see <a href="https://github.com/jhudsl/ITCR_Documentation_and_Usability/
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -318,6 +348,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -338,6 +369,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 8 Creating clarifying code comments | about</title>
+  <title>Page not found | about</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 8 Creating clarifying code comments | about" />
+  <meta property="og:title" content="Page not found | about" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 8 Creating clarifying code comments | about" />
+  <meta name="twitter:title" content="Page not found | about" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="creating-handy-reference-guides.html"/>
-<link rel="next" href="obtaining-user-feedback.html"/>
+
+
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -253,99 +253,11 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/ITCR_Cancer_Research_Leadership/main/images/main_image.png">
 </div>
-<div id="creating-clarifying-code-comments" class="section level1" number="8">
-<h1><span class="header-section-number">Chapter 8</span> Creating clarifying code comments</h1>
-<p><img src="resources/images/08-code_comments_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png" title="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments." alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."  /></p>
-<div id="the-goal-of-a-code-documentation" class="section level2" number="8.1">
-<h2><span class="header-section-number">8.1</span> The goal of a code documentation</h2>
-<p>Code documentation goes beyond your user. It’s a part of writing good code and helps your collaborators and ‘Future You’!</p>
-<p>Most users will probably not look at your code directly – those who do are probably:</p>
-<ul>
-<li>Quite desperately troubleshooting something and were not able to find answers elsewhere.</li>
-<li>Are “power users” who are already pretty invested in your tool and want to get more out of it – may be helpful contributors too!</li>
-</ul>
-<p>Good code comments are a part of writing good, readable code! Your code is more likely to stand the test of time for longer if others, including yourself in the future, can see what’s happening enough to trust it themselves. This will encourage others to use your code and help you maintain it!</p>
-<p>‘Current You’ who is writing your code may know what is happening but ‘Future You’ will have no idea what ‘Current You’ was thinking <span class="citation">(<a href="#ref-Spielman" role="doc-biblioref">Spielman, n.d.</a>)</span>:</p>
-<blockquote>
-<p>‘Future You’ comes into existence about one second after you write code, and has no idea what on earth Past You was thinking. Help out ‘Future You’ by adding lots of comments! ‘Future You’ next week thinks Today You is an idiot, and the only way you can convince ‘Future You’ that Today You is reasonably competent is by adding comments in your code explaining why Today You is actually not so bad.</p>
-</blockquote>
-<p>Your code and your understanding of it will fade soon after you write it, leaving your hard work to deprecate. Code that works is a start, but <strong>readable</strong> AND working code is best!</p>
-<p>Comments can help clarify at points where your code might need further explanation. The act of writing them can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.</p>
-</div>
-<div id="characteristics-of-clarifying-code-comments" class="section level2" number="8.2">
-<h2><span class="header-section-number">8.2</span> Characteristics of clarifying code comments</h2>
-<p>What kinds of comments are most helpful for ‘Future You’ and others?</p>
-<p><span class="citation">Spertus (<a href="#ref-Spertus2021" role="doc-biblioref">n.d.</a>)</span> lays out “Rules” for writing helpful code comments <a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">in this article</a> which we recommend you read.</p>
-<blockquote>
-<p>Rule 1: Comments should not duplicate the code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 2: Good comments do not excuse unclear code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 3: If you can’t write a clear comment, there may be a problem with the code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 4: Comments should dispel confusion, not cause it.</p>
-</blockquote>
-<blockquote>
-<p>Rule 5: Explain unidiomatic code in comments.</p>
-</blockquote>
-<blockquote>
-<p>Rule 6: Provide links to the original source of copied code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 7: Include links to external references where they will be most helpful.</p>
-</blockquote>
-<blockquote>
-<p>Rule 8: Add comments when fixing bugs.</p>
-</blockquote>
-<blockquote>
-<p>Rule 9: Use comments to mark incomplete implementations.</p>
-</blockquote>
-<p>Here are more resources about good code comments that have plenty of great discussions about how to up your code comment game.</p>
-<ul>
-<li><a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">Best Practices for Writing Code Comments</a> by <span class="citation">Spertus (<a href="#ref-Spertus2021" role="doc-biblioref">n.d.</a>)</span>.</li>
-<li><a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">What Makes a Good Code Comment?</a> by <span class="citation">Cronin (<a href="#ref-Cronin2019" role="doc-biblioref">2019</a>)</span>.<br />
-</li>
-<li><a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">The Value of Code Documentation</a> by <span class="citation">Meza (<a href="#ref-Meza2018" role="doc-biblioref">2018</a>)</span>.<br />
-</li>
-<li><a href="http://alyssafrazee.com/2014/04/20/rdocs.html">Some internet wisdom on R documentation</a> by <span class="citation">Frazee (<a href="#ref-Frazee2014" role="doc-biblioref">2014</a>)</span>.<br />
-</li>
-<li><a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">How to Comment Your Code Like a Pro: Best Practices and Good Habits</a> by <span class="citation">Keeto (<a href="#ref-Keeton2019" role="doc-biblioref">2019</a>)</span>.</li>
-</ul>
-<p><strong>In summary:</strong></p>
-<p><img src="resources/images/08-code_comments_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png" title="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process." alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."  /></p>
-</div>
-<div id="exercise-evaluate-your-own-codes-comments" class="section level2" number="8.3">
-<h2><span class="header-section-number">8.3</span> Exercise: Evaluate your own code’s comments</h2>
-<p>Take a look through some of your tool’s code and its comments. Are there places it could be clearer? Take some time to think about your coding process and how it could improve. <a href="https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/">Code review</a> is also an excellent way to improve code clarity and quality <span class="citation">(<a href="#ref-Bodner2018" role="doc-biblioref">Bodner 2018</a>)</span>!</p>
-
-</div>
-</div>
-<h3>References</h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-Bodner2018" class="csl-entry">
-Bodner, Herbet. 2018. <span>“10 Reasons Why Code Reviews Make Better Code and Better Teams.”</span> <a href="https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/">https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/</a>.
-</div>
-<div id="ref-Cronin2019" class="csl-entry">
-Cronin, Mike. 2019. <span>“What Makes a Good Code Comment?”</span> <a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">https://itnext.io/what-makes-a-good-code-comment-5267debd2c24</a>.
-</div>
-<div id="ref-Frazee2014" class="csl-entry">
-Frazee, Alyssa. 2014. <span>“Some Internet Wisdom on r Documentation.”</span> <a href="http://alyssafrazee.com/2014/04/20/rdocs.html">http://alyssafrazee.com/2014/04/20/rdocs.html</a>.
-</div>
-<div id="ref-Keeton2019" class="csl-entry">
-Keeto, B. J. 2019. <span>“How to Comment Your Code Like a Pro: Best Practices and Good Habits.”</span> <a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits</a>.
-</div>
-<div id="ref-Meza2018" class="csl-entry">
-Meza, Frank. 2018. <span>“The Value of Code Documentation.”</span> <a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">https://www.olioapps.com/blog/the-value-of-code-documentation/</a>.
-</div>
-<div id="ref-Spertus2021" class="csl-entry">
-Spertus, Ellen. n.d. <span>“Best Practices for Writing Code Comments.”</span> <a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/</a>.
-</div>
-<div id="ref-Spielman" class="csl-entry">
-Spielman, Stephanie. n.d. <span>“Introduction to r - Cb2r Data Science Workshop, Summer 2020.”</span> <a href="https://github.com/sjspielman/cb2r-ds-summer2020/blob/71cb11277e7383292bf727841ab5fa4ed43cfcbe/resources/introduction_to_R.Rmd#L92">https://github.com/sjspielman/cb2r-ds-summer2020/blob/71cb11277e7383292bf727841ab5fa4ed43cfcbe/resources/introduction_to_R.Rmd#L92</a>.
-</div>
+<div id="page-not-found" class="section level1">
+<h1>Page not found</h1>
+<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
+<p>You may want to try searching to find the page's new location, or use
+the table of contents to find the page you are looking for.</p>
 </div>
 <hr>
 <center> 
@@ -360,8 +272,8 @@ Spielman, Stephanie. n.d. <span>“Introduction to r - Cb2r Data Science Worksho
           </div>
         </div>
       </div>
-<a href="creating-handy-reference-guides.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="obtaining-user-feedback.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
