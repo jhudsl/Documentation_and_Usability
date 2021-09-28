@@ -7,11 +7,10 @@ output: html_document
 
 These credits are based on our [course contributors table guidelines](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/How-to-give-credits).  
 
-&nbsp;
-&nbsp;
+
+
 ***In [memory](https://galaxyproject.org/jxtx/) of [James Taylor](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02016-0), who was instrumental in initiating this project.***
 
-&nbsp;
 
 |Credits|Names|
 |-------|-----|
@@ -35,7 +34,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Funder|[National Cancer Institute (NCI)](https://www.cancer.gov/) UE5 CA254170|
 |Funding Staff| Emily Voeglein, Fallon Bachman|
 
-&nbsp;
+  
 
 ```{r, echo = FALSE}
 devtools::session_info()
