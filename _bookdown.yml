@@ -13,10 +13,17 @@ rmd_files: ["index.Rmd",
             "09-user_feedback.Rmd",
             "10-other-features.Rmd",
             "11-documentation-maintenance.Rmd",
-            "About.Rmd"]
+            "About.Rmd",
+            "references.Rmd"]
 new_session: yes
 delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
 output_dir: "docs"
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{logo.jpg}\LARGE\\}
+  - \posttitle{\end{center}}
+  
