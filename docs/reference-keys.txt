@@ -87,4 +87,3 @@ do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also
 make-sure-links-work
 exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager
 exercise-2-implement-a-url-checker
-about-the-authors
