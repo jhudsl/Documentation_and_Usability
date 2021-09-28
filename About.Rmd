@@ -6,7 +6,7 @@ output: html_document
 # About the Authors {-}
 
 These credits are based on our [course contributors table guidelines](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/How-to-give-credits).  
- 
+
 &nbsp;
 &nbsp;
 ***In [memory](https://galaxyproject.org/jxtx/) of [James Taylor](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02016-0), who was instrumental in initiating this project.***
@@ -18,7 +18,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Lead Content Instructor|[Candace Savonen](https://www.cansavvy.com/)|
 |Content Editors/Reviewer|[Carrie Wright](https://carriewright11.github.io/), [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
 |Content Directors|[Jeff Leek](https://jtleek.com/), [Sarah Wheelan](https://www.hopkinsmedicine.org/profiles/details/sarah-wheelan)|
-|Content Consultant|[Jeff Leek](https://jtleek.com/), [Deepa Prasad](https://www.linkedin.com/in/dvprasad991)|
+|Content Consultant|[Deepa Prasad](https://www.linkedin.com/in/dvprasad991)|
 |Template Publishing Engineer|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |**Production**||
 |Content Publisher|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
@@ -40,4 +40,3 @@ These credits are based on our [course contributors table guidelines](https://gi
 ```{r, echo = FALSE}
 devtools::session_info()
 ```
-
