@@ -1,4 +1,4 @@
-# ITCR Documentation and Usability Course
+# Documentation and Usability Course
 
 This is a bookdown based course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools.
 
