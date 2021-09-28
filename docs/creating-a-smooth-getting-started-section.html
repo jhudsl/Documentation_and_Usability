@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 5 Creating a smooth getting started section | about</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 5 Creating a smooth getting started section | about" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-09-23" />
+<meta name="date" content="2021-09-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -34,7 +34,8 @@
 <link rel="prev" href="what-does-good-documentation-look-like.html"/>
 <link rel="next" href="creating-helpful-how-to-examples.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +51,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -256,7 +281,7 @@
 </div>
 <div id="installation-steps-the-first-big-hurdle" class="section level3" number="5.2.3">
 <h3><span class="header-section-number">5.2.3</span> Installation steps: the first big hurdle</h3>
-<p>Installation is the first and perhaps biggest hurdle your user will encounter with your tool. The <strong>clearer and more specific these steps the better</strong>. <span class="citation">Mangul, Mosqueiro, et al. (<a href="about-the-authors.html#ref-Mangul2019b" role="doc-biblioref">2019</a>)</span> found that tools that required more installation steps (but didn’t describe these steps adequately) were less likely to be installed successfully, and tools that were less likely to be installed successfully had significantly less citations!</p>
+<p>Installation is the first and perhaps biggest hurdle your user will encounter with your tool. The <strong>clearer and more specific these steps the better</strong>. <span class="citation">Mangul, Mosqueiro, et al. (<a href="#ref-Mangul2019b" role="doc-biblioref">2019</a>)</span> found that tools that required more installation steps (but didn’t describe these steps adequately) were less likely to be installed successfully, and tools that were less likely to be installed successfully had significantly less citations!</p>
 <p>If installation happens through command line, provide <strong>copy-and-paste or directly runnable commands</strong> that your user can use as-is.
 In these commands, if parts of it need to be tailored, call attention where the tailoring needs to happen and how your user can determine what they need to put there.
 Fill-in-the-blank cues can be handy for these scenarios.</p>
@@ -293,15 +318,27 @@ Do some steps take more time than others? Warn them about that. Are there output
 </div>
 <div id="good-examples-of-getting-started-sections" class="section level2" number="5.3">
 <h2><span class="header-section-number">5.3</span> Good examples of getting started sections</h2>
-<p><a href="https://snakemake.readthedocs.io/en/stable/getting_started/installation.html">Snakemake has a great getting started section</a> <span class="citation">(<a href="about-the-authors.html#ref-Molder2021" role="doc-biblioref">Molder et al. 2021</a>)</span>. The makers of Snakemake tell their users how to install Snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!</p>
+<p><a href="https://snakemake.readthedocs.io/en/stable/getting_started/installation.html">Snakemake has a great getting started section</a> <span class="citation">(<a href="#ref-Molder2021" role="doc-biblioref">Molder et al. 2021</a>)</span>. The makers of Snakemake tell their users how to install Snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!</p>
 <p><img src="resources/images/05-getting_started_sections_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_0.png" title="Here is a screenshot of snakemake’s documentation. It shows the sidebar which has installation, a tutorial, and another short tutorial." alt="Here is a screenshot of snakemake’s documentation. It shows the sidebar which has installation, a tutorial, and another short tutorial."  /></p>
-<p><a href="https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html">GSEA</a> introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track <span class="citation">(<a href="about-the-authors.html#ref-Subramanian2005" role="doc-biblioref">Subramanian et al. 2005</a>)</span>!</p>
+<p><a href="https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html">GSEA</a> introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track <span class="citation">(<a href="#ref-Subramanian2005" role="doc-biblioref">Subramanian et al. 2005</a>)</span>!</p>
 <p><img src="resources/images/05-getting_started_sections_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_4.png" title="Here is a screenshot of GSEA’s documentation. It shows screenshots to assure the user what to expect." alt="Here is a screenshot of GSEA’s documentation. It shows screenshots to assure the user what to expect."  /></p>
 </div>
 <div id="exercise-create-your-own-getting-started-section" class="section level2" number="5.4">
 <h2><span class="header-section-number">5.4</span> Exercise: Create your own getting started section!</h2>
 <p>Use <a href="https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/getting_started_template.md">the template getting started document</a> to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository (or other set of documentation) you set up in the previous chapter.</p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Mangul2019b" class="csl-entry">
+Mangul, Serghei, Thiago Mosqueiro, Richard J. Abdill, Dat Duong, Keith Mitchell, Varuni Sarwal, Brian Hill, et al. 2019. <span>“Challenges and Recommendations to Improve the Installability and Archival Stability of Omics Computational Tools.”</span> <em><span>PLOS</span> Biology</em> 17 (6): e3000333. <a href="https://doi.org/10.1371/journal.pbio.3000333">https://doi.org/10.1371/journal.pbio.3000333</a>.
+</div>
+<div id="ref-Molder2021" class="csl-entry">
+Molder, F, KP Jablonski, B Letcher, MB Hall, CH Tomkins-Tinch, V Sochat, J Forster, et al. 2021. <span>“Sustainable Data Analysis with Snakemake [Version 1; Peer Review: 1 Approved, 1 Approved with Reservations].”</span> <em>F1000Research</em> 10 (33). <a href="https://doi.org/10.12688/f1000research.29032.1">https://doi.org/10.12688/f1000research.29032.1</a>.
+</div>
+<div id="ref-Subramanian2005" class="csl-entry">
+Subramanian, Aravind, Pablo Tamayo, Vamsi K. Mootha, Sayan Mukherjee, Benjamin L. Ebert, Michael A. Gillette, Amanda Paulovich, et al. 2005. <span>“Gene Set Enrichment Analysis: A Knowledge-Based Approach for Interpreting Genome-Wide Expression Profiles.”</span> <em>Proceedings of the National Academy of Sciences</em> 102 (43): 15545–50. <a href="https://doi.org/10.1073/pnas.0506580102">https://doi.org/10.1073/pnas.0506580102</a>.
 </div>
 </div>
 <div class="footnotes">
@@ -331,7 +368,6 @@ Emojis by OpenMoji License: CC BY-SA 4.0.<a href="creating-a-smooth-getting-star
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -350,6 +386,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -370,6 +407,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }

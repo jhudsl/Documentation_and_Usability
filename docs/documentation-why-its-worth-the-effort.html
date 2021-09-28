@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Documentation: Why it’s worth the effort! | about</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Documentation: Why it’s worth the effort! | about" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-09-23" />
+<meta name="date" content="2021-09-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -34,7 +34,8 @@
 <link rel="prev" href="introduction.html"/>
 <link rel="next" href="lessons-we-should-borrow-from-user-designers.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +51,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -252,16 +277,16 @@
 <p>The lack of focus and education on usability in the bioinformatics tool development is not only a disservice to progress of cancer research, but also to the tool developers themselves who have equally spent uncountable work hours and effort on the development of cancer tools.</p>
 <p>We know that bioinformatics tool development doesn’t occur in a vaccuum. User designers in the field of bioinformatics have commented on reasons why documentation and usability sometimes suffer for bioinformatics tools:</p>
 <ul>
-<li>Problem 1) Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability <span class="citation">(<a href="about-the-authors.html#ref-Mangul2019" role="doc-biblioref">Mangul, Martin, et al. 2019</a>)</span>.</li>
-<li>Problem 2) Bioinformatics tool development teams generally don’t have the resources to hire user-centered design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback <span class="citation">(<a href="about-the-authors.html#ref-Pavelin2012" role="doc-biblioref">Pavelin et al. 2012</a>)</span>.<br />
+<li>Problem 1) Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability <span class="citation">(<a href="#ref-Mangul2019" role="doc-biblioref">Mangul, Martin, et al. 2019</a>)</span>.</li>
+<li>Problem 2) Bioinformatics tool development teams generally don’t have the resources to hire user-centered design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback <span class="citation">(<a href="#ref-Pavelin2012" role="doc-biblioref">Pavelin et al. 2012</a>)</span>.<br />
 </li>
-<li>Problem 3) There is a lack of resources/education about usability specific to bioinformatics tool developing communities <span class="citation">(<a href="about-the-authors.html#ref-Pavelin2012" role="doc-biblioref">Pavelin et al. 2012</a>)</span>.</li>
+<li>Problem 3) There is a lack of resources/education about usability specific to bioinformatics tool developing communities <span class="citation">(<a href="#ref-Pavelin2012" role="doc-biblioref">Pavelin et al. 2012</a>)</span>.</li>
 </ul>
 <p>Unfortunately this specific course cannot address issues 1 and 2, but will attempt to help with problem 3.</p>
 </div>
 <div id="why-documentation-is-worth-the-time" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> Why documentation is worth the time</h2>
-<p>We realize many tool developers feel unenthused about the process of creating documentation. The documentation process requires a different skill set from the tool development itself; meaning many developers were likely not attracted to tool development because of documentation and may not be sure how to craft good documentation <span class="citation">(<a href="about-the-authors.html#ref-Wolf2016" role="doc-biblioref">Wolf 2016</a>)</span>. They may know its good for their tool, but they just aren’t enthused about it.</p>
+<p>We realize many tool developers feel unenthused about the process of creating documentation. The documentation process requires a different skill set from the tool development itself; meaning many developers were likely not attracted to tool development because of documentation and may not be sure how to craft good documentation <span class="citation">(<a href="#ref-Wolf2016" role="doc-biblioref">Wolf 2016</a>)</span>. They may know its good for their tool, but they just aren’t enthused about it.</p>
 <p>We’d like to assure you that the effort for creating documentation has a high return payoff for the continued success of your tool as a whole!</p>
 <p><img src="resources/images/02-why_documentation_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd228cc29d1_0_140.png" title="Thorough and easy-to-digest documentation not only benefits users, but tool developers themselves!" alt="Thorough and easy-to-digest documentation not only benefits users, but tool developers themselves!"  /></p>
 <p>Returning to our cast of characters, let’s say that Tina the Tool Developer, had the time and knowledge to create awesome documentation for her tool.</p>
@@ -279,6 +304,18 @@
 <p><img src="resources/images/02-why_documentation_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcf4eaa5799_5_127.png" title="Colin the Contributor says, Tina’s documentation introduced me to the tool so well that I was excited to contribute a new feature! The feature is represented as a sparkling code. Tina the Tool Developer is excited to incorporate this new feature to the tool." alt="Colin the Contributor says, Tina’s documentation introduced me to the tool so well that I was excited to contribute a new feature! The feature is represented as a sparkling code. Tina the Tool Developer is excited to incorporate this new feature to the tool."  /></p>
 <p>Now that you are hopefully energized and ready for creating documentation for your tool, let’s talk about a bit user-centered design concepts!</p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Mangul2019" class="csl-entry">
+Mangul, Serghei, Lana S. Martin, Eleazar Eskin, and Ran Blekhman. 2019. <span>“Improving the Usability and Archival Stability of Bioinformatics Software.”</span> <em>Genome Biology</em> 20 (1). <a href="https://doi.org/10.1186/s13059-019-1649-8">https://doi.org/10.1186/s13059-019-1649-8</a>.
+</div>
+<div id="ref-Pavelin2012" class="csl-entry">
+Pavelin, Katrina, Jennifer A. Cham, Paula de Matos, Cath Brooksbank, Graham Cameron, and Christoph Steinbeck. 2012. <span>“Bioinformatics Meets User-Centred Design: A Perspective.”</span> Edited by Philip E. Bourne. <em><span>PLoS</span> Computational Biology</em> 8 (7): e1002554. <a href="https://doi.org/10.1371/journal.pcbi.1002554">https://doi.org/10.1371/journal.pcbi.1002554</a>.
+</div>
+<div id="ref-Wolf2016" class="csl-entry">
+Wolf, Damian. 2016. <span>“Why Developers Write Horrible Documentation and How to Solve It.”</span> <a href="https://dzone.com/articles/why-developers-write-horrible-documentation-and-ho">https://dzone.com/articles/why-developers-write-horrible-documentation-and-ho</a>.
 </div>
 </div>
 <div class="footnotes">
@@ -308,7 +345,6 @@ Emojis by OpenMoji License: CC BY-SA 4.0.<a href="documentation-why-its-worth-th
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -327,6 +363,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -347,6 +384,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }
