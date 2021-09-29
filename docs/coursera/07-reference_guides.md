@@ -93,4 +93,4 @@ Follow the docstrings guidance and instructions [here](https://realpython.com/do
 
 If your tool's destination is Bioconductor, see their specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages).
 
-For other general purposes, you can our [the reference guide template](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
+For other general purposes, you can our [the reference guide template](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.

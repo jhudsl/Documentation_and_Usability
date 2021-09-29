@@ -35,12 +35,12 @@ You will need to create a Docker account if you don't have one.
 To pull the docker image associated with this template, you can run this command in your command line.
 
 ```
-docker pull jhudsl/itcr_course_template
+docker pull jhudsl/course_template
 ```
 Alternatively, if you'd prefer to build from the Dockerfile locally you can run:
 
 ```
-docker build -< docker/Dockerfile -t jhudsl/itcr_course_template
+docker build -< docker/Dockerfile -t jhudsl/course_template
 ```
 
 To use the Docker image associated with the course template, first navigate to the the top of this GitHub repository.
@@ -48,7 +48,7 @@ Now you can start up the Docker container using the command below.
 Replace `password` with something else of your choosing
 
 ```
-docker run -it -v $PWD:/home/rstudio -e PASSWORD=password -p 8787:8787 jhudsl/itcr_course_template
+docker run -it -v $PWD:/home/rstudio -e PASSWORD=password -p 8787:8787 jhudsl/course_template
 ```
 
 Now, if you run the command: `docker ps`, you should see a container is up and running!
@@ -109,7 +109,7 @@ RUN pip3 install \
 When you've added a package to the Dockerfile, you'll need to check that it builds successfully before including it in a pull request.
 You'll need to rebuild the docker image using this command:
 ```
-docker build -< docker/Dockerfile -t jhudsl/itcr_<TAG_FOR_COURSE>
+docker build -< docker/Dockerfile -t jhudsl/<TAG_FOR_COURSE>
 ```
 If it fails, often the issue is a missing dependency.
 Take a look at the error messages and see if you can determine the issue with some Googling.
@@ -118,7 +118,7 @@ Once it builds successfully, you should file a PR with your Dockerfile changes.
 Once the changes are accepted and merged, we'll need to push the updated image to Dockerhub using:
 
 ```
-docker push jhudsl/itcr_<TAG_FOR_COURSE>
+docker push jhudsl/<TAG_FOR_COURSE>
 ```
 
 ## Citations
@@ -146,12 +146,12 @@ To reference the citations in your writing follow the [bookdown instructions](ht
 
 ## Style guide
 
-Github actions will run the [`styler` package to all style R in all Rmds](https://github.com/jhudsl/ITCR_Course_Template_Bookdown/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
+Github actions will run the [`styler` package to all style R in all Rmds](https://github.com/jhudsl/Course_Template_Bookdown/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
 Style changes will automatically be committed back to your branch.
 
 ## Spell check
 
-Github actions will automatically [run a spell check on all Rmds](https://github.com/jhudsl/ITCR_Course_Template_Bookdown/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
+Github actions will automatically [run a spell check on all Rmds](https://github.com/jhudsl/Course_Template_Bookdown/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
 
 It will fail if there are more than 2 spelling errors and you'll need to resolve those before being able to merge your pull request.
 
@@ -193,9 +193,9 @@ As you modify the names of the chapters of your course and add more chapters (us
 For example let's say that we added another chapter and named the file `03-chapter_of_course.Rmd`. We would update our `_bookdown.yml` to look like this:
 
 ```yaml
-book_filename: "ITCR_Course_Name"  
+book_filename: "Course_Name"  
 chapter_name: "Chapter "  
-repo: https://github.com/jhudsl/ITCR_Course_Template/ ##Make sure you update this for your GitHub Repo!!  
+repo: https://github.com/jhudsl/Course_Template/ ##Make sure you update this for your GitHub Repo!!  
 rmd_files: ["index.Rmd",  
             "01-intro.Rmd",   
             "02-chapter_of_course.Rmd",   

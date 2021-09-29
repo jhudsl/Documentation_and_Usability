@@ -4,9 +4,9 @@ This is a bookdown based course to cover the basics of creating documentation an
 
 This course is a part of an [ITCR training series](https://www.itcrtraining.org/) and was in part created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
-You can see the [rendered course material here](https://jhudatascience.org/ITCR_Documentation_and_Usability/introduction.html) or [on Leanpub here](https://leanpub.com/universities/courses/jhu/documentation_and_usability).
+You can see the [rendered course material here](https://jhudatascience.org/Documentation_and_Usability/introduction.html) or [on Leanpub here](https://leanpub.com/universities/courses/jhu/documentation_and_usability).
 
-This course guides you on how to make a nice documentation website using [this handy template](https://github.com/jhudsl/itcr-template-documentation) and its associated checklists!
+This course guides you on how to make a nice documentation website using [this handy template](https://github.com/jhudsl/template-documentation) and its associated checklists!
 
 Here's a preview of what that looks like
 ![](resources/images/template-preview.png)

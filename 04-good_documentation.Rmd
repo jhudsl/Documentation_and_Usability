@@ -117,7 +117,7 @@ _Still in progress: If you are creating documentation to accompany a package you
 
 ### Well-documented checklist
 
-[This document is a checklist](https://github.com/jhudsl/itcr-template-documentation/blob/master/docs/well_documented_checklist.md) that summarizes the major aspects that should be included in a tools' documentation.
+[This document is a checklist](https://github.com/jhudsl/template-documentation/blob/master/docs/well_documented_checklist.md) that summarizes the major aspects that should be included in a tools' documentation.
 We recommend using it to evaluate the documentation for an existing tool and identify any gaps you may need to address, or as a to-do list for creating new documentation that you can check off as you follow along with this course.
 
 For more inspiration, here are more articles about good documentation:
@@ -134,13 +134,13 @@ There are two options we suggest for creating documentation as you follow along 
      _Pros_: Is easier and quicker.   
      _Cons_: Is not as user-friendly as option 2.   
   
-**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; [see demo here](https://jhudatascience.org/itcr-template-documentation/).    
+**Option 2)** Clone a repository with these templates and set up a MkDocs github pages site. Slightly more work, but a very nice end result; [see demo here](https://jhudatascience.org/template-documentation/).    
      _Pros_: This format of documentation sites are easy to navigate and likely familiar to your user.     
      _Cons_: Will require you to use `mkdocs` package to get this set up.   
 
 ### Steps for Option 1) Adding completed template markdowns to an existing GitHub repository
 
-- [Download the folder of templates using this link](https://github.com/jhudsl/itcr-template-documentation/tree/master/).
+- [Download the folder of templates using this link](https://github.com/jhudsl/template-documentation/tree/master/).
 - Complete each markdown template, filling in the blanks as you go along with the course.
 - File a pull request to your repository to add these files.
 - (Optional but encouraged) [Publish your repository to Github Pages](https://guides.github.com/features/pages/).  
@@ -161,7 +161,7 @@ templates/
 
 ### Steps for Option 2) Creating a MkDocs site with Github pages
 
-- Go to our [template documentation repository](https://github.com/jhudsl/itcr-template-documentation).
+- Go to our [template documentation repository](https://github.com/jhudsl/template-documentation).
 - Click `Use this Template` to get started.
 - Name your repository something that relates to your tool.  
 

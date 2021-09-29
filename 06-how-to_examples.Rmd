@@ -102,13 +102,13 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ0
 
 ## Exercise: Create your own how-to examples!
 
-Use [the how-to example templates](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md) to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
+Use [the how-to example templates](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/how_to_examples.md) to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
 
 If your tool's destination is Bioconductor or Galaxy, see our specific guidance on those repositories' examples:
 
 _For Bioconductor vignettes_:
 
-- [Our Bioconductor specific how-to example templates]( https://jhudatascience.org/itcr-template-documentation/bioconductor_guides/bioconductor_vignette_template.Rmd).  
+- [Our Bioconductor specific how-to example templates]( https://jhudatascience.org/template-documentation/bioconductor_guides/bioconductor_vignette_template.Rmd).  
 - [Bioconductor's own vignette guidance](https://www.bioconductor.org/developers/package-guidelines/#Vignettes).  
 - [Guidance on writing RMarkdown Vignettes](https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html) by @Oles2021.  
 

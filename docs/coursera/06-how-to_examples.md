@@ -92,13 +92,13 @@ If your users follow along with your examples successfully, next they will proba
 
 ## Exercise: Create your own how-to examples!
 
-Use [the how-to example templates](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md) to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
+Use [the how-to example templates](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/how_to_examples.md) to start your own how-to examples either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
 
 If your tool's destination is Bioconductor or Galaxy, see our specific guidance on those repositories' examples:
 
 _For Bioconductor vignettes_:
 
-- [Our Bioconductor specific how-to example templates](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/how_to_examples.md)
+- [Our Bioconductor specific how-to example templates](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/how_to_examples.md)
 - [Bioconductor's own vignette guidance](https://www.bioconductor.org/developers/package-guidelines/#Vignettes)
 - @Oles2021 have [guidance on writing RMarkdown Vignettes](https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html)
 

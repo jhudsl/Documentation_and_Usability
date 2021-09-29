@@ -98,4 +98,4 @@ Now that your user has successfully installed your tool and understands the basi
 
 ## Exercise: Create your own getting started section!
 
-Use [the template getting started document](https://raw.githubusercontent.com/jhudsl/itcr-template-documentation/master/docs/getting_started_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository (or other set of documentation) you set up in the previous chapter.
+Use [the template getting started document](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/getting_started_template.md) to start your own getting started section either by using the markdown template directly, or navigating to the MkDocs repository (or other set of documentation) you set up in the previous chapter.
