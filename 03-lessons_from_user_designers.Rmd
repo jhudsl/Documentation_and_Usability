@@ -78,7 +78,7 @@ Write down what you know (or think you know) and try to identify any knowledge g
 - What need of theirs is addressed by your tool?
 - What kinds of skills does your tool assume your user has (does your user community have those skills)?
 
-Keep the questions about your user community in mind and in a [later chapter](https://jhudatascience.org/ITCR_Documentation_and_Usability/obtaining-user-feedback.html), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
+Keep the questions about your user community in mind and in a [later chapter](https://jhudatascience.org/Documentation_and_Usability/obtaining-user-feedback.html), we'll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.
 
 ## General principles about user-friendliness  
 

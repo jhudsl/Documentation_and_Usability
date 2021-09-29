@@ -45,8 +45,8 @@ _Background information_:
   - [URL Checking](#url-checking)
   - [Adding logo](#adding-logo)
 - [Setting Up Images and Graphics](#setting-up-images-and-graphics)
-    - [Themes for non-ITCR projects:](#themes-for-non-itcr-projects)
-    - [Themes for ITCR project:](#themes-for-itcr-project)
+    - [Themes for non-ITCR projects:](#themes-for-non-projects)
+    - [Themes for ITCR project:](#themes-for-project)
   - [Accessibility](#accessibility)
 - [Adding images and graphics in text](#adding-images-and-graphics-in-text)
 - [Adding videos in text](#adding-videos-in-text)
@@ -70,7 +70,7 @@ In the upper right of the landing page for this repository, click the green `Use
 
 ![Where is the `Use this template` button?](resources/template_button.png)
 
-Name your repository fill in a short description (If this is an ITCR course, start the repo name with `ITCR_`).
+Name your repository fill in a short description (If this is an ITCR course, start the repo name with ``).
 
 ![Creating new course repository](resources/creating_new_course_repo.png)
 

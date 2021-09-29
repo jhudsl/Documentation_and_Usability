@@ -7,7 +7,7 @@
 # --slides_id <SLIDE_ID FROM URL> \
 # --image_loc "_bookdown_files" \
 # --image_key_dir "resources" \
-# --git_repo  "jhudsl/ITCR_Course_Template_Bookdown" \
+# --git_repo  "jhudsl/Course_Template_Bookdown" \
 # --git_branch "cansavvy/add-rgoogleslides"
 
 ################################ Initial Set Up ################################
@@ -34,7 +34,7 @@ option_list <- list(
   ),
   make_option(
     opt_str = c("-g", "--git_repo"), type = "character",
-    default = NULL, help = "Github repo name where images are stored. e.g. 'jhudsl/ITCR_Course_Template_Bookdown'",
+    default = NULL, help = "Github repo name where images are stored. e.g. 'jhudsl/Course_Template_Bookdown'",
     metavar = "character"
   ),
   make_option(
