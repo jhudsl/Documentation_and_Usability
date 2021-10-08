@@ -11,10 +11,8 @@ output: html_document
 
 ## The goal of user feedback
 
-How do you know if your code is working?
-You test it and get feedback!
-Similarly, how do you know if your tool is working for your user?
-Ask them for feedback!
+How do you know if your code is working? You test it and get feedback!
+Similarly, how do you know if your tool is working for your user? Ask them for feedback!
 
 <img src="resources/images/09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"  />
 ^[For all cartoons:     
@@ -37,7 +35,7 @@ Providing a method of contact to your users doesn't mean you need to give users 
 
 _Example contact method ideas_:
 
-- Have a link to a form for users to submit (Google forms are free).   
+- Have a link to a form for users to submit ([Google forms](https://www.google.com/forms/about/) are free).   
 - Direct users to file a [GitHub issue](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).    
 - Have a separate email inbox that you have a notification set up for.  
 - Have a [Slack channel](https://slack.com/) that you direct users to.  
@@ -61,21 +59,18 @@ _To summarize the steps laid out by @Csontos2019 for conducting usability resear
 
 [Step 1) Plan out your study](https://uxstudioteam.com/ux-blog/usability-testing/#Step_1_Plan_your_study) - clarify what you want to learn and write a plan and script.
 
-- What main questions about your tool do you have? -- try to narrow down to one or two priority questions that you can design a test for.
-- What tasks would a user participant perform that would best inform you about your questions?
-- Write out a script that you would use to conduct testing.
+- What main questions about your tool do you have? -- try to narrow down to one or two priority questions that you can design a test for.  
+- What tasks would a user participant perform that would best inform you about your questions?  
+- Write out a script that you would use to conduct testing.  
 
 _See more advice about writing usability testing scripts here:_    
 
-- [Steve Krug's usability testing script template](http://sensible.com/downloads/test-script-web.pdf) from @Krug2010.
-- [Gitlab's advice about usability testing script](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/) from @Gitlab.
-- [Gitlab's usability testing template script](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit)
+- [Steve Krug's usability testing script template](http://sensible.com/downloads/test-script-web.pdf) from @Krug2010.  
+- [Gitlab's advice about usability testing script](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/) from @Gitlab.  
+- [Gitlab's usability testing template script](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit).  
+  
 
-[Step 2) Find user participants](https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants).
-
-Who is interested in available for being your test subjects? You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around.
-
-[Step 3) Lead your test](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)
+[Step 2) Lead your test](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)
 
 - Pilot your test: before you use your test on a potential user, borrow a colleague or other internal person to run through your plan and script for a rehearsal.
 - Conduct the tests!
@@ -88,16 +83,20 @@ A very important point from @Csontos2019:
 
 You can use [these prompts](https://sensible.com/downloads/things-a-therapist-would-say.pdf) from @Krug2010 to help you know what to say to help create a non-judgmental atmosphere for testing.
 
+[Step 3) Find user participants](https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants).
+
+Who is interested in available for being your test subjects? You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around. You could also try advertising your need for participants through Twitter, LinkedIn or some other social media platform.
+
 [Step 4) Analyze & Report](https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report)
 Sit down with your notes and recordings, look for patterns.
 
-_More reading on usability testing:_.
+_More reading on usability testing:_
 
 - [How to run moderated usability testing](https://www.hotjar.com/usability-testing/process-examples/) @Hotjar2020.
 - [Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/) @Moran2019.
 - See @Krug2010 's list of [downloadable usability resources](https://sensible.com/download-files/).
-- For even more reading, you could buy [this book by @Krug2010](https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO).
 - See this [case study](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002554) for a user designer conducting user research on a bioinformatics tool [@Pavelin2012].
+- For even more reading, you could buy [this book by @Krug2010](https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO).
 
 ## Exercise 1: Create a plan for user feedback for your tool
 

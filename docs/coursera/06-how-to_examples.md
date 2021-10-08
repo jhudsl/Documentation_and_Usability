@@ -13,7 +13,7 @@ output: html_document
 
 While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it. How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!
 
-How-to examples are like recipes in a cookbook. We can generally assume your user has found the kitchen, now give them various sets of steps to create something awesome!
+How-to examples are like recipes in a cookbook. We can generally assume your user has found the kitchen, now give them sets of steps to create something awesome!
 
 <img src="resources/images/06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_21.png" title="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie." alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie."  />
 ^[For all cartoons:     
@@ -23,7 +23,7 @@ Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!
 
-Note: In some contexts, like Bioconductor, how-to examples are called vignettes -- we consider these to be the same.
+Note -- In some contexts, like Bioconductor, how-to examples are called vignettes -- we consider these to be the same.
 
 ## Characteristics of useful how-to examples
 
@@ -33,9 +33,9 @@ Users won't go through examples that demonstrate analyses they aren't interested
 
 ### Every step is specifically given
 
-Examples should explicitly give every step needed to reproduce your result. Keep a special look out for steps you complete that you may take for granted that your user would know. For example, if your user needs to change to a specific directory to run a command, don't assume that they will know that for sure.
+Examples should explicitly give every step needed to reproduce your result. Keep a special look out for steps you complete that you may take for granted that your user would know. For example, **if your user needs to change to a specific directory to run a command, don't assume that they will know that for sure.**
 
-For command line based tools, provided the exact code your user needs to run. Ideally this example can be provided as a notebook or script so your user can run it directly.
+For command line based tools, provide the exact code your user needs to run. Ideally this example can be provided as a notebook or script so your user can run it directly.
 
 In the case of a GUI, provide screenshots or a video tutorial.
 
@@ -47,13 +47,13 @@ Make sure your example adequately introduces the example: what are the measureme
 
 ### Example code is about the lesson not the output per se
 
-Example code is not the same as backend code. Although example code should also be functional and work, its primarily meant to teach, so even more so than usual code in examples should always prioritize clarity over cleverness or even brevity.
+Example code is not the same as backend code. Although example code should also be functional and work, its primarily meant to teach. Even more so than usual, code in examples should always prioritize clarity over cleverness or even brevity.
 
 <img src="resources/images/06-how-to_examples_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_128.png" title="Example code is not the same as backend code it is primarily meant to teach!" alt="Example code is not the same as backend code it is primarily meant to teach!"  />
 
 This means your examples should include the most easily readable code you can muster -- this often means extra workshopping to reach peak clarity. Give commentary at each and every step -- don't assume your users understand your typical conventions. Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
 
-_Related to this, your examples' code should model best practices_
+_Related to this, your examples' code should model best practices._
 
 Pretend you are the model user of your tool -- how should your users interact with your tool?
 This means keeping in mind the important basics:
@@ -72,11 +72,11 @@ For more tips on reproducible code:
 
 ### Try to stick to your own package and its dependencies
 
-Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary. If it is absolutely necessary, should this package be something added as a dependency -- can you have it automatically installed for the user if it is critical to common uses?
+Your user already made it through the installation process, try not to make them add more installation steps to follow your examples unless absolutely necessary. If it is absolutely necessary, should a package be added as a dependency -- can you have it automatically installed for the user if it is critical to common uses?
 
 ### Give tips on how to tailor your examples
 
-If your users follow along with your examples successfully, next they will probably to tailor your examples to their own questions and data. Whether you intend it or not, your examples will probably be used as template framework for your user's analysis. Knowing this, try to highlight places that users will absolutely need to change the code and other places that they might want to personalize it. Providing them with more resources about options and possibilities is always nice too.
+If your users follow along with your examples successfully, next they will probably need to tailor your examples to their own questions and data. Whether you intend it or not, your examples will probably be used as template framework for your user's analysis. Knowing this, try to highlight places that users will absolutely need to change the code and other places where they might want to personalize it. Providing them with more resources about options and possibilities is always nice too.
 
 **To recap:**
 
@@ -87,7 +87,7 @@ If your users follow along with your examples successfully, next they will proba
 [DESeq2 has excellent vignettes](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)!
 @Love2014 walk through the most common use cases of DESeq2, providing data and explaining the set up. They efficiently move into other scenarios, explaining common questions and areas of nuance along the way.
 
-[QIIME2 also has an extensive set examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
+[QIIME2 also has an extensive set of examples](https://docs.qiime2.org/2021.2/tutorials/pd-mice/)!
 @Bolyen2019 give a great set up and hypothesis to a question with a given dataset and walk through each step to answer that question. At the very end of the example they also provide the end result for comparison!
 
 ## Exercise: Create your own how-to examples!
@@ -98,9 +98,9 @@ If your tool's destination is Bioconductor or Galaxy, see our specific guidance 
 
 _For Bioconductor vignettes_:
 
-- [Our Bioconductor specific how-to example templates](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/how_to_examples.md)
-- [Bioconductor's own vignette guidance](https://www.bioconductor.org/developers/package-guidelines/#Vignettes)
-- @Oles2021 have [guidance on writing RMarkdown Vignettes](https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html)
+- [Our Bioconductor specific how-to example templates]( https://jhudatascience.org/template-documentation/bioconductor_guides/bioconductor_vignette_template.Rmd).  
+- [Bioconductor's own vignette guidance](https://www.bioconductor.org/developers/package-guidelines/#Vignettes).  
+- [Guidance on writing RMarkdown Vignettes](https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html) by @Oles2021.  
 
 _For Galaxy vignettes_:
 

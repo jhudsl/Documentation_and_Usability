@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 9 Obtaining user feedback | about</title>
+  <title>Chapter 9 Obtaining user feedback | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 9 Obtaining user feedback | about" />
+  <meta property="og:title" content="Chapter 9 Obtaining user feedback | Documentation and Usability" />
   <meta property="og:type" content="book" />
   
   
@@ -16,25 +16,25 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 9 Obtaining user feedback | about" />
+  <meta name="twitter:title" content="Chapter 9 Obtaining user feedback | Documentation and Usability" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
 
-<meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-09-08" />
+<meta name="date" content="2021-10-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
-  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="creating-clarifying-code-comments.html"/>
 <link rel="next" href="other-helpful-features.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +50,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -70,7 +94,7 @@
 <a href="https://www.itcrtraining.org/"><img src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
@@ -96,12 +120,12 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#major-components-of-good-documentation"><i class="fa fa-check"></i><b>4.1</b> Major components of good documentation</a>
 <ul>
-<li class="chapter" data-level="4.1.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>4.1.1</b> The ‘Why’ <img src="resources/images/why.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>4.1.2</b> Getting started <img src="resources/images/getting-started.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>4.1.3</b> How-to examples <img src="resources/images/how-to.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>4.1.4</b> Reference guides <img src="resources/images/ref-guide.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>4.1.5</b> Code comments <img src="resources/images/comment.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.6" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#user-feedback-mechanism"><i class="fa fa-check"></i><b>4.1.6</b> User feedback mechanism <img src="resources/images/user-feedback.png" width="8%"></a></li>
+<li class="chapter" data-level="4.1.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>4.1.1</b> The ‘Why’</a></li>
+<li class="chapter" data-level="4.1.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>4.1.2</b> Getting started</a></li>
+<li class="chapter" data-level="4.1.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>4.1.3</b> How-to examples</a></li>
+<li class="chapter" data-level="4.1.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>4.1.4</b> Reference guides</a></li>
+<li class="chapter" data-level="4.1.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>4.1.5</b> Code comments</a></li>
+<li class="chapter" data-level="4.1.6" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#user-feedback-mechanism"><i class="fa fa-check"></i><b>4.1.6</b> User feedback mechanism</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-documentation-templates-for-this-course"><i class="fa fa-check"></i><b>4.2</b> The documentation templates for this course</a>
 <ul>
@@ -193,12 +217,13 @@
 <li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
 <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
 <a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
 <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
-<p style="text-align:center;"> <button type="button"> <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Feedback Form </a></p> </button> </a> </p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/ITN_arrow.png" style=" width: 10%" ></span></div></p>
 </ul>
 
       </nav>
@@ -208,7 +233,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">about</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Documentation and Usability</a>
           </h1>
         </div>
 
@@ -220,23 +245,21 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
   <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
   <!--<script src="assets/hideOutput.js"></script>-->
-  <link href="assets/style.css" rel="stylesheet">
+  <link href="assets/style_ITN.css" rel="stylesheet">
 </head>
-        
 
 
 <div class="hero-image-container"> 
-  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/Cancer_Research_Leadership/main/images/main_image.png">
+  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/assets/itcr_main_image.png">
 </div>
+
 <div id="obtaining-user-feedback" class="section level1" number="9">
 <h1><span class="header-section-number">Chapter 9</span> Obtaining user feedback</h1>
 <p><img src="resources/images/09-user_feedback_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_60.png" title="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."  /></p>
 <div id="the-goal-of-user-feedback" class="section level2" number="9.1">
 <h2><span class="header-section-number">9.1</span> The goal of user feedback</h2>
-<p>How do you know if your code is working?
-You test it and get feedback!
-Similarly, how do you know if your tool is working for your user?
-Ask them for feedback!</p>
+<p>How do you know if your code is working? You test it and get feedback!
+Similarly, how do you know if your tool is working for your user? Ask them for feedback!</p>
 <p><img src="resources/images/09-user_feedback_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"  />
 <a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
 </div>
@@ -254,7 +277,7 @@ Ask them for feedback!</p>
 <p>Providing a method of contact to your users doesn’t mean you need to give users your personal email. In fact, that is probably not the most practical way to keep user queries organized.</p>
 <p><em>Example contact method ideas</em>:</p>
 <ul>
-<li>Have a link to a form for users to submit (Google forms are free).<br />
+<li>Have a link to a form for users to submit (<a href="https://www.google.com/forms/about/">Google forms</a> are free).<br />
 </li>
 <li>Direct users to file a <a href="https://docs.github.com/en/github/managing-your-work-on-github/about-issues">GitHub issue</a>.<br />
 </li>
@@ -267,7 +290,7 @@ Ask them for feedback!</p>
 <div id="interviews-and-usability-testing" class="section level3" number="9.2.2">
 <h3><span class="header-section-number">9.2.2</span> Interviews and usability testing</h3>
 <p>In whatever contact method you settle on, give your users a way to indicate if they are willing to chat with you or do testing to provide even more feedback.</p>
-<p>Depending on your time and resources you can do a lot with usability testing. <a href="https://uxstudioteam.com/ux-blog/usability-testing/">This excellent article</a> by <span class="citation">Csontos (<a href="about-the-authors.html#ref-Csontos2019" role="doc-biblioref">2019</a>)</span> takes us through how to conduct usability testing which we will echo the main points of here.</p>
+<p>Depending on your time and resources you can do a lot with usability testing. <a href="https://uxstudioteam.com/ux-blog/usability-testing/">This excellent article</a> by <span class="citation">Csontos (<a href="#ref-Csontos2019" role="doc-biblioref">2019</a>)</span> takes us through how to conduct usability testing which we will echo the main points of here.</p>
 <p>What to use usability testing for:</p>
 <blockquote>
 <ul>
@@ -277,40 +300,44 @@ Ask them for feedback!</p>
 <li>Validating the value proposition of an app or website – do your potential customers understand it?</li>
 </ul>
 </blockquote>
-<p><em>To summarize the steps laid out by <span class="citation">Csontos (<a href="about-the-authors.html#ref-Csontos2019" role="doc-biblioref">2019</a>)</span> for conducting usability research</em>:</p>
+<p><em>To summarize the steps laid out by <span class="citation">Csontos (<a href="#ref-Csontos2019" role="doc-biblioref">2019</a>)</span> for conducting usability research</em>:</p>
 <p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_1_Plan_your_study">Step 1) Plan out your study</a> - clarify what you want to learn and write a plan and script.</p>
 <ul>
-<li>What main questions about your tool do you have? – try to narrow down to one or two priority questions that you can design a test for.</li>
-<li>What tasks would a user participant perform that would best inform you about your questions?</li>
+<li>What main questions about your tool do you have? – try to narrow down to one or two priority questions that you can design a test for.<br />
+</li>
+<li>What tasks would a user participant perform that would best inform you about your questions?<br />
+</li>
 <li>Write out a script that you would use to conduct testing.</li>
 </ul>
 <p><em>See more advice about writing usability testing scripts here:</em></p>
 <ul>
-<li><a href="http://sensible.com/downloads/test-script-web.pdf">Steve Krug’s usability testing script template</a> from <span class="citation">Krug (<a href="about-the-authors.html#ref-Krug2010" role="doc-biblioref">2010</a>)</span>.</li>
-<li><a href="https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/">Gitlab’s advice about usability testing script</a> from <span class="citation">GitLab (<a href="about-the-authors.html#ref-Gitlab" role="doc-biblioref">n.d.</a>)</span>.</li>
-<li><a href="https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit">Gitlab’s usability testing template script</a></li>
+<li><a href="http://sensible.com/downloads/test-script-web.pdf">Steve Krug’s usability testing script template</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span>.<br />
+</li>
+<li><a href="https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/">Gitlab’s advice about usability testing script</a> from <span class="citation">GitLab (<a href="#ref-Gitlab" role="doc-biblioref">n.d.</a>)</span>.<br />
+</li>
+<li><a href="https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit">Gitlab’s usability testing template script</a>.</li>
 </ul>
-<p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants">Step 2) Find user participants</a>.</p>
-<p>Who is interested in available for being your test subjects? You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around.</p>
-<p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test">Step 3) Lead your test</a></p>
+<p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test">Step 2) Lead your test</a></p>
 <ul>
 <li>Pilot your test: before you use your test on a potential user, borrow a colleague or other internal person to run through your plan and script for a rehearsal.</li>
 <li>Conduct the tests!</li>
 <li>If you are able to record the testing sessions, make sure to ask the participant’s permission.</li>
-<li><a href="http://sensible.com/downloads/checklists.pdf">Use this checklist</a> from <span class="citation">Krug (<a href="about-the-authors.html#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to check if you are prepared!</li>
+<li><a href="http://sensible.com/downloads/checklists.pdf">Use this checklist</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to check if you are prepared!</li>
 </ul>
-<p>A very important point from <span class="citation">Csontos (<a href="about-the-authors.html#ref-Csontos2019" role="doc-biblioref">2019</a>)</span>:</p>
+<p>A very important point from <span class="citation">Csontos (<a href="#ref-Csontos2019" role="doc-biblioref">2019</a>)</span>:</p>
 <p><img src="resources/images/09-user_feedback_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_5.png" title="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."  /></p>
-<p>You can use <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">these prompts</a> from <span class="citation">Krug (<a href="about-the-authors.html#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to help you know what to say to help create a non-judgmental atmosphere for testing.</p>
+<p>You can use <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">these prompts</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to help you know what to say to help create a non-judgmental atmosphere for testing.</p>
+<p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants">Step 3) Find user participants</a>.</p>
+<p>Who is interested in available for being your test subjects? You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around. You could also try advertising your need for participants through Twitter, LinkedIn or some other social media platform.</p>
 <p><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report">Step 4) Analyze &amp; Report</a>
 Sit down with your notes and recordings, look for patterns.</p>
-<p><em>More reading on usability testing:</em>.</p>
+<p><em>More reading on usability testing:</em></p>
 <ul>
-<li><a href="https://www.hotjar.com/usability-testing/process-examples/">How to run moderated usability testing</a> <span class="citation">HotJar (<a href="about-the-authors.html#ref-Hotjar2020" role="doc-biblioref">2019</a>)</span>.</li>
-<li><a href="https://www.nngroup.com/articles/usability-testing-101/">Usability Testing 101</a> <span class="citation">Moran (<a href="about-the-authors.html#ref-Moran2019" role="doc-biblioref">2019</a>)</span>.</li>
-<li>See <span class="citation">Krug (<a href="about-the-authors.html#ref-Krug2010" role="doc-biblioref">2010</a>)</span> ’s list of <a href="https://sensible.com/download-files/">downloadable usability resources</a>.</li>
-<li>For even more reading, you could buy <span class="citation">(this book by <a href="about-the-authors.html#ref-Krug2010" role="doc-biblioref">Krug 2010</a>)</span>(<a href="https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO" class="uri">https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO</a>).</li>
-<li>See this <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002554">case study</a> for a user designer conducting user research on a bioinformatics tool <span class="citation">(<a href="about-the-authors.html#ref-Pavelin2012" role="doc-biblioref">Pavelin et al. 2012</a>)</span>.</li>
+<li><a href="https://www.hotjar.com/usability-testing/process-examples/">How to run moderated usability testing</a> <span class="citation">HotJar (<a href="#ref-Hotjar2020" role="doc-biblioref">2019</a>)</span>.</li>
+<li><a href="https://www.nngroup.com/articles/usability-testing-101/">Usability Testing 101</a> <span class="citation">Moran (<a href="#ref-Moran2019" role="doc-biblioref">2019</a>)</span>.</li>
+<li>See <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> ’s list of <a href="https://sensible.com/download-files/">downloadable usability resources</a>.</li>
+<li>See this <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002554">case study</a> for a user designer conducting user research on a bioinformatics tool <span class="citation">(<a href="#ref-Pavelin2012" role="doc-biblioref">Pavelin et al. 2012</a>)</span>.</li>
+<li>For even more reading, you could buy <span class="citation">(this book by <a href="#ref-Krug2010" role="doc-biblioref">Krug 2010</a>)</span>(<a href="https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO" class="uri">https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO</a>).</li>
 </ul>
 </div>
 </div>
@@ -320,8 +347,29 @@ Sit down with your notes and recordings, look for patterns.</p>
 </div>
 <div id="exercise-2-determine-a-plan-for-usability-testing" class="section level2" number="9.4">
 <h2><span class="header-section-number">9.4</span> Exercise 2: Determine a plan for usability testing</h2>
-<p>Go through <a href="https://uxstudioteam.com/ux-blog/usability-testing/">All You Need to Know to Run Successful Usability Testing</a> and construct a plan for usability testing following the steps we discussed above from the article <span class="citation">(<a href="about-the-authors.html#ref-Csontos2019" role="doc-biblioref">Csontos 2019</a>)</span>. Think about what in your tool you want to test and write a plan for it.</p>
+<p>Go through <a href="https://uxstudioteam.com/ux-blog/usability-testing/">All You Need to Know to Run Successful Usability Testing</a> and construct a plan for usability testing following the steps we discussed above from the article <span class="citation">(<a href="#ref-Csontos2019" role="doc-biblioref">Csontos 2019</a>)</span>. Think about what in your tool you want to test and write a plan for it.</p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Csontos2019" class="csl-entry">
+Csontos, Anna-Zsófia. 2019. <span>“All You Need to Know to Run Successful Usability Testing.”</span> <a href="https://uxstudioteam.com/ux-blog/usability-testing/">https://uxstudioteam.com/ux-blog/usability-testing/</a>.
+</div>
+<div id="ref-Gitlab" class="csl-entry">
+GitLab. n.d. <span>“Writing a Usability Testing Script.”</span> <a href="https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/">https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/</a>.
+</div>
+<div id="ref-Hotjar2020" class="csl-entry">
+HotJar. 2019. <span>“How to Run Moderated Usability Testing.”</span> <a href="https://www.hotjar.com/usability-testing/process-examples/">https://www.hotjar.com/usability-testing/process-examples/</a>.
+</div>
+<div id="ref-Krug2010" class="csl-entry">
+Krug, Steve. 2010. <span>“Rocket Surgery Made Easy:the Do-It-Yourself Guide to Finding and Fixing Usability Problems.”</span> <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">https://sensible.com/downloads/things-a-therapist-would-say.pdf</a>.
+</div>
+<div id="ref-Moran2019" class="csl-entry">
+Moran, Kate. 2019. <span>“Usability Testing 101.”</span> <a href="https://www.nngroup.com/articles/usability-testing-101/">https://www.nngroup.com/articles/usability-testing-101/</a>.
+</div>
+<div id="ref-Pavelin2012" class="csl-entry">
+Pavelin, Katrina, Jennifer A. Cham, Paula de Matos, Cath Brooksbank, Graham Cameron, and Christoph Steinbeck. 2012. <span>“Bioinformatics Meets User-Centred Design: A Perspective.”</span> Edited by Philip E. Bourne. <em><span>PLoS</span> Computational Biology</em> 8 (7): e1002554. <a href="https://doi.org/10.1371/journal.pcbi.1002554">https://doi.org/10.1371/journal.pcbi.1002554</a>.
 </div>
 </div>
 <div class="footnotes">
@@ -351,7 +399,6 @@ Emojis by OpenMoji License: CC BY-SA 4.0.<a href="obtaining-user-feedback.html#f
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -370,6 +417,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -390,6 +438,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }

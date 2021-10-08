@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 11 How to keep your documentation up to date | about</title>
+  <title>Chapter 11 How to keep your documentation up to date | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 11 How to keep your documentation up to date | about" />
+  <meta property="og:title" content="Chapter 11 How to keep your documentation up to date | Documentation and Usability" />
   <meta property="og:type" content="book" />
   
   
@@ -16,25 +16,25 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 11 How to keep your documentation up to date | about" />
+  <meta name="twitter:title" content="Chapter 11 How to keep your documentation up to date | Documentation and Usability" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
 
-<meta name="author" content="Candace Savonen" />
 
 
-<meta name="date" content="2021-09-08" />
+<meta name="date" content="2021-10-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
-  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="other-helpful-features.html"/>
 <link rel="next" href="about-the-authors.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +50,33 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -70,7 +94,7 @@
 <a href="https://www.itcrtraining.org/"><img src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
@@ -96,12 +120,12 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#major-components-of-good-documentation"><i class="fa fa-check"></i><b>4.1</b> Major components of good documentation</a>
 <ul>
-<li class="chapter" data-level="4.1.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>4.1.1</b> The ‘Why’ <img src="resources/images/why.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>4.1.2</b> Getting started <img src="resources/images/getting-started.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>4.1.3</b> How-to examples <img src="resources/images/how-to.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>4.1.4</b> Reference guides <img src="resources/images/ref-guide.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>4.1.5</b> Code comments <img src="resources/images/comment.png" width="8%"></a></li>
-<li class="chapter" data-level="4.1.6" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#user-feedback-mechanism"><i class="fa fa-check"></i><b>4.1.6</b> User feedback mechanism <img src="resources/images/user-feedback.png" width="8%"></a></li>
+<li class="chapter" data-level="4.1.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>4.1.1</b> The ‘Why’</a></li>
+<li class="chapter" data-level="4.1.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>4.1.2</b> Getting started</a></li>
+<li class="chapter" data-level="4.1.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>4.1.3</b> How-to examples</a></li>
+<li class="chapter" data-level="4.1.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>4.1.4</b> Reference guides</a></li>
+<li class="chapter" data-level="4.1.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>4.1.5</b> Code comments</a></li>
+<li class="chapter" data-level="4.1.6" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#user-feedback-mechanism"><i class="fa fa-check"></i><b>4.1.6</b> User feedback mechanism</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-documentation-templates-for-this-course"><i class="fa fa-check"></i><b>4.2</b> The documentation templates for this course</a>
 <ul>
@@ -193,12 +217,13 @@
 <li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
 <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
 <a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
 <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
-<p style="text-align:center;"> <button type="button"> <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Feedback Form </a></p> </button> </a> </p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/ITN_arrow.png" style=" width: 10%" ></span></div></p>
 </ul>
 
       </nav>
@@ -208,7 +233,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">about</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Documentation and Usability</a>
           </h1>
         </div>
 
@@ -220,61 +245,71 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
   <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
   <!--<script src="assets/hideOutput.js"></script>-->
-  <link href="assets/style.css" rel="stylesheet">
+  <link href="assets/style_ITN.css" rel="stylesheet">
 </head>
-        
 
 
 <div class="hero-image-container"> 
-  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/Cancer_Research_Leadership/main/images/main_image.png">
+  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/assets/itcr_main_image.png">
 </div>
+
 <div id="how-to-keep-your-documentation-up-to-date" class="section level1" number="11">
 <h1><span class="header-section-number">Chapter 11</span> How to keep your documentation up to date</h1>
 <p><img src="resources/images/11-documentation-maintenance_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_0.png" title="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date."  /></p>
 <div id="the-goal-of-documentation-maintenance" class="section level2" number="11.1">
 <h2><span class="header-section-number">11.1</span> The goal of documentation maintenance</h2>
-<p>So you’ve been making improvements or otherwise have been updating your software tool! That’s excellent and you deserve a big kudos for continuing maintenance on your tool.</p>
-<p>But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update. As a user, the only thing worse than a tool having no documentation at all is having documentation that is out of date or otherwise incorrect.</p>
+<p>Perhaps you’ve been making improvements or otherwise updating your software tool. That’s excellent and you deserve a big kudos for continuing maintenance on your tool!</p>
+<p>But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update. As a user, the only thing worse than having a tool with no documentation at all is having a tool with documentation that is out of date or otherwise incorrect.</p>
 <p><img src="resources/images/11-documentation-maintenance_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_5.png" title="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button."  /></p>
 <p>If documentation updates aren’t prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.</p>
 </div>
 <div id="keep-your-documentation-in-one-version-controlled-place" class="section level2" number="11.2">
 <h2><span class="header-section-number">11.2</span> Keep your documentation in one, version-controlled place</h2>
-<p>Presumably you have some sort of process for version controlling your tool updates (we assume Github but could be other services). Ideally, your documentation should be version controlled similarly and, if appropriate, in the same place.
+<p>Presumably you have some sort of process for version controlling your tool updates (we assume GitHub but could be other services). Ideally, your documentation should be version controlled similarly and, if appropriate, in the same place.
 The easier you make it on yourself to update your documentation, the more likely future you will be at updating it successfully! It’s worth spending time thinking about your own development process and how you can make it easier on yourself and your team for longer-term better maintained documentation.</p>
 </div>
 <div id="do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed" class="section level2" number="11.3">
 <h2><span class="header-section-number">11.3</span> Do not consider a tool fix done before its relevant documentation update is also completed</h2>
-<p>However you track your tasks, also track your documentation issues and always pair a software fix with a documentation fix – or at least check if it affects anything user-facing. To help you remind you of this, you may want to use an <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">issue template</a> (if you use Github) and make sure that issue template includes a reminder to update documentation.</p>
+<p>However you track your tasks, also track your documentation issues and always pair a software fix with a documentation fix – or at least check if it affects anything user-facing. To help you remind you of this, you may want to use an <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">issue template</a> (if you use GitHub) and make sure that issue template includes a reminder to update documentation.</p>
 </div>
 <div id="make-sure-links-work" class="section level2" number="11.4">
 <h2><span class="header-section-number">11.4</span> Make sure links work</h2>
 <p>A very simple but all too common problem with out of date documentation is broken links!</p>
 <p><img src="resources/images/11-documentation-maintenance_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_37.png" title="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy."  /></p>
-<p>You can catch these broken links this manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway! There are Github actions and other automated tools that can check your URLs for you. Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!</p>
+<p>You can catch these broken links by manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway! There are GitHub actions and other automated tools that can check your URLs for you. Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!</p>
 <p>Here’s some options for automated URL-checking:</p>
 <ul>
-<li><a href="https://github.com/marketplace/actions/urlchecker-action">Github action: urlchecker-action</a></li>
-<li><a href="https://github.com/marketplace/actions/url-checker">Github action: URL checker</a></li>
-<li><a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">6 Tools to Find Broken Links on Your Website</a> <span class="citation">(<a href="about-the-authors.html#ref-OutlookStudios2020" role="doc-biblioref">Studios 2020</a>)</span>.</li>
+<li><a href="https://github.com/marketplace/actions/urlchecker-action">GitHub action: urlchecker-action</a>.<br />
+</li>
+<li><a href="https://github.com/marketplace/actions/url-checker">GitHub action: URL checker</a>.<br />
+</li>
+<li><a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">6 Tools to Find Broken Links on Your Website</a> <span class="citation">(<a href="#ref-OutlookStudios2020" role="doc-biblioref">Studios 2020</a>)</span>.</li>
 </ul>
 </div>
 <div id="exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager" class="section level2" number="11.5">
 <h2><span class="header-section-number">11.5</span> Exercise 1: Add a reminder for documentation updates to your task manager</h2>
 <ul>
-<li><p>If you use Github, add an <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">issue template</a> that has a reminder to update documentation.</p></li>
-<li><p>If you use something else for task management, look for some other way to remind yourself (and your fellow developers on the project) to keep documentation update for each change.</p></li>
+<li>If you use GitHub, add an <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">issue template</a> that has a reminder to update documentation.<br />
+</li>
+<li>If you use something else for task management, look for some other way to remind yourself (and your fellow developers on the project) to keep documentation up-to-date for each change.</li>
 </ul>
 </div>
 <div id="exercise-2-implement-a-url-checker" class="section level2" number="11.6">
 <h2><span class="header-section-number">11.6</span> Exercise 2: Implement a URL checker</h2>
 <ul>
-<li><p>If you use Github for your documentation, add a url checking Github action to your repository.
-We use a url-checker Github action for developing this course!
-You can see <a href="https://github.com/jhudsl/Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml">ours here for an example</a>.</p></li>
-<li><p>If you use something else for version control, look into URL checkers that you can easily implement into your development process.</p></li>
+<li>If you use GitHub for your documentation, add a url checking GitHub action to your repository.
+We used a url-checker GitHub action for developing this course!
+You can see <a href="https://github.com/jhudsl/Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml">ours here for an example</a>.<br />
+</li>
+<li>If you use something else for version control, look into URL checkers that you can easily implement into your development process.</li>
 </ul>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-OutlookStudios2020" class="csl-entry">
+Studios, Outlook. 2020. <span>“6 Tools to Find Broken Links on Your Website.”</span> <a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/</a>.
 </div>
 </div>
 <hr>
@@ -295,7 +330,6 @@ You can see <a href="https://github.com/jhudsl/Documentation_and_Usability/blob/
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -314,6 +348,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -334,6 +369,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }
