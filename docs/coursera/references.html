@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 8 Creating clarifying code comments | Documentation and Usability</title>
+  <title>References | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 8 Creating clarifying code comments | Documentation and Usability" />
+  <meta property="og:title" content="References | Documentation and Usability" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 8 Creating clarifying code comments | Documentation and Usability" />
+  <meta name="twitter:title" content="References | Documentation and Usability" />
   
   <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="creating-handy-reference-guides.html"/>
-<link rel="next" href="obtaining-user-feedback.html"/>
+<link rel="prev" href="about-the-authors.html"/>
+
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.5.0/jquery-3.5.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -253,100 +253,171 @@ div.csl-indent {
   <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/assets/itcr_main_image.png">
 </div>
 
-<div id="creating-clarifying-code-comments" class="section level1" number="8">
-<h1><span class="header-section-number">Chapter 8</span> Creating clarifying code comments</h1>
-<p><img src="resources/images/08-code_comments_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png" title="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments." alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."  /></p>
-<div id="the-goal-of-a-code-documentation" class="section level2" number="8.1">
-<h2><span class="header-section-number">8.1</span> The goal of a code documentation</h2>
-<p>Code documentation goes beyond your user. It’s a part of writing good code and helps your collaborators and ‘Future You’!</p>
-<p>Most users will probably not look at your code directly – those who do are probably:</p>
-<ul>
-<li>Quite desperately troubleshooting something and were not able to find answers elsewhere.</li>
-<li>Are “power users” who are already pretty invested in your tool and want to get more out of it – may be helpful contributors too!</li>
-</ul>
-<p>Good code comments are a part of writing good, readable code! Your code is more likely to stand the test of time for longer if others, including yourself in the future, can see what’s happening enough to trust it themselves. This will encourage others to use your code and help you maintain it!</p>
-<p>‘Current You’ who is writing your code may know what is happening but ‘Future You’ will have no idea what ‘Current You’ was thinking <span class="citation">(<a href="#ref-Spielman" role="doc-biblioref">Spielman, n.d.</a>)</span>:</p>
-<blockquote>
-<p>‘Future You’ comes into existence about one second after you write code, and has no idea what on earth Past You was thinking. Help out ‘Future You’ by adding lots of comments! ‘Future You’ next week thinks Today You is an idiot, and the only way you can convince ‘Future You’ that Today You is reasonably competent is by adding comments in your code explaining why Today You is actually not so bad.</p>
-</blockquote>
-<p>Your code and your understanding of it will fade soon after you write it, leaving your hard work to deprecate. Code that works is a start, but <strong>readable</strong> AND working code is best!</p>
-<p>Comments can help clarify at points where your code might need further explanation. The act of writing them can also help you think out your thought process and perhaps identify a better solution to the odd parts of your code.</p>
-</div>
-<div id="characteristics-of-clarifying-code-comments" class="section level2" number="8.2">
-<h2><span class="header-section-number">8.2</span> Characteristics of clarifying code comments</h2>
-<p>What kinds of comments are most helpful for ‘Future You’ and others?</p>
-<p><span class="citation">Spertus (<a href="#ref-Spertus2021" role="doc-biblioref">n.d.</a>)</span> lays out “Rules” for writing helpful code comments <a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">in this article</a> which we recommend you read.</p>
-<blockquote>
-<p>Rule 1: Comments should not duplicate the code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 2: Good comments do not excuse unclear code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 3: If you can’t write a clear comment, there may be a problem with the code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 4: Comments should dispel confusion, not cause it.</p>
-</blockquote>
-<blockquote>
-<p>Rule 5: Explain unidiomatic code in comments.</p>
-</blockquote>
-<blockquote>
-<p>Rule 6: Provide links to the original source of copied code.</p>
-</blockquote>
-<blockquote>
-<p>Rule 7: Include links to external references where they will be most helpful.</p>
-</blockquote>
-<blockquote>
-<p>Rule 8: Add comments when fixing bugs.</p>
-</blockquote>
-<blockquote>
-<p>Rule 9: Use comments to mark incomplete implementations.</p>
-</blockquote>
-<p>Here are more resources about good code comments that have plenty of great discussions about how to up your code comment game.</p>
-<ul>
-<li><a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">Best Practices for Writing Code Comments</a> by <span class="citation">Spertus (<a href="#ref-Spertus2021" role="doc-biblioref">n.d.</a>)</span>.</li>
-<li><a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">What Makes a Good Code Comment?</a> by <span class="citation">Cronin (<a href="#ref-Cronin2019" role="doc-biblioref">2019</a>)</span>.<br />
-</li>
-<li><a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">The Value of Code Documentation</a> by <span class="citation">Meza (<a href="#ref-Meza2018" role="doc-biblioref">2018</a>)</span>.<br />
-</li>
-<li><a href="http://alyssafrazee.com/2014/04/20/rdocs.html">Some internet wisdom on R documentation</a> by <span class="citation">Frazee (<a href="#ref-Frazee2014" role="doc-biblioref">2014</a>)</span>.<br />
-</li>
-<li><a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">How to Comment Your Code Like a Pro: Best Practices and Good Habits</a> by <span class="citation">Keeto (<a href="#ref-Keeton2019" role="doc-biblioref">2019</a>)</span>.</li>
-</ul>
-<p><strong>In summary:</strong></p>
-<p><img src="resources/images/08-code_comments_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png" title="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process." alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."  /></p>
-</div>
-<div id="exercise-evaluate-your-own-codes-comments" class="section level2" number="8.3">
-<h2><span class="header-section-number">8.3</span> Exercise: Evaluate your own code’s comments</h2>
-<p>Take a look through some of your tool’s code and its comments. Are there places it could be clearer? Take some time to think about your coding process and how it could improve. <a href="https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/">Code review</a> is also an excellent way to improve code clarity and quality <span class="citation">(<a href="#ref-Bodner2018" role="doc-biblioref">Bodner 2018</a>)</span>!</p>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
 
-</div>
-</div>
-<h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-Bodner2018" class="csl-entry">
+<div class="csl-entry">
+Afgan, Enis, Dannon Baker, Bérénice Batut, Marius van den Beek, Dave Bouvier, Martin Čech, John Chilton, et al. 2018. <span>“The Galaxy Platform for Accessible, Reproducible and Collaborative Biomedical Analyses: 2018 Update.”</span> <em>Nucleic Acids Research</em> 46 (W1): W537–44. <a href="https://doi.org/10.1093/nar/gky379">https://doi.org/10.1093/nar/gky379</a>.
+</div>
+<div class="csl-entry">
+Alexakis, Alex. n.d. <span>“You’re Not Your User.”</span> <a href="https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8">https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8</a>.
+</div>
+<div class="csl-entry">
+Andrzej Oleś, Wolfgang Huber, and Martin Morgan. 2021. <span>“Authoring r Markdown Vignettes.”</span> <a href="https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html">https://bioconductor.org/packages/devel/bioc/vignettes/BiocStyle/inst/doc/AuthoringRmdVignettes.html</a>.
+</div>
+<div class="csl-entry">
+Babich, Nick. 2019. <span>“The 4 Golden Rules of UI Design.”</span> <a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/</a>.
+</div>
+<div class="csl-entry">
+———. n.d. <span>“F-Shaped Pattern for Reading Content.”</span> <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394</a>.
+</div>
+<div class="csl-entry">
 Bodner, Herbet. 2018. <span>“10 Reasons Why Code Reviews Make Better Code and Better Teams.”</span> <a href="https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/">https://simpleprogrammer.com/why-code-reviews-make-better-code-teams/</a>.
 </div>
-<div id="ref-Cronin2019" class="csl-entry">
+<div class="csl-entry">
+Bolchini, Davide, Anthony Finkelstein, Vito Perrone, and Sylvia Nagl. 2008. <span>“Better Bioinformatics Through Usability Analysis.”</span> <em>Bioinformatics</em> 25 (3): 406–12. <a href="https://doi.org/10.1093/bioinformatics/btn633">https://doi.org/10.1093/bioinformatics/btn633</a>.
+</div>
+<div class="csl-entry">
+Bolyen, Evan, Jai Ram Rideout, Matthew R. Dillon, Nicholas A. Bokulich, Christian C. Abnet, Gabriel A. Al-Ghalith, Harriet Alexander, et al. 2019. <span>“Reproducible, Interactive, Scalable and Extensible Microbiome Data Science Using <span>QIIME</span> 2.”</span> <em>Nature Biotechnology</em> 37 (8): 852–57. <a href="https://doi.org/10.1038/s41587-019-0209-9">https://doi.org/10.1038/s41587-019-0209-9</a>.
+</div>
+<div class="csl-entry">
+Budd, Aidan, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, Jeremy Goecks, Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, and Niklas Blomberg. 2015. <span>“A Quick Guide for Building a Successful Bioinformatics Community.”</span> Edited by Amarda Shehu. <em><span>PLOS</span> Computational Biology</em> 11 (2): e1003972. <a href="https://doi.org/10.1371/journal.pcbi.1003972">https://doi.org/10.1371/journal.pcbi.1003972</a>.
+</div>
+<div class="csl-entry">
 Cronin, Mike. 2019. <span>“What Makes a Good Code Comment?”</span> <a href="https://itnext.io/what-makes-a-good-code-comment-5267debd2c24">https://itnext.io/what-makes-a-good-code-comment-5267debd2c24</a>.
 </div>
-<div id="ref-Frazee2014" class="csl-entry">
+<div class="csl-entry">
+Csontos, Anna-Zsófia. 2019. <span>“All You Need to Know to Run Successful Usability Testing.”</span> <a href="https://uxstudioteam.com/ux-blog/usability-testing/">https://uxstudioteam.com/ux-blog/usability-testing/</a>.
+</div>
+<div class="csl-entry">
+Duck, Geraint, Goran Nenadic, Michele Filannino, Andy Brass, David L. Robertson, and Robert Stevens. 2016. <span>“A Survey of Bioinformatics Database and Software Usage Through Mining the Literature.”</span> Edited by Shoba Ranganathan. <em><span>PLOS</span> <span>ONE</span></em> 11 (6): e0157989. <a href="https://doi.org/10.1371/journal.pone.0157989">https://doi.org/10.1371/journal.pone.0157989</a>.
+</div>
+<div class="csl-entry">
 Frazee, Alyssa. 2014. <span>“Some Internet Wisdom on r Documentation.”</span> <a href="http://alyssafrazee.com/2014/04/20/rdocs.html">http://alyssafrazee.com/2014/04/20/rdocs.html</a>.
 </div>
-<div id="ref-Keeton2019" class="csl-entry">
+<div class="csl-entry">
+GitLab. n.d. <span>“Writing a Usability Testing Script.”</span> <a href="https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/">https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/</a>.
+</div>
+<div class="csl-entry">
+Herothemes. 2020. <span>“8 Best Knowledge Base Software Compared (Pros &amp; Cons).”</span> <a href="https://herothemes.com/blog/best-knowledge-base-software/">https://herothemes.com/blog/best-knowledge-base-software/</a>.
+</div>
+<div class="csl-entry">
+HotJar. 2019. <span>“How to Run Moderated Usability Testing.”</span> <a href="https://www.hotjar.com/usability-testing/process-examples/">https://www.hotjar.com/usability-testing/process-examples/</a>.
+</div>
+<div class="csl-entry">
 Keeto, B. J. 2019. <span>“How to Comment Your Code Like a Pro: Best Practices and Good Habits.”</span> <a href="https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits">https://www.elegantthemes.com/blog/wordpress/how-to-comment-your-code-like-a-pro-best-practices-and-good-habits</a>.
 </div>
-<div id="ref-Meza2018" class="csl-entry">
+<div class="csl-entry">
+Krug, Steve. 2010. <span>“Rocket Surgery Made Easy:the Do-It-Yourself Guide to Finding and Fixing Usability Problems.”</span> <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">https://sensible.com/downloads/things-a-therapist-would-say.pdf</a>.
+</div>
+<div class="csl-entry">
+Love, Michael I, Wolfgang Huber, and Simon Anders. 2014. <span>“Moderated Estimation of Fold Change and Dispersion for <span>RNA</span>-Seq Data with <span>DESeq</span>2.”</span> <em>Genome Biology</em> 15 (12). <a href="https://doi.org/10.1186/s13059-014-0550-8">https://doi.org/10.1186/s13059-014-0550-8</a>.
+</div>
+<div class="csl-entry">
+Mangul, Serghei, Lana S. Martin, Eleazar Eskin, and Ran Blekhman. 2019. <span>“Improving the Usability and Archival Stability of Bioinformatics Software.”</span> <em>Genome Biology</em> 20 (1). <a href="https://doi.org/10.1186/s13059-019-1649-8">https://doi.org/10.1186/s13059-019-1649-8</a>.
+</div>
+<div class="csl-entry">
+Mangul, Serghei, Thiago Mosqueiro, Richard J. Abdill, Dat Duong, Keith Mitchell, Varuni Sarwal, Brian Hill, et al. 2019. <span>“Challenges and Recommendations to Improve the Installability and Archival Stability of Omics Computational Tools.”</span> <em><span>PLOS</span> Biology</em> 17 (6): e3000333. <a href="https://doi.org/10.1371/journal.pbio.3000333">https://doi.org/10.1371/journal.pbio.3000333</a>.
+</div>
+<div class="csl-entry">
+Matos, Paula de, Jennifer A Cham, Hong Cao, Rafael Alcántara, Francis Rowland, Rodrigo Lopez, and Christoph Steinbeck. 2013. <span>“The Enzyme Portal: A Case Study in Applying User-Centred Design Methods in Bioinformatics.”</span> <em><span>BMC</span> Bioinformatics</em> 14 (1): 103. <a href="https://doi.org/10.1186/1471-2105-14-103">https://doi.org/10.1186/1471-2105-14-103</a>.
+</div>
+<div class="csl-entry">
 Meza, Frank. 2018. <span>“The Value of Code Documentation.”</span> <a href="https://www.olioapps.com/blog/the-value-of-code-documentation/">https://www.olioapps.com/blog/the-value-of-code-documentation/</a>.
 </div>
-<div id="ref-Spertus2021" class="csl-entry">
+<div class="csl-entry">
+Molder, F, KP Jablonski, B Letcher, MB Hall, CH Tomkins-Tinch, V Sochat, J Forster, et al. 2021. <span>“Sustainable Data Analysis with Snakemake [Version 1; Peer Review: 1 Approved, 1 Approved with Reservations].”</span> <em>F1000Research</em> 10 (33). <a href="https://doi.org/10.12688/f1000research.29032.1">https://doi.org/10.12688/f1000research.29032.1</a>.
+</div>
+<div class="csl-entry">
+Moon, Garrett. 2011. <span>“10 Tips for Creating a Killer FAQ Page.”</span> <a href="https://www.socialmediatoday.com/content/10-tips-creating-killer-faq-page">https://www.socialmediatoday.com/content/10-tips-creating-killer-faq-page</a>.
+</div>
+<div class="csl-entry">
+Moran, Kate. 2019. <span>“Usability Testing 101.”</span> <a href="https://www.nngroup.com/articles/usability-testing-101/">https://www.nngroup.com/articles/usability-testing-101/</a>.
+</div>
+<div class="csl-entry">
+Mulder, Nicola, Russell Schwartz, Michelle D. Brazas, Cath Brooksbank, Bruno Gaeta, Sarah L. Morgan, Mark A. Pauley, et al. 2018. <span>“The Development and Application of Bioinformatics Core Competencies to Improve Bioinformatics Training and Education.”</span> Edited by Olga G. Troyanskaya. <em><span>PLOS</span> Computational Biology</em> 14 (2): e1005772. <a href="https://doi.org/10.1371/journal.pcbi.1005772">https://doi.org/10.1371/journal.pcbi.1005772</a>.
+</div>
+<div class="csl-entry">
+Pavelin, Katrina, Jennifer A. Cham, Paula de Matos, Cath Brooksbank, Graham Cameron, and Christoph Steinbeck. 2012. <span>“Bioinformatics Meets User-Centred Design: A Perspective.”</span> Edited by Philip E. Bourne. <em><span>PLoS</span> Computational Biology</em> 8 (7): e1002554. <a href="https://doi.org/10.1371/journal.pcbi.1002554">https://doi.org/10.1371/journal.pcbi.1002554</a>.
+</div>
+<div class="csl-entry">
+Porter, Joshua. n.d. <span>“Principles of User Interface Design.”</span> <a href="http://bokardo.com/principles-of-user-interface-design/">http://bokardo.com/principles-of-user-interface-design/</a>.
+</div>
+<div class="csl-entry">
+Quinlan, Aaron R., and Ira M. Hall. 2010. <span>“<span>BEDTools</span>: A Flexible Suite of Utilities for Comparing Genomic Features.”</span> <em>Bioinformatics</em> 26 (6): 841–42. <a href="https://doi.org/10.1093/bioinformatics/btq033">https://doi.org/10.1093/bioinformatics/btq033</a>.
+</div>
+<div class="csl-entry">
+Rehan, Adnan. 2019. <span>“Build Online Community and Forum with These 8 Best Software.”</span> <a href="https://geekflare.com/online-community-software/">https://geekflare.com/online-community-software/</a>.
+</div>
+<div class="csl-entry">
+RStudio Team. 2020. <em>RStudio: Integrated Development Environment for r</em>. Boston, MA: RStudio, PBC. <a href="http://www.rstudio.com/">http://www.rstudio.com/</a>.
+</div>
+<div class="csl-entry">
+Simon, Justin. 2020. <span>“The Ultimate Guide to Easily Make Instructional Videos.”</span> <a href="https://www.techsmith.com/blog/instructional-videos/">https://www.techsmith.com/blog/instructional-videos/</a>.
+</div>
+<div class="csl-entry">
+Soegaard, Mads. n.d. <span>“Visual Hierarchy: Organizing Content to Follow Natural Eye Movement Patterns.”</span> <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns</a>.
+</div>
+<div class="csl-entry">
 Spertus, Ellen. n.d. <span>“Best Practices for Writing Code Comments.”</span> <a href="https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/">https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/</a>.
 </div>
-<div id="ref-Spielman" class="csl-entry">
+<div class="csl-entry">
 Spielman, Stephanie. n.d. <span>“Introduction to r - Cb2r Data Science Workshop, Summer 2020.”</span> <a href="https://github.com/sjspielman/cb2r-ds-summer2020/blob/71cb11277e7383292bf727841ab5fa4ed43cfcbe/resources/introduction_to_R.Rmd#L92">https://github.com/sjspielman/cb2r-ds-summer2020/blob/71cb11277e7383292bf727841ab5fa4ed43cfcbe/resources/introduction_to_R.Rmd#L92</a>.
 </div>
+<div class="csl-entry">
+Studios, Outlook. 2020. <span>“6 Tools to Find Broken Links on Your Website.”</span> <a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/</a>.
 </div>
+<div class="csl-entry">
+Subramanian, Aravind, Pablo Tamayo, Vamsi K. Mootha, Sayan Mukherjee, Benjamin L. Ebert, Michael A. Gillette, Amanda Paulovich, et al. 2005. <span>“Gene Set Enrichment Analysis: A Knowledge-Based Approach for Interpreting Genome-Wide Expression Profiles.”</span> <em>Proceedings of the National Academy of Sciences</em> 102 (43): 15545–50. <a href="https://doi.org/10.1073/pnas.0506580102">https://doi.org/10.1073/pnas.0506580102</a>.
+</div>
+<div class="csl-entry">
+Tidwell, Jeniger. 2021. <span>“Organizing the Page:layout of Page Elements.”</span> <a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html</a>.
+</div>
+<div class="csl-entry">
+Trounce, David. 2019. <span>“7 Great Tools for Creating Your Own Video Tutorials.”</span> <a href="https://helpdeskgeek.com/free-tools-review/7-great-tools-for-creating-your-own-video-tutorials/">https://helpdeskgeek.com/free-tools-review/7-great-tools-for-creating-your-own-video-tutorials/</a>.
+</div>
+<div class="csl-entry">
+Wilson, Lee. 2020. <span>“25 of the Best Examples of Effective FAQ Pages.”</span> <a href="https://www.searchenginejournal.com/best-faq-page-examples/267709/">https://www.searchenginejournal.com/best-faq-page-examples/267709/</a>.
+</div>
+<div class="csl-entry">
+Wolf, Damian. 2016. <span>“Why Developers Write Horrible Documentation and How to Solve It.”</span> <a href="https://dzone.com/articles/why-developers-write-horrible-documentation-and-ho">https://dzone.com/articles/why-developers-write-horrible-documentation-and-ho</a>.
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <hr>
 <center> 
   <div class="footer">
@@ -360,8 +431,8 @@ Spielman, Stephanie. n.d. <span>“Introduction to r - Cb2r Data Science Worksho
           </div>
         </div>
       </div>
-<a href="creating-handy-reference-guides.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="obtaining-user-feedback.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
