@@ -1,8 +1,7 @@
 bookdown::gitbook:
   css: assets/style_ITN.css
   includes:
-    in_header: [GA_Script.Rhtml]
-    before_body: assets/big-image-itcr.html
+    before_body: [GA_Script.Rhtml, assets/big-image-itcr.html]
     after_body: assets/footer.html
   highlight: tango
   config:
