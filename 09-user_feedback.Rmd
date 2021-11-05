@@ -75,15 +75,12 @@ _See more advice about writing usability testing scripts here:_
 - [Gitlab's advice about usability testing script](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/) from @Gitlab.  
 - [Gitlab's usability testing template script](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit).  
 
-
 **Pilot your test with colleague(s)**  
 
 Before you use your test on a potential user, borrow a colleague or other internal person to run through your plan and script for a rehearsal. Though your colleagues are likely not the same as your typical user, running your testing plan on someone who works with you first will allow you to identify bugs in your testing plan.
 Run this pilot test with your colleague as if you are doing the real thing and try to be as prepared as possible!
 
-**[Step 2) Prepare your test](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)**  
-
-- **Pilot your test with colleague(s)**  
+**[Step 2) Prepare for the testing session](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)**  
 
 [Use this checklist](http://sensible.com/downloads/checklists.pdf) from @Krug2010 to check if you are prepared!
 
@@ -98,6 +95,8 @@ Note: [Calendly](https://calendly.com/) is very handy tool for scheduling usabil
 **Step 4) Run the test!**  
 
 Now that you've rehearsed your test and scheduled a testing session with a user, you are ready to run the tests and collect information.
+
+Make sure to check that they are okay with you recording the session (if that is what you want to do).
 
 A very important point from @Csontos2019:
 
