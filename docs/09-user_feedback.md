@@ -7,14 +7,14 @@ output: html_document
 
 # Obtaining user feedback
 
-<img src="resources/images/09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_60.png" title="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool."  />
+![](resources/images/09-user_feedback_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_60.png)
 
 ## The goal of user feedback
 
 How do you know if your code is working? You test it and get feedback!
 Similarly, how do you know if your tool is working for your user? Ask them for feedback!
 
-<img src="resources/images/09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!"  />
+![](resources/images/09-user_feedback_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_173.png)
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -57,7 +57,7 @@ What to use usability testing for:
 
 _To summarize the steps laid out by @Csontos2019 for conducting usability research_:
 
-[Step 1) Plan out your study](https://uxstudioteam.com/ux-blog/usability-testing/#Step_1_Plan_your_study) - clarify what you want to learn and write a plan and script.
+**[Step 1) Plan out your study](https://uxstudioteam.com/ux-blog/usability-testing/#Step_1_Plan_your_study)** - clarify what you want to learn and write a plan and script.
 
 - What main questions about your tool do you have? -- try to narrow down to one or two priority questions that you can design a test for.  
 - What tasks would a user participant perform that would best inform you about your questions?  
@@ -68,26 +68,36 @@ _See more advice about writing usability testing scripts here:_
 - [Steve Krug's usability testing script template](http://sensible.com/downloads/test-script-web.pdf) from @Krug2010.  
 - [Gitlab's advice about usability testing script](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/) from @Gitlab.  
 - [Gitlab's usability testing template script](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit).  
-  
 
-[Step 2) Lead your test](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)
+**Pilot your test with colleague(s)**  
 
-- Pilot your test: before you use your test on a potential user, borrow a colleague or other internal person to run through your plan and script for a rehearsal.
-- Conduct the tests!
-- If you are able to record the testing sessions, make sure to ask the participant's permission.
-- [Use this checklist](http://sensible.com/downloads/checklists.pdf) from @Krug2010 to check if you are prepared!
+Before you use your test on a potential user, borrow a colleague or other internal person to run through your plan and script for a rehearsal. Though your colleagues are likely not the same as your typical user, running your testing plan on someone who works with you first will allow you to identify bugs in your testing plan.
+Run this pilot test with your colleague as if you are doing the real thing and try to be as prepared as possible!
 
-A very important point from @Csontos2019:
+**[Step 2) Prepare for the testing session](https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test)**  
 
-<img src="resources/images/09-user_feedback_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_5.png" title="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated."  />
+[Use this checklist](http://sensible.com/downloads/checklists.pdf) from @Krug2010 to check if you are prepared!
 
 You can use [these prompts](https://sensible.com/downloads/things-a-therapist-would-say.pdf) from @Krug2010 to help you know what to say to help create a non-judgmental atmosphere for testing.
 
-[Step 3) Find user participants](https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants).
+**[Step 3) Find user participants](https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants)**  
 
 Who is interested in available for being your test subjects? You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around. You could also try advertising your need for participants through Twitter, LinkedIn or some other social media platform.
 
-[Step 4) Analyze & Report](https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report)
+Note: [Calendly](https://calendly.com/) is very handy tool for scheduling usability testing sessions!
+
+**Step 4) Run the test!**  
+
+Now that you've rehearsed your test and scheduled a testing session with a user, you are ready to run the tests and collect information.
+
+Make sure to check that they are okay with you recording the session (if that is what you want to do).
+
+A very important point from @Csontos2019:
+
+![](resources/images/09-user_feedback_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd2cd8e726d_0_5.png)
+
+**[Step 4) Analyze & Report](https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report)**  
+
 Sit down with your notes and recordings, look for patterns.
 
 _More reading on usability testing:_

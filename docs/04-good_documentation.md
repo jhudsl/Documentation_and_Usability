@@ -7,13 +7,13 @@ output: html_document
 
 # What does good documentation look like?
 
-<img src="resources/images/04-good_documentation_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_30.png" title="Learning Objectives This chapter will demonstrate how to: Identify major components common to good documentation. Describe the purposes of components of good documentation. Set up our documentation templates for following along with the rest of this course." alt="Learning Objectives This chapter will demonstrate how to: Identify major components common to good documentation. Describe the purposes of components of good documentation. Set up our documentation templates for following along with the rest of this course."  />
+![](resources/images/04-good_documentation_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_30.png)
 
 ## Major components of good documentation
 
 In this chapter we are going to cover the major aspects of a well-documented tool. In the subsequent chapters, we will talk about each of these components in more detail, providing relevant examples and tools.
 
-<img src="resources/images/04-good_documentation_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_23.png" title="The anthropomorphic documentation has 6 major components in this illustration including: The why, getting started, how-to examples, reference guide, code comments, and user feedback." alt="The anthropomorphic documentation has 6 major components in this illustration including: The why, getting started, how-to examples, reference guide, code comments, and user feedback."  />
+![](resources/images/04-good_documentation_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_23.png)
 
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
@@ -22,7 +22,7 @@ Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 We can think of these components of documentation in terms of how much time a user has invested in learning the tool:
 
-<img src="resources/images/04-good_documentation_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_26.png" title="The various components of good documentation: The why, getting started, how-to examples, reference guide, code comments, and user feedback are on a continuum in that order from the most to least amount of time spent invested in a tool." alt="The various components of good documentation: The why, getting started, how-to examples, reference guide, code comments, and user feedback are on a continuum in that order from the most to least amount of time spent invested in a tool."  />
+![](resources/images/04-good_documentation_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_26.png)
 
 This isn't always a perfect linear timeline like this, users may use these items in a different order than we expect, but this demonstrates the intent of how users would progress through the documentation.
 

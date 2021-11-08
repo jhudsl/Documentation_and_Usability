@@ -7,7 +7,7 @@ output: html_document
 
 # Creating clarifying code comments
 
-<img src="resources/images/08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png" title="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments." alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments."  />
+![](resources/images/08-code_comments_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_54.png)
 
 ## The goal of a code documentation
 
@@ -62,7 +62,7 @@ Here are more resources about good code comments that have plenty of great discu
 
 **In summary:**
 
-<img src="resources/images/08-code_comments_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png" title="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process." alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process."  />
+![](resources/images/08-code_comments_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_132.png)
 
 ## Exercise: Evaluate your own code's comments
 

@@ -1,6 +1,6 @@
 ---
 title: "Documentation and Usability"
-date: "2021-10-29"
+date: "2021-11-08"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -8,6 +8,9 @@ biblio-style: apalike
 link-citations: yes
 description: "A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools."
 favicon: assets/ITN_favicon.ico
+output:
+    bookdown::word_document2:
+      toc: true
 ---
 
 
