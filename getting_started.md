@@ -3,7 +3,7 @@
 This template includes all of the files that you need to get started creating your course in [R Markdown](https://rmarkdown.rstudio.com/) using the [bookdown package](https://bookdown.org/).
 
 
-This course template repository also has [accessory tools](#using-this-template-for-publishing-to-coursera) for publishing to [Coursera](https://www.coursera.org/) and a [companion course template repository](https://github.com/jhudsl/DaSL_Course_Template_Leanpub) for if you are interested in publishing the content on [Leanpub](https://leanpub.com/).
+This course template repository also has [accessory tools](#using-this-template-for-publishing-to-coursera) for publishing to [Coursera](https://www.coursera.org/) and a [companion course template repository](https://github.com/jhudsl/OTTR_Quizzes) for if you are interested in publishing the content on [Leanpub](https://leanpub.com/).
 
 Please take a look at the [code of conduct](./code_of_conduct.md).
 
@@ -249,7 +249,7 @@ After setting up these new branch items, click `Create` and `Save changes`.
 
 When updates are made to files that aren't specific to the course content but instead run checks and other processes in the original repository, PRs are filed automatically to any downstream repositories made from this template.
 
-To enroll in these automatic update PRs, the new course's repository name will need to be added to [this file in the original template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/sync.yml) where it says `#NEW REPO HERE#`.
+To enroll in these automatic update PRs, the new course's repository name will need to be added to [this file in the original template](https://github.com/jhudsl/OTTR_Template/blob/main/.github/sync.yml) where it says `#NEW REPO HERE#`.
 File a pull request to make this change.
 If the your new course doesn't need some of the functionality of these files or you find the automatic you can feel free to use [this guide](https://github.com/marketplace/actions/repo-file-sync-action#sync-the-same-files-to-multiple-repositories) to tailor which files you want updates for.
 
@@ -259,16 +259,16 @@ Each file that is updated in a sync PR is updated in its own commit.
 
 #### How to tailor the sync PR changes:   
 - If you don't want the changes from a particular file, you can always [revert that particular commit](https://git-scm.com/docs/git-revert) before merging the sync PR.    
-If you will not want any updates on this file in the future, you may want to remove a file from being synced in your repo [by reconfiguring the sync file](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/sync.yml).
+If you will not want any updates on this file in the future, you may want to remove a file from being synced in your repo [by reconfiguring the sync file](https://github.com/jhudsl/OTTR_Template/blob/main/.github/sync.yml).
 
 - If you want only some changes, but they are not on a whole file basis, you could check out the branch and make manual edits.
 To checkout the branch, navigate to your own repository you should be able to run:  
 ```
-git checkout repo-sync/DaSL_Course_Template_Bookdown/default
+git checkout repo-sync/OTTR_Template/default
 ```
 
 - If you don't want any of the changes you can close the PR entirely.
-You may want to unenroll your repository from the [sync github actions by deleting your repo name from this file](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/sync.yml) if this will continue to be the case.
+You may want to unenroll your repository from the [sync github actions by deleting your repo name from this file](https://github.com/jhudsl/OTTR_Template/blob/main/.github/sync.yml) if this will continue to be the case.
 
 ### Set up Github secrets
 
@@ -505,7 +505,7 @@ To reference the citations in your writing follow the [bookdown instructions](ht
 
 > Items can be cited directly within the documentation using the syntax @key where key is the citation key in the first line of the entry, e.g., @R-base. To put citations in parentheses, use [@key]. To cite multiple entries, separate the keys by semicolons, e.g., [@key-1; @key-2; @key-3]. To suppress the mention of the author, add a minus sign before @, e.g., [-@R-base].
 
-See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
+See [Chapter 2](https://github.com/jhudsl/OTTR_Template/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
 
 ## Github actions
 
@@ -569,12 +569,12 @@ repository: jhudsl/Course_Template_Leanpub
 
 ### Style guide
 
-Github actions will run the [`styler` package to all style R in all Rmds](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
+Github actions will run the [`styler` package to all style R in all Rmds](https://github.com/jhudsl/OTTR_Template/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
 Style changes will automatically be committed back to your branch.
 
 ### Spell check
 
-Github actions will automatically [run a spell check on all Rmds](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
+Github actions will automatically [run a spell check on all Rmds](https://github.com/jhudsl/OTTR_Template/blob/main/.github/workflows/style-and-sp-check.yml) whenever a pull request to the `main` branch is filed.
 Depending on your preference, you may find it easier to [spell check manually on your local computer](#running-spell-check-and-styler-manually) before pushing to Github.
 
 It will fail if there are more than 2 spelling errors and you'll need to resolve those before being able to merge your pull request.
@@ -632,7 +632,7 @@ If you are creating a DaSL course for a project other than [ITN](https://www.itc
  - Please modify the lines that link to the http://jhudatascience.org/ with your own website and logo if you are not part of the [jhuDaSL](http://jhudatascience.org/) .
 - Please replace the URL in the line 13 of code with the URL for the GitHub repo for your course. This will allow people to more easily find how out how you created your course. Otherwise, they will be directed to this template.
 - If you wish to create a different color scheme, the font colors can also be modified along with other aspects in the `assets/style.css` file. Take a look at the `assets/style_ITN.css` file to see what was changed for that color scheme from the `assets/style.css` file.
-- You can replace the logo with the appropriate project logo by replacing `https://www.itcrtraining.org/` with the project website link and ` "https://raw.githubusercontent.com/jhudsl/DaSL_Course_Template_Bookdown/main/resources/images/logo.png"` for the project logo image link in line 11.
+- You can replace the logo with the appropriate project logo by replacing `https://www.itcrtraining.org/` with the project website link and ` "https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/resources/images/logo.png"` for the project logo image link in line 11.
 
 If you are creating an ITCR course for [ITN](https://www.itcrtraining.org/):
 - Delete the `_output.yml` file and rename the `_output-itcr.yml` to be `_output.yml`.
@@ -770,7 +770,7 @@ It's also okay to use `<img src` for your images if you like you but you still n
 
 Google Slides must be **public**. Share settings must be set to "Anyone on the internet with this link can view". Note that "Private" is the default setting when you make a new presentation.
 
-See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
+See [Chapter 2](https://github.com/jhudsl/OTTR_Template/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
 
 ## Adding videos in text
 
@@ -794,7 +794,7 @@ You could alternatively use html code by copying the entire embed code provded b
 `````
 <p align="center"><iframe width="560" height="315" alt = "video of Russell McClain on biases and stereotypes" src="https://www.youtube.com/embed/yiZQaE0q9BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 `````
-See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
+See [Chapter 2](https://github.com/jhudsl/OTTR_Template/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
 
 ## Adding embedded files to text
 
@@ -825,7 +825,7 @@ You can also use html code for this like so:
 <p align="center"><iframe src="https://widgets.figshare.com/articles/5427418/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0" alt = "expectation document"></iframe></p>
 `````
 
-See [Chapter 2](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
+See [Chapter 2](https://github.com/jhudsl/OTTR_Template/blob/main/02-chapter_of_course.Rmd) of the template course for examples.
 
 ## Learning Objectives Formatting
 
@@ -845,7 +845,7 @@ We would update our `_bookdown.yml` to look like this:
 ```yaml
 book_filename: "Course_Name"  
 chapter_name: "Chapter "  
-repo: https://github.com/jhudsl/DaSL_Course_Template_Bookdown/ ##Make sure you update this for your GitHub Repo!!  
+repo: https://github.com/jhudsl/OTTR_Template/ ##Make sure you update this for your GitHub Repo!!  
 rmd_files: ["index.Rmd",  
             "01-intro.Rmd",   
             "02-chapter_of_course.Rmd",   
@@ -887,7 +887,7 @@ You will need to set up your own educator profile and course shell through your 
 
 ## Converting your files for upload to Coursera
 
-The Github actions set up in the [render-bookdown.yml](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/workflows/render-bookdown.yml) also render your course material in a format suitable for linking to Coursera.
+The Github actions set up in the [render-bookdown.yml](https://github.com/jhudsl/OTTR_Template/blob/main/.github/workflows/render-bookdown.yml) also render your course material in a format suitable for linking to Coursera.
 This Coursera version is identical except that the table of contents bar on the left side has been dropped so as to not confuse Coursera users about navigating the course.
 These files can be previewed in the `docs/coursera/` folder.
 Click on  your chapter htmls to see what it will look like.
@@ -941,7 +941,7 @@ If you are unsure what the main url for your Github pages is, in your github rep
 So for example, the introduction chapter of this template would be linked by using this url:
 
 ```
-https://jhudatascience.org/DaSL_Course_Template_Bookdown/coursera/introduction.html
+https://jhudatascience.org/OTTR_Template/coursera/introduction.html
 ```
 
 To add this URL to Coursera, add a new lesson, click `+ More` and choose `Ungraded Plugin`.
@@ -1008,7 +1008,7 @@ After you've selected the file click `Upload`:
 
 ![](resources/coursera_screenshots/add-quiz-5.png)
 
-It will let you know if there are any problems uploading the quiz. If the  `coursera_quiz_conversion.R` script failed to render something properly, please [file an issue here](https://github.com/jhudsl/DaSL_Course_Template_Leanpub/issues) describing how it failed and including a file that shows the instance it failed to convert.
+It will let you know if there are any problems uploading the quiz. If the  `coursera_quiz_conversion.R` script failed to render something properly, please [file an issue here](https://github.com/jhudsl/OTTR_Quizzes/issues) describing how it failed and including a file that shows the instance it failed to convert.
 
 Note that images and links are not currently supported in that conversion script. You also cannot have `:` in your prompts or answers.
 
@@ -1032,7 +1032,7 @@ leanbuild::convert_quizzes()
 
 ## Github actions for Coursera
 
-The [render-bookdown.yml](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/blob/main/.github/workflows/render-bookdown.yml) github action the chapter content for Coursera by using this command within the docker image:
+The [render-bookdown.yml](https://github.com/jhudsl/OTTR_Template/blob/main/.github/workflows/render-bookdown.yml) github action the chapter content for Coursera by using this command within the docker image:
 ```
 leanbuild::render_coursera()
 ```
@@ -1040,4 +1040,4 @@ You can run this same command locally if you wish to test something.
 This render the chapters without the table of Contents.
 If you do not wish to publish to Coursera and prefer this do not run, you may delete this section (but it shouldn't hurt anything to keep as is -- unless for some reason it causes you some troubles).
 
-Additionally, the Leanpub companion repository has a [Leanpub -> Coursera quiz conversion script](https://github.com/jhudsl/DaSL_Course_Template_Leanpub/blob/main/scripts/coursera_quiz_conversion.R) if you choose to create quizzes and publish on both Leanpub and Coursera.
+Additionally, the Leanpub companion repository has a [Leanpub -> Coursera quiz conversion script](https://github.com/jhudsl/OTTR_Quizzes/blob/main/scripts/coursera_quiz_conversion.R) if you choose to create quizzes and publish on both Leanpub and Coursera.
