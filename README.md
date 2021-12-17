@@ -2,7 +2,7 @@
 
 This is a bookdown based course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools.
 
-This course is a part of an [ITCR training series](https://www.itcrtraining.org/) and was in part created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
+This course is a part of an [ITCR training series](https://www.itcrtraining.org/) and was in part created from [this github template](https://github.com/jhudsl/OTTR_Template).
 
 You can see the [rendered course material here](https://jhudatascience.org/Documentation_and_Usability/introduction.html) or [on Leanpub here](https://leanpub.com/universities/courses/jhu/documentation_and_usability).
 

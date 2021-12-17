@@ -5,7 +5,7 @@ output: html_document
 
 # About the Authors {-}
 
-These credits are based on our [course contributors table guidelines](https://github.com/jhudsl/DaSL_Course_Template_Bookdown/wiki/How-to-give-credits).  
+These credits are based on our [course contributors table guidelines](https://github.com/jhudsl/OTTR_Template/wiki/How-to-give-credits).  
 
 
 
