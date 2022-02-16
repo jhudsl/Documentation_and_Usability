@@ -4,13 +4,13 @@ output: html_document
 ---
 
 ```{r, include = FALSE, echo = FALSE}
-leanbuild::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # Introduction
 
 ```{r, fig.alt="Title image: Documentation and Usability", out.width = "100%", echo = FALSE}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4&pageid=gd422c5de97_0_0")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4&pageid=gd422c5de97_0_0")
 ```
 
 
@@ -27,7 +27,7 @@ The course is intended for cancer informatics tool developers, particularly thos
 ## Curriculum    
 
 ```{r, fig.alt = "This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users", echo = FALSE}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd422c5de97_0_10")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd422c5de97_0_10")
 ```
 
 The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.

@@ -449,7 +449,7 @@ To add an R package from GitHub you can add a line that follows this general for
 
 ```
 RUN Rscript --vanilla install_github.R \
-  --packages "jhudsl/didactr, jhudsl/leanbuild, <NEW_PACKAGE>" \
+  --packages "jhudsl/didactr, jhudsl/ottrpal, <NEW_PACKAGE>" \
 ```
 
 To add a Python package, you will need to add pip3 to install Python packages using this format:
@@ -649,7 +649,7 @@ Each Rmd with images that is a part of your bookdown needs to have this chunk at
 
 `````
 ```{r, include=FALSE}
-leanbuild::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 `````
 
@@ -756,7 +756,7 @@ To add images in the text in your Rmd, use the following function within an [R c
 
 `````
 ```{r, fig.alt="Alternative text", echo = FALSE, outwidth = "100%"}
-leanbuild::include_slide(<google_slide_url>)
+ottrpal::include_slide(<google_slide_url>)
 `````
 _You must define `fig.alt` in the code chunk options/parameters to pass to `knitr`._
 You can adjust the size(fig.hight, fig.width, out.width, out.height), alignment (fig.align), or caption (fig.cap) of the image you can use these arguments in the code chunk tag:  
@@ -1022,10 +1022,10 @@ Congrats you added a quiz to your course!
 S
 #### Converting quizzes from Leanpub format
 
-If you already have a `_Leanpub` repository for your course, you can convert your quizzes to a nicely upload-able yaml file by using that repository and running this command with the leanbuild package:
+If you already have a `_Leanpub` repository for your course, you can convert your quizzes to a nicely upload-able yaml file by using that repository and running this command with the ottrpal package:
 
 ```
-leanbuild::convert_quizzes()
+ottrpal::convert_quizzes()
 ```
 
  Note that currently images and links are not supported and if your quizzes contain those, you will have to manually add them.
@@ -1034,7 +1034,7 @@ leanbuild::convert_quizzes()
 
 The [render-bookdown.yml](https://github.com/jhudsl/OTTR_Template/blob/main/.github/workflows/render-bookdown.yml) github action the chapter content for Coursera by using this command within the docker image:
 ```
-leanbuild::render_coursera()
+ottrpal::render_coursera()
 ```
 You can run this same command locally if you wish to test something.
 This render the chapters without the table of Contents.
