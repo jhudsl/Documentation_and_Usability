@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Lessons we should borrow from user designers | Documentation and Usability</title>
+  <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Lessons we should borrow from user designers | Documentation and Usability" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Lessons we should borrow from user designers | Documentation and Usability" />
+  
+  <meta name="twitter:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
+  
+
+
+
+<meta name="date" content="2022-02-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="documentation-why-its-worth-the-effort.html"/>
+<link rel="next" href="what-does-good-documentation-look-like.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.itcrtraining.org/"><img src="https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/resources/images/logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.3</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="documentation-why-its-worth-the-effort.html"><a href="documentation-why-its-worth-the-effort.html"><i class="fa fa-check"></i><b>2</b> Documentation: Why it’s worth the effort!</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="documentation-why-its-worth-the-effort.html"><a href="documentation-why-its-worth-the-effort.html#the-context-of-bioinformatics-tool-development"><i class="fa fa-check"></i><b>2.1</b> The context of bioinformatics tool development</a></li>
+<li class="chapter" data-level="2.2" data-path="documentation-why-its-worth-the-effort.html"><a href="documentation-why-its-worth-the-effort.html#bioinformatics-and-usability"><i class="fa fa-check"></i><b>2.2</b> Bioinformatics and usability</a></li>
+<li class="chapter" data-level="2.3" data-path="documentation-why-its-worth-the-effort.html"><a href="documentation-why-its-worth-the-effort.html#why-documentation-is-worth-the-time"><i class="fa fa-check"></i><b>2.3</b> Why documentation is worth the time</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html"><i class="fa fa-check"></i><b>3</b> Lessons we should borrow from user designers</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#thinking-about-user-centered-development"><i class="fa fa-check"></i><b>3.1</b> Thinking about user-centered development</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#generalities-about-bioinformatics-tool-users"><i class="fa fa-check"></i><b>3.1.1</b> Generalities about bioinformatics tool users</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#exercise-think-about-the-user-community-for-your-tool"><i class="fa fa-check"></i><b>3.2</b> Exercise: Think about the user community for your tool</a></li>
+<li class="chapter" data-level="3.3" data-path="lessons-we-should-borrow-from-user-designers.html"><a href="lessons-we-should-borrow-from-user-designers.html#general-principles-about-user-friendliness"><i class="fa fa-check"></i><b>3.3</b> General principles about user-friendliness</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html"><i class="fa fa-check"></i><b>4</b> What does good documentation look like?</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#major-components-of-good-documentation"><i class="fa fa-check"></i><b>4.1</b> Major components of good documentation</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-why"><i class="fa fa-check"></i><b>4.1.1</b> The ‘Why’</a></li>
+<li class="chapter" data-level="4.1.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#getting-started"><i class="fa fa-check"></i><b>4.1.2</b> Getting started</a></li>
+<li class="chapter" data-level="4.1.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#how-to-examples"><i class="fa fa-check"></i><b>4.1.3</b> How-to examples</a></li>
+<li class="chapter" data-level="4.1.4" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#reference-guides"><i class="fa fa-check"></i><b>4.1.4</b> Reference guides</a></li>
+<li class="chapter" data-level="4.1.5" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#code-comments"><i class="fa fa-check"></i><b>4.1.5</b> Code comments</a></li>
+<li class="chapter" data-level="4.1.6" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#user-feedback-mechanism"><i class="fa fa-check"></i><b>4.1.6</b> User feedback mechanism</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#the-documentation-templates-for-this-course"><i class="fa fa-check"></i><b>4.2</b> The documentation templates for this course</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#well-documented-checklist"><i class="fa fa-check"></i><b>4.2.1</b> Well-documented checklist</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#exercise-setting-up-our-templates-for-your-own-use"><i class="fa fa-check"></i><b>4.3</b> Exercise: setting up our templates for your own use</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-1-adding-completed-template-markdowns-to-an-existing-github-repository"><i class="fa fa-check"></i><b>4.3.1</b> Steps for Option 1) Adding completed template markdowns to an existing GitHub repository</a></li>
+<li class="chapter" data-level="4.3.2" data-path="what-does-good-documentation-look-like.html"><a href="what-does-good-documentation-look-like.html#steps-for-option-2-creating-a-mkdocs-site-with-github-pages"><i class="fa fa-check"></i><b>4.3.2</b> Steps for Option 2) Creating a MkDocs site with Github pages</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html"><i class="fa fa-check"></i><b>5</b> Creating a smooth getting started section</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#the-goal-of-a-getting-started-section"><i class="fa fa-check"></i><b>5.1</b> The goal of a getting started section</a></li>
+<li class="chapter" data-level="5.2" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#aspects-of-a-smooth-getting-started-section"><i class="fa fa-check"></i><b>5.2</b> Aspects of a smooth getting started section</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#easy-to-find"><i class="fa fa-check"></i><b>5.2.1</b> Easy to find!</a></li>
+<li class="chapter" data-level="5.2.2" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#introduce-your-user-to-the-basics"><i class="fa fa-check"></i><b>5.2.2</b> Introduce your user to the basics</a></li>
+<li class="chapter" data-level="5.2.3" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#installation-steps-the-first-big-hurdle"><i class="fa fa-check"></i><b>5.2.3</b> Installation steps: the first big hurdle</a></li>
+<li class="chapter" data-level="5.2.4" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#cover-the-basics"><i class="fa fa-check"></i><b>5.2.4</b> Cover the basics</a></li>
+<li class="chapter" data-level="5.2.5" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#reward-your-user-with-a-short-tutorial"><i class="fa fa-check"></i><b>5.2.5</b> Reward your user with a short tutorial!</a></li>
+<li class="chapter" data-level="5.2.6" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#directs-the-user-to-the-how-to-examples-section"><i class="fa fa-check"></i><b>5.2.6</b> Directs the user to the how-to examples section</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#good-examples-of-getting-started-sections"><i class="fa fa-check"></i><b>5.3</b> Good examples of getting started sections</a></li>
+<li class="chapter" data-level="5.4" data-path="creating-a-smooth-getting-started-section.html"><a href="creating-a-smooth-getting-started-section.html#exercise-create-your-own-getting-started-section"><i class="fa fa-check"></i><b>5.4</b> Exercise: Create your own getting started section!</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html"><i class="fa fa-check"></i><b>6</b> Creating helpful how-to examples</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#the-goal-of-how-to-examples"><i class="fa fa-check"></i><b>6.1</b> The goal of how-to examples</a></li>
+<li class="chapter" data-level="6.2" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#characteristics-of-useful-how-to-examples"><i class="fa fa-check"></i><b>6.2</b> Characteristics of useful how-to examples</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#should-cover-what-your-user-wants-to-do"><i class="fa fa-check"></i><b>6.2.1</b> Should cover what your user wants to do!</a></li>
+<li class="chapter" data-level="6.2.2" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#every-step-is-specifically-given"><i class="fa fa-check"></i><b>6.2.2</b> Every step is specifically given</a></li>
+<li class="chapter" data-level="6.2.3" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#any-data-needed-to-run-the-example-is-provided-and-explained"><i class="fa fa-check"></i><b>6.2.3</b> Any data needed to run the example is provided and explained</a></li>
+<li class="chapter" data-level="6.2.4" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#example-code-is-about-the-lesson-not-the-output-per-se"><i class="fa fa-check"></i><b>6.2.4</b> Example code is about the lesson not the output per se</a></li>
+<li class="chapter" data-level="6.2.5" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#try-to-stick-to-your-own-package-and-its-dependencies"><i class="fa fa-check"></i><b>6.2.5</b> Try to stick to your own package and its dependencies</a></li>
+<li class="chapter" data-level="6.2.6" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#give-tips-on-how-to-tailor-your-examples"><i class="fa fa-check"></i><b>6.2.6</b> Give tips on how to tailor your examples</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#good-examples-of-how-to-examples"><i class="fa fa-check"></i><b>6.3</b> Good examples of How-to examples</a></li>
+<li class="chapter" data-level="6.4" data-path="creating-helpful-how-to-examples.html"><a href="creating-helpful-how-to-examples.html#exercise-create-your-own-how-to-examples"><i class="fa fa-check"></i><b>6.4</b> Exercise: Create your own how-to examples!</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html"><i class="fa fa-check"></i><b>7</b> Creating handy reference guides</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#the-goal-of-a-reference-guide"><i class="fa fa-check"></i><b>7.1</b> The goal of a reference guide</a></li>
+<li class="chapter" data-level="7.2" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#characteristics-of-handy-reference-guides"><i class="fa fa-check"></i><b>7.2</b> Characteristics of handy reference guides</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#is-easy-to-find"><i class="fa fa-check"></i><b>7.2.1</b> Is easy to find</a></li>
+<li class="chapter" data-level="7.2.2" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#is-searchable"><i class="fa fa-check"></i><b>7.2.2</b> Is searchable</a></li>
+<li class="chapter" data-level="7.2.3" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#is-comprehensive"><i class="fa fa-check"></i><b>7.2.3</b> Is comprehensive</a></li>
+<li class="chapter" data-level="7.2.4" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#data-formats-are-described"><i class="fa fa-check"></i><b>7.2.4</b> Data formats are described</a></li>
+<li class="chapter" data-level="7.2.5" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#entries-should-have-a-consistent-format"><i class="fa fa-check"></i><b>7.2.5</b> Entries should have a consistent format</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#good-examples-of-reference-guides"><i class="fa fa-check"></i><b>7.3</b> Good examples of reference guides</a></li>
+<li class="chapter" data-level="7.4" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#exercise-create-your-own-reference-guide"><i class="fa fa-check"></i><b>7.4</b> Exercise: Create your own reference guide!</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html"><i class="fa fa-check"></i><b>8</b> Creating clarifying code comments</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#the-goal-of-a-code-documentation"><i class="fa fa-check"></i><b>8.1</b> The goal of a code documentation</a></li>
+<li class="chapter" data-level="8.2" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#characteristics-of-clarifying-code-comments"><i class="fa fa-check"></i><b>8.2</b> Characteristics of clarifying code comments</a></li>
+<li class="chapter" data-level="8.3" data-path="creating-clarifying-code-comments.html"><a href="creating-clarifying-code-comments.html#exercise-evaluate-your-own-codes-comments"><i class="fa fa-check"></i><b>8.3</b> Exercise: Evaluate your own code’s comments</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html"><i class="fa fa-check"></i><b>9</b> Obtaining user feedback</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#the-goal-of-user-feedback"><i class="fa fa-check"></i><b>9.1</b> The goal of user feedback</a></li>
+<li class="chapter" data-level="9.2" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#how-to-collect-informative-user-feedback"><i class="fa fa-check"></i><b>9.2</b> How to collect informative user feedback</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#user-contact-method"><i class="fa fa-check"></i><b>9.2.1</b> User contact method</a></li>
+<li class="chapter" data-level="9.2.2" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#interviews-and-usability-testing"><i class="fa fa-check"></i><b>9.2.2</b> Interviews and usability testing</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#exercise-1-create-a-plan-for-user-feedback-for-your-tool"><i class="fa fa-check"></i><b>9.3</b> Exercise 1: Create a plan for user feedback for your tool</a></li>
+<li class="chapter" data-level="9.4" data-path="obtaining-user-feedback.html"><a href="obtaining-user-feedback.html#exercise-2-determine-a-plan-for-usability-testing"><i class="fa fa-check"></i><b>9.4</b> Exercise 2: Determine a plan for usability testing</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="other-helpful-features.html"><a href="other-helpful-features.html"><i class="fa fa-check"></i><b>10</b> Other helpful features</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="other-helpful-features.html"><a href="other-helpful-features.html#the-goal-of-these-other-features"><i class="fa fa-check"></i><b>10.1</b> The goal of these “other features”</a></li>
+<li class="chapter" data-level="10.2" data-path="other-helpful-features.html"><a href="other-helpful-features.html#faqs"><i class="fa fa-check"></i><b>10.2</b> FAQs</a></li>
+<li class="chapter" data-level="10.3" data-path="other-helpful-features.html"><a href="other-helpful-features.html#cheatsheets"><i class="fa fa-check"></i><b>10.3</b> Cheatsheets</a></li>
+<li class="chapter" data-level="10.4" data-path="other-helpful-features.html"><a href="other-helpful-features.html#videos"><i class="fa fa-check"></i><b>10.4</b> Videos</a></li>
+<li class="chapter" data-level="10.5" data-path="other-helpful-features.html"><a href="other-helpful-features.html#forumsknowledge-base"><i class="fa fa-check"></i><b>10.5</b> Forums/Knowledge Base</a></li>
+<li class="chapter" data-level="10.6" data-path="other-helpful-features.html"><a href="other-helpful-features.html#exercise-determine-which-if-any-of-these-features-would-work-well-for-your-tool"><i class="fa fa-check"></i><b>10.6</b> Exercise: Determine which (if any) of these features would work well for your tool</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html"><i class="fa fa-check"></i><b>11</b> How to keep your documentation up to date</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>11.1</b> The goal of documentation maintenance</a></li>
+<li class="chapter" data-level="11.2" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>11.2</b> Keep your documentation in one, version-controlled place</a></li>
+<li class="chapter" data-level="11.3" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>11.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
+<li class="chapter" data-level="11.4" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-work"><i class="fa fa-check"></i><b>11.4</b> Make sure links work</a></li>
+<li class="chapter" data-level="11.5" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>11.5</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
+<li class="chapter" data-level="11.6" data-path="how-to-keep-your-documentation-up-to-date.html"><a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>11.6</b> Exercise 2: Implement a URL checker</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/ITN_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Documentation and Usability</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2LN2CZ3FR6"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2LN2CZ3FR6');
+  </script>
+      
+  </body>
+  </html>
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_ITN.css" rel="stylesheet">
+</head>
+
+
+<div class="hero-image-container">
+  <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/style-sets/itcr/copy-to-assets/itcr_main_image.png">
+</div>
+<div id="lessons-we-should-borrow-from-user-designers" class="section level1" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Lessons we should borrow from user designers</h1>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_24.png" title="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="480" /></p>
+<div id="thinking-about-user-centered-development" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Thinking about user-centered development</h2>
+<p>Creating tools that are easy to use starts with thinking about your user’s perspective.
+In other words, user-centered design is an exercise in applied empathy <span class="citation">(<a href="#ref-deMatos2013" role="doc-biblioref">Matos et al. 2013</a>)</span>.</p>
+<p>This is why a common saying in user-centered design is “You are not your user” <span class="citation">(<a href="#ref-Alexakis2017" role="doc-biblioref">Alexakis, n.d.</a>)</span>. Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.</p>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_0.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" width="480" />
+<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>As compared to yourself, your typical user may likely have a different:</p>
+<ul>
+<li>Educational background.<br />
+</li>
+<li>Programming experience level.<br />
+</li>
+<li>Set of motivations for using your tool.</li>
+</ul>
+<p>And most importantly <em>your user does not know your tool like you do</em>! You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have.</p>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd228cc29d1_0_146.png" title="Your user does not know your tool like you do!" alt="Your user does not know your tool like you do!" width="480" /></p>
+<p>Also keep in mind users are humans in a context. Humans have demands in their life, have been working long days, and are tired/frustrated/distracted/etc. Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!</p>
+<div id="generalities-about-bioinformatics-tool-users" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Generalities about bioinformatics tool users</h3>
+<p>On a general level, there are some characteristics we know about bioinformatic tool user communities.</p>
+<p>The typical user of bioinformatics tools are generally:</p>
+<ul>
+<li>Highly educated in their specific research topic.<br />
+</li>
+<li>Skilled at picking up new information.<br />
+</li>
+<li>Unlikely to have extensive experience in programming; may be uncomfortable with using command line.<br />
+</li>
+<li>If they do have experience programming, it’s likely been from informal and self-taught learning.<br />
+</li>
+<li>Like many professionals, likely to feel time pressure from deadlines.</li>
+</ul>
+<p>However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
+<span class="citation">Mulder et al. (<a href="#ref-Mulder2018" role="doc-biblioref">2018</a>)</span> described 10 user personas for bioinformatics software, all with their own skills and competencies:</p>
+<ul>
+<li>Physician</li>
+<li>Lab technician</li>
+<li>Ethicist<br />
+</li>
+<li>Biocurator<br />
+</li>
+<li>Discovery biologist/academic life science researcher<br />
+</li>
+<li>Molecular life science educator<br />
+</li>
+<li>Academic bioinformatics researcher<br />
+</li>
+<li>Core facility scientist<br />
+</li>
+<li>Bioinformatician in an academic or research infrastructure support role<br />
+</li>
+<li>Bioinformatics software developer/software engineer</li>
+</ul>
+<p>Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints.</p>
+</div>
+</div>
+<div id="exercise-think-about-the-user-community-for-your-tool" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Exercise: Think about the user community for your tool</h2>
+<p>Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community.</p>
+<ul>
+<li>Who is your user community?</li>
+<li>What need of theirs is addressed by your tool?</li>
+<li>What kinds of skills does your tool assume your user has (does your user community have those skills)?</li>
+</ul>
+<p>Keep the questions about your user community in mind and in a <a href="https://jhudatascience.org/Documentation_and_Usability/obtaining-user-feedback.html">later chapter</a>, we’ll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.</p>
+</div>
+<div id="general-principles-about-user-friendliness" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> General principles about user-friendliness</h2>
+<p>While finding out about your user community is critical, there’s also principles we can discuss that are common to all users/humans.</p>
+<div id="humans-like-visuals" class="section level4" number="3.3.0.1">
+<h4><span class="header-section-number">3.3.0.1</span> Humans like visuals</h4>
+<p>Humans are drawn to intuitive visuals. Visuals are efficient means of communication and help users absorb information better than long-winded paragraphs (though visuals need an accompanying explanation too).</p>
+<p>Sometimes this is particularly helpful for complicated concepts. For example, BEDtools (<span class="citation">Quinlan and Hall (<a href="#ref-Quinlan2010" role="doc-biblioref">2010</a>)</span>) allows for the manipulation of genomic sequences in BED files. Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:</p>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_44.png" title="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " width="480" /></p>
+<p>Here, this figure explains how the merge function works given a particular set of ranges.</p>
+</div>
+<div id="stay-away-from-jargon" class="section level4" number="3.3.0.2">
+<h4><span class="header-section-number">3.3.0.2</span> Stay away from jargon</h4>
+<p>What someone considers jargon is a very relative to their own experiences. Terms that may seem like common knowledge to you may be foreign to your user.</p>
+<p>For example, something seemingly commonplace to you like <code>TSV</code> may be something a user does not understands what it means. To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. ‘tab separated values (TSV)’). This doesn’t mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you’ve used (e.g. <a href="https://en.wikipedia.org/wiki/Tab-separated_values">tab separated values file (TSV)</a>). This has the benefit of saving you and your user’s time without making your explanations too long winded.</p>
+</div>
+<div id="navigability-make-help-easy-to-find" class="section level4" number="3.3.0.3">
+<h4><span class="header-section-number">3.3.0.3</span> Navigability: Make help easy to find</h4>
+<p>When your user has a question in mind, it can make their experience a lot more stress-free if they can find their answer with ease. Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches! For these reasons, navigability is important for your tool and documentation.</p>
+<p><em>Quick tips for increasing your tools’ navigability</em>:</p>
+<ul>
+<li>Minimize the number of clicks for finding help!</li>
+<li>The more important a piece of information is to a users’ ability to use your tool, the more it should be in the forefront of your tool!<br />
+</li>
+<li>Patterns are super helpful! Be consistent about where to find things. Once a user has caught on to your pattern of how you store things in your tool, don’t switch it.<br />
+</li>
+<li>Use visual cues where possible!</li>
+</ul>
+<div id="use-reading-patterns-to-your-advantage" class="section level5" number="3.3.0.3.1">
+<h5><span class="header-section-number">3.3.0.3.1</span> Use reading patterns to your advantage:</h5>
+<p>Even if you try to make your text succinct and lean on visuals where possible, there will still be instances where you may inevitably require large chunks of text.</p>
+<p>Large chunks of texts are hard on your user, especially if they are trying to scan the information for something in particular.</p>
+<p>To help these chunks of text be less cumbersome, utilize reading patterns:</p>
+<p>Described in this <span class="citation">(useful article <a href="#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>(<a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns" class="uri">https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns</a>), humans’ eyes are drawn to items based on:</p>
+<blockquote>
+<ul>
+<li>Size: Larger elements will dominate and catch eyes first.</li>
+<li>Color: Bright colors catch eyes ahead of muted, drab ones.</li>
+<li>Contrast: Stark differences between elements draw eyes to the brighter one.</li>
+<li>Alignment: Users expect to find certain elements in the same place.</li>
+<li>Repetition: A repeated quality (e.g.,colored parts of text) draws the user’s eye.</li>
+<li>Proximity: Putting related elements (e.g., header with associated text) close together means these are related.</li>
+<li>Whitespace: Including whitespace around elements singles them out as separate groups of information.</li>
+<li>Texture and Style: Using distinct textures/styles (e.g., chunky, military-style buttons) draws the eye while setting the theme.</li>
+</ul>
+</blockquote>
+<p>Based on this, human eyes will scan a website’s page in Z or F pattern <span class="citation">(<a href="#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>.</p>
+<blockquote>
+<p>The Z Pattern — In designs without much text, our eye starts scanning from top left to top right, then diagonally down to bottom left, stopping at the bottom right.</p>
+</blockquote>
+<blockquote>
+<p>The F Pattern — In designs with more text, we scan across the top, from left to right, then down the left, searching for clues to what we want to know. On finding one, we’ll scan across to the right.</p>
+</blockquote>
+<p>For more details on these patterns and how to implement them with your own content, read more:
+- <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">About natural eye movements</a> by <span class="citation">Soegaard (<a href="#ref-Soegaard2020" role="doc-biblioref">n.d.</a>)</span>.
+- <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">About “F” patterns</a> <span class="citation">Babich (<a href="#ref-Babich2017" role="doc-biblioref">n.d.</a>)</span>.</p>
+<p>More about user-friendly principles in general:</p>
+<ul>
+<li><a href="http://bokardo.com/principles-of-user-interface-design/">Principles of User Interface Design</a> by <span class="citation">Porter (<a href="#ref-Porter" role="doc-biblioref">n.d.</a>)</span>.<br />
+</li>
+<li><a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">Golden Rules of UI Design</a> by <span class="citation">Babich (<a href="#ref-Babich" role="doc-biblioref">2019</a>)</span>.<br />
+</li>
+<li><a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">About intuitive layouts</a> by <span class="citation">Tidwell (<a href="#ref-Tidwell" role="doc-biblioref">2021</a>)</span>.</li>
+</ul>
+</div>
+</div>
+<div id="provide-a-method-for-users-to-file-concerns" class="section level4" number="3.3.0.4">
+<h4><span class="header-section-number">3.3.0.4</span> Provide a method for users to file concerns</h4>
+<p>No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time. Because of this or other <a href="https://uxdesign.cc/the-knowns-and-unknowns-framework-for-design-thinking-6537787de2c5">unknown unknowns</a>, a usable tool still has a way for a user to let the developers know when something isn’t working. This might be a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention.
+We’ll discuss this in more detail in a <a href="obtaining-user-feedback.html#obtaining-user-feedback">later chapter</a>.</p>
+<p>Now that we’ve discussed some major principles about users and design, let’s dive in to talking about how documentation can help!</p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Alexakis2017" class="csl-entry">
+Alexakis, Alex. n.d. <span>“You’re Not Your User.”</span> <a href="https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8">https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8</a>.
+</div>
+<div id="ref-Babich" class="csl-entry">
+Babich, Nick. 2019. <span>“The 4 Golden Rules of UI Design.”</span> <a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/</a>.
+</div>
+<div id="ref-Babich2017" class="csl-entry">
+———. n.d. <span>“F-Shaped Pattern for Reading Content.”</span> <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394</a>.
+</div>
+<div id="ref-deMatos2013" class="csl-entry">
+Matos, Paula de, Jennifer A Cham, Hong Cao, Rafael Alcántara, Francis Rowland, Rodrigo Lopez, and Christoph Steinbeck. 2013. <span>“The Enzyme Portal: A Case Study in Applying User-Centred Design Methods in Bioinformatics.”</span> <em><span>BMC</span> Bioinformatics</em> 14 (1): 103. <a href="https://doi.org/10.1186/1471-2105-14-103">https://doi.org/10.1186/1471-2105-14-103</a>.
+</div>
+<div id="ref-Mulder2018" class="csl-entry">
+Mulder, Nicola, Russell Schwartz, Michelle D. Brazas, Cath Brooksbank, Bruno Gaeta, Sarah L. Morgan, Mark A. Pauley, et al. 2018. <span>“The Development and Application of Bioinformatics Core Competencies to Improve Bioinformatics Training and Education.”</span> Edited by Olga G. Troyanskaya. <em><span>PLOS</span> Computational Biology</em> 14 (2): e1005772. <a href="https://doi.org/10.1371/journal.pcbi.1005772">https://doi.org/10.1371/journal.pcbi.1005772</a>.
+</div>
+<div id="ref-Porter" class="csl-entry">
+Porter, Joshua. n.d. <span>“Principles of User Interface Design.”</span> <a href="http://bokardo.com/principles-of-user-interface-design/">http://bokardo.com/principles-of-user-interface-design/</a>.
+</div>
+<div id="ref-Quinlan2010" class="csl-entry">
+Quinlan, Aaron R., and Ira M. Hall. 2010. <span>“<span>BEDTools</span>: A Flexible Suite of Utilities for Comparing Genomic Features.”</span> <em>Bioinformatics</em> 26 (6): 841–42. <a href="https://doi.org/10.1093/bioinformatics/btq033">https://doi.org/10.1093/bioinformatics/btq033</a>.
+</div>
+<div id="ref-Soegaard2020" class="csl-entry">
+Soegaard, Mads. n.d. <span>“Visual Hierarchy: Organizing Content to Follow Natural Eye Movement Patterns.”</span> <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns</a>.
+</div>
+<div id="ref-Tidwell" class="csl-entry">
+Tidwell, Jeniger. 2021. <span>“Organizing the Page:layout of Page Elements.”</span> <a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html</a>.
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="2">
+<li id="fn2"><p>For all cartoons:<br />
+Avataars by <a href="https://getavataaars.com/" class="uri">https://getavataaars.com/</a>.<br />
+Icons by <a href="https://thenounproject.com/" class="uri">https://thenounproject.com/</a> License CC BY-NC-ND 2.0.<br />
+Emojis by OpenMoji License: CC BY-SA 4.0.<a href="lessons-we-should-borrow-from-user-designers.html#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="documentation-why-its-worth-the-effort.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="what-does-good-documentation-look-like.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
