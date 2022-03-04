@@ -20,6 +20,8 @@ Increasing the usability and quality of documentation for a tool is not only hel
 
 The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the [Informatics Technology Cancer Research](https://itcr.cancer.gov/informatics-tools).
 
+<img src="resources/images/01-intro_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_g116525eff64_0_96.png" title="For individuals who: Create informatics tools, want to learn how to apply user experience design principles to their tools and want to increase the quality of their documentation" alt="For individuals who: Create informatics tools, want to learn how to apply user experience design principles to their tools and want to increase the quality of their documentation" width="480" />
+
 ## Curriculum    
 
 <img src="resources/images/01-intro_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_10.png" title="This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users" alt="This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users" width="480" />
