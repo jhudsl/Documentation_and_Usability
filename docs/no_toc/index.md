@@ -1,6 +1,6 @@
 ---
 title: "Documentation and Usability"
-date: "2022-02-23"
+date: "2022-03-04"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
