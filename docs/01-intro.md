@@ -22,6 +22,10 @@ The course is intended for cancer informatics tool developers, particularly thos
 
 ![](resources/images/01-intro_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_g116525eff64_0_96.png)
 
+## Topics covered:
+
+![](resources/images/01-intro_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_g11db7c97851_0_143.png){width=100%}
+
 ## Curriculum    
 
 ![](resources/images/01-intro_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_10.png)

@@ -1,6 +1,8 @@
+available-course-formats
 introduction
 motivation
 target-audience
+topics-covered
 curriculum
 documentation-why-its-worth-the-effort
 the-context-of-bioinformatics-tool-development
