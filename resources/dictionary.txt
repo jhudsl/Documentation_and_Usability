@@ -6,8 +6,10 @@ Bioinformatician
 bioinformatic
 Biostatistics
 Bloomberg
+Bookdown
 cheatsheet
 cheatsheets
+Coursera
 de
 DESeq
 docstrings
@@ -30,6 +32,7 @@ ITCR
 itcrtraining
 ITN
 Krug's
+Leanpub
 Markua
 mkdocs
 MkDocs
