@@ -10,7 +10,7 @@ ottrpal::set_knitr_image_path()
 # Introduction
 
 ```{r, fig.alt="Title image: Documentation and Usability", out.width = "100%", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/export/png?id=1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4&pageid=gd422c5de97_0_0")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gd422c5de97_0_0")
 ```
 
 
@@ -25,19 +25,19 @@ Increasing the usability and quality of documentation for a tool is not only hel
 The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the [Informatics Technology Cancer Research](https://itcr.cancer.gov/informatics-tools).
 
 ```{r, fig.alt = "For individuals whom: Create informatics tools, want to learn how to apply user experience design principles to their tools and want to increase the quality of their documentation", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1TCdysZuow3V7aE3IFKva68cedpjoCw7yOk4lJAoNKps/edit#slide=id.g2def6d3177a_0_140")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2def1a354ad_0_0")
 ```
 
 ## Topics covered:
 
 ```{r, fig.alt="Concepts discussed in Documentation and Usability course:Apply usability research concepts, Create user friendly guides, Document code clearly, Obtain helpful user feedback", out.width = "100%", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1TCdysZuow3V7aE3IFKva68cedpjoCw7yOk4lJAoNKps/edit#slide=id.g2def6d3177a_0_144")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2def1a354ad_0_6")
 ```
 
 ## Curriculum    
 
 ```{r, fig.alt = "This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1TCdysZuow3V7aE3IFKva68cedpjoCw7yOk4lJAoNKps/edit#slide=id.p")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gd422c5de97_0_10")
 ```
 
 The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.
