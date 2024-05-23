@@ -10,7 +10,7 @@ ottrpal::set_knitr_image_path()
 # Obtaining user feedback
 
 ```{r, fig.alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd422c5de97_0_60")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gd422c5de97_0_60")
 ```
 
 ## The goal of user feedback
@@ -19,7 +19,7 @@ How do you know if your code is working? You test it and get feedback!
 Similarly, how do you know if your tool is working for your user? Ask them for feedback!
 
 ```{r, fig.alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gcdcbd8d802_0_173")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gcdcbd8d802_0_173")
 ```
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
@@ -101,7 +101,7 @@ Make sure to check that they are okay with you recording the session (if that is
 A very important point from @Csontos2019:
 
 ```{r, fig.alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd2cd8e726d_0_5")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gd2cd8e726d_0_5")
 ```
 
 **[Step 4) Analyze & Report](https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report)**  
