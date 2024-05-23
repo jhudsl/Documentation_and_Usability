@@ -7,7 +7,7 @@ output: html_document
 
 # Other helpful features
 
-![](resources/images/10-other-features_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd436f8053d_0_0.png)
+![](resources/images/10-other-features_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd436f8053d_0_0.png)
 
 ## The goal of these "other features"
 

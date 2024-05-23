@@ -7,7 +7,7 @@ output: html_document
 
 # Introduction
 
-![](resources/images/01-intro_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_0.png){width=100%}
+![](resources/images/01-intro_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_0.png){width=100%}
 
 
 ## Motivation
@@ -20,15 +20,15 @@ Increasing the usability and quality of documentation for a tool is not only hel
 
 The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the [Informatics Technology Cancer Research](https://itcr.cancer.gov/informatics-tools).
 
-![](resources/images/01-intro_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_g116525eff64_0_96.png)
+![](resources/images/01-intro_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2def1a354ad_0_0.png)
 
 ## Topics covered:
 
-![](resources/images/01-intro_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_g11db7c97851_0_143.png){width=100%}
+![](resources/images/01-intro_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2def1a354ad_0_6.png){width=100%}
 
 ## Curriculum    
 
-![](resources/images/01-intro_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_10.png)
+![](resources/images/01-intro_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_10.png)
 
 The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.
 Individuals who take this course are encouraged to use these templates as they follow along with the course material to help increase the usability of their informatics tool.
