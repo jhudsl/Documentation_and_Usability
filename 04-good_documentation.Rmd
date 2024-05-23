@@ -29,7 +29,7 @@ Emojis by OpenMoji License: CC BY-SA 4.0.]
 We can think of these components of documentation in terms of how much time a user has invested in learning the tool:
 
 ```{r, fig.alt="The various components of good documentation: The why, getting started, how-to examples, reference guide, code comments, and user feedback are on a continuum in that order from the most to least amount of time spent invested in a tool.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gcdcbd8d802_0_26")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g23b977ee2c1_0_19")
 ```
 
 This isn't always a perfect linear timeline like this, users may use these items in a different order than we expect, but this demonstrates the intent of how users would progress through the documentation.
