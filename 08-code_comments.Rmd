@@ -10,7 +10,7 @@ ottrpal::set_knitr_image_path()
 # Creating clarifying code comments
 
 ```{r, fig.alt="This chapter will demonstrate how to: Understand the goals of good code documentation. Describe characteristics of helpful code comments.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd422c5de97_0_54")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gd422c5de97_0_54")
 ```
 
 ## The goal of a code documentation
@@ -67,7 +67,7 @@ Here are more resources about good code comments that have plenty of great discu
 **In summary:**
 
 ```{r, fig.alt="Good code documentation: Is a part of writing good code! Increases the readability of your code. Clarify where the code requires explanation. Can help you write out your thought process.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gcdcbd8d802_0_132")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gcdcbd8d802_0_132")
 ```
 
 ## Exercise: Evaluate your own code's comments
