@@ -21,7 +21,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Template Publishing Engineer|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |**Production**||
 |Content Publisher|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
-|Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Carrie Wright](https://carriewright11.github.io/)|
+|Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Carrie Wright](https://carriewright11.github.io/), [Kate Isaac](https://kweav.github.io/)|
 |**Technical**||
 |Course Publishing Engineer|[Candace Savonen](https://www.cansavvy.com/)|
 |Template Publishing Engineers|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
