@@ -15,7 +15,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04G
 
 ## Major components of good documentation
 
-In this chapter we are going to cover the major aspects of a well-documented tool. In the subsequent chapters, we will talk about each of these components in more detail, providing relevant examples and tools.
+In this chapter we are going to cover the major aspects of a well-documented tool. In the subsequent chapters, we will talk about each of these components in more detail, providing relevant examples and tools. Others have divided this system into different categories which we have taken inspiration from for what we describe here [@divio]. 
 
 ```{r, fig.alt="The anthropomorphic documentation has 6 major components in this illustration including: The why, getting started, how-to examples, reference guide, code comments, and user feedback.", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gcd0e3791ab_0_23")
