@@ -12,10 +12,12 @@ spell-check: yes
 style-code: yes
 # Test build the docker image if any docker-relevant files have been changed
 docker-test: no
+# Should URLs be tested periodically?
+url-check-periodically: yes
 
 ##### Renderings run upon merge to main branch #####
 # Rendering each platform's content
-render-bookdown: yes
+render-website: rmd
 render-leanpub: yes
 render-coursera: yes
 
