@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 9 Obtaining user feedback | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 9 Obtaining user feedback | Documentation and Usability" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="creating-clarifying-code-comments.html"/>
 <link rel="next" href="other-helpful-features.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -276,20 +279,20 @@ div.csl-indent {
 <div class="hero-image-container">
   <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/style-sets/itcr/copy-to-assets/itcr_main_image.png">
 </div>
-<div id="obtaining-user-feedback" class="section level1" number="9">
-<h1><span class="header-section-number">Chapter 9</span> Obtaining user feedback</h1>
-<p><img src="resources/images/09-user_feedback_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_60.png" title="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." width="1250" /></p>
-<div id="the-goal-of-user-feedback" class="section level2" number="9.1">
-<h2><span class="header-section-number">9.1</span> The goal of user feedback</h2>
+<div id="obtaining-user-feedback" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">Chapter 9</span> Obtaining user feedback<a href="obtaining-user-feedback.html#obtaining-user-feedback" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="resources/images/09-user_feedback_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_60.png" alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." width="1250" /></p>
+<div id="the-goal-of-user-feedback" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">9.1</span> The goal of user feedback<a href="obtaining-user-feedback.html#the-goal-of-user-feedback" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>How do you know if your code is working? You test it and get feedback!
 Similarly, how do you know if your tool is working for your user? Ask them for feedback!</p>
-<p><img src="resources/images/09-user_feedback_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" width="1250" />
+<p><img src="resources/images/09-user_feedback_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_173.png" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" width="1250" />
 <a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
 </div>
-<div id="how-to-collect-informative-user-feedback" class="section level2" number="9.2">
-<h2><span class="header-section-number">9.2</span> How to collect informative user feedback</h2>
-<div id="user-contact-method" class="section level3" number="9.2.1">
-<h3><span class="header-section-number">9.2.1</span> User contact method</h3>
+<div id="how-to-collect-informative-user-feedback" class="section level2 hasAnchor" number="9.2">
+<h2><span class="header-section-number">9.2</span> How to collect informative user feedback<a href="obtaining-user-feedback.html#how-to-collect-informative-user-feedback" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="user-contact-method" class="section level3 hasAnchor" number="9.2.1">
+<h3><span class="header-section-number">9.2.1</span> User contact method<a href="obtaining-user-feedback.html#user-contact-method" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>At the most basic level, you need to provide your users a way to alert you if something with your tool is not working appropriately.</p>
 <p>It may sound disappointing that a user has found a problem but this is something to be happy about!</p>
 <ol style="list-style-type: decimal">
@@ -310,10 +313,10 @@ Similarly, how do you know if your tool is working for your user? Ask them for f
 </ul>
 <p>Whatever method of contact you provide your users, just make sure its something that works for you and your team to respond to.</p>
 </div>
-<div id="interviews-and-usability-testing" class="section level3" number="9.2.2">
-<h3><span class="header-section-number">9.2.2</span> Interviews and usability testing</h3>
+<div id="interviews-and-usability-testing" class="section level3 hasAnchor" number="9.2.2">
+<h3><span class="header-section-number">9.2.2</span> Interviews and usability testing<a href="obtaining-user-feedback.html#interviews-and-usability-testing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In whatever contact method you settle on, give your users a way to indicate if they are willing to chat with you or do testing to provide even more feedback.</p>
-<p>Depending on your time and resources you can do a lot with usability testing. <a href="https://uxstudioteam.com/ux-blog/usability-testing/">This excellent article</a> by <span class="citation">Csontos (<a href="#ref-Csontos2019" role="doc-biblioref">2019</a>)</span> takes us through how to conduct usability testing which we will echo the main points of here.</p>
+<p>Depending on your time and resources you can do a lot with usability testing. <a href="https://uxstudioteam.com/ux-blog/usability-testing/">This excellent article</a> by <span class="citation">Csontos (<a href="#ref-Csontos2019">2019</a>)</span> takes us through how to conduct usability testing which we will echo the main points of here.</p>
 <p>What to use usability testing for:</p>
 <blockquote>
 <ul>
@@ -323,7 +326,7 @@ Similarly, how do you know if your tool is working for your user? Ask them for f
 <li>Validating the value proposition of an app or website – do your potential customers understand it?</li>
 </ul>
 </blockquote>
-<p><em>To summarize the steps laid out by <span class="citation">Csontos (<a href="#ref-Csontos2019" role="doc-biblioref">2019</a>)</span> for conducting usability research</em>:</p>
+<p><em>To summarize the steps laid out by <span class="citation">Csontos (<a href="#ref-Csontos2019">2019</a>)</span> for conducting usability research</em>:</p>
 <p><strong><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_1_Plan_your_study">Step 1) Plan out your study</a></strong> - clarify what you want to learn and write a plan and script.</p>
 <ul>
 <li>What main questions about your tool do you have? – try to narrow down to one or two priority questions that you can design a test for.<br />
@@ -334,9 +337,9 @@ Similarly, how do you know if your tool is working for your user? Ask them for f
 </ul>
 <p><em>See more advice about writing usability testing scripts here:</em></p>
 <ul>
-<li><a href="http://sensible.com/downloads/test-script-web.pdf">Steve Krug’s usability testing script template</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span>.<br />
+<li><a href="http://sensible.com/downloads/test-script-web.pdf">Steve Krug’s usability testing script template</a> from <span class="citation">Krug (<a href="#ref-Krug2010">2010</a>)</span>.<br />
 </li>
-<li><a href="https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/">Gitlab’s advice about usability testing script</a> from <span class="citation">GitLab (<a href="#ref-Gitlab" role="doc-biblioref">n.d.</a>)</span>.<br />
+<li><a href="https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/">Gitlab’s advice about usability testing script</a> from <span class="citation">GitLab (<a href="#ref-Gitlab">n.d.</a>)</span>.<br />
 </li>
 <li><a href="https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit">Gitlab’s usability testing template script</a>.</li>
 </ul>
@@ -344,39 +347,39 @@ Similarly, how do you know if your tool is working for your user? Ask them for f
 <p>Before you use your test on a potential user, borrow a colleague or other internal person to run through your plan and script for a rehearsal. Though your colleagues are likely not the same as your typical user, running your testing plan on someone who works with you first will allow you to identify bugs in your testing plan.
 Run this pilot test with your colleague as if you are doing the real thing and try to be as prepared as possible!</p>
 <p><strong><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_3_Lead_the_test">Step 2) Prepare for the testing session</a></strong></p>
-<p><a href="http://sensible.com/downloads/checklists.pdf">Use this checklist</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to check if you are prepared!</p>
-<p>You can use <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">these prompts</a> from <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> to help you know what to say to help create a non-judgmental atmosphere for testing.</p>
+<p><a href="http://sensible.com/downloads/checklists.pdf">Use this checklist</a> from <span class="citation">Krug (<a href="#ref-Krug2010">2010</a>)</span> to check if you are prepared!</p>
+<p>You can use <a href="https://sensible.com/downloads/things-a-therapist-would-say.pdf">these prompts</a> from <span class="citation">Krug (<a href="#ref-Krug2010">2010</a>)</span> to help you know what to say to help create a non-judgmental atmosphere for testing.</p>
 <p><strong><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_2_User_test_participants">Step 3) Find user participants</a></strong></p>
 <p>Who is interested in available for being your test subjects? You might be able recruit people from setting up a feedback form, but you also may use word of mouth and ask around. You could also try advertising your need for participants through Twitter, LinkedIn or some other social media platform.</p>
 <p>Note: <a href="https://calendly.com/">Calendly</a> is very handy tool for scheduling usability testing sessions!</p>
 <p><strong>Step 4) Run the test!</strong></p>
 <p>Now that you’ve rehearsed your test and scheduled a testing session with a user, you are ready to run the tests and collect information.</p>
 <p>Make sure to check that they are okay with you recording the session (if that is what you want to do).</p>
-<p>A very important point from <span class="citation">Csontos (<a href="#ref-Csontos2019" role="doc-biblioref">2019</a>)</span>:</p>
-<p><img src="resources/images/09-user_feedback_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_5.png" title="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." width="1250" /></p>
+<p>A very important point from <span class="citation">Csontos (<a href="#ref-Csontos2019">2019</a>)</span>:</p>
+<p><img src="resources/images/09-user_feedback_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_5.png" alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." width="1250" /></p>
 <p><strong><a href="https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report">Step 4) Analyze &amp; Report</a></strong></p>
 <p>Sit down with your notes and recordings, look for patterns.</p>
 <p><em>More reading on usability testing:</em></p>
 <ul>
-<li><a href="https://www.hotjar.com/usability-testing/process-examples/">How to run moderated usability testing</a> <span class="citation">HotJar (<a href="#ref-Hotjar2020" role="doc-biblioref">2019</a>)</span>.</li>
-<li><a href="https://www.nngroup.com/articles/usability-testing-101/">Usability Testing 101</a> <span class="citation">Moran (<a href="#ref-Moran2019" role="doc-biblioref">2019</a>)</span>.</li>
-<li>See <span class="citation">Krug (<a href="#ref-Krug2010" role="doc-biblioref">2010</a>)</span> ’s list of <a href="https://sensible.com/download-files/">downloadable usability resources</a>.</li>
-<li>See this <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002554">case study</a> for a user designer conducting user research on a bioinformatics tool <span class="citation">(<a href="#ref-Pavelin2012" role="doc-biblioref">Pavelin et al. 2012</a>)</span>.</li>
-<li>For even more reading, you could buy <span class="citation">(this book by <a href="#ref-Krug2010" role="doc-biblioref">Krug 2010</a>)</span>(<a href="https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO" class="uri">https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO</a>).</li>
+<li><a href="https://www.hotjar.com/usability-testing/process-examples/">How to run moderated usability testing</a> <span class="citation">HotJar (<a href="#ref-Hotjar2020">2019</a>)</span>.</li>
+<li><a href="https://www.nngroup.com/articles/usability-testing-101/">Usability Testing 101</a> <span class="citation">Moran (<a href="#ref-Moran2019">2019</a>)</span>.</li>
+<li>See <span class="citation">Krug (<a href="#ref-Krug2010">2010</a>)</span> ’s list of <a href="https://sensible.com/download-files/">downloadable usability resources</a>.</li>
+<li>See this <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002554">case study</a> for a user designer conducting user research on a bioinformatics tool <span class="citation">(<a href="#ref-Pavelin2012">Pavelin et al. 2012</a>)</span>.</li>
+<li>For even more reading, you could buy <a href="https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself-ebook/dp/B002UXRGNO">this book by <span class="citation">Krug (<span>2010</span>)</span></a>.</li>
 </ul>
 </div>
 </div>
-<div id="exercise-1-create-a-plan-for-user-feedback-for-your-tool" class="section level2" number="9.3">
-<h2><span class="header-section-number">9.3</span> Exercise 1: Create a plan for user feedback for your tool</h2>
+<div id="exercise-1-create-a-plan-for-user-feedback-for-your-tool" class="section level2 hasAnchor" number="9.3">
+<h2><span class="header-section-number">9.3</span> Exercise 1: Create a plan for user feedback for your tool<a href="obtaining-user-feedback.html#exercise-1-create-a-plan-for-user-feedback-for-your-tool" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Set up a method of contact for your users. We have a mock feedback user form <a href="https://docs.google.com/forms/d/1erbaH2k8cra0A2GB6W9Da0tqJCT41ZPlCmHXpKRcMLk/edit?usp=sharing">set up here</a>. This form shouldn’t be used as is, but could be tailored to more specifically ask questions about your tool that you are looking to get information about.</p>
 </div>
-<div id="exercise-2-determine-a-plan-for-usability-testing" class="section level2" number="9.4">
-<h2><span class="header-section-number">9.4</span> Exercise 2: Determine a plan for usability testing</h2>
-<p>Go through <a href="https://uxstudioteam.com/ux-blog/usability-testing/">All You Need to Know to Run Successful Usability Testing</a> and construct a plan for usability testing following the steps we discussed above from the article <span class="citation">(<a href="#ref-Csontos2019" role="doc-biblioref">Csontos 2019</a>)</span>. Think about what in your tool you want to test and write a plan for it.</p>
+<div id="exercise-2-determine-a-plan-for-usability-testing" class="section level2 hasAnchor" number="9.4">
+<h2><span class="header-section-number">9.4</span> Exercise 2: Determine a plan for usability testing<a href="obtaining-user-feedback.html#exercise-2-determine-a-plan-for-usability-testing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Go through <a href="https://uxstudioteam.com/ux-blog/usability-testing/">All You Need to Know to Run Successful Usability Testing</a> and construct a plan for usability testing following the steps we discussed above from the article <span class="citation">(<a href="#ref-Csontos2019">Csontos 2019</a>)</span>. Think about what in your tool you want to test and write a plan for it.</p>
 
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Csontos2019" class="csl-entry">
 Csontos, Anna-Zsófia. 2019. <span>“All You Need to Know to Run Successful Usability Testing.”</span> <a href="https://uxstudioteam.com/ux-blog/usability-testing/">https://uxstudioteam.com/ux-blog/usability-testing/</a>.

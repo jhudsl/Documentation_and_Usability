@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 11 How to keep your documentation up to date | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 11 How to keep your documentation up to date | Documentation and Usability" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="other-helpful-features.html"/>
 <link rel="next" href="about-the-authors.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -276,29 +279,29 @@ div.csl-indent {
 <div class="hero-image-container">
   <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/style-sets/itcr/copy-to-assets/itcr_main_image.png">
 </div>
-<div id="how-to-keep-your-documentation-up-to-date" class="section level1" number="11">
-<h1><span class="header-section-number">Chapter 11</span> How to keep your documentation up to date</h1>
-<p><img src="resources/images/11-documentation-maintenance_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_0.png" title="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." width="1250" /></p>
-<div id="the-goal-of-documentation-maintenance" class="section level2" number="11.1">
-<h2><span class="header-section-number">11.1</span> The goal of documentation maintenance</h2>
+<div id="how-to-keep-your-documentation-up-to-date" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">Chapter 11</span> How to keep your documentation up to date<a href="how-to-keep-your-documentation-up-to-date.html#how-to-keep-your-documentation-up-to-date" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="resources/images/11-documentation-maintenance_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_0.png" alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." width="1250" /></p>
+<div id="the-goal-of-documentation-maintenance" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> The goal of documentation maintenance<a href="how-to-keep-your-documentation-up-to-date.html#the-goal-of-documentation-maintenance" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Perhaps you’ve been making improvements or otherwise updating your software tool. That’s excellent and you deserve a big kudos for continuing maintenance on your tool!</p>
 <p>But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update. As a user, the only thing worse than having a tool with no documentation at all is having a tool with documentation that is out of date or otherwise incorrect.</p>
-<p><img src="resources/images/11-documentation-maintenance_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_5.png" title="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." width="1250" /></p>
+<p><img src="resources/images/11-documentation-maintenance_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_5.png" alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." width="1250" /></p>
 <p>If documentation updates aren’t prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.</p>
 </div>
-<div id="keep-your-documentation-in-one-version-controlled-place" class="section level2" number="11.2">
-<h2><span class="header-section-number">11.2</span> Keep your documentation in one, version-controlled place</h2>
+<div id="keep-your-documentation-in-one-version-controlled-place" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> Keep your documentation in one, version-controlled place<a href="how-to-keep-your-documentation-up-to-date.html#keep-your-documentation-in-one-version-controlled-place" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Presumably you have some sort of process for version controlling your tool updates (we assume GitHub but could be other services). Ideally, your documentation should be version controlled similarly and, if appropriate, in the same place.
 The easier you make it on yourself to update your documentation, the more likely future you will be at updating it successfully! It’s worth spending time thinking about your own development process and how you can make it easier on yourself and your team for longer-term better maintained documentation.</p>
 </div>
-<div id="do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed" class="section level2" number="11.3">
-<h2><span class="header-section-number">11.3</span> Do not consider a tool fix done before its relevant documentation update is also completed</h2>
+<div id="do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed" class="section level2 hasAnchor" number="11.3">
+<h2><span class="header-section-number">11.3</span> Do not consider a tool fix done before its relevant documentation update is also completed<a href="how-to-keep-your-documentation-up-to-date.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>However you track your tasks, also track your documentation issues and always pair a software fix with a documentation fix – or at least check if it affects anything user-facing. To help you remind you of this, you may want to use an <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">issue template</a> (if you use GitHub) and make sure that issue template includes a reminder to update documentation.</p>
 </div>
-<div id="make-sure-links-work" class="section level2" number="11.4">
-<h2><span class="header-section-number">11.4</span> Make sure links work</h2>
+<div id="make-sure-links-work" class="section level2 hasAnchor" number="11.4">
+<h2><span class="header-section-number">11.4</span> Make sure links work<a href="how-to-keep-your-documentation-up-to-date.html#make-sure-links-work" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>A very simple but all too common problem with out of date documentation is broken links!</p>
-<p><img src="resources/images/11-documentation-maintenance_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_37.png" title="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." width="1250" /></p>
+<p><img src="resources/images/11-documentation-maintenance_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_37.png" alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." width="1250" /></p>
 <p>You can catch these broken links by manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway! There are GitHub actions and other automated tools that can check your URLs for you. Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!</p>
 <p>Here’s some options for automated URL-checking:</p>
 <ul>
@@ -306,19 +309,19 @@ The easier you make it on yourself to update your documentation, the more likely
 </li>
 <li><a href="https://github.com/marketplace/actions/url-checker">GitHub action: URL checker</a>.<br />
 </li>
-<li><a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">6 Tools to Find Broken Links on Your Website</a> <span class="citation">(<a href="#ref-OutlookStudios2020" role="doc-biblioref">Studios 2020</a>)</span>.</li>
+<li><a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">6 Tools to Find Broken Links on Your Website</a> <span class="citation">(<a href="#ref-OutlookStudios2020">Studios 2020</a>)</span>.</li>
 </ul>
 </div>
-<div id="exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager" class="section level2" number="11.5">
-<h2><span class="header-section-number">11.5</span> Exercise 1: Add a reminder for documentation updates to your task manager</h2>
+<div id="exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager" class="section level2 hasAnchor" number="11.5">
+<h2><span class="header-section-number">11.5</span> Exercise 1: Add a reminder for documentation updates to your task manager<a href="how-to-keep-your-documentation-up-to-date.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>If you use GitHub, add an <a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository">issue template</a> that has a reminder to update documentation.<br />
 </li>
 <li>If you use something else for task management, look for some other way to remind yourself (and your fellow developers on the project) to keep documentation up-to-date for each change.</li>
 </ul>
 </div>
-<div id="exercise-2-implement-a-url-checker" class="section level2" number="11.6">
-<h2><span class="header-section-number">11.6</span> Exercise 2: Implement a URL checker</h2>
+<div id="exercise-2-implement-a-url-checker" class="section level2 hasAnchor" number="11.6">
+<h2><span class="header-section-number">11.6</span> Exercise 2: Implement a URL checker<a href="how-to-keep-your-documentation-up-to-date.html#exercise-2-implement-a-url-checker" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>If you use GitHub for your documentation, add a url checking GitHub action to your repository.
 We used a url-checker GitHub action for developing this course!
@@ -329,7 +332,7 @@ You can see <a href="https://github.com/jhudsl/OTTR_Template/blob/main/.github/w
 
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-OutlookStudios2020" class="csl-entry">
 Studios, Outlook. 2020. <span>“6 Tools to Find Broken Links on Your Website.”</span> <a href="https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/">https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/</a>.
