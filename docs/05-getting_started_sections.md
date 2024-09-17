@@ -7,13 +7,13 @@ output: html_document
 
 # Creating a smooth getting started section
 
-![](resources/images/05-getting_started_sections_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_36.png)
+![](resources/images/05-getting_started_sections_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_36.png)
 
 ## The goal of a getting started section
 
 A getting started section is new users' first experience with your tool. It is also can be the most frustrating experience for your user if installation doesn't happen smoothly.
 
-![](resources/images/05-getting_started_sections_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d4e1_0_12.png)
+![](resources/images/05-getting_started_sections_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_12.png)
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -51,7 +51,7 @@ Do some steps take more time than others? Warn them about that. Are there output
 
 Where it makes sense, you **use screenshots as assurances** to the user that they are on the right track. Being able to see that your users' screen matches what is shown in your screenshots reassures them that things are progressing correctly. Conversely, if something does not match, it can help them narrow in on a problem. _Keep in mind out-of-date screenshots can add to the confusion! -- more on tips about how to keep things up to date in a later chapter._
 
-![](resources/images/05-getting_started_sections_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd5f2c75a67_0_79.png)
+![](resources/images/05-getting_started_sections_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_79.png)
 
 Install steps should also try to address any common pitfalls, particularly **how different operating systems might require different steps**. You may consider having separate sections or pages to describe install steps on different operating systems.
 
@@ -59,7 +59,7 @@ What dependencies does installing your tool require? Will these be installed aut
 
 **To recap:**  
 
-![](resources/images/05-getting_started_sections_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d4e1_0_7.png)
+![](resources/images/05-getting_started_sections_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_7.png)
 
 Installation steps can be tricky -- and admittedly hard to give guidance on when individual computer' set ups can differ so much, but the more you are able to workshop your guidance to your users here, the more they will appreciate it and stick with your tool!
 
@@ -80,7 +80,7 @@ Give your users the fewest steps needed to produce a rewarding result that will 
 
 This rewarding result might be a cool visual or a plot -- but also should demonstrate the most popular thing your users would like to see.
 
-![](resources/images/05-getting_started_sections_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d4e1_0_23.png)
+![](resources/images/05-getting_started_sections_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_23.png)
 
 ### Directs the user to the how-to examples section
 
@@ -90,11 +90,11 @@ Now that your user has successfully installed your tool and understands the basi
 
 [Snakemake has a great getting started section](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) [@Molder2021]. The makers of Snakemake tell their users how to install Snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!
 
-![](resources/images/05-getting_started_sections_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_0.png)
+![](resources/images/05-getting_started_sections_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_0.png)
 
 [GSEA](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html) introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track [@Subramanian2005]!
 
-![](resources/images/05-getting_started_sections_files/figure-docx//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcdcbd8d802_0_4.png)
+![](resources/images/05-getting_started_sections_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_4.png)
 
 ## Exercise: Create your own getting started section!
 

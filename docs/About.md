@@ -21,20 +21,20 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Template Publishing Engineer|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |**Production**||
 |Content Publisher|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
-|Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Carrie Wright](https://carriewright11.github.io/)|
+|Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Carrie Wright](https://carriewright11.github.io/), [Kate Isaac](https://kweav.github.io/)|
 |**Technical**||
 |Course Publishing Engineer|[Candace Savonen](https://www.cansavvy.com/)|
 |Template Publishing Engineers|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |Publishing Maintenance Engineer|[Candace Savonen](https://www.cansavvy.com/)|
 |Technical Publishing Stylists|[Carrie Wright](https://carriewright11.github.io/), [Candace Savonen](https://www.cansavvy.com/)|
-|Package Developers ([Leanbuild](https://github.com/jhudsl/ottrpal))[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
+|Package Developers ([ottrpal](https://github.com/jhudsl/ottrpal))|[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |**Art and Design**||
 |Illustrator|[Candace Savonen](https://www.cansavvy.com/)|
 |**Funding**||
 |Funder|[National Cancer Institute (NCI)](https://www.cancer.gov/) UE5 CA254170|
 |Funding Staff| Emily Voeglein, Fallon Bachman|
 
-  
+
 
 
 ```
@@ -48,7 +48,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2022-10-04                  
+##  date     2024-09-17                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source                            
