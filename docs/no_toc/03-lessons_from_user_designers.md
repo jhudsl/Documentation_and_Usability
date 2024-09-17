@@ -7,7 +7,7 @@ output: html_document
 
 # Lessons we should borrow from user designers
 
-<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd422c5de97_0_24.png" title="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="480" />
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_24.png" title="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="1250" />
 
 ## Thinking about user-centered development
 
@@ -16,7 +16,7 @@ In other words, user-centered design is an exercise in applied empathy [@deMatos
 
 This is why a common saying in user-centered design is "You are not your user" [@Alexakis2017]. Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.
 
-<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_0.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" width="480" />
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_0.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" width="1250" />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -30,7 +30,7 @@ As compared to yourself, your typical user may likely have a different:
 
 And most importantly _your user does not know your tool like you do_! You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have.
 
-<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gd228cc29d1_0_146.png" title="Your user does not know your tool like you do!" alt="Your user does not know your tool like you do!" width="480" />
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd228cc29d1_0_146.png" title="Your user does not know your tool like you do!" alt="Your user does not know your tool like you do!" width="1250" />
 
 Also keep in mind users are humans in a context. Humans have demands in their life, have been working long days, and are tired/frustrated/distracted/etc. Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!
 
@@ -82,7 +82,7 @@ Humans are drawn to intuitive visuals. Visuals are efficient means of communicat
 
 Sometimes this is particularly helpful for complicated concepts. For example, BEDtools (@Quinlan2010) allows for the manipulation of genomic sequences in BED files. Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:
 
-<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg_gcd0e3791ab_0_44.png" title="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " width="480" />
+<img src="resources/images/03-lessons_from_user_designers_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_44.png" title="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " width="1250" />
 
 Here, this figure explains how the merge function works given a particular set of ranges.
 
