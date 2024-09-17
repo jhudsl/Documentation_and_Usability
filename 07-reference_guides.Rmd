@@ -10,7 +10,7 @@ ottrpal::set_knitr_image_path()
 # Creating handy reference guides
 
 ```{r, fig.alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd422c5de97_0_48")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gd422c5de97_0_48")
 ```
 
 ## The goal of a reference guide
@@ -18,7 +18,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04G
 Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable. Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
 
 ```{r, fig.alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gcdcbd8d802_0_97")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gcdcbd8d802_0_97")
 ```
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
@@ -83,7 +83,7 @@ Depending on the destination of your package, a consistent format may already be
 **To recap:**
 
 ```{r, fig.alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04GzpsZwzeEA9gjc5Ho6QimiHPbyEg/edit#slide=id.gd2cd8e726d_0_0")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.gd2cd8e726d_0_0")
 ```
 
 ## Good examples of reference guides
