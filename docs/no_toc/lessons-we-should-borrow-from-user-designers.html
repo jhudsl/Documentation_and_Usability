@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Lessons we should borrow from user designers | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Lessons we should borrow from user designers | Documentation and Usability" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
   
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="documentation-why-its-worth-the-effort.html"/>
 <link rel="next" href="what-does-good-documentation-look-like.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -276,15 +279,15 @@ div.csl-indent {
 <div class="hero-image-container">
   <img class= "hero-image" src="https://raw.githubusercontent.com/jhudsl/OTTR_Template/main/style-sets/itcr/copy-to-assets/itcr_main_image.png">
 </div>
-<div id="lessons-we-should-borrow-from-user-designers" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Lessons we should borrow from user designers</h1>
-<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_24.png" title="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="1250" /></p>
-<div id="thinking-about-user-centered-development" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Thinking about user-centered development</h2>
+<div id="lessons-we-should-borrow-from-user-designers" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Lessons we should borrow from user designers<a href="lessons-we-should-borrow-from-user-designers.html#lessons-we-should-borrow-from-user-designers" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_24.png" alt="Learning objectives This chapter will demonstrate how to: Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="1250" /></p>
+<div id="thinking-about-user-centered-development" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Thinking about user-centered development<a href="lessons-we-should-borrow-from-user-designers.html#thinking-about-user-centered-development" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Creating tools that are easy to use starts with thinking about your user’s perspective.
-In other words, user-centered design is an exercise in applied empathy <span class="citation">(<a href="#ref-deMatos2013" role="doc-biblioref">Matos et al. 2013</a>)</span>.</p>
-<p>This is why a common saying in user-centered design is “You are not your user” <span class="citation">(<a href="#ref-Alexakis2017" role="doc-biblioref">Alexakis, n.d.</a>)</span>. Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.</p>
-<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_0.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" width="1250" />
+In other words, user-centered design is an exercise in applied empathy <span class="citation">(<a href="#ref-deMatos2013">Matos et al. 2013</a>)</span>.</p>
+<p>This is why a common saying in user-centered design is “You are not your user” <span class="citation">(<a href="#ref-Alexakis2017">Alexakis, n.d.</a>)</span>. Although it may be true that you may have a lot in common with your user, this saying is based in the idea that you should not assume your user knows what you know or thinks like you do. For example, a warning message that may seem perfectly clear to you as a developer, may be a foreign language to your user.</p>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_0.png" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has error written all over it with a warning sign. Tina says These error messages tell me exactly what I need to know and everything is working as I intended! But Uri the Tool User says I don’t understand what I’m doing wrong these errors are unintelligible to me!" width="1250" />
 <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
 <p>As compared to yourself, your typical user may likely have a different:</p>
 <ul>
@@ -295,10 +298,10 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <li>Set of motivations for using your tool.</li>
 </ul>
 <p>And most importantly <em>your user does not know your tool like you do</em>! You have spent many, many hours developing this tool and its unrealistic and impractical for them to spend the same number of hours with your tool that you have.</p>
-<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd228cc29d1_0_146.png" title="Your user does not know your tool like you do!" alt="Your user does not know your tool like you do!" width="1250" /></p>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd228cc29d1_0_146.png" alt="Your user does not know your tool like you do!" width="1250" /></p>
 <p>Also keep in mind users are humans in a context. Humans have demands in their life, have been working long days, and are tired/frustrated/distracted/etc. Making your tool as easy as possible to use increases the likelihood of your user continuing to stick with your tool and even becoming an advocate for your tool to their colleagues!</p>
-<div id="generalities-about-bioinformatics-tool-users" class="section level3" number="3.1.1">
-<h3><span class="header-section-number">3.1.1</span> Generalities about bioinformatics tool users</h3>
+<div id="generalities-about-bioinformatics-tool-users" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Generalities about bioinformatics tool users<a href="lessons-we-should-borrow-from-user-designers.html#generalities-about-bioinformatics-tool-users" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>On a general level, there are some characteristics we know about bioinformatic tool user communities.</p>
 <p>The typical user of bioinformatics tools are generally:</p>
 <ul>
@@ -313,7 +316,7 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <li>Like many professionals, likely to feel time pressure from deadlines.</li>
 </ul>
 <p>However, the bioinformatics user community also includes a variety of individuals with different roles and experiences.
-<span class="citation">Mulder et al. (<a href="#ref-Mulder2018" role="doc-biblioref">2018</a>)</span> described 10 user personas for bioinformatics software, all with their own skills and competencies:</p>
+<span class="citation">Mulder et al. (<a href="#ref-Mulder2018">2018</a>)</span> described 10 user personas for bioinformatics software, all with their own skills and competencies:</p>
 <ul>
 <li>Physician</li>
 <li>Lab technician</li>
@@ -336,8 +339,8 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <p>Additionally, users may be at various stages in their education (undergraduates, graduates, postdocs, etc) and may have varying experience and time constraints.</p>
 </div>
 </div>
-<div id="exercise-think-about-the-user-community-for-your-tool" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Exercise: Think about the user community for your tool</h2>
+<div id="exercise-think-about-the-user-community-for-your-tool" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Exercise: Think about the user community for your tool<a href="lessons-we-should-borrow-from-user-designers.html#exercise-think-about-the-user-community-for-your-tool" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Write down what you know (or think you know) and try to identify any knowledge gaps you might have about your user community.</p>
 <ul>
 <li>Who is your user community?</li>
@@ -346,23 +349,23 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 </ul>
 <p>Keep the questions about your user community in mind and in a <a href="https://jhudatascience.org/Documentation_and_Usability/obtaining-user-feedback.html">later chapter</a>, we’ll go into more detail about conducting user research to address any knowledge gaps you may have about your user community.</p>
 </div>
-<div id="general-principles-about-user-friendliness" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> General principles about user-friendliness</h2>
+<div id="general-principles-about-user-friendliness" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> General principles about user-friendliness<a href="lessons-we-should-borrow-from-user-designers.html#general-principles-about-user-friendliness" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>While finding out about your user community is critical, there’s also principles we can discuss that are common to all users/humans.</p>
-<div id="humans-like-visuals" class="section level4" number="3.3.0.1">
-<h4><span class="header-section-number">3.3.0.1</span> Humans like visuals</h4>
+<div id="humans-like-visuals" class="section level4 hasAnchor" number="3.3.0.1">
+<h4><span class="header-section-number">3.3.0.1</span> Humans like visuals<a href="lessons-we-should-borrow-from-user-designers.html#humans-like-visuals" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Humans are drawn to intuitive visuals. Visuals are efficient means of communication and help users absorb information better than long-winded paragraphs (though visuals need an accompanying explanation too).</p>
-<p>Sometimes this is particularly helpful for complicated concepts. For example, BEDtools (<span class="citation">Quinlan and Hall (<a href="#ref-Quinlan2010" role="doc-biblioref">2010</a>)</span>) allows for the manipulation of genomic sequences in BED files. Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:</p>
-<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_44.png" title="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " width="1250" /></p>
+<p>Sometimes this is particularly helpful for complicated concepts. For example, BEDtools (<span class="citation">Quinlan and Hall (<a href="#ref-Quinlan2010">2010</a>)</span>) allows for the manipulation of genomic sequences in BED files. Some of these principles can be complicated to visualize, but the authors of BEDtools do a great job of using visuals to explain each function:</p>
+<p><img src="resources/images/03-lessons_from_user_designers_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_44.png" alt="BEDtools has nice visuals with their documentation that help explain complicated subject matter. In this figure they’re showing how ranges are merged together. " width="1250" /></p>
 <p>Here, this figure explains how the merge function works given a particular set of ranges.</p>
 </div>
-<div id="stay-away-from-jargon" class="section level4" number="3.3.0.2">
-<h4><span class="header-section-number">3.3.0.2</span> Stay away from jargon</h4>
+<div id="stay-away-from-jargon" class="section level4 hasAnchor" number="3.3.0.2">
+<h4><span class="header-section-number">3.3.0.2</span> Stay away from jargon<a href="lessons-we-should-borrow-from-user-designers.html#stay-away-from-jargon" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>What someone considers jargon is a very relative to their own experiences. Terms that may seem like common knowledge to you may be foreign to your user.</p>
 <p>For example, something seemingly commonplace to you like <code>TSV</code> may be something a user does not understands what it means. To help smooth over jargon-related barriers, spell out abbreviations the first time you mention them (e.g. ‘tab separated values (TSV)’). This doesn’t mean you have to have long winded explanations of every term, instead you can quickly link out to an article or website with information about a term you’ve used (e.g. <a href="https://en.wikipedia.org/wiki/Tab-separated_values">tab separated values file (TSV)</a>). This has the benefit of saving you and your user’s time without making your explanations too long winded.</p>
 </div>
-<div id="navigability-make-help-easy-to-find" class="section level4" number="3.3.0.3">
-<h4><span class="header-section-number">3.3.0.3</span> Navigability: Make help easy to find</h4>
+<div id="navigability-make-help-easy-to-find" class="section level4 hasAnchor" number="3.3.0.3">
+<h4><span class="header-section-number">3.3.0.3</span> Navigability: Make help easy to find<a href="lessons-we-should-borrow-from-user-designers.html#navigability-make-help-easy-to-find" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>When your user has a question in mind, it can make their experience a lot more stress-free if they can find their answer with ease. Its not always obvious to a user where you have put an answer to something, particularly if user is already frustrated; deep in the troubleshooting trenches! For these reasons, navigability is important for your tool and documentation.</p>
 <p><em>Quick tips for increasing your tools’ navigability</em>:</p>
 <ul>
@@ -373,12 +376,12 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 </li>
 <li>Use visual cues where possible!</li>
 </ul>
-<div id="use-reading-patterns-to-your-advantage" class="section level5" number="3.3.0.3.1">
-<h5><span class="header-section-number">3.3.0.3.1</span> Use reading patterns to your advantage:</h5>
+<div id="use-reading-patterns-to-your-advantage" class="section level5 hasAnchor" number="3.3.0.3.1">
+<h5><span class="header-section-number">3.3.0.3.1</span> Use reading patterns to your advantage:<a href="lessons-we-should-borrow-from-user-designers.html#use-reading-patterns-to-your-advantage" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Even if you try to make your text succinct and lean on visuals where possible, there will still be instances where you may inevitably require large chunks of text.</p>
 <p>Large chunks of texts are hard on your user, especially if they are trying to scan the information for something in particular.</p>
 <p>To help these chunks of text be less cumbersome, utilize reading patterns:</p>
-<p>Described in this <span class="citation">(useful article <a href="#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>(<a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns" class="uri">https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns</a>), humans’ eyes are drawn to items based on:</p>
+<p>Described in this <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">useful article <span class="citation">Soegaard (<span>n.d.</span>)</span></a>, humans’ eyes are drawn to items based on:</p>
 <blockquote>
 <ul>
 <li>Size: Larger elements will dominate and catch eyes first.</li>
@@ -391,7 +394,7 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <li>Texture and Style: Using distinct textures/styles (e.g., chunky, military-style buttons) draws the eye while setting the theme.</li>
 </ul>
 </blockquote>
-<p>Based on this, human eyes will scan a website’s page in Z or F pattern <span class="citation">(<a href="#ref-Soegaard2020" role="doc-biblioref">Soegaard, n.d.</a>)</span>.</p>
+<p>Based on this, human eyes will scan a website’s page in Z or F pattern <span class="citation">(<a href="#ref-Soegaard2020">Soegaard, n.d.</a>)</span>.</p>
 <blockquote>
 <p>The Z Pattern — In designs without much text, our eye starts scanning from top left to top right, then diagonally down to bottom left, stopping at the bottom right.</p>
 </blockquote>
@@ -399,20 +402,20 @@ In other words, user-centered design is an exercise in applied empathy <span cla
 <p>The F Pattern — In designs with more text, we scan across the top, from left to right, then down the left, searching for clues to what we want to know. On finding one, we’ll scan across to the right.</p>
 </blockquote>
 <p>For more details on these patterns and how to implement them with your own content, read more:
-- <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">About natural eye movements</a> by <span class="citation">Soegaard (<a href="#ref-Soegaard2020" role="doc-biblioref">n.d.</a>)</span>.
-- <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">About “F” patterns</a> <span class="citation">Babich (<a href="#ref-Babich2017" role="doc-biblioref">n.d.</a>)</span>.</p>
+- <a href="https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns">About natural eye movements</a> by <span class="citation">Soegaard (<a href="#ref-Soegaard2020">n.d.</a>)</span>.
+- <a href="https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394">About “F” patterns</a> <span class="citation">Babich (<a href="#ref-Babich2017">n.d.</a>)</span>.</p>
 <p>More about user-friendly principles in general:</p>
 <ul>
-<li><a href="http://bokardo.com/principles-of-user-interface-design/">Principles of User Interface Design</a> by <span class="citation">Porter (<a href="#ref-Porter" role="doc-biblioref">n.d.</a>)</span>.<br />
+<li><a href="http://bokardo.com/principles-of-user-interface-design/">Principles of User Interface Design</a> by <span class="citation">Porter (<a href="#ref-Porter">n.d.</a>)</span>.<br />
 </li>
-<li><a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">Golden Rules of UI Design</a> by <span class="citation">Babich (<a href="#ref-Babich" role="doc-biblioref">2019</a>)</span>.<br />
+<li><a href="https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/">Golden Rules of UI Design</a> by <span class="citation">Babich (<a href="#ref-Babich">2019</a>)</span>.<br />
 </li>
-<li><a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">About intuitive layouts</a> by <span class="citation">Tidwell (<a href="#ref-Tidwell" role="doc-biblioref">2021</a>)</span>.</li>
+<li><a href="https://www.oreilly.com/library/view/designing-interfaces/0596008031/ch04.html">About intuitive layouts</a> by <span class="citation">Tidwell (<a href="#ref-Tidwell">2021</a>)</span>.</li>
 </ul>
 </div>
 </div>
-<div id="provide-a-method-for-users-to-file-concerns" class="section level4" number="3.3.0.4">
-<h4><span class="header-section-number">3.3.0.4</span> Provide a method for users to file concerns</h4>
+<div id="provide-a-method-for-users-to-file-concerns" class="section level4 hasAnchor" number="3.3.0.4">
+<h4><span class="header-section-number">3.3.0.4</span> Provide a method for users to file concerns<a href="lessons-we-should-borrow-from-user-designers.html#provide-a-method-for-users-to-file-concerns" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>No matter how much you have perfected your tool, it will never be perfect, especially since software deprecates over time. Because of this or other <a href="https://uxdesign.cc/the-knowns-and-unknowns-framework-for-design-thinking-6537787de2c5">unknown unknowns</a>, a usable tool still has a way for a user to let the developers know when something isn’t working. This might be a direct and obvious break like a bug or broken link, but it could also be something more subtle that also requires your attention.
 We’ll discuss this in more detail in a <a href="obtaining-user-feedback.html#obtaining-user-feedback">later chapter</a>.</p>
 <p>Now that we’ve discussed some major principles about users and design, let’s dive in to talking about how documentation can help!</p>
@@ -420,7 +423,7 @@ We’ll discuss this in more detail in a <a href="obtaining-user-feedback.html#o
 </div>
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Alexakis2017" class="csl-entry">
 Alexakis, Alex. n.d. <span>“You’re Not Your User.”</span> <a href="https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8">https://blog.prototypr.io/dear-product-managers-youre-not-your-users-e5739627cbc8</a>.

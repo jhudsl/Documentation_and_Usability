@@ -7,14 +7,14 @@ output: html_document
 
 # Obtaining user feedback
 
-<img src="resources/images/09-user_feedback_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_60.png" title="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." width="1250" />
+<img src="resources/images/09-user_feedback_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_60.png" alt="This chapter will demonstrate how to: Understand the goals of obtaining user feedback. Construct user feedback methods that inform work on your tool. Create a plan for how to obtain user feedback for your tool." width="1250" />
 
 ## The goal of user feedback
 
 How do you know if your code is working? You test it and get feedback!
 Similarly, how do you know if your tool is working for your user? Ask them for feedback!
 
-<img src="resources/images/09-user_feedback_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_173.png" title="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" width="1250" />
+<img src="resources/images/09-user_feedback_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_173.png" alt="Tina the Tool Developer and Uri the Tool User both are looking at Tina’s tool that has “error” written all over it with a warning sign and is on fire. Uri the Tool User says Is this supposed to be on fire? Tina the Tool Developer pours a bucket of water on the fire and says Oh! Let me put that out!" width="1250" />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -94,7 +94,7 @@ Make sure to check that they are okay with you recording the session (if that is
 
 A very important point from @Csontos2019:
 
-<img src="resources/images/09-user_feedback_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_5.png" title="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." width="1250" />
+<img src="resources/images/09-user_feedback_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_5.png" alt="Assure your participant that they shoulder no blame. Never let the participants helping you with their valuable feedback feel frustrated." width="1250" />
 
 **[Step 4) Analyze & Report](https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report)**  
 
