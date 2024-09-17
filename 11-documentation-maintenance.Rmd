@@ -61,6 +61,6 @@ Here's some options for automated URL-checking:
 
 - If you use GitHub for your documentation, add a url checking GitHub action to your repository.
 We used a url-checker GitHub action for developing this course!
-You can see [ours here for an example](https://github.com/jhudsl/Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml).  
+You can see [ours here for an example](https://github.com/jhudsl/OTTR_Template/blob/main/.github/workflows/check-url.yml).  
 - If you use something else for version control, look into URL checkers that you can easily implement into your development process.  
   
