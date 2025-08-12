@@ -1,0 +1,14 @@
+1-Introduction.md
+2-Documentation:-Why-it’s-worth-the-effort!.md
+3-Lessons-we-should-borrow-from-user-designers.md
+4-What-does-good-documentation-look-like?.md
+5-Creating-a-smooth-getting-started-section.md
+6-Creating-helpful-how-to-examples.md
+7-Creating-handy-reference-guides.md
+8-Creating-clarifying-code-comments.md
+9-Obtaining-user-feedback.md
+10-Other-helpful-features.md
+11-How-to-keep-your-documentation-up-to-date.md
+About-this-course.md
+About-the-Authors.md
+References.md
