@@ -7,7 +7,7 @@ output: html_document
 
 # Creating helpful how-to examples
 
-![](resources/images/06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_42.png)
+![](06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_42.png)
 
 ## The goal of how-to examples
 
@@ -15,7 +15,7 @@ While getting started sections are geared toward brand-new users, how-to example
 
 How-to examples are like recipes in a cookbook. We can generally assume your user has found the kitchen, now give them sets of steps to create something awesome!
 
-![](resources/images/06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_21.png)
+![](06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_21.png)
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -49,7 +49,7 @@ Make sure your example adequately introduces the example: what are the measureme
 
 Example code is not the same as backend code. Although example code should also be functional and work, its primarily meant to teach. Even more so than usual, code in examples should always prioritize clarity over cleverness or even brevity.
 
-![](resources/images/06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_128.png)
+![](06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_128.png)
 
 This means your examples should include the most easily readable code you can muster -- this often means extra workshopping to reach peak clarity. Give commentary at each and every step -- don't assume your users understand your typical conventions. Also in the interest of being as readable as possible, try to stick to a styling conventions -- s p a c i n g  matters!
 
@@ -80,7 +80,7 @@ If your users follow along with your examples successfully, next they will proba
 
 **To recap:**
 
-![](resources/images/06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_12.png)
+![](06-how-to_examples_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_12.png)
 
 ## Good examples of How-to examples
 

@@ -7,7 +7,7 @@ output: html_document
 
 # Creating clarifying code comments
 
-![](resources/images/08-code_comments_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_54.png)
+![](08-code_comments_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_54.png)
 
 ## The goal of a code documentation
 
@@ -62,7 +62,7 @@ Here are more resources about good code comments that have plenty of great discu
 
 **In summary:**
 
-![](resources/images/08-code_comments_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_132.png)
+![](08-code_comments_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_132.png)
 
 ## Exercise: Evaluate your own code's comments
 

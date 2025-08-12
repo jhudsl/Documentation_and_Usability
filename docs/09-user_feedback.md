@@ -7,14 +7,14 @@ output: html_document
 
 # Obtaining user feedback
 
-![](resources/images/09-user_feedback_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_60.png)
+![](09-user_feedback_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_60.png)
 
 ## The goal of user feedback
 
 How do you know if your code is working? You test it and get feedback!
 Similarly, how do you know if your tool is working for your user? Ask them for feedback!
 
-![](resources/images/09-user_feedback_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_173.png)
+![](09-user_feedback_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_173.png)
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -94,7 +94,7 @@ Make sure to check that they are okay with you recording the session (if that is
 
 A very important point from @Csontos2019:
 
-![](resources/images/09-user_feedback_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_5.png)
+![](09-user_feedback_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_5.png)
 
 **[Step 4) Analyze & Report](https://uxstudioteam.com/ux-blog/usability-testing/#Step_4_Analyze_Report)**  
 

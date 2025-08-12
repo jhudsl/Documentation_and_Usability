@@ -7,13 +7,13 @@ output: html_document
 
 # What does good documentation look like?
 
-![](resources/images/04-good_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_30.png)
+![](04-good_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_30.png)
 
 ## Major components of good documentation
 
 In this chapter we are going to cover the major aspects of a well-documented tool. In the subsequent chapters, we will talk about each of these components in more detail, providing relevant examples and tools. Others have divided this system into different categories which we have taken inspiration from for what we describe here [@divio]. 
 
-![](resources/images/04-good_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_23.png)
+![](04-good_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcd0e3791ab_0_23.png)
 
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
@@ -22,7 +22,7 @@ Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 We can think of these components of documentation in terms of how much time a user has invested in learning the tool:
 
-![](resources/images/04-good_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g23b977ee2c1_0_19.png)
+![](04-good_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g23b977ee2c1_0_19.png)
 
 This isn't always a perfect linear timeline like this, users may use these items in a different order than we expect, but this demonstrates the intent of how users would progress through the documentation.
 

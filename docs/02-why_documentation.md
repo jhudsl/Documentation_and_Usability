@@ -7,7 +7,7 @@ output: html_document
 
 # Documentation: Why it's worth the effort!
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_16.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_16.png)
 
 ## The context of bioinformatics tool development
 
@@ -15,7 +15,7 @@ Tool development is an exciting but long process -- filled with lots of careful 
 
 Tina the Tool developer, perhaps like you, has just gotten her product working well and many of the bugs have been sorted out. Tina's awesome tool is working exactly as designed and Tina is excited to get her tool out there to be used by the community!
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_p.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_p.png)
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -23,11 +23,11 @@ Emojis by OpenMoji License: CC BY-SA 4.0.]
 
 This is indeed cause for celebration! Perhaps researchers like Uri the Tool User will come across Tina's awesome tool and share in Tina's enthusiasm for the project! Tina's bioinformatics tool may be just what they were needing for their research project!
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_11.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_11.png)
 
 Uri the Tool User can't wait to apply Tina's awesome tool to their project! But, it may not be long before Uri encounters errors, or questions about Tina's awesome tool, no matter how high quality Tina's programming of the tool is.
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_27.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_27.png)
 
 Often users like Uri, particularly in the biology and cancer fields, have little to no programming experience. Even if a user does have programming experience, they are still unfamiliar with how Tina has set up tool. The tool may even be working exactly according to Tina's vision but if users like Uri do not understand Tina's vision or basic programming principles that Tina might take for granted, it can lead to a lot of frustration and time inefficiently spent.
 
@@ -35,7 +35,7 @@ If the tool's documentation is non-existent, scarce, out-of-date, or filled with
 
 Lack of usability often leads users to ditch even the most well-programmed of tools.
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_60.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_60.png)
 
 This is the unfortunate and all-too-common result of many bioinformatics tools.
 
@@ -57,32 +57,32 @@ We realize many tool developers feel unenthused about the process of creating do
 
 We'd like to assure you that the effort for creating documentation has a high return payoff for the continued success of your tool as a whole!
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd228cc29d1_0_140.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd228cc29d1_0_140.png)
 
 Returning to our cast of characters, let's say that Tina the Tool Developer, had the time and knowledge to create awesome documentation for her tool.
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_47.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_47.png)
 
 Uri the tool User is still likely to encounter errors and problems, but with thorough and easy-to-digest documentation, Uri is better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the tool that will better guide Uri's next steps!
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_112.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_112.png)
 
 Being equipped with user-centered documentation, Uri is more likely to be able to reach the next steps of their research and potentially share a publishable result! Tina's tool is now more likely to be cited in publications, or other forms of media.
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_144.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf14585424_0_144.png)
 
 This rewards Uri for having used Tina's tool, making Uri not only likely to continue to use the tool for their next projects, but Uri may also help spread the word about how great their experience with Tina's tool was.
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf4eaa5799_5_49.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf4eaa5799_5_49.png)
 
 This means that Tina may have a larger user base for her tool and will help Tina with future funding opportunities and making connections that will help her create more awesome tools!
 
 Well-documented tools help developers better maintain their code in the future because they may forget the mechanics of their tool over time. If future Tina has to divert her time and effort to another project but then returns to do tool maintenance, documentation may help jog her memory!
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf4eaa5799_5_79.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf4eaa5799_5_79.png)
 
 Thorough and easy-to-digest documentation may also help other tool developers contribute features or fix bugs in Tina's tool. Here Colin the Contributor was able to read Tina's awesome documentation. It not only got him excited about the tool, but allowed him to program a new feature which he sent to Tina.
 
-![](resources/images/02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf4eaa5799_5_127.png)
+![](02-why_documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcf4eaa5799_5_127.png)
 
 Now that you are hopefully energized and ready for creating documentation for your tool, let's talk about a bit user-centered design concepts!
