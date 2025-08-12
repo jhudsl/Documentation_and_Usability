@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 5 Creating a smooth getting started section | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 5 Creating a smooth getting started section | Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-12-18" />
+<meta name="date" content="2025-08-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,7 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
 
 
 
@@ -281,11 +282,11 @@ div.csl-indent {
 </div>
 <div id="creating-a-smooth-getting-started-section" class="section level1 hasAnchor" number="5">
 <h1><span class="header-section-number">Chapter 5</span> Creating a smooth getting started section<a href="creating-a-smooth-getting-started-section.html#creating-a-smooth-getting-started-section" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><img src="resources/images/05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_36.png" alt="Learning Objectives. This chapter will demonstrate how to: Understand the goals of a getting started section. Make installation step instructions more user-friendly. Write a user friendly getting started section for your tool." width="1250" /></p>
+<p><img src="05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_36.png" alt="Learning Objectives. This chapter will demonstrate how to: Understand the goals of a getting started section. Make installation step instructions more user-friendly. Write a user friendly getting started section for your tool." width="1250" /></p>
 <div id="the-goal-of-a-getting-started-section" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> The goal of a getting started section<a href="creating-a-smooth-getting-started-section.html#the-goal-of-a-getting-started-section" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>A getting started section is new users’ first experience with your tool. It is also can be the most frustrating experience for your user if installation doesn’t happen smoothly.</p>
-<p><img src="resources/images/05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_12.png" alt="Your new users are represented as a baby chick emoji who is surrounded by a photo of an alligator labeled with your tool’s software dependencies. Software dependencies and other installation problems can easily overwhelm new users." width="1250" />
+<p><img src="05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_12.png" alt="Your new users are represented as a baby chick emoji who is surrounded by a photo of an alligator labeled with your tool’s software dependencies. Software dependencies and other installation problems can easily overwhelm new users." width="1250" />
 <a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
 <p>Our goal for our getting started section is to guide our new users through the installation steps as quickly and smoothly as possible then send them to a brief tutorial to show off the awesomeness of your tool!</p>
 </div>
@@ -314,11 +315,11 @@ Fill-in-the-blank cues can be handy for these scenarios.</p>
 <p><strong>Tell your users what to expect</strong>.
 Do some steps take more time than others? Warn them about that. Are there output prompts that may not be intuitive but are to be expected? For example, sometimes a regular red text installation message may indicate things are working fine, but if a user doesn’t know what the text means, sometimes they will try to interpret red text as meaning something bad has occurred.</p>
 <p>Where it makes sense, you <strong>use screenshots as assurances</strong> to the user that they are on the right track. Being able to see that your users’ screen matches what is shown in your screenshots reassures them that things are progressing correctly. Conversely, if something does not match, it can help them narrow in on a problem. <em>Keep in mind out-of-date screenshots can add to the confusion! – more on tips about how to keep things up to date in a later chapter.</em></p>
-<p><img src="resources/images/05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_79.png" alt="The documentation tells Uri the tool user to look for a screenshot. Uri has that same screenshot and says This matches what I’m seeing! I’m confident I’m on my way!" width="1250" /></p>
+<p><img src="05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_79.png" alt="The documentation tells Uri the tool user to look for a screenshot. Uri has that same screenshot and says This matches what I’m seeing! I’m confident I’m on my way!" width="1250" /></p>
 <p>Install steps should also try to address any common pitfalls, particularly <strong>how different operating systems might require different steps</strong>. You may consider having separate sections or pages to describe install steps on different operating systems.</p>
 <p>What dependencies does installing your tool require? Will these be installed automatically by the steps you describe or <strong>does your user need to install other software</strong> before being able to install your tool? This can be a big roadblock to users if dependencies and how to install them are not addressed.</p>
 <p><strong>To recap:</strong></p>
-<p><img src="resources/images/05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_7.png" alt="Install Steps Goals include: Be as clear and specific as possible - copy and paste commands. Assure your user about what to expect. Address any common pitfalls. Address how operating systems might differ. Provide steps for software dependencies." width="1250" /></p>
+<p><img src="05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_7.png" alt="Install Steps Goals include: Be as clear and specific as possible - copy and paste commands. Assure your user about what to expect. Address any common pitfalls. Address how operating systems might differ. Provide steps for software dependencies." width="1250" /></p>
 <p>Installation steps can be tricky – and admittedly hard to give guidance on when individual computer’ set ups can differ so much, but the more you are able to workshop your guidance to your users here, the more they will appreciate it and stick with your tool!</p>
 </div>
 <div id="cover-the-basics" class="section level3 hasAnchor" number="5.2.4">
@@ -335,7 +336,7 @@ Do some steps take more time than others? Warn them about that. Are there output
 <p>Installation steps are not fun so the later part of your getting started section should lead your user into a quick tutorial that will reward your user for making it through the hard part!</p>
 <p>Give your users the fewest steps needed to produce a rewarding result that will excite them about continuing to use your tool! Use this opportunity to show off your the simplicity and awesomeness of your tool!</p>
 <p>This rewarding result might be a cool visual or a plot – but also should demonstrate the most popular thing your users would like to see.</p>
-<p><img src="resources/images/05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_23.png" alt="The software tool says 'you installed me successfully'. The new user, represented by a baby chick is rewarded with some rewarding output, represented as a gift." width="1250" /></p>
+<p><img src="05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_23.png" alt="The software tool says 'you installed me successfully'. The new user, represented by a baby chick is rewarded with some rewarding output, represented as a gift." width="1250" /></p>
 </div>
 <div id="directs-the-user-to-the-how-to-examples-section" class="section level3 hasAnchor" number="5.2.6">
 <h3><span class="header-section-number">5.2.6</span> Directs the user to the how-to examples section<a href="creating-a-smooth-getting-started-section.html#directs-the-user-to-the-how-to-examples-section" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -345,9 +346,9 @@ Do some steps take more time than others? Warn them about that. Are there output
 <div id="good-examples-of-getting-started-sections" class="section level2 hasAnchor" number="5.3">
 <h2><span class="header-section-number">5.3</span> Good examples of getting started sections<a href="creating-a-smooth-getting-started-section.html#good-examples-of-getting-started-sections" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><a href="https://snakemake.readthedocs.io/en/stable/getting_started/installation.html">Snakemake has a great getting started section</a> <span class="citation">(<a href="#ref-Molder2021">Molder et al. 2021</a>)</span>. The makers of Snakemake tell their users how to install Snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!</p>
-<p><img src="resources/images/05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_0.png" alt="Here is a screenshot of snakemake’s documentation. It shows the sidebar which has installation, a tutorial, and another short tutorial." width="1250" /></p>
+<p><img src="05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_0.png" alt="Here is a screenshot of snakemake’s documentation. It shows the sidebar which has installation, a tutorial, and another short tutorial." width="1250" /></p>
 <p><a href="https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html">GSEA</a> introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track <span class="citation">(<a href="#ref-Subramanian2005">Subramanian et al. 2005</a>)</span>!</p>
-<p><img src="resources/images/05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_4.png" alt="Here is a screenshot of GSEA’s documentation. It shows screenshots to assure the user what to expect." width="1250" /></p>
+<p><img src="05-getting_started_sections_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_4.png" alt="Here is a screenshot of GSEA’s documentation. It shows screenshots to assure the user what to expect." width="1250" /></p>
 </div>
 <div id="exercise-create-your-own-getting-started-section" class="section level2 hasAnchor" number="5.4">
 <h2><span class="header-section-number">5.4</span> Exercise: Create your own getting started section!<a href="creating-a-smooth-getting-started-section.html#exercise-create-your-own-getting-started-section" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -411,42 +412,42 @@ Emojis by OpenMoji License: CC BY-SA 4.0.<a href="creating-a-smooth-getting-star
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>

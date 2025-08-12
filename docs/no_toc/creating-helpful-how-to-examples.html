@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 6 Creating helpful how-to examples | Documentation and Usability</title>
   <meta name="description" content="A course to cover the basics of creating documentation and tutorials to maximize the usability of ITCR tools." />
-  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 6 Creating helpful how-to examples | Documentation and Usability" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-12-18" />
+<meta name="date" content="2025-08-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,7 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
 
 
 
@@ -281,12 +282,12 @@ div.csl-indent {
 </div>
 <div id="creating-helpful-how-to-examples" class="section level1 hasAnchor" number="6">
 <h1><span class="header-section-number">Chapter 6</span> Creating helpful how-to examples<a href="creating-helpful-how-to-examples.html#creating-helpful-how-to-examples" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><img src="resources/images/06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_42.png" alt="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool." width="1250" /></p>
+<p><img src="06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_42.png" alt="This chapter will demonstrate how to:Understand the goals of a how-to examples. Describe components included in useful how-to examples. Create how-to examples that will increase your users’ familiarity with your tool." width="1250" /></p>
 <div id="the-goal-of-how-to-examples" class="section level2 hasAnchor" number="6.1">
 <h2><span class="header-section-number">6.1</span> The goal of how-to examples<a href="creating-helpful-how-to-examples.html#the-goal-of-how-to-examples" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>While getting started sections are geared toward brand-new users, how-to examples are geared toward intermediate users that have successfully installed your tool and now want to know more about what they can do with it. How-to examples can turn these moderately interested users into enthusiastic and invested fans of your tool!</p>
 <p>How-to examples are like recipes in a cookbook. We can generally assume your user has found the kitchen, now give them sets of steps to create something awesome!</p>
-<p><img src="resources/images/06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_21.png" alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie." width="1250" />
+<p><img src="06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_21.png" alt="Uri the Tool User has a thought bubble with “the basic concepts of the tool” which are represented as various food ingredients: an apple, butter, milk, eggs. Uri the Tool User has a question mark about how to create an end point that is represented here as a pie." width="1250" />
 <a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
 <p>Our goal for our how-to examples is to show off the best and most exciting use cases of your tool!</p>
 <p>Note – In some contexts, like Bioconductor, how-to examples are called vignettes – we consider these to be the same.</p>
@@ -311,7 +312,7 @@ div.csl-indent {
 <div id="example-code-is-about-the-lesson-not-the-output-per-se" class="section level3 hasAnchor" number="6.2.4">
 <h3><span class="header-section-number">6.2.4</span> Example code is about the lesson not the output per se<a href="creating-helpful-how-to-examples.html#example-code-is-about-the-lesson-not-the-output-per-se" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Example code is not the same as backend code. Although example code should also be functional and work, its primarily meant to teach. Even more so than usual, code in examples should always prioritize clarity over cleverness or even brevity.</p>
-<p><img src="resources/images/06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_128.png" alt="Example code is not the same as backend code it is primarily meant to teach!" width="1250" /></p>
+<p><img src="06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_128.png" alt="Example code is not the same as backend code it is primarily meant to teach!" width="1250" /></p>
 <p>This means your examples should include the most easily readable code you can muster – this often means extra workshopping to reach peak clarity. Give commentary at each and every step – don’t assume your users understand your typical conventions. Also in the interest of being as readable as possible, try to stick to a styling conventions – s p a c i n g matters!</p>
 <p><em>Related to this, your examples’ code should model best practices.</em></p>
 <p>Pretend you are the model user of your tool – how should your users interact with your tool?
@@ -338,7 +339,7 @@ This means keeping in mind the important basics:</p>
 <h3><span class="header-section-number">6.2.6</span> Give tips on how to tailor your examples<a href="creating-helpful-how-to-examples.html#give-tips-on-how-to-tailor-your-examples" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If your users follow along with your examples successfully, next they will probably need to tailor your examples to their own questions and data. Whether you intend it or not, your examples will probably be used as template framework for your user’s analysis. Knowing this, try to highlight places that users will absolutely need to change the code and other places where they might want to personalize it. Providing them with more resources about options and possibilities is always nice too.</p>
 <p><strong>To recap:</strong></p>
-<p><img src="resources/images/06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_12.png" alt="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips." width="1250" /></p>
+<p><img src="06-how-to_examples_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_12.png" alt="Useful How-to Examples:Covers what your users are interested in. Gives every step specifically. Provides example data. Doesn’t require more packages. Models best practices. Gives ‘tailoring’ tips." width="1250" /></p>
 </div>
 </div>
 <div id="good-examples-of-how-to-examples" class="section level2 hasAnchor" number="6.3">
@@ -423,42 +424,42 @@ Emojis by OpenMoji License: CC BY-SA 4.0.<a href="creating-helpful-how-to-exampl
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>

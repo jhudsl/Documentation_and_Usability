@@ -7,13 +7,13 @@ output: html_document
 
 # Creating a smooth getting started section
 
-<img src="resources/images/05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_36.png" alt="Learning Objectives. This chapter will demonstrate how to: Understand the goals of a getting started section. Make installation step instructions more user-friendly. Write a user friendly getting started section for your tool." width="1250" />
+<img src="05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_36.png" alt="Learning Objectives. This chapter will demonstrate how to: Understand the goals of a getting started section. Make installation step instructions more user-friendly. Write a user friendly getting started section for your tool." width="1250" />
 
 ## The goal of a getting started section
 
 A getting started section is new users' first experience with your tool. It is also can be the most frustrating experience for your user if installation doesn't happen smoothly.
 
-<img src="resources/images/05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_12.png" alt="Your new users are represented as a baby chick emoji who is surrounded by a photo of an alligator labeled with your tool’s software dependencies. Software dependencies and other installation problems can easily overwhelm new users." width="1250" />
+<img src="05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_12.png" alt="Your new users are represented as a baby chick emoji who is surrounded by a photo of an alligator labeled with your tool’s software dependencies. Software dependencies and other installation problems can easily overwhelm new users." width="1250" />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -51,7 +51,7 @@ Do some steps take more time than others? Warn them about that. Are there output
 
 Where it makes sense, you **use screenshots as assurances** to the user that they are on the right track. Being able to see that your users' screen matches what is shown in your screenshots reassures them that things are progressing correctly. Conversely, if something does not match, it can help them narrow in on a problem. _Keep in mind out-of-date screenshots can add to the confusion! -- more on tips about how to keep things up to date in a later chapter._
 
-<img src="resources/images/05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_79.png" alt="The documentation tells Uri the tool user to look for a screenshot. Uri has that same screenshot and says This matches what I’m seeing! I’m confident I’m on my way!" width="1250" />
+<img src="05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_79.png" alt="The documentation tells Uri the tool user to look for a screenshot. Uri has that same screenshot and says This matches what I’m seeing! I’m confident I’m on my way!" width="1250" />
 
 Install steps should also try to address any common pitfalls, particularly **how different operating systems might require different steps**. You may consider having separate sections or pages to describe install steps on different operating systems.
 
@@ -59,7 +59,7 @@ What dependencies does installing your tool require? Will these be installed aut
 
 **To recap:**  
 
-<img src="resources/images/05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_7.png" alt="Install Steps Goals include: Be as clear and specific as possible - copy and paste commands. Assure your user about what to expect. Address any common pitfalls. Address how operating systems might differ. Provide steps for software dependencies." width="1250" />
+<img src="05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_7.png" alt="Install Steps Goals include: Be as clear and specific as possible - copy and paste commands. Assure your user about what to expect. Address any common pitfalls. Address how operating systems might differ. Provide steps for software dependencies." width="1250" />
 
 Installation steps can be tricky -- and admittedly hard to give guidance on when individual computer' set ups can differ so much, but the more you are able to workshop your guidance to your users here, the more they will appreciate it and stick with your tool!
 
@@ -80,7 +80,7 @@ Give your users the fewest steps needed to produce a rewarding result that will 
 
 This rewarding result might be a cool visual or a plot -- but also should demonstrate the most popular thing your users would like to see.
 
-<img src="resources/images/05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_23.png" alt="The software tool says 'you installed me successfully'. The new user, represented by a baby chick is rewarded with some rewarding output, represented as a gift." width="1250" />
+<img src="05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d4e1_0_23.png" alt="The software tool says 'you installed me successfully'. The new user, represented by a baby chick is rewarded with some rewarding output, represented as a gift." width="1250" />
 
 ### Directs the user to the how-to examples section
 
@@ -90,11 +90,11 @@ Now that your user has successfully installed your tool and understands the basi
 
 [Snakemake has a great getting started section](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) [@Molder2021]. The makers of Snakemake tell their users how to install Snakemake using different situations and keeping dependencies in mind, right after which they have a short tutorial to entice their users!
 
-<img src="resources/images/05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_0.png" alt="Here is a screenshot of snakemake’s documentation. It shows the sidebar which has installation, a tutorial, and another short tutorial." width="1250" />
+<img src="05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_0.png" alt="Here is a screenshot of snakemake’s documentation. It shows the sidebar which has installation, a tutorial, and another short tutorial." width="1250" />
 
 [GSEA](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html) introduces their users to multiple options of how they can run the tool and nicely use reassuring screenshots throughout to let their users know if they are on the right track [@Subramanian2005]!
 
-<img src="resources/images/05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_4.png" alt="Here is a screenshot of GSEA’s documentation. It shows screenshots to assure the user what to expect." width="1250" />
+<img src="05-getting_started_sections_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_4.png" alt="Here is a screenshot of GSEA’s documentation. It shows screenshots to assure the user what to expect." width="1250" />
 
 ## Exercise: Create your own getting started section!
 

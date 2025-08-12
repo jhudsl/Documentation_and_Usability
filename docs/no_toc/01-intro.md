@@ -7,7 +7,7 @@ output: html_document
 
 # Introduction
 
-<img src="resources/images/01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_0.png" alt="Title image: Documentation and Usability" width="100%" />
+<img src="01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_0.png" alt="Title image: Documentation and Usability" width="100%" />
 
 
 ## Motivation
@@ -20,15 +20,15 @@ Increasing the usability and quality of documentation for a tool is not only hel
 
 The course is intended for cancer informatics tool developers, particularly those creating tools as a part of the [Informatics Technology Cancer Research](https://itcr.cancer.gov/informatics-tools).
 
-<img src="resources/images/01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2def1a354ad_0_0.png" alt="For individuals whom: Create informatics tools, want to learn how to apply user experience design principles to their tools and want to increase the quality of their documentation" width="1250" />
+<img src="01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2def1a354ad_0_0.png" alt="For individuals whom: Create informatics tools, want to learn how to apply user experience design principles to their tools and want to increase the quality of their documentation" width="1250" />
 
 ## Topics covered:
 
-<img src="resources/images/01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2def1a354ad_0_6.png" alt="Concepts discussed in Documentation and Usability course:Apply usability research concepts, Create user friendly guides, Document code clearly, Obtain helpful user feedback" width="100%" />
+<img src="01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2def1a354ad_0_6.png" alt="Concepts discussed in Documentation and Usability course:Apply usability research concepts, Create user friendly guides, Document code clearly, Obtain helpful user feedback" width="100%" />
 
 ## Curriculum    
 
-<img src="resources/images/01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_10.png" alt="This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users" width="1250" />
+<img src="01-intro_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd422c5de97_0_10.png" alt="This course will demonstrate how to: Understanding why usability and documentation is vital, Identifying your user community, Building documentation and tutorials to maximize the usability of developed tools, Obtaining feedback from your users" width="1250" />
 
 The course includes a hands-on exercises with templates for building documentation and tutorials for cancer informatics tools.
 Individuals who take this course are encouraged to use these templates as they follow along with the course material to help increase the usability of their informatics tool.
